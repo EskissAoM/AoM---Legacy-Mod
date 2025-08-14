@@ -1747,6 +1747,9 @@
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">CitadelCenter</target>
 			</effect>
+			<effect type="Data" amount="-25.00" subtype="Cost" resource="Wood" relativity="Absolute">
+				<target type="ProtoUnit">Dock</target>
+			</effect>
 		</effects>
 	</tech>
 	<tech name="ClassicalAgeGreek" mergeMode="replace">
@@ -3358,7 +3361,7 @@
 			<effect type="Data" amount="0.00" subtype="cost" resource="Wood" relativity="Override">
 				<target type="ProtoUnit">Wonder</target>
 			</effect>
-			<effect type="Data" amount="7500.00" subtype="cost" resource="Gold" relativity="Override">
+			<effect type="Data" amount="1500.00" subtype="cost" resource="Gold" relativity="Override">
 				<target type="ProtoUnit">Wonder</target>
 			</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
@@ -3793,7 +3796,7 @@
 			<effect type="Data" amount="3.00" subtype="PopulationCapAddition" relativity="Absolute">
 				<target type="ProtoUnit">AbstractSocketedTownCenter</target>
 			</effect>
-			<effect type="Data" amount="39.00" subtype="GodPowerBlockRadius" relativity="Absolute">
+			<effect type="Data" amount="50.00" subtype="GodPowerBlockRadius" relativity="Absolute">
 				<target type="ProtoUnit">AbstractMonument</target>
 			</effect>
 		</effects>
@@ -5755,6 +5758,622 @@
 
 <!-- NORSE - Age technologies -->
 
+<tech name="ArchaicAgeNorse" mergeMode="replace">
+		<status>UNOBTAINABLE</status>
+		<flag>HideAllNotifications</flag>
+		<flag>AgeTech</flag>
+		<effects>
+			<effect type="Data" amount="101.0" subtype="MaxResource" resource="Favor" relativity="Absolute"> <!-- MAX 100 favor -->
+				<target type="Player"></target>
+			</effect>
+			<effect type="Data" amount="0.80" subtype="Cost" resource="Wood" relativity="Percent">
+				<target type="ProtoUnit">House</target>
+			</effect>
+			<effect type="Data" amount="0.80" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">House</target>
+			</effect>
+			<effect type="Data" amount="0.80" subtype="Cost" resource="Wood" relativity="Percent">
+				<target type="ProtoUnit">Dock</target>
+			</effect>
+			<effect type="Data" amount="0.80" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">Dock</target>
+			</effect>
+			<effect type="Data" amount="20.00" subtype="Cost" resource="Wood" relativity="Absolute">
+				<target type="ProtoUnit">Dock</target>
+			</effect>
+			<effect type="Data" amount="0.80" subtype="Cost" resource="Wood" relativity="Percent">
+				<target type="ProtoUnit">Temple</target>
+			</effect>
+			<effect type="Data" amount="0.80" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">Temple</target>
+			</effect>
+			<effect type="Data" amount="0.80" subtype="Cost" resource="Wood" relativity="Percent">
+				<target type="ProtoUnit">Market</target>
+			</effect>
+			<effect type="Data" amount="0.80" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">Market</target>
+			</effect>
+			<effect type="Data" amount="0.80" subtype="Cost" resource="Wood" relativity="Percent">
+				<target type="ProtoUnit">Armory</target>
+			</effect>
+			<effect type="Data" amount="0.80" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">Armory</target>
+			</effect>
+			<effect type="Data" amount="0.80" subtype="Cost" resource="Wood" relativity="Percent">
+				<target type="ProtoUnit">SentryTower</target>
+			</effect>
+			<effect type="Data" amount="0.80" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">SentryTower</target>
+			</effect>
+			<effect type="Data" amount="0.80" subtype="Cost" resource="Wood" relativity="Percent">
+				<target type="ProtoUnit">Wonder</target>
+			</effect>
+			<effect type="Data" amount="0.80" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">Wonder</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">VillagerNorse</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">VillagerDwarf</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">OxCart</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Berserk</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Hersir</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">FishingShipNorse</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">House</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Temple</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Dock</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">TownCenter</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">WallShort</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">WallMedium</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">WallLong</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">WallConnector</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">WallGate</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Dryad</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="ModifyReplacement" replacementtype="Build" proto="TitanYmir" relativity="Absolute">
+				<target type="ProtoUnit">TitanGate</target>
+			</effect>
+			<effect type="TechStatus" status="obtainable">Husbandry</effect>
+			<effect type="TechStatus" status="obtainable">HandAxe</effect>
+			<effect type="TechStatus" status="obtainable">Pickaxe</effect>
+			<effect type="TechStatus" status="obtainable">HuntingDogs</effect>
+			<effect type="TechStatus" status="active">VillagerDwarfToBerserk</effect>
+			<effect type="TechStatus" status="active">VillagerNorseToBerserk</effect>
+			<effect type="TechStatus" status="obtainable">EnableRelicPickup</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">CitadelCenter</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="ClassicalAgeNorse" mergeMode="replace">
+		<status>UNOBTAINABLE</status>
+		<flag>HideAllNotifications</flag>
+		<flag>AgeTech</flag>
+		<effects>
+			<effect type="Data" action="AutoGather" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+				<target type="ProtoUnit">Hersir</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">ThrowingAxeman</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">RaidingCavalry</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">TransportShipNorse</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Longboat</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Farm</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">SentryTower</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Longhouse</target>
+			</effect>
+			<effect type="TechStatus" status="obtainable">MediumInfantry</effect>
+			<effect type="TechStatus" status="obtainable">MediumCavalry</effect>
+			<effect type="TechStatus" status="obtainable">StoneWall</effect>
+			<effect type="TechStatus" status="obtainable">Masons</effect>
+			<effect type="TechStatus" status="obtainable">WatchTower</effect>
+			<effect type="TechStatus" status="obtainable">SignalFires</effect>
+			<effect type="TechStatus" status="obtainable">Crenellations</effect>
+			<effect type="TechStatus" status="obtainable">PurseSeine</effect>
+			<effect type="TechStatus" status="obtainable">EnclosedDeck</effect>
+			<effect type="TechStatus" status="obtainable">HeroicFleet</effect>
+			<effect type="TechStatus" status="obtainable">Plow</effect>
+		</effects>
+	</tech>
+	<tech name="HeroicAgeNorse" mergeMode="replace">
+		<status>UNOBTAINABLE</status>
+		<flag>HideAllNotifications</flag>
+		<flag>AgeTech</flag>
+		<effects>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">CaravanNorse</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Huskarl</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Jarl</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Godi</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">PortableRam</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Dreki</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">DragonShip</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">HillFort</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Market</target>
+			</effect>
+			<effect type="TechStatus" status="obtainable">HeavyInfantry</effect>
+			<effect type="TechStatus" status="obtainable">HeavyCavalry</effect>
+			<effect type="TechStatus" status="obtainable">LevyLonghouseSoldiers</effect>
+			<effect type="TechStatus" status="obtainable">LevyHillFortSoldiers</effect>
+			<effect type="TechStatus" status="obtainable">FortifiedTownCenter</effect>
+			<effect type="TechStatus" status="obtainable">Architects</effect>
+			<effect type="TechStatus" status="obtainable">CarrierPigeons</effect>
+			<effect type="TechStatus" status="obtainable">BoilingOil</effect>
+			<effect type="TechStatus" status="obtainable">DraftHorses</effect>
+			<effect type="TechStatus" status="obtainable">SaltAmphora</effect>
+			<effect type="TechStatus" status="obtainable">ArrowShipCladding</effect>
+			<effect type="TechStatus" status="obtainable">Irrigation</effect>
+			<effect type="TechStatus" status="obtainable">BowSaw</effect>
+			<effect type="TechStatus" status="obtainable">ShaftMine</effect>
+			<effect type="TechStatus" status="obtainable">TaxCollectors</effect>
+			<effect type="TechStatus" status="obtainable">Ambassadors</effect>
+		</effects>
+	</tech>
+	<tech name="MythicAgeNorse" mergeMode="replace">
+		<status>UNOBTAINABLE</status>
+		<flag>HideAllNotifications</flag>
+		<flag>AgeTech</flag>
+		<effects>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Ballista</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Wonder</target>
+			</effect>
+			<effect type="TechStatus" status="obtainable">ChampionInfantry</effect>
+			<effect type="TechStatus" status="obtainable">ChampionCavalry</effect>
+			<effect type="TechStatus" status="obtainable">ConscriptLonghouseSoldiers</effect>
+			<effect type="TechStatus" status="obtainable">ConscriptHillFortSoldiers</effect>
+			<effect type="TechStatus" status="obtainable">Omniscience</effect>
+			<effect type="TechStatus" status="obtainable">Engineers</effect>
+			<effect type="TechStatus" status="obtainable">ConscriptSailors</effect>
+			<effect type="TechStatus" status="obtainable">NavalOxybeles</effect>
+			<effect type="TechStatus" status="obtainable">ReinforcedHull</effect>
+			<effect type="TechStatus" status="obtainable">FloodControl</effect>
+			<effect type="TechStatus" status="obtainable">Carpenters</effect>
+			<effect type="TechStatus" status="obtainable">Quarry</effect>
+			<effect type="TechStatus" status="obtainable">Coinage</effect>
+		</effects>
+	</tech>
+	<tech name="ArchaicAgeThor" mergeMode="replace">
+		<status>UNOBTAINABLE</status>
+		<flag>HideAllNotifications</flag>
+		<flag>AgeTech</flag>
+		<effects>
+			<effect type="Data" subtype="GodPower" power="DwarvenMine" amount="1.0" relativity="Absolute">
+				<target type="Player"></target>
+			</effect>
+			<effect type="TechStatus" status="active">ArchaicAgeWeakenUnits</effect>
+			<effect type="TechStatus" status="active">ArchaicAgeNorse</effect>
+			<effect type="TechStatus" status="obtainable">PigSticker</effect>
+			<effect type="TechStatus" status="obtainable">CopperWeapons</effect>
+			<effect type="TechStatus" status="obtainable">CopperArmor</effect>
+			<effect type="TechStatus" status="obtainable">CopperShields</effect>
+			<effect type="TechStatus" status="obtainable">BronzeWeapons</effect>
+			<effect type="TechStatus" status="obtainable">BronzeArmor</effect>
+			<effect type="TechStatus" status="obtainable">BronzeShields</effect>
+			<effect type="TechStatus" status="obtainable">IronWeapons</effect>
+			<effect type="TechStatus" status="obtainable">IronArmor</effect>
+			<effect type="TechStatus" status="obtainable">IronShields</effect>
+			<effect type="TechStatus" status="obtainable">BurningPitch</effect>
+			<effect type="TechStatus" status="obtainable">DwarvenWeapons</effect>
+			<effect type="TechStatus" status="obtainable">MeteoricIronArmor</effect>
+			<effect type="TechStatus" status="obtainable">DragonscaleShields</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">DwarvenArmory</target>
+			</effect>
+			<effect type="TechStatus" status="obtainable">ClassicalAgeFreyja</effect>
+			<effect type="TechStatus" status="obtainable">ClassicalAgeForseti</effect>
+			<effect type="TechStatus" status="obtainable">ClassicalAgeThor</effect>
+			<effect type="Data" amount="150.0" subtype="cost" resource="Food" relativity="Override">
+				<target type="ProtoUnit">CopperWeapons</target>
+			</effect>
+			<effect type="Data" amount="150.0" subtype="cost" resource="Gold" relativity="Override">
+				<target type="ProtoUnit">CopperWeapons</target>
+			</effect>
+			<effect type="Data" amount="100.0" subtype="cost" resource="Food" relativity="Override">
+				<target type="ProtoUnit">CopperArmor</target>
+			</effect>
+			<effect type="Data" amount="100.0" subtype="cost" resource="Gold" relativity="Override">
+				<target type="ProtoUnit">CopperArmor</target>
+			</effect>
+			<effect type="Data" amount="100.0" subtype="cost" resource="Wood" relativity="Override">
+				<target type="ProtoUnit">CopperShields</target>
+			</effect>
+			<effect type="Data" amount="100.0" subtype="cost" resource="Gold" relativity="Override">
+				<target type="ProtoUnit">CopperShields</target>
+			</effect>
+			<effect type="Data" amount="200.0" subtype="cost" resource="Food" relativity="Override">
+				<target type="ProtoUnit">BronzeWeapons</target>
+			</effect>
+			<effect type="Data" amount="200.0" subtype="cost" resource="Gold" relativity="Override">
+				<target type="ProtoUnit">BronzeWeapons</target>
+			</effect>
+			<effect type="Data" amount="200.0" subtype="cost" resource="Food" relativity="Override">
+				<target type="ProtoUnit">BronzeArmor</target>
+			</effect>
+			<effect type="Data" amount="100.0" subtype="cost" resource="Gold" relativity="Override">
+				<target type="ProtoUnit">BronzeArmor</target>
+			</effect>
+			<effect type="Data" amount="200.0" subtype="cost" resource="Wood" relativity="Override">
+				<target type="ProtoUnit">BronzeShields</target>
+			</effect>
+			<effect type="Data" amount="100.0" subtype="cost" resource="Gold" relativity="Override">
+				<target type="ProtoUnit">BronzeShields</target>
+			</effect>
+			<effect type="Data" amount="500.0" subtype="cost" resource="Food" relativity="Override">
+				<target type="ProtoUnit">IronWeapons</target>
+			</effect>
+			<effect type="Data" amount="500.0" subtype="cost" resource="Gold" relativity="Override">
+				<target type="ProtoUnit">IronWeapons</target>
+			</effect>
+			<effect type="Data" amount="400.0" subtype="cost" resource="Food" relativity="Override">
+				<target type="ProtoUnit">IronArmor</target>
+			</effect>
+			<effect type="Data" amount="400.0" subtype="cost" resource="Gold" relativity="Override">
+				<target type="ProtoUnit">IronArmor</target>
+			</effect>
+			<effect type="Data" amount="400.0" subtype="cost" resource="Wood" relativity="Override">
+				<target type="ProtoUnit">IronShields</target>
+			</effect>
+			<effect type="Data" amount="300.0" subtype="cost" resource="Gold" relativity="Override">
+				<target type="ProtoUnit">IronShields</target>
+			</effect>
+			<effect type="Data" amount="400.0" subtype="cost" resource="Wood" relativity="Override">
+				<target type="ProtoUnit">BurningPitch</target>
+			</effect>
+			<effect type="Data" amount="200.0" subtype="cost" resource="Gold" relativity="Override">
+				<target type="ProtoUnit">BurningPitch</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.25" subtype="WorkRate" unittype="Huntable" relativity="BasePercent">
+				<target type="ProtoUnit">VillagerDwarf</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.25" subtype="WorkRate" unittype="Herdable" relativity="BasePercent">
+				<target type="ProtoUnit">VillagerDwarf</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.25" subtype="WorkRate" unittype="NonConvertableHerdable" relativity="BasePercent">
+				<target type="ProtoUnit">VillagerDwarf</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.25" subtype="WorkRate" unittype="BerryBush" relativity="BasePercent">
+				<target type="ProtoUnit">VillagerDwarf</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.25" subtype="WorkRate" unittype="AbstractFarm" relativity="BasePercent">
+				<target type="ProtoUnit">VillagerDwarf</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.25" subtype="WorkRate" unittype="WoodResource" relativity="BasePercent">
+				<target type="ProtoUnit">VillagerDwarf</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.25" subtype="WorkRate" unittype="TreeGaia" relativity="BasePercent">
+				<target type="ProtoUnit">VillagerDwarf</target>
+			</effect>
+			<effect type="Data" amount="-10.00" subtype="Cost" resource="Gold" relativity="Absolute">
+				<target type="ProtoUnit">VillagerDwarf</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="ClassicalAgeThor" mergeMode="replace">
+		<status>UNOBTAINABLE</status>
+		<flag>HideAllNotifications</flag>
+		<flag>Volatile</flag>
+		<flag>AgeTech</flag>
+		<prereqs>
+			<specificage>ClassicalAge</specificage>
+		</prereqs>
+		<effects>
+			<effect type="TechStatus" status="active">ClassicalAgeGeneral</effect>
+			<effect type="TechStatus" status="active">ClassicalAgeNorse</effect>
+			<effect type="TechStatus" status="obtainable">HeroicAgeSkadi</effect>
+			<effect type="TechStatus" status="obtainable">HeroicAgeBragi</effect>
+			<effect type="TechStatus" status="obtainable">HeroicAgeThor</effect>
+		</effects>
+	</tech>
+	<tech name="HeroicAgeThor" mergeMode="replace">
+		<status>UNOBTAINABLE</status>
+		<flag>HideAllNotifications</flag>
+		<flag>Volatile</flag>
+		<flag>AgeTech</flag>
+		<prereqs>
+			<specificage>HeroicAge</specificage>
+		</prereqs>
+		<effects>
+			<effect type="TechStatus" status="active">HeroicAgeGeneral</effect>
+			<effect type="TechStatus" status="active">HeroicAgeNorse</effect>
+			<effect type="TechStatus" status="obtainable">MythicAgeTyr</effect>
+			<effect type="TechStatus" status="obtainable">MythicAgeBaldr</effect>
+			<effect type="TechStatus" status="obtainable">MythicAgeThor</effect>
+		</effects>
+	</tech>
+	<tech name="MythicAgeThor" mergeMode="replace">
+		<status>UNOBTAINABLE</status>
+		<flag>HideAllNotifications</flag>
+		<flag>Volatile</flag>
+		<flag>AgeTech</flag>
+		<prereqs>
+			<specificage>MythicAge</specificage>
+		</prereqs>
+		<effects>
+			<effect type="TechStatus" status="active">MythicAgeGeneral</effect>
+			<effect type="TechStatus" status="active">MythicAgeNorse</effect>
+		</effects>
+	</tech>
+	<tech name="ArchaicAgeOdin" mergeMode="replace">
+		<status>UNOBTAINABLE</status>
+		<flag>HideAllNotifications</flag>
+		<flag>AgeTech</flag>
+		<displaynameid>STR_CIV_ODIN</displaynameid>
+		<effects>
+			<effect type="Data" subtype="GodPower" power="GreatHunt" amount="1.0" relativity="Absolute">
+				<target type="Player"></target>
+			</effect>
+			<effect type="TechStatus" status="active">ArchaicAgeWeakenUnits</effect>
+			<effect type="TechStatus" status="active">ArchaicAgeNorse</effect>
+			<effect type="TechStatus" status="obtainable">ClassicalAgeFreyja</effect>
+			<effect type="TechStatus" status="obtainable">ClassicalAgeHeimdall</effect>
+			<effect type="TechStatus" status="obtainable">LoneWanderer</effect>
+			<effect type="TechStatus" status="obtainable">RavenRespawn</effect>
+			<effect type="TechStatus" status="obtainable">RavenFirstSpawn</effect>
+			<effect type="TechStatus" status="obtainable">ClassicalAgeOdin</effect>
+			<effect type="Data" amount="1.15" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">Jarl</target>
+			</effect>
+			<effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">Huskarl</target>
+			</effect>
+			<effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">Ballista</target>
+			</effect>
+			<effect type="Data" amount="1.20" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">PortableRam</target>
+			</effect>
+			<effect type="Data" action="Gather" amount="1.20" subtype="WorkRate" unittype="Huntable" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+			<effect type="Data" amount="0.00" subtype="AddDependentUnit" proto="OdinsRavens" x="0.00" y="0.00" z="0.00" relativity="BasePercent">
+				<target type="ProtoUnit">Wonder</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="ClassicalAgeOdin" mergeMode="replace">
+		<status>UNOBTAINABLE</status>
+		<flag>HideAllNotifications</flag>
+		<flag>Volatile</flag>
+		<flag>AgeTech</flag>
+		<prereqs>
+			<specificage>ClassicalAge</specificage>
+		</prereqs>
+		<effects>
+			<effect type="TechStatus" status="active">ClassicalAgeGeneral</effect>
+			<effect type="TechStatus" status="active">ClassicalAgeNorse</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Armory</target>
+			</effect>
+			<effect type="TechStatus" status="obtainable">CopperWeapons</effect>
+			<effect type="TechStatus" status="obtainable">CopperArmor</effect>
+			<effect type="TechStatus" status="obtainable">CopperShields</effect>
+			<effect type="TechStatus" status="obtainable">HeroicAgeSkadi</effect>
+			<effect type="TechStatus" status="obtainable">HeroicAgeNjord</effect>
+			<effect type="TechStatus" status="obtainable">HeroicAgeOdin</effect>
+			<effect type="Data" amount="0.12" subtype="UnitRegenRate" relativity="Absolute">
+				<target type="ProtoUnit">HumanSoldier</target>
+			</effect>
+			<effect type="Data" amount="0.12" subtype="UnitRegenRate" relativity="Absolute">
+				<target type="ProtoUnit">Hero</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="HeroicAgeOdin" mergeMode="replace">
+		<status>UNOBTAINABLE</status>
+		<flag>HideAllNotifications</flag>
+		<flag>Volatile</flag>
+		<flag>AgeTech</flag>
+		<prereqs>
+			<specificage>HeroicAge</specificage>
+		</prereqs>
+		<effects>
+			<effect type="TechStatus" status="active">HeroicAgeGeneral</effect>
+			<effect type="TechStatus" status="active">HeroicAgeNorse</effect>
+			<effect type="TechStatus" status="obtainable">BronzeWeapons</effect>
+			<effect type="TechStatus" status="obtainable">BronzeArmor</effect>
+			<effect type="TechStatus" status="obtainable">BronzeShields</effect>
+			<effect type="TechStatus" status="obtainable">MythicAgeBaldr</effect>
+			<effect type="TechStatus" status="obtainable">MythicAgeTyr</effect>
+			<effect type="TechStatus" status="obtainable">MythicAgeOdin</effect>
+			<effect type="Data" amount="0.10" subtype="UnitRegenRate" relativity="Absolute">
+				<target type="ProtoUnit">HumanSoldier</target>
+			</effect>
+			<effect type="Data" amount="0.10" subtype="UnitRegenRate" relativity="Absolute">
+				<target type="ProtoUnit">Hero</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="MythicAgeOdin" mergeMode="replace">
+		<status>UNOBTAINABLE</status>
+		<flag>HideAllNotifications</flag>
+		<flag>Volatile</flag>
+		<flag>AgeTech</flag>
+		<prereqs>
+			<specificage>MythicAge</specificage>
+		</prereqs>
+		<effects>
+			<effect type="TechStatus" status="active">MythicAgeGeneral</effect>
+			<effect type="TechStatus" status="active">MythicAgeNorse</effect>
+			<effect type="TechStatus" status="obtainable">IronWeapons</effect>
+			<effect type="TechStatus" status="obtainable">IronArmor</effect>
+			<effect type="TechStatus" status="obtainable">IronShields</effect>
+			<effect type="TechStatus" status="obtainable">BurningPitch</effect>
+			<effect type="Data" amount="0.10" subtype="UnitRegenRate" relativity="Absolute">
+				<target type="ProtoUnit">HumanSoldier</target>
+			</effect>
+			<effect type="Data" amount="0.10" subtype="UnitRegenRate" relativity="Absolute">
+				<target type="ProtoUnit">Hero</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="ArchaicAgeLoki" mergeMode="replace">
+		<status>UNOBTAINABLE</status>
+		<flag>HideAllNotifications</flag>
+		<flag>AgeTech</flag>
+		<effects>
+			<effect type="Data" subtype="GodPower" power="Spy" amount="1.0" relativity="Absolute">
+				<target type="Player"></target>
+			</effect>
+			<effect type="TechStatus" status="active">ArchaicAgeWeakenUnits</effect>
+			<effect type="TechStatus" status="active">ArchaicAgeNorse</effect>
+			<effect type="TechStatus" status="obtainable">EyesInTheForest</effect>
+			<effect type="TechStatus" status="obtainable">ClassicalAgeHeimdall</effect>
+			<effect type="TechStatus" status="obtainable">ClassicalAgeForseti</effect>
+			<effect type="TechStatus" status="obtainable">ClassicalAgeLoki</effect>
+			<effect type="Data" amount="-80.00" subtype="Hitpoints" relativity="Absolute">
+				<target type="ProtoUnit">OxCart</target>
+			</effect>
+			<effect type="Data" amount="1.50" subtype="MaximumVelocity" relativity="BasePercent">
+				<target type="ProtoUnit">OxCart</target>
+			</effect>
+			<effect type="Data" amount="0.50" subtype="Cost" resource="Wood" relativity="Percent">
+				<target type="ProtoUnit">OxCart</target>
+			</effect>
+			<effect type="Data" amount="0.50" subtype="Cost" resource="Food" relativity="Percent">
+				<target type="ProtoUnit">OxCart</target>
+			</effect>
+			<effect type="Data" amount="0.90" subtype="Cost" resource="Favor" relativity="Percent">
+				<target type="ProtoUnit">MythUnit</target>
+			</effect>
+			<effect type="Data" amount="1.10" subtype="MaximumVelocity" relativity="BasePercent">
+				<target type="ProtoUnit">Hersir</target>
+			</effect>
+			<effect type="Data" amount="0.90" subtype="TrainPoints" relativity="BasePercent">
+				<target type="ProtoUnit">Berserk</target>
+			</effect>
+			<effect type="Data" amount="0.90" subtype="TrainPoints" relativity="BasePercent">
+				<target type="ProtoUnit">ThrowingAxeman</target>
+			</effect>
+			<effect type="Data" amount="0.90" subtype="TrainPoints" relativity="BasePercent">
+				<target type="ProtoUnit">RaidingCavalry</target>
+			</effect>
+			<effect type="Data" amount="0.90" subtype="TrainPoints" relativity="BasePercent">
+				<target type="ProtoUnit">Hersir</target>
+			</effect>
+			<effect type="Data" amount="0.88" subtype="MaximumVelocity" relativity="BasePercent">
+				<target type="ProtoUnit">BattleBoar</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="ClassicalAgeLoki" mergeMode="replace">
+		<status>UNOBTAINABLE</status>
+		<flag>HideAllNotifications</flag>
+		<flag>Volatile</flag>
+		<flag>AgeTech</flag>
+		<prereqs>
+			<specificage>ClassicalAge</specificage>
+		</prereqs>
+		<effects>
+			<effect type="TechStatus" status="active">ClassicalAgeGeneral</effect>
+			<effect type="TechStatus" status="active">ClassicalAgeNorse</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Armory</target>
+			</effect>
+			<effect type="TechStatus" status="obtainable">CopperWeapons</effect>
+			<effect type="TechStatus" status="obtainable">CopperArmor</effect>
+			<effect type="TechStatus" status="obtainable">CopperShields</effect>
+			<effect type="TechStatus" status="obtainable">HeroicAgeBragi</effect>
+			<effect type="TechStatus" status="obtainable">HeroicAgeNjord</effect>
+			<effect type="TechStatus" status="obtainable">HeroicAgeLoki</effect>
+		</effects>
+	</tech>
+	<tech name="HeroicAgeLoki" mergeMode="replace">
+		<status>UNOBTAINABLE</status>
+		<flag>HideAllNotifications</flag>
+		<flag>Volatile</flag>
+		<flag>AgeTech</flag>
+		<prereqs>
+			<specificage>HeroicAge</specificage>
+		</prereqs>
+		<effects>
+			<effect type="TechStatus" status="active">HeroicAgeGeneral</effect>
+			<effect type="TechStatus" status="active">HeroicAgeNorse</effect>
+			<effect type="TechStatus" status="obtainable">BronzeWeapons</effect>
+			<effect type="TechStatus" status="obtainable">BronzeArmor</effect>
+			<effect type="TechStatus" status="obtainable">BronzeShields</effect>
+			<effect type="TechStatus" status="obtainable">MythicAgeHel</effect>
+			<effect type="TechStatus" status="obtainable">MythicAgeTyr</effect>
+			<effect type="TechStatus" status="obtainable">MythicAgeLoki</effect>
+		</effects>
+	</tech>
+	<tech name="MythicAgeLoki" mergeMode="replace">
+		<status>UNOBTAINABLE</status>
+		<flag>HideAllNotifications</flag>
+		<flag>Volatile</flag>
+		<flag>AgeTech</flag>
+		<prereqs>
+			<specificage>MythicAge</specificage>
+		</prereqs>
+		<effects>
+			<effect type="TechStatus" status="active">MythicAgeGeneral</effect>
+			<effect type="TechStatus" status="active">MythicAgeNorse</effect>
+			<effect type="TechStatus" status="obtainable">IronWeapons</effect>
+			<effect type="TechStatus" status="obtainable">IronArmor</effect>
+			<effect type="TechStatus" status="obtainable">IronShields</effect>
+			<effect type="TechStatus" status="obtainable">BurningPitch</effect>
+		</effects>
+	</tech>
+
 <!-- NORSE - Added technologies -->	
 
 	<tech name="AxeOfMuspell">
@@ -5830,7 +6449,66 @@
 	</tech>
 	
 <!-- NORSE - Modified technologies -->	
-
+	
+	<tech name="VillagerDwarfToBerserk" type="Normal" mergeMode="replace">
+		<cost resourcetype="Food">50.0000</cost>
+		<cost resourcetype="Gold">30.0000</cost>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<flag>HideAllNotifications</flag>
+		<techtype>ResearchableCommand</techtype>
+	</tech>
+	<tech name="VillagerNorseToBerserk" type="Normal" mergeMode="replace">
+		<cost resourcetype="Food">50.0000</cost>
+		<cost resourcetype="Gold">30.0000</cost>
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<flag>HideAllNotifications</flag>
+		<techtype>ResearchableCommand</techtype>
+	</tech>
+	<tech name="RavenRespawn" mergeMode="replace">
+		<status>UNOBTAINABLE</status>
+		<delay>240.0000</delay>
+		<flag>Volatile</flag>
+		<flag>Persistent</flag>
+		<flag>MultipleActivation</flag>
+		<flag>HideFromDialogs</flag>
+		<flag>DelayedFirstActivation</flag>
+		<prereqs>
+			<typecount unit="Temple" count="0.00" state="aliveState" operator="gt"></typecount>
+			<typecount unit="Raven" count="2.00" state="aliveState" operator="lt"></typecount>
+		</prereqs>
+		<effects>
+			<effect type="CreateUnit" unit="Raven" generator="AbstractTemple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-5.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="RavenFirstSpawn" mergeMode="replace">
+		<status>UNOBTAINABLE</status>
+		<researchpoints>0.0000</researchpoints>
+		<flag>Persistent</flag>
+		<flag>HideFromDialogs</flag>
+		<flag>DelayedFirstActivation</flag>
+		<prereqs>
+			<typecount unit="Temple" count="0.00" state="aliveState" operator="gt"></typecount>
+			<typecount unit="Raven" count="1.00" state="buildingState aliveState" operator="lt"></typecount>
+		</prereqs>
+		<effects>
+			<effect type="CreateUnit" unit="Raven" generator="AbstractTemple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-5.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="CreateUnit" unit="Raven" generator="AbstractTemple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="5.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+		</effects>
+	</tech>
 	<tech name="LevyLonghouseSoldiers" mergeMode="replace">
 		<displaynameid>STR_TECH_LEVY_LONGHOUSE_SOLDIERS_NAME</displaynameid>
 		<rollovertextid>STR_TECH_LEVY_LONGHOUSE_SOLDIERS_LR</rollovertextid>
