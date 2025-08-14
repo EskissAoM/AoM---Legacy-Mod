@@ -1107,9 +1107,9 @@
 			<effect type="Data" amount="1.00" subtype="SetUnitType" unittype="LogicalTypeBuildingsThatShoot" relativity="Absolute">
 				<target type="ProtoUnit">SentryTower</target>
 			</effect>
-			<!-- <effect type="Data" amount="6.00" subtype="LOS" relativity="Absolute"> -->
-				<!-- <target type="Player"></target> -->
-			<!-- </effect> -->
+			<effect type="Data" amount="6.00" subtype="LOS" relativity="Absolute"> <!-- Does nothing but was present in Legacy -->
+				<target type="Player"></target>
+			</effect>
 		</effects>
 	</tech>
 	<tech name="GuardTower" mergeMode="replace">
@@ -5758,12 +5758,12 @@
 
 <!-- NORSE - Age technologies -->
 
-<tech name="ArchaicAgeNorse" mergeMode="replace">
+	<tech name="ArchaicAgeNorse" mergeMode="replace">
 		<status>UNOBTAINABLE</status>
 		<flag>HideAllNotifications</flag>
 		<flag>AgeTech</flag>
 		<effects>
-			<effect type="Data" amount="101.0" subtype="MaxResource" resource="Favor" relativity="Absolute"> <!-- MAX 100 favor -->
+			<effect type="Data" amount="101.0" subtype="MaxResource" resource="Favor" relativity="Absolute"> 
 				<target type="Player"></target>
 			</effect>
 			<effect type="Data" amount="0.80" subtype="Cost" resource="Wood" relativity="Percent">
@@ -6023,64 +6023,64 @@
 			<effect type="TechStatus" status="obtainable">ClassicalAgeForseti</effect>
 			<effect type="TechStatus" status="obtainable">ClassicalAgeThor</effect>
 			<effect type="Data" amount="150.0" subtype="cost" resource="Food" relativity="Override">
-				<target type="ProtoUnit">CopperWeapons</target>
+				<target type="Tech">CopperWeapons</target>
 			</effect>
 			<effect type="Data" amount="150.0" subtype="cost" resource="Gold" relativity="Override">
-				<target type="ProtoUnit">CopperWeapons</target>
+				<target type="Tech">CopperWeapons</target>
 			</effect>
 			<effect type="Data" amount="100.0" subtype="cost" resource="Food" relativity="Override">
-				<target type="ProtoUnit">CopperArmor</target>
+				<target type="Tech">CopperArmor</target>
 			</effect>
 			<effect type="Data" amount="100.0" subtype="cost" resource="Gold" relativity="Override">
-				<target type="ProtoUnit">CopperArmor</target>
+				<target type="Tech">CopperArmor</target>
 			</effect>
 			<effect type="Data" amount="100.0" subtype="cost" resource="Wood" relativity="Override">
-				<target type="ProtoUnit">CopperShields</target>
+				<target type="Tech">CopperShields</target>
 			</effect>
 			<effect type="Data" amount="100.0" subtype="cost" resource="Gold" relativity="Override">
-				<target type="ProtoUnit">CopperShields</target>
+				<target type="Tech">CopperShields</target>
 			</effect>
 			<effect type="Data" amount="200.0" subtype="cost" resource="Food" relativity="Override">
-				<target type="ProtoUnit">BronzeWeapons</target>
+				<target type="Tech">BronzeWeapons</target>
 			</effect>
 			<effect type="Data" amount="200.0" subtype="cost" resource="Gold" relativity="Override">
-				<target type="ProtoUnit">BronzeWeapons</target>
+				<target type="Tech">BronzeWeapons</target>
 			</effect>
 			<effect type="Data" amount="200.0" subtype="cost" resource="Food" relativity="Override">
-				<target type="ProtoUnit">BronzeArmor</target>
+				<target type="Tech">BronzeArmor</target>
 			</effect>
 			<effect type="Data" amount="100.0" subtype="cost" resource="Gold" relativity="Override">
-				<target type="ProtoUnit">BronzeArmor</target>
+				<target type="Tech">BronzeArmor</target>
 			</effect>
 			<effect type="Data" amount="200.0" subtype="cost" resource="Wood" relativity="Override">
-				<target type="ProtoUnit">BronzeShields</target>
+				<target type="Tech">BronzeShields</target>
 			</effect>
 			<effect type="Data" amount="100.0" subtype="cost" resource="Gold" relativity="Override">
-				<target type="ProtoUnit">BronzeShields</target>
+				<target type="Tech">BronzeShields</target>
 			</effect>
 			<effect type="Data" amount="500.0" subtype="cost" resource="Food" relativity="Override">
-				<target type="ProtoUnit">IronWeapons</target>
+				<target type="Tech">IronWeapons</target>
 			</effect>
 			<effect type="Data" amount="500.0" subtype="cost" resource="Gold" relativity="Override">
-				<target type="ProtoUnit">IronWeapons</target>
+				<target type="Tech">IronWeapons</target>
 			</effect>
 			<effect type="Data" amount="400.0" subtype="cost" resource="Food" relativity="Override">
-				<target type="ProtoUnit">IronArmor</target>
+				<target type="Tech">IronArmor</target>
 			</effect>
 			<effect type="Data" amount="400.0" subtype="cost" resource="Gold" relativity="Override">
-				<target type="ProtoUnit">IronArmor</target>
+				<target type="Tech">IronArmor</target>
 			</effect>
 			<effect type="Data" amount="400.0" subtype="cost" resource="Wood" relativity="Override">
-				<target type="ProtoUnit">IronShields</target>
+				<target type="Tech">IronShields</target>
 			</effect>
 			<effect type="Data" amount="300.0" subtype="cost" resource="Gold" relativity="Override">
-				<target type="ProtoUnit">IronShields</target>
+				<target type="Tech">IronShields</target>
 			</effect>
 			<effect type="Data" amount="400.0" subtype="cost" resource="Wood" relativity="Override">
-				<target type="ProtoUnit">BurningPitch</target>
+				<target type="Tech">BurningPitch</target>
 			</effect>
 			<effect type="Data" amount="200.0" subtype="cost" resource="Gold" relativity="Override">
-				<target type="ProtoUnit">BurningPitch</target>
+				<target type="Tech">BurningPitch</target>
 			</effect>
 			<effect type="Data" action="Gather" amount="1.25" subtype="WorkRate" unittype="Huntable" relativity="BasePercent">
 				<target type="ProtoUnit">VillagerDwarf</target>
@@ -6371,6 +6371,316 @@
 			<effect type="TechStatus" status="obtainable">IronArmor</effect>
 			<effect type="TechStatus" status="obtainable">IronShields</effect>
 			<effect type="TechStatus" status="obtainable">BurningPitch</effect>
+		</effects>
+	</tech>
+	<tech name="ClassicalAgeFreyja" mergeMode="replace">
+		<displaynameid>STR_TECH_FREYJA_NAME</displaynameid>
+		<rollovertextid>STR_TECH_FREYJA_LR</rollovertextid>
+		<cost resourcetype="Food">400.0000</cost>
+		<researchpoints>60.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>resources\shared\static_color\technologies\classical_age_icon.png</icon>
+		<flag>AgeUpgrade</flag>
+		<flag>CountsTowardEconomicScore</flag>
+		<techtype>ClassicalAge</techtype>
+		<prereqs>
+			<typecount unit="AbstractTemple" count="1.00" state="aliveState" operator="gte"></typecount>
+		</prereqs>
+		<effects>
+			<effect type="SetAge">ClassicalAge</effect>
+			<effect type="Data" subtype="GodPower" power="ForestFire" amount="1.0" relativity="Absolute">
+				<target type="Player"></target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Valkyrie</target>
+			</effect>
+			<effect type="CreateUnit" unit="Valkyrie" generator="AbstractTemple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-5.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="TechStatus" status="obtainable">Disablot</effect>
+			<effect type="TechStatus" status="obtainable">ThunderingHooves</effect>
+			<effect type="TextOutput">STR_TECH_FREYJA_SELF</effect>
+			<effect all="true" type="TextOutput">STR_TECH_FREYJA_OTHER</effect>
+		</effects>
+	</tech>
+	<tech name="ClassicalAgeForseti" mergeMode="replace">
+		<displaynameid>STR_TECH_FORSETI_NAME</displaynameid>
+		<rollovertextid>STR_TECH_FORSETI_LR</rollovertextid>
+		<cost resourcetype="Food">400.0000</cost>
+		<researchpoints>60.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>resources\shared\static_color\technologies\classical_age_icon.png</icon>
+		<flag>AgeUpgrade</flag>
+		<flag>CountsTowardEconomicScore</flag>
+		<techtype>ClassicalAge</techtype>
+		<prereqs>
+			<typecount unit="AbstractTemple" count="1.00" state="aliveState" operator="gte"></typecount>
+		</prereqs>
+		<effects>
+			<effect type="SetAge">ClassicalAge</effect>
+			<effect type="Data" subtype="GodPower" power="HealingSpring" amount="1.0" relativity="Absolute">
+				<target type="Player"></target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Troll</target>
+			</effect>
+			<effect type="CreateUnit" unit="Troll" generator="AbstractTemple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-5.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="TechStatus" status="obtainable">HallOfThanes</effect>
+			<effect type="TechStatus" status="obtainable">DwarvenBreastplate</effect>
+			<effect type="TechStatus" status="obtainable">CaveTroll</effect>
+			<effect type="TextOutput">STR_TECH_FORSETI_SELF</effect>
+			<effect all="true" type="TextOutput">STR_TECH_FORSETI_OTHER</effect>
+		</effects>
+	</tech>
+	<tech name="ClassicalAgeHeimdall" mergeMode="replace">
+		<displaynameid>STR_TECH_HEIMDALL_NAME</displaynameid>
+		<rollovertextid>STR_TECH_HEIMDALL_LR</rollovertextid>
+		<cost resourcetype="Food">400.0000</cost>
+		<researchpoints>60.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>resources\shared\static_color\technologies\classical_age_icon.png</icon>
+		<flag>AgeUpgrade</flag>
+		<flag>CountsTowardEconomicScore</flag>
+		<techtype>ClassicalAge</techtype>
+		<prereqs>
+			<typecount unit="AbstractTemple" count="1.00" state="aliveState" operator="gte"></typecount>
+		</prereqs>
+		<effects>
+			<effect type="SetAge">ClassicalAge</effect>
+			<effect type="Data" subtype="GodPower" power="Undermine" amount="1.0" relativity="Absolute">
+				<target type="Player"></target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Einheri</target>
+			</effect>
+			<effect type="CreateUnit" unit="Einheri" generator="AbstractTemple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-5.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="TechStatus" status="obtainable">Gjallarhorn</effect>
+			<effect type="TechStatus" status="obtainable">Safeguard</effect>
+			<effect type="TechStatus" status="obtainable">ArcticWinds</effect>
+			<effect type="TextOutput">STR_TECH_HEIMDALL_SELF</effect>
+			<effect all="true" type="TextOutput">STR_TECH_HEIMDALL_OTHER</effect>
+		</effects>
+	</tech>
+	<tech name="HeroicAgeBragi" mergeMode="replace">
+		<displaynameid>STR_TECH_BRAGI_NAME</displaynameid>
+		<rollovertextid>STR_TECH_BRAGI_LR</rollovertextid>
+		<cost resourcetype="Food">800.0000</cost>
+		<cost resourcetype="Gold">500.0000</cost>
+		<researchpoints>60.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>resources\shared\static_color\technologies\heroic_age_icon.png</icon>
+		<flag>AgeUpgrade</flag>
+		<flag>CountsTowardEconomicScore</flag>
+		<flag>OrPrereqs</flag>
+		<techtype>HeroicAge</techtype>
+		<prereqs>
+			<typecount unit="Armory" count="1.00" state="aliveState" operator="gte"></typecount>
+			<typecount unit="DwarvenArmory" count="1.00" state="aliveState" operator="gte"></typecount>
+		</prereqs>
+		<effects>
+			<effect type="SetAge">HeroicAge</effect>
+			<effect type="Data" subtype="GodPower" power="FlamingWeapons" amount="1.0" relativity="Absolute">
+				<target type="Player"></target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">BattleBoar</target>
+			</effect>
+			<effect type="CreateUnit" unit="BattleBoar" generator="AbstractTemple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-5.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="TechStatus" status="obtainable">CallOfValhalla</effect>
+			<effect type="TechStatus" status="obtainable">ThurisazRune</effect>
+			<effect type="TechStatus" status="obtainable">SwineArray</effect>
+			<effect type="TextOutput">STR_TECH_BRAGI_SELF</effect>
+			<effect all="true" type="TextOutput">STR_TECH_BRAGI_OTHER</effect>
+		</effects>
+	</tech>
+	<tech name="HeroicAgeSkadi" mergeMode="replace">
+		<displaynameid>STR_TECH_SKADI_NAME</displaynameid>
+		<rollovertextid>STR_TECH_SKADI_LR</rollovertextid>
+		<cost resourcetype="Food">800.0000</cost>
+		<cost resourcetype="Gold">500.0000</cost>
+		<researchpoints>60.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>resources\shared\static_color\technologies\heroic_age_icon.png</icon>
+		<flag>AgeUpgrade</flag>
+		<flag>CountsTowardEconomicScore</flag>
+		<flag>OrPrereqs</flag>
+		<techtype>HeroicAge</techtype>
+		<prereqs>
+			<typecount unit="Armory" count="1.00" state="aliveState" operator="gte"></typecount>
+			<typecount unit="DwarvenArmory" count="1.00" state="aliveState" operator="gte"></typecount>
+		</prereqs>
+		<effects>
+			<effect type="SetAge">HeroicAge</effect>
+			<effect type="Data" subtype="GodPower" power="Frost" amount="1.0" relativity="Absolute">
+				<target type="Player"></target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">FrostGiant</target>
+			</effect>
+			<effect type="CreateUnit" unit="FrostGiant" generator="AbstractTemple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-5.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="TechStatus" status="obtainable">Rime</effect>
+			<effect type="TechStatus" status="obtainable">HuntressAxe</effect>
+			<effect type="TechStatus" status="obtainable">WinterHarvest</effect>
+			<effect type="TextOutput">STR_TECH_SKADI_SELF</effect>
+			<effect all="true" type="TextOutput">STR_TECH_SKADI_OTHER</effect>
+		</effects>
+	</tech>
+	<tech name="HeroicAgeNjord" mergeMode="replace">
+		<displaynameid>STR_TECH_NJORD_NAME</displaynameid>
+		<rollovertextid>STR_TECH_NJORD_LR</rollovertextid>
+		<cost resourcetype="Food">800.0000</cost>
+		<cost resourcetype="Gold">500.0000</cost>
+		<researchpoints>60.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>resources\shared\static_color\technologies\heroic_age_icon.png</icon>
+		<flag>AgeUpgrade</flag>
+		<flag>CountsTowardEconomicScore</flag>
+		<techtype>HeroicAge</techtype>
+		<prereqs>
+			<typecount unit="Armory" count="1.00" state="aliveState" operator="gte"></typecount>
+		</prereqs>
+		<effects>
+			<effect type="SetAge">HeroicAge</effect>
+			<effect type="Data" subtype="GodPower" power="WalkingWoods" amount="1.0" relativity="Absolute">
+				<target type="Player"></target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">MountainGiant</target>
+			</effect>
+			<effect type="CreateUnit" unit="MountainGiant" generator="AbstractTemple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-5.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="TechStatus" status="obtainable">WrathOfTheDeep</effect>
+			<effect type="TechStatus" status="obtainable">RingGiver</effect>
+			<effect type="TechStatus" status="obtainable">LongSerpent</effect>
+			<effect type="TextOutput">STR_TECH_NJORD_SELF</effect>
+			<effect all="true" type="TextOutput">STR_TECH_NJORD_OTHER</effect>
+		</effects>
+	</tech>
+	<tech name="MythicAgeHel" mergeMode="replace">
+		<displaynameid>STR_TECH_HEL_NAME</displaynameid>
+		<rollovertextid>STR_TECH_HEL_LR</rollovertextid>
+		<cost resourcetype="Food">1000.0000</cost>
+		<cost resourcetype="Gold">1000.0000</cost>
+		<researchpoints>90.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>resources\shared\static_color\technologies\mythic_age_icon.png</icon>
+		<flag>AgeUpgrade</flag>
+		<flag>CountsTowardEconomicScore</flag>
+		<techtype>MythicAge</techtype>
+		<prereqs>
+			<typecount unit="Market" count="1.00" state="aliveState" operator="gte"></typecount>
+		</prereqs>
+		<effects>
+			<effect type="SetAge">MythicAge</effect>
+			<effect type="Data" subtype="GodPower" power="Nidhogg" amount="1.0" relativity="Absolute">
+				<target type="Player"></target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">FireGiant</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">FrostGiant</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">MountainGiant</target>
+			</effect>
+			<effect type="CreateUnit" unit="FireGiant" generator="AbstractTemple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-5.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="TechStatus" status="obtainable">Rampage</effect>
+			<effect type="TechStatus" status="obtainable">GraniteBlood</effect>
+			<effect type="TextOutput">STR_TECH_HEL_SELF</effect>
+			<effect all="true" type="TextOutput">STR_TECH_HEL_OTHER</effect>
+		</effects>
+	</tech>
+	<tech name="MythicAgeBaldr" mergeMode="replace">
+		<displaynameid>STR_TECH_BALDR_NAME</displaynameid>
+		<rollovertextid>STR_TECH_BALDR_LR</rollovertextid>
+		<cost resourcetype="Food">1000.0000</cost>
+		<cost resourcetype="Gold">1000.0000</cost>
+		<researchpoints>90.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>resources\shared\static_color\technologies\mythic_age_icon.png</icon>
+		<flag>AgeUpgrade</flag>
+		<flag>CountsTowardEconomicScore</flag>
+		<techtype>MythicAge</techtype>
+		<prereqs>
+			<typecount unit="Market" count="1.00" state="aliveState" operator="gte"></typecount>
+		</prereqs>
+		<effects>
+			<effect type="SetAge">MythicAge</effect>
+			<effect type="Data" subtype="GodPower" power="Ragnarok" amount="1.0" relativity="Absolute">
+				<target type="Player"></target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">FireGiant</target>
+			</effect>
+			<effect type="CreateUnit" unit="FireGiant" generator="AbstractTemple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-5.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="TechStatus" status="obtainable">ArcticGale</effect>
+			<effect type="TechStatus" status="obtainable">SonsOfSleipnir</effect>
+			<effect type="TechStatus" status="obtainable">DwarvenAuger</effect>
+			<effect type="TextOutput">STR_TECH_BALDR_SELF</effect>
+			<effect all="true" type="TextOutput">STR_TECH_BALDR_OTHER</effect>
+		</effects>
+	</tech>
+	<tech name="MythicAgeTyr" mergeMode="replace">
+		<displaynameid>STR_TECH_TYR_NAME</displaynameid>
+		<rollovertextid>STR_TECH_TYR_LR</rollovertextid>
+		<cost resourcetype="Food">1000.0000</cost>
+		<cost resourcetype="Gold">1000.0000</cost>
+		<researchpoints>90.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>resources\shared\static_color\technologies\mythic_age_icon.png</icon>
+		<flag>AgeUpgrade</flag>
+		<flag>CountsTowardEconomicScore</flag>
+		<techtype>MythicAge</techtype>
+		<prereqs>
+			<typecount unit="Market" count="1.00" state="aliveState" operator="gte"></typecount>
+		</prereqs>
+		<effects>
+			<effect type="SetAge">MythicAge</effect>
+			<effect type="Data" subtype="GodPower" power="Fimbulwinter" amount="1.0" relativity="Absolute">
+				<target type="Player"></target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">FenrisWolfBrood</target>
+			</effect>
+			<effect type="CreateUnit" unit="FenrisWolfBrood" generator="AbstractTemple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-5.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="TechStatus" status="obtainable">Berserkergang</effect>
+			<effect type="TechStatus" status="obtainable">Bravery</effect>
+			<effect type="TextOutput">STR_TECH_TYR_SELF</effect>
+			<effect all="true" type="TextOutput">STR_TECH_TYR_OTHER</effect>
 		</effects>
 	</tech>
 

@@ -1,0 +1,1122 @@
+<civs>
+	<defaultpoplimit>300</defaultpoplimit>
+	<defaultrepairfactor>0.5</defaultrepairfactor>
+	<storymodetech>StoryModeGeneral</storymodetech>
+	<ludicrousmodetech>LudicrousModeGeneral</ludicrousmodetech>
+	<lightningtech>LightningGeneral</lightningtech>
+	<deathmatchtech>DeathMatchGeneral</deathmatchtech>
+	<deathmatchpowergrantdelay>
+		<archaicage>80</archaicage>
+		<classicalage>140</classicalage>
+		<heroicage>200</heroicage>
+		<mythicage>260</mythicage>
+	</deathmatchpowergrantdelay>
+	<civ>
+		<name>Zeus</name>
+		<statsid>SP</statsid>
+		<key>G</key>
+		<culture>Greek</culture>
+		<displaynameid>STR_CIV_ZEUS</displaynameid>
+		<rollovernameid>STR_CIV_ZEUS_LR</rollovernameid>
+		<titleid>STR_CIV_ZEUS_T</titleid>
+		<agetech age="ArchaicAge">
+			<tech>ArchaicAgeZeus</tech>
+		</agetech>
+		<deathmatchtech>DeathMatchGreek</deathmatchtech>
+		<buildingefficiency>0.6</buildingefficiency>
+		<extrabuildingefficiency>0.3</extrabuildingefficiency>
+		<startingunits>
+			<unit count="4" delay="2.00" x="0.00" y="0.00" z="-5.00">VillagerGreek</unit>
+			<unit count="1" delay="4.00" x="6.00" y="0.00" z="0.00">Kataskopos</unit>
+		</startingunits>
+		<startingunits mode="deathmatch">
+			<unit count="9" delay="2.00" x="0.00" y="0.00" z="0.00">VillagerGreek</unit>
+			<unit count="1" delay="4.00" x="-12.00" y="0.00" z="0.00">Kataskopos</unit>
+		</startingunits>
+		<startingqueue>
+			<unit autotrain="true">VillagerGreek</unit>
+		</startingqueue>
+		<startingqueue mode="deathmatch">
+			<unit autotrain="true">VillagerGreek</unit>
+			<unit prequeue="true">Jason</unit>
+		</startingqueue>
+		<startingresources>
+			<food>200</food>
+			<wood>250</wood>
+			<gold>50</gold>
+			<favor>10</favor>
+		</startingresources>
+		<startingresources mode="deathmatch">
+			<food>18000</food>
+			<wood>18000</wood>
+			<gold>18000</gold>
+			<favor>210</favor>
+		</startingresources>
+		<icon>resources\greek\static_color\major_gods\zeus_icon.png</icon>
+		<portrait>resources\greek\static_color\major_gods\zeus_portrait.png</portrait>
+		<breakoutportrait>resources\greek\static_color\major_gods\zeus_breakoutportrait.png</breakoutportrait>
+		<minimapborderimage>ui\ingame\minimap\grk_min_panel</minimapborderimage>
+		<backgroundscenario>backgrounds\\background_greek.mythscn</backgroundscenario>
+	</civ>
+	<civ>
+		<name>Hades</name>
+		<statsid>SP</statsid>
+		<key>G</key>
+		<culture>Greek</culture>
+		<displaynameid>STR_CIV_HADES</displaynameid>
+		<rollovernameid>STR_CIV_HADES_LR</rollovernameid>
+		<titleid>STR_CIV_HADES_T</titleid>
+		<agetech age="ArchaicAge">
+			<tech>ArchaicAgeHades</tech>
+		</agetech>
+		<deathmatchtech>DeathMatchGreek</deathmatchtech>
+		<shades>
+			<protounit>HadesShade</protounit>
+			<targetunit>HumanSoldier</targetunit>
+			<chance>0.2</chance>
+			<delay>1.0</delay>
+		</shades>
+		<buildingefficiency>0.6</buildingefficiency>
+		<extrabuildingefficiency>0.3</extrabuildingefficiency>
+		<startingunits>
+			<unit count="4" delay="2.00" x="0.00" y="0.00" z="-5.00">VillagerGreek</unit>
+			<unit count="1" delay="4.00" x="6.00" y="0.00" z="0.00">Kataskopos</unit>
+		</startingunits>
+		<startingunits mode="deathmatch">
+			<unit count="9" delay="2.00" x="0.00" y="0.00" z="0.00">VillagerGreek</unit>
+			<unit count="1" delay="4.00" x="-12.00" y="0.00" z="0.00">Kataskopos</unit>
+		</startingunits>
+		<startingqueue>
+			<unit autotrain="true">VillagerGreek</unit>
+		</startingqueue>
+		<startingresources>
+			<food>200</food>
+			<wood>250</wood>
+			<gold>50</gold>
+		</startingresources>
+		<startingresources mode="deathmatch">
+			<food>18000</food>
+			<wood>18000</wood>
+			<gold>18000</gold>
+			<favor>200</favor>
+		</startingresources>
+		<icon>resources\greek\static_color\major_gods\hades_icon.png</icon>
+		<portrait>resources\greek\static_color\major_gods\hades_portrait.png</portrait>
+		<breakoutportrait>resources\greek\static_color\major_gods\hades_breakoutportrait.png</breakoutportrait>
+		<minimapborderimage>ui\ingame\minimap\grk_min_panel</minimapborderimage>
+		<backgroundscenario>backgrounds\\background_greek.mythscn</backgroundscenario>
+	</civ>
+	<civ>
+		<name>Poseidon</name>
+		<statsid>SP</statsid>
+		<key>G</key>
+		<culture>Greek</culture>
+		<displaynameid>STR_CIV_POSEIDON</displaynameid>
+		<rollovernameid>STR_CIV_POSEIDON_LR</rollovernameid>
+		<titleid>STR_CIV_POSEIDON_T</titleid>
+		<agetech age="ArchaicAge">
+			<tech>ArchaicAgePoseidon</tech>
+		</agetech>
+		<deathmatchtech>DeathMatchGreek</deathmatchtech>
+		<partisans>1</partisans>
+		<buildingefficiency>0.6</buildingefficiency>
+		<extrabuildingefficiency>0.3</extrabuildingefficiency>
+		<startingunits>
+			<unit count="4" delay="2.00" x="0.00" y="0.00" z="-5.00">VillagerGreek</unit>
+			<unit count="1" delay="4.00" x="6.00" y="0.00" z="0.00">Kataskopos</unit>
+		</startingunits>
+		<startingunits mode="deathmatch">
+			<unit count="9" delay="2.00" x="0.00" y="0.00" z="0.00">VillagerGreek</unit>
+			<unit count="1" delay="4.00" x="-12.00" y="0.00" z="0.00">Kataskopos</unit>
+		</startingunits>
+		<startingqueue>
+			<unit autotrain="true">VillagerGreek</unit>
+		</startingqueue>
+		<startingresources>
+			<food>200</food>
+			<wood>250</wood>
+			<gold>50</gold>
+		</startingresources>
+		<startingresources mode="deathmatch">
+			<food>18000</food>
+			<wood>18000</wood>
+			<gold>18000</gold>
+			<favor>200</favor>
+		</startingresources>
+		<icon>resources\greek\static_color\major_gods\poseidon_icon.png</icon>
+		<portrait>resources\greek\static_color\major_gods\poseidon_portrait.png</portrait>
+		<breakoutportrait>resources\greek\static_color\major_gods\poseidon_breakoutportrait.png</breakoutportrait>
+		<minimapborderimage>ui\ingame\minimap\grk_min_panel</minimapborderimage>
+		<backgroundscenario>backgrounds\\background_greek.mythscn</backgroundscenario>
+	</civ>
+	<civ>
+		<name>Ra</name>
+		<statsid>SP</statsid>
+		<key>E</key>
+		<culture>Egyptian</culture>
+		<displaynameid>STR_CIV_RA</displaynameid>
+		<rollovernameid>STR_CIV_RA_LR</rollovernameid>
+		<titleid>STR_CIV_RA_T</titleid>
+		<agetech age="ArchaicAge">
+			<tech>ArchaicAgeRa</tech>
+		</agetech>
+		<deathmatchtech>DeathMatchEgyptian</deathmatchtech>
+		<buildingefficiency>0.6</buildingefficiency>
+		<extrabuildingefficiency>0.3</extrabuildingefficiency>
+		<startingunits>
+			<unit count="3" delay="2.00" x="0.00" y="0.00" z="-5.00">VillagerEgyptian</unit>
+			<unit count="1" delay="4.00" x="-8.00" y="0.00" z="-4.00">Priest</unit>
+		</startingunits>
+		<startingunits mode="deathmatch">
+			<unit count="13" delay="2.00" x="0.00" y="0.00" z="0.00">VillagerEgyptian</unit>
+			<unit count="1" delay="4.00" x="-8.00" y="0.00" z="-4.00">Priest</unit>
+		</startingunits>
+		<startingqueue>
+			<unit autotrain="true">VillagerEgyptian</unit>
+		</startingqueue>
+		<startingresources>
+			<food>200</food>
+			<wood>100</wood>
+			<gold>50</gold>
+		</startingresources>
+		<startingresources mode="deathmatch">
+			<food>18000</food>
+			<wood>18000</wood>
+			<gold>18000</gold>
+			<favor>200</favor>
+		</startingresources>
+		<icon>resources\egyptian\static_color\major_gods\ra_icon.png</icon>
+		<portrait>resources\egyptian\static_color\major_gods\ra_portrait.png</portrait>
+		<breakoutportrait>resources\egyptian\static_color\major_gods\ra_breakoutportrait.png</breakoutportrait>
+		<minimapborderimage>ui\ingame\minimap\egy_min_panel</minimapborderimage>
+		<backgroundscenario>backgrounds\\background_egypt.mythscn</backgroundscenario>
+	</civ>
+	<civ>
+		<name>Isis</name>
+		<statsid>SP</statsid>
+		<key>E</key>
+		<culture>Egyptian</culture>
+		<displaynameid>STR_CIV_ISIS</displaynameid>
+		<rollovernameid>STR_CIV_ISIS_LR</rollovernameid>
+		<titleid>STR_CIV_ISIS_T</titleid>
+		<agetech age="ArchaicAge">
+			<tech>ArchaicAgeIsis</tech>
+		</agetech>
+		<deathmatchtech>DeathMatchEgyptian</deathmatchtech>
+		<buildingefficiency>0.6</buildingefficiency>
+		<extrabuildingefficiency>0.3</extrabuildingefficiency>
+		<startingunits>
+			<unit count="3" delay="2.00" x="0.00" y="0.00" z="-5.00">VillagerEgyptian</unit>
+			<unit count="1" delay="4.00" x="-8.00" y="0.00" z="-4.00">Priest</unit>
+		</startingunits>
+		<startingunits mode="deathmatch">
+			<unit count="13" delay="2.00" x="0.00" y="0.00" z="0.00">VillagerEgyptian</unit>
+			<unit count="1" delay="4.00" x="-8.00" y="0.00" z="-4.00">Priest</unit>
+		</startingunits>
+		<startingqueue>
+			<unit autotrain="true">VillagerEgyptian</unit>
+		</startingqueue>
+		<startingresources>
+			<food>200</food>
+			<wood>100</wood>
+			<gold>50</gold>
+		</startingresources>
+		<startingresources mode="deathmatch">
+			<food>18000</food>
+			<wood>18000</wood>
+			<gold>18000</gold>
+			<favor>200</favor>
+		</startingresources>
+		<icon>resources\egyptian\static_color\major_gods\isis_icon.png</icon>
+		<portrait>resources\egyptian\static_color\major_gods\isis_portrait.png</portrait>
+		<breakoutportrait>resources\egyptian\static_color\major_gods\isis_breakoutportrait.png</breakoutportrait>
+		<minimapborderimage>ui\ingame\minimap\egy_min_panel</minimapborderimage>
+		<backgroundscenario>backgrounds\\background_egypt.mythscn</backgroundscenario>
+	</civ>
+	<civ>
+		<name>Set</name>
+		<statsid>SP</statsid>
+		<key>E</key>
+		<culture>Egyptian</culture>
+		<displaynameid>STR_CIV_SET</displaynameid>
+		<rollovernameid>STR_CIV_SET_LR</rollovernameid>
+		<titleid>STR_CIV_SET_T</titleid>
+		<agetech age="ArchaicAge">
+			<tech>ArchaicAgeSet</tech>
+		</agetech>
+		<deathmatchtech>DeathMatchEgyptian</deathmatchtech>
+		<buildingefficiency>0.6</buildingefficiency>
+		<extrabuildingefficiency>0.3</extrabuildingefficiency>
+		<startingunits>
+			<unit count="3" delay="2.00" x="0.00" y="0.00" z="-5.00">VillagerEgyptian</unit>
+			<unit count="1" delay="4.00" x="-8.00" y="0.00" z="-4.00">Priest</unit>
+			<unit count="1" delay="6.00" x="-11.00" y="0.00" z="-4.00">BaboonOfSet</unit>
+		</startingunits>
+		<startingunits mode="deathmatch">
+			<unit count="13" delay="2.00" x="0.00" y="0.00" z="0.00">VillagerEgyptian</unit>
+			<unit count="1" delay="4.00" x="-8.00" y="0.00" z="-4.00">Priest</unit>
+			<unit count="1" delay="6.00" x="0.00" y="0.00" z="0.00">BaboonOfSet</unit>
+		</startingunits>
+		<startingqueue>
+			<unit autotrain="true">VillagerEgyptian</unit>
+		</startingqueue>
+		<startingresources>
+			<food>200</food>
+			<wood>100</wood>
+			<gold>50</gold>
+		</startingresources>
+		<startingresources mode="deathmatch">
+			<food>18000</food>
+			<wood>18000</wood>
+			<gold>18000</gold>
+			<favor>200</favor>
+		</startingresources>
+		<icon>resources\egyptian\static_color\major_gods\set_icon.png</icon>
+		<portrait>resources\egyptian\static_color\major_gods\set_portrait.png</portrait>
+		<breakoutportrait>resources\egyptian\static_color\major_gods\set_breakoutportrait.png</breakoutportrait>
+		<minimapborderimage>ui\ingame\minimap\egy_min_panel</minimapborderimage>
+		<backgroundscenario>backgrounds\\background_egypt.mythscn</backgroundscenario>
+	</civ>
+	<civ>
+		<name>Thor</name>
+		<statsid>SP</statsid>
+		<key>N</key>
+		<culture>Norse</culture>
+		<displaynameid>STR_CIV_THOR</displaynameid>
+		<rollovernameid>STR_CIV_THOR_LR</rollovernameid>
+		<titleid>STR_CIV_THOR_T</titleid>
+		<agetech age="ArchaicAge">
+			<tech>ArchaicAgeThor</tech>
+		</agetech>
+		<deathmatchtech>DeathMatchNorse</deathmatchtech>
+		<buildingefficiency>0.6</buildingefficiency>
+		<extrabuildingefficiency>0.3</extrabuildingefficiency>
+		<startingunits>
+			<unit count="3" delay="2.00" x="-4.00" y="0.00" z="-6.00">VillagerDwarf</unit>
+			<unit count="1" delay="3.00" x="-10.00" y="0.00" z="-5.00">OxCart</unit>
+			<unit count="1" delay="4.50" x="6.00" y="0.00" z="-5.00">Berserk</unit>
+		</startingunits>
+		<startingunits mode="deathmatch">
+			<unit count="5" delay="1.00" x="0.00" y="0.00" z="0.00">Berserk</unit>
+		</startingunits>
+		<startingqueue>
+			<unit autotrain="true">VillagerNorse</unit>
+		</startingqueue>
+		<startingresources>
+			<food>200</food>
+			<wood>150</wood>
+			<gold>100</gold>
+		</startingresources>
+		<startingresources mode="deathmatch">
+			<food>18000</food>
+			<wood>18000</wood>
+			<gold>18000</gold>
+			<favor>200</favor>
+		</startingresources>
+		<icon>resources\norse\static_color\major_gods\thor_icon.png</icon>
+		<portrait>resources\norse\static_color\major_gods\thor_portrait.png</portrait>
+		<breakoutportrait>resources\norse\static_color\major_gods\thor_breakoutportrait.png</breakoutportrait>
+		<minimapborderimage>ui\ingame\minimap\nrs_min_panel</minimapborderimage>
+		<backgroundscenario>backgrounds\\background_norse.mythscn</backgroundscenario>
+		<bountyresourceearning>
+			<active>true</active>
+			<excludedtarget>AbstractWall</excludedtarget>
+			<bountydamagegoal>80.0</bountydamagegoal>
+			<bountyreductionstart>100.0</bountyreductionstart>
+			<bountyreductionend>300.0</bountyreductionend>
+			<bountyreductionstrength>0.5</bountyreductionstrength>
+			<bountyreward unittype="Ship" condition="Damage" resourcetype="Favor">0.5</bountyreward>
+			<bountyreward unittype="AbstractVillager" condition="Damage" resourcetype="Favor">1.0</bountyreward>
+			<bountyreward unittype="HumanSoldier" condition="Damage" resourcetype="Favor">1.0</bountyreward>
+			<bountyreward unittype="Hero" condition="Damage" resourcetype="Favor">1.0</bountyreward>
+			<bountyreward unittype="LogicalTypeMythUnitThatGeneratesFavor" condition="Damage" resourcetype="Favor">0.5</bountyreward>
+			<bountytargetmultiplier unittype="Huntable" condition="Damage" resourcetype="Favor">2.0</bountytargetmultiplier>
+			<bountytargetmultiplier unittype="Herdable" condition="Damage" resourcetype="Favor">20.0</bountytargetmultiplier>
+			<bountytargetmultiplier unittype="NonConvertableHerdable" condition="Damage" resourcetype="Favor">20.0</bountytargetmultiplier>
+			<bountytargetmultiplier unittype="Building" condition="Damage" resourcetype="Favor">0.1</bountytargetmultiplier>
+			<bountytargetmultiplier unittype="LogicalTypeBuildingsThatShoot" condition="Damage" resourcetype="Favor">0.5</bountytargetmultiplier>
+		</bountyresourceearning>
+	</civ>
+	<civ>
+		<name>Odin</name>
+		<statsid>SP</statsid>
+		<key>N</key>
+		<culture>Norse</culture>
+		<displaynameid>STR_CIV_ODIN</displaynameid>
+		<rollovernameid>STR_CIV_ODIN_LR</rollovernameid>
+		<titleid>STR_CIV_ODIN_T</titleid>
+		<agetech age="ArchaicAge">
+			<tech>ArchaicAgeOdin</tech>
+		</agetech>
+		<deathmatchtech>DeathMatchNorse</deathmatchtech>
+		<buildingefficiency>0.6</buildingefficiency>
+		<extrabuildingefficiency>0.3</extrabuildingefficiency>
+		<startingunits>
+			<unit count="3" delay="2.00" x="-4.00" y="0.00" z="-6.00">VillagerNorse</unit>
+			<unit count="1" delay="3.00" x="-10.00" y="0.00" z="-5.00">OxCart</unit>
+			<unit count="1" delay="4.50" x="6.00" y="0.00" z="-5.00">Berserk</unit>
+		</startingunits>
+		<startingunits mode="deathmatch">
+			<unit count="5" delay="1.00" x="0.00" y="0.00" z="0.00">Berserk</unit>
+		</startingunits>
+		<startingqueue>
+			<unit autotrain="true">VillagerNorse</unit>
+		</startingqueue>
+		<startingresources>
+			<food>200</food>
+			<wood>150</wood>
+			<gold>100</gold>
+		</startingresources>
+		<startingresources mode="deathmatch">
+			<food>18000</food>
+			<wood>18000</wood>
+			<gold>18000</gold>
+			<favor>200</favor>
+		</startingresources>
+		<icon>resources\norse\static_color\major_gods\odin_icon.png</icon>
+		<portrait>resources\norse\static_color\major_gods\odin_portrait.png</portrait>
+		<breakoutportrait>resources\norse\static_color\major_gods\odin_breakoutportrait.png</breakoutportrait>
+		<minimapborderimage>ui\ingame\minimap\nrs_min_panel</minimapborderimage>
+		<backgroundscenario>backgrounds\\background_norse.mythscn</backgroundscenario>
+		<bountyresourceearning>
+			<active>true</active>
+			<excludedtarget>AbstractWall</excludedtarget>
+			<bountydamagegoal>80.0</bountydamagegoal>
+			<bountyreductionstart>100.0</bountyreductionstart>
+			<bountyreductionend>300.0</bountyreductionend>
+			<bountyreductionstrength>0.5</bountyreductionstrength>
+			<bountyreward unittype="Ship" condition="Damage" resourcetype="Favor">0.5</bountyreward>
+			<bountyreward unittype="AbstractVillager" condition="Damage" resourcetype="Favor">1.0</bountyreward>
+			<bountyreward unittype="HumanSoldier" condition="Damage" resourcetype="Favor">1.0</bountyreward>
+			<bountyreward unittype="Hero" condition="Damage" resourcetype="Favor">1.0</bountyreward>
+			<bountyreward unittype="LogicalTypeMythUnitThatGeneratesFavor" condition="Damage" resourcetype="Favor">0.5</bountyreward>
+			<bountyreward protounit="Hersir" condition="Damage" resourcetype="Favor">1.25</bountyreward>
+			<bountyreward protounit="Jarl" condition="Damage" resourcetype="Favor">1.25</bountyreward>
+			<bountyreward protounit="Godi" condition="Damage" resourcetype="Favor">1.25</bountyreward>
+			<bountyreward protounit="RaidingCavalry" condition="Damage" resourcetype="Favor">1.25</bountyreward>
+			<bountytargetmultiplier unittype="Huntable" condition="Damage" resourcetype="Favor">2.0</bountytargetmultiplier>
+			<bountytargetmultiplier unittype="Herdable" condition="Damage" resourcetype="Favor">20.0</bountytargetmultiplier>
+			<bountytargetmultiplier unittype="NonConvertableHerdable" condition="Damage" resourcetype="Favor">20.0</bountytargetmultiplier>
+			<bountytargetmultiplier unittype="Building" condition="Damage" resourcetype="Favor">0.1</bountytargetmultiplier>
+			<bountytargetmultiplier unittype="LogicalTypeBuildingsThatShoot" condition="Damage" resourcetype="Favor">0.5</bountytargetmultiplier>
+		</bountyresourceearning>
+	</civ>
+	<civ>
+		<name>Loki</name>
+		<statsid>SP</statsid>
+		<key>N</key>
+		<culture>Norse</culture>
+		<displaynameid>STR_CIV_LOKI</displaynameid>
+		<rollovernameid>STR_CIV_LOKI_LR</rollovernameid>
+		<titleid>STR_CIV_LOKI_T</titleid>
+		<agetech age="ArchaicAge">
+			<tech>ArchaicAgeLoki</tech>
+		</agetech>
+		<deathmatchtech>DeathMatchNorse</deathmatchtech>
+		<buildingefficiency>0.6</buildingefficiency>
+		<extrabuildingefficiency>0.3</extrabuildingefficiency>
+		<startingunits>
+			<unit count="3" delay="2.00" x="-4.00" y="0.00" z="-6.00">VillagerNorse</unit>
+			<unit count="1" delay="3.00" x="-10.00" y="0.00" z="-5.00">OxCart</unit>
+			<unit count="1" delay="4.50" x="6.00" y="0.00" z="-5.00">Berserk</unit>
+		</startingunits>
+		<startingunits mode="deathmatch">
+			<unit count="5" delay="1.00" x="0.00" y="0.00" z="0.00">Berserk</unit>
+		</startingunits>
+		<startingqueue>
+			<unit autotrain="true">VillagerNorse</unit>
+		</startingqueue>
+		<startingresources>
+			<food>200</food>
+			<wood>150</wood>
+			<gold>100</gold>
+		</startingresources>
+		<startingresources mode="deathmatch">
+			<food>18000</food>
+			<wood>18000</wood>
+			<gold>18000</gold>
+			<favor>200</favor>
+		</startingresources>
+		<icon>resources\norse\static_color\major_gods\loki_icon.png</icon>
+		<portrait>resources\norse\static_color\major_gods\loki_portrait.png</portrait>
+		<breakoutportrait>resources\norse\static_color\major_gods\loki_breakoutportrait.png</breakoutportrait>
+		<minimapborderimage>ui\ingame\minimap\nrs_min_panel</minimapborderimage>
+		<backgroundscenario>backgrounds\\background_norse.mythscn</backgroundscenario>
+		<bountyresourceearning>
+			<active>true</active>
+			<excludedtarget>AbstractWall</excludedtarget>
+			<bountydamagegoal>80.0</bountydamagegoal>
+			<bountyreductionstart>100.0</bountyreductionstart>
+			<bountyreductionend>300.0</bountyreductionend>
+			<bountyreductionstrength>0.5</bountyreductionstrength>
+			<bountyreward unittype="Ship" condition="Damage" resourcetype="Favor">0.5</bountyreward>
+			<bountyreward unittype="AbstractVillager" condition="Damage" resourcetype="Favor">1.0</bountyreward>
+			<bountyreward unittype="HumanSoldier" condition="Damage" resourcetype="Favor">1.0</bountyreward>
+			<bountyreward unittype="Hero" condition="Damage" resourcetype="Favor">1.0</bountyreward>
+			<bountyreward protounit="RaidingCavalry" condition="Damage" resourcetype="Favor">1.0</bountyreward>
+			<bountyreward unittype="LogicalTypeMythUnitThatGeneratesFavor" condition="Damage" resourcetype="Favor">0.5</bountyreward>
+			<bountytargetmultiplier unittype="Huntable" condition="Damage" resourcetype="Favor">2.0</bountytargetmultiplier>
+			<bountytargetmultiplier unittype="Herdable" condition="Damage" resourcetype="Favor">30.0</bountytargetmultiplier>
+			<bountytargetmultiplier unittype="NonConvertableHerdable" condition="Damage" resourcetype="Favor">30.0</bountytargetmultiplier>
+			<bountytargetmultiplier unittype="Building" condition="Damage" resourcetype="Favor">0.1</bountytargetmultiplier>
+			<bountytargetmultiplier unittype="LogicalTypeBuildingsThatShoot" condition="Damage" resourcetype="Favor">0.5</bountytargetmultiplier>
+		</bountyresourceearning>
+		<bonusunitspawning>
+			<damagegoal name="LokiSpawn" rewardtracking="Single">
+				<goalamount>1.0</goalamount>
+				<spawnlocation type="DamageTarget"></spawnlocation>
+				<reward>MythUnit</reward>
+				<excludefromreward>Dryad</excludefromreward>
+				<excludefromreward>Kraken</excludefromreward>
+				<excludefromreward>JormunElver</excludefromreward>
+				<excludedtarget>Building</excludedtarget>
+				<excludedtarget>MythUnit</excludedtarget>
+				<contributor unit="Hersir">0.5</contributor>
+				<contributor unit="Godi">0.1</contributor>
+				<contributor type="HumanSoldier">0.1</contributor>
+				<rewardpointcost resourcetype="Food">1.0</rewardpointcost>
+				<rewardpointcost resourcetype="Wood">1.0</rewardpointcost>
+				<rewardpointcost resourcetype="Gold">1.0</rewardpointcost>
+				<rewardpointcost resourcetype="Favor">10.0</rewardpointcost>
+			</damagegoal>
+		</bonusunitspawning>
+	</civ>
+	<civ>
+		<name>Kronos</name>
+		<statsid>SP</statsid>
+		<key>A</key>
+		<culture>Atlantean</culture>
+		<displaynameid>STR_CIV_KRONOS</displaynameid>
+		<rollovernameid>STR_CIV_KRONOS_LR</rollovernameid>
+		<titleid>STR_CIV_KRONOS_T</titleid>
+		<agetech age="ArchaicAge">
+			<tech>ArchaicAgeKronos</tech>
+		</agetech>
+		<deathmatchtech>DeathMatchAtlantean</deathmatchtech>
+		<buildingefficiency>0.6</buildingefficiency>
+		<extrabuildingefficiency>0.3</extrabuildingefficiency>
+		<startingunits>
+			<unit count="1" delay="6.00" x="19.00" y="0.00" z="40.00">Oracle</unit>
+			<unit count="1" delay="10.00" x="-45.00" y="0.00" z="25.00">Oracle</unit>
+			<unit count="1" delay="14.00" x="12.00" y="0.00" z="-25.00">Oracle</unit>
+			<unit count="2" delay="2.00" x="-2.00" y="0.00" z="0.00">VillagerAtlantean</unit>
+		</startingunits>
+		<startingunits mode="deathmatch">
+			<unit count="1" delay="4.00" x="7.00" y="0.00" z="28.00">Oracle</unit>
+			<unit count="1" delay="4.00" x="-20.00" y="0.00" z="28.00">Oracle</unit>
+			<unit count="1" delay="4.00" x="9.00" y="0.00" z="-8.00">Oracle</unit>
+			<unit count="6" delay="2.00" x="0.00" y="0.00" z="0.00">VillagerAtlantean</unit>
+		</startingunits>
+		<startingqueue>
+			<unit autotrain="true">VillagerAtlantean</unit>
+		</startingqueue>
+		<startingresources>
+			<food>275</food>
+			<wood>250</wood>
+			<gold>75</gold>
+		</startingresources>
+		<startingresources mode="deathmatch">
+			<food>18000</food>
+			<wood>18000</wood>
+			<gold>18000</gold>
+			<favor>200</favor>
+		</startingresources>
+		<icon>resources\atlantean\static_color\major_gods\kronos_icon.png</icon>
+		<portrait>resources\atlantean\static_color\major_gods\kronos_portrait.png</portrait>
+		<breakoutportrait>resources\atlantean\static_color\major_gods\kronos_breakoutportrait.png</breakoutportrait>
+		<minimapborderimage>ui\ingame\minimap\atl_min_panel</minimapborderimage>
+		<backgroundscenario>backgrounds\\background_atlantis.mythscn</backgroundscenario>
+		<timeshifting maxconcurrenttimeshifts="1">
+			<protounit costratio="0.0" timeratio="0.50">Manor</protounit>
+			<protounit costratio="0.0" timeratio="0.50">Farm</protounit>
+			<protounit costratio="0.0" timeratio="0.50">EconomicGuild</protounit>
+			<protounit costratio="0.0" timeratio="0.50">MilitaryBarracks</protounit>
+			<protounit costratio="0.0" timeratio="0.50">CounterBarracks</protounit>
+			<protounit costratio="0.0" timeratio="0.50">Dock</protounit>
+			<protounit costratio="0.0" timeratio="0.50">Temple</protounit>
+			<protounit costratio="0.0" timeratio="0.50">Armory</protounit>
+			<protounit costratio="0.0" timeratio="0.50">Market</protounit>
+			<protounit costratio="0.50" timeratio="0.667">Palace</protounit>
+			<protounit costratio="0.50" timeratio="0.667">SentryTower</protounit>
+			<protounit costratio="0.50" timeratio="0.667">MirrorTower</protounit>
+		</timeshifting>
+	</civ>
+	<civ>
+		<name>Oranos</name>
+		<statsid>SP</statsid>
+		<key>A</key>
+		<culture>Atlantean</culture>
+		<displaynameid>STR_CIV_ORANOS</displaynameid>
+		<rollovernameid>STR_CIV_ORANOS_LR</rollovernameid>
+		<titleid>STR_CIV_ORANOS_T</titleid>
+		<agetech age="ArchaicAge">
+			<tech>ArchaicAgeOranos</tech>
+		</agetech>
+		<deathmatchtech>DeathMatchAtlantean</deathmatchtech>
+		<buildingefficiency>0.6</buildingefficiency>
+		<extrabuildingefficiency>0.3</extrabuildingefficiency>
+		<startingunits>
+			<unit count="1" delay="6.00" x="19.00" y="0.00" z="40.00">Oracle</unit>
+			<unit count="1" delay="10.00" x="-45.00" y="0.00" z="25.00">Oracle</unit>
+			<unit count="1" delay="14.00" x="12.00" y="0.00" z="-25.00">Oracle</unit>
+			<unit count="2" delay="2.00" x="-2.00" y="0.00" z="0.00">VillagerAtlantean</unit>
+		</startingunits>
+		<startingunits mode="deathmatch">
+			<unit count="1" delay="4.00" x="7.00" y="0.00" z="28.00">Oracle</unit>
+			<unit count="1" delay="4.00" x="-20.00" y="0.00" z="28.00">Oracle</unit>
+			<unit count="1" delay="4.00" x="9.00" y="0.00" z="-8.00">Oracle</unit>
+			<unit count="6" delay="2.00" x="0.00" y="0.00" z="0.00">VillagerAtlantean</unit>
+		</startingunits>
+		<startingqueue>
+			<unit autotrain="true">VillagerAtlantean</unit>
+		</startingqueue>
+		<startingresources>
+			<food>275</food>
+			<wood>250</wood>
+			<gold>75</gold>
+		</startingresources>
+		<startingresources mode="deathmatch">
+			<food>18000</food>
+			<wood>18000</wood>
+			<gold>18000</gold>
+			<favor>200</favor>
+		</startingresources>
+		<icon>resources\atlantean\static_color\major_gods\oranos_icon.png</icon>
+		<portrait>resources\atlantean\static_color\major_gods\oranos_portrait.png</portrait>
+		<breakoutportrait>resources\atlantean\static_color\major_gods\oranos_breakoutportrait.png</breakoutportrait>
+		<minimapborderimage>ui\ingame\minimap\atl_min_panel</minimapborderimage>
+		<backgroundscenario>backgrounds\\background_atlantis.mythscn</backgroundscenario>
+	</civ>
+	<civ>
+		<name>Gaia</name>
+		<statsid>SP</statsid>
+		<key>A</key>
+		<culture>Atlantean</culture>
+		<displaynameid>STR_CIV_GAIA</displaynameid>
+		<rollovernameid>STR_CIV_GAIA_LR</rollovernameid>
+		<titleid>STR_CIV_GAIA_T</titleid>
+		<agetech age="ArchaicAge">
+			<tech>ArchaicAgeGaia</tech>
+		</agetech>
+		<deathmatchtech>DeathMatchAtlantean</deathmatchtech>
+		<buildingefficiency>0.6</buildingefficiency>
+		<extrabuildingefficiency>0.3</extrabuildingefficiency>
+		<startingunits>
+			<unit count="1" delay="6.00" x="19.00" y="0.00" z="40.00">Oracle</unit>
+			<unit count="1" delay="10.00" x="-45.00" y="0.00" z="25.00">Oracle</unit>
+			<unit count="1" delay="14.00" x="12.00" y="0.00" z="-25.00">Oracle</unit>
+			<unit count="2" delay="2.00" x="-2.00" y="0.00" z="0.00">VillagerAtlanteanHero</unit>
+		</startingunits>
+		<startingunits mode="deathmatch">
+			<unit count="1" delay="4.00" x="7.00" y="0.00" z="28.00">Oracle</unit>
+			<unit count="1" delay="4.00" x="-20.00" y="0.00" z="28.00">Oracle</unit>
+			<unit count="1" delay="4.00" x="9.00" y="0.00" z="-8.00">Oracle</unit>
+			<unit count="6" delay="2.00" x="0.00" y="0.00" z="0.00">VillagerAtlanteanHero</unit>
+		</startingunits>
+		<startingqueue>
+			<unit autotrain="true">VillagerAtlantean</unit>
+		</startingqueue>
+		<startingresources>
+			<food>275</food>
+			<wood>250</wood>
+			<gold>75</gold>
+		</startingresources>
+		<startingresources mode="deathmatch">
+			<food>18000</food>
+			<wood>18000</wood>
+			<gold>18000</gold>
+			<favor>200</favor>
+		</startingresources>
+		<icon>resources\atlantean\static_color\major_gods\gaia_icon.png</icon>
+		<portrait>resources\atlantean\static_color\major_gods\gaia_portrait.png</portrait>
+		<breakoutportrait>resources\atlantean\static_color\major_gods\gaia_breakoutportrait.png</breakoutportrait>
+		<minimapborderimage>ui\ingame\minimap\atl_min_panel</minimapborderimage>
+		<backgroundscenario>backgrounds\\background_atlantis.mythscn</backgroundscenario>
+		<terraincreeps>
+			<terraincreep creep="GaiaCreep" maxradius="24.0" growthrate="0.50" decayrate="0.5" minupdateinterval="3.0" maxupdateinterval="4.0" avoidunbuildable="" avoidimpassable="">
+				<protounit>TownCenter</protounit>
+				<protounit>VillageCenter</protounit>
+				<protounit>CitadelCenter</protounit>
+				<protounit>Manor</protounit>
+				<protounit>EconomicGuild</protounit>
+				<protounit>Market</protounit>
+			</terraincreep>
+		</terraincreeps>
+	</civ>
+	<civ>
+		<name>Freyr</name>
+		<statsid>SP</statsid>
+		<key>N</key>
+		<culture>Norse</culture>
+		<displaynameid>STR_CIV_FREYR</displaynameid>
+		<rollovernameid>STR_CIV_FREYR_LR</rollovernameid>
+		<titleid>STR_CIV_FREYR_T</titleid>
+		<agetech age="ArchaicAge">
+			<tech>ArchaicAgeFreyr</tech>
+		</agetech>
+		<deathmatchtech>DeathMatchNorse</deathmatchtech>
+		<buildingefficiency>0.3</buildingefficiency>
+		<buildingrepairfactor>0.0</buildingrepairfactor>
+		<startingunits>
+			<unit count="3" delay="2.00" x="-4.00" y="0.00" z="-6.00">VillagerNorse</unit>
+			<unit count="1" delay="3.00" x="-10.00" y="0.00" z="-5.00">OxCart</unit>
+			<unit count="1" delay="4.50" x="6.00" y="0.00" z="-5.00">Berserk</unit>
+		</startingunits>
+		<startingunits mode="deathmatch">
+			<unit count="5" delay="1.00" x="0.00" y="0.00" z="0.00">Berserk</unit>
+		</startingunits>
+		<startingqueue>
+			<unit autotrain="true">VillagerNorse</unit>
+		</startingqueue>
+		<startingresources>
+			<food>200</food>
+			<wood>150</wood>
+			<gold>100</gold>
+		</startingresources>
+		<startingresources mode="deathmatch">
+			<food>18000</food>
+			<wood>18000</wood>
+			<gold>18000</gold>
+			<favor>200</favor>
+		</startingresources>
+		<icon>resources\norse_freyr\static_color\major_gods\freyr_icon.png</icon>
+		<portrait>resources\norse_freyr\static_color\major_gods\freyr_portrait.png</portrait>
+		<breakoutportrait>resources\norse_freyr\static_color\major_gods\freyr_breakoutportrait.png</breakoutportrait>
+		<minimapborderimage>ui\ingame\minimap\nrs_min_panel</minimapborderimage>
+		<backgroundscenario>backgrounds\\background_norse.mythscn</backgroundscenario>
+		<bountyresourceearning>
+			<active>true</active>
+			<excludedtarget>AbstractWall</excludedtarget>
+			<bountydamagegoal>80.0</bountydamagegoal>
+			<bountyreductionstart>100.0</bountyreductionstart>
+			<bountyreductionend>300.0</bountyreductionend>
+			<bountyreductionstrength>0.5</bountyreductionstrength>
+			<bountyreward unittype="Ship" condition="Damage" resourcetype="Favor">0.5</bountyreward>
+			<bountyreward unittype="AbstractVillager" condition="Damage" resourcetype="Favor">1.0</bountyreward>
+			<bountyreward unittype="HumanSoldier" condition="Damage" resourcetype="Favor">1.0</bountyreward>
+			<bountyreward unittype="Hero" condition="Damage" resourcetype="Favor">1.0</bountyreward>
+			<bountyreward unittype="LogicalTypeMythUnitThatGeneratesFavor" condition="Damage" resourcetype="Favor">0.5</bountyreward>
+			<bountytargetmultiplier unittype="Huntable" condition="Damage" resourcetype="Favor">2.0</bountytargetmultiplier>
+			<bountytargetmultiplier unittype="Herdable" condition="Damage" resourcetype="Favor">30.0</bountytargetmultiplier>
+			<bountytargetmultiplier unittype="NonConvertableHerdable" condition="Damage" resourcetype="Favor">30.0</bountytargetmultiplier>
+			<bountytargetmultiplier unittype="Building" condition="Damage" resourcetype="Favor">0.1</bountytargetmultiplier>
+			<bountytargetmultiplier unittype="LogicalTypeBuildingsThatShoot" condition="Damage" resourcetype="Favor">0.5</bountytargetmultiplier>
+		</bountyresourceearning>
+	</civ>
+	<civ>
+		<name>Fuxi</name>
+		<statsid>SP</statsid>
+		<key>C</key>
+		<culture>Chinese</culture>
+		<displaynameid>STR_CIV_FUXI</displaynameid>
+		<rollovernameid>STR_CIV_FUXI_LR</rollovernameid>
+		<titleid>STR_CIV_FUXI_T</titleid>
+		<agetech age="ArchaicAge">
+			<tech>ArchaicAgeFuxi</tech>
+		</agetech>
+		<deathmatchtech>DeathMatchChinese</deathmatchtech>
+		<buildingefficiency>0.6</buildingefficiency>
+		<extrabuildingefficiency>0.3</extrabuildingefficiency>
+		<startingunits>
+			<unit count="2" delay="2.00" x="-4.00" y="0.00" z="-6.00">VillagerChinese</unit>
+			<unit count="1" delay="3.00" x="-10.00" y="0.00" z="-5.00">Kuafu</unit>
+			<unit count="1" delay="4.50" x="6.00" y="0.00" z="-5.00">Pioneer</unit>
+		</startingunits>
+		<startingunits mode="deathmatch">
+			<unit count="5" delay="2.00" x="0.00" y="0.00" z="0.00">VillagerChinese</unit>
+			<unit count="1" delay="2.00" x="0.00" y="0.00" z="0.00">Kuafu</unit>
+			<unit count="1" delay="4.00" x="-12.00" y="0.00" z="0.00">Pioneer</unit>
+		</startingunits>
+		<startingqueue>
+			<unit autotrain="true">VillagerChinese</unit>
+		</startingqueue>
+		<startingresources>
+			<food>200</food>
+			<wood>200</wood>
+			<gold>100</gold>
+		</startingresources>
+		<startingresources mode="deathmatch">
+			<food>18000</food>
+			<wood>18000</wood>
+			<gold>18000</gold>
+			<favor>200</favor>
+		</startingresources>
+		<icon>resources\chinese\static_color\major_gods\fuxi_icon.png</icon>
+		<portrait>resources\chinese\static_color\major_gods\fuxi_portrait.png</portrait>
+		<breakoutportrait>resources\chinese\static_color\major_gods\fuxi_breakoutportrait.png</breakoutportrait>
+		<minimapborderimage>ui\ingame\minimap\chi_min_panel</minimapborderimage>
+		<backgroundscenario>backgrounds\\background_chinese.mythscn</backgroundscenario>
+		<buildingchain>
+			<anchor vfx="VFXFavorGlow">AbstractTownCenter</anchor>
+			<abundancevfx small="VFXAbundanceSmall" medium="VFXAbundanceMedium" large="VFXAbundanceLarge"></abundancevfx>
+			<chainablebuilding generationresource="Favor" chainradius="20.0">TownCenter</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="20.0">CitadelCenter</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="15.0">VillageCenter</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="6.0">House</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="6.0">TentSPC</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="10.0">Dock</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="12.0">Temple</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="12.0">SentryTower</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="12.0">Armory</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="12.0">Market</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="25.0">Wonder</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="25.0">CitadelCenter</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="6.0">Silo</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="12.0">MachineWorkshop</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="12.0">MachineWorkshopTower</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="12.0">MachineWorkshopTrainingYard</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="10.0">MilitaryCamp</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="10.0">MilitaryCampTower</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="10.0">MilitaryCampTrainingYard</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="12.0">ImperialAcademy</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="25.0">Baolei</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="15.0">ThePeachBlossomSpring</chainablebuilding>
+			<resourcegeneration>
+				<tilerateperminutetier resource="Favor" mintiles="0">0.01</tilerateperminutetier>
+				<tilerateperminutetier resource="Favor" mintiles="3000">0.005</tilerateperminutetier>
+				<tilerateperminutetier resource="Favor" mintiles="5000">0.001</tilerateperminutetier>
+			</resourcegeneration>
+		</buildingchain>
+		<bountyresourceearning>
+			<active>false</active>
+			<vfx>VFXCoinBurst</vfx>
+			<excludedtarget>AbstractWall</excludedtarget>
+			<bountyreward unittype="AbstractTownCenter" resourcetype="Wood" condition="Destroy">175.0</bountyreward>
+			<bountyreward unittype="AbstractTownCenter" resourcetype="Gold" condition="Destroy">175.0</bountyreward>
+			<bountyreward unittype="House" resourcetype="Wood" condition="Destroy">25.0</bountyreward>
+			<bountyreward unittype="Granary" resourcetype="Wood" condition="Destroy">25.0</bountyreward>
+			<bountyreward unittype="Temple" resourcetype="Wood" condition="Destroy">75.0</bountyreward>
+			<bountyreward unittype="Temple" resourcetype="Gold" condition="Destroy">75.0</bountyreward>
+			<bountyreward unittype="Dock" resourcetype="Wood" condition="Destroy">50.0</bountyreward>
+			<bountyreward unittype="AbstractArmory" resourcetype="Wood" condition="Destroy">75.0</bountyreward>
+			<bountyreward unittype="Market" resourcetype="Wood" condition="Destroy">75.0</bountyreward>
+			<bountyreward unittype="AbstractFarm" resourcetype="Wood" condition="Destroy">37.5</bountyreward>
+			<bountyreward unittype="SentryTower" resourcetype="Wood" condition="Destroy">75.0</bountyreward>
+			<bountyreward unittype="SentryTower" resourcetype="Gold" condition="Destroy">50.0</bountyreward>
+			<bountyreward unittype="Wonder" resourcetype="Food" condition="Destroy">2500.0</bountyreward>
+			<bountyreward unittype="Wonder" resourcetype="Wood" condition="Destroy">2500.0</bountyreward>
+			<bountyreward unittype="Wonder" resourcetype="Gold" condition="Destroy">2500.0</bountyreward>
+			<bountyreward unittype="Storehouse" resourcetype="Wood" condition="Destroy">25.0</bountyreward>
+			<bountyreward unittype="ArcheryRange" resourcetype="Wood" condition="Destroy">50.0</bountyreward>
+			<bountyreward unittype="Stable" resourcetype="Wood" condition="Destroy">50.0</bountyreward>
+			<bountyreward unittype="MilitaryAcademy" resourcetype="Wood" condition="Destroy">50.0</bountyreward>
+			<bountyreward unittype="Fortress" resourcetype="Wood" condition="Destroy">150.0</bountyreward>
+			<bountyreward unittype="Fortress" resourcetype="Gold" condition="Destroy">150.0</bountyreward>
+			<bountyreward unittype="Obelisk" resourcetype="Gold" condition="Destroy">5.0</bountyreward>
+			<bountyreward unittype="LumberCamp" resourcetype="Wood" condition="Destroy">25.0</bountyreward>
+			<bountyreward unittype="MiningCamp" resourcetype="Wood" condition="Destroy">25.0</bountyreward>
+			<bountyreward unittype="MonumentToVillagers" resourcetype="Food" condition="Destroy">25.0</bountyreward>
+			<bountyreward unittype="MonumentToVillagers" resourcetype="Gold" condition="Destroy">25.0</bountyreward>
+			<bountyreward unittype="MonumentToSoldiers" resourcetype="Food" condition="Destroy">50.0</bountyreward>
+			<bountyreward unittype="MonumentToSoldiers" resourcetype="Gold" condition="Destroy">50.0</bountyreward>
+			<bountyreward unittype="MonumentToPriests" resourcetype="Food" condition="Destroy">100.0</bountyreward>
+			<bountyreward unittype="MonumentToPriests" resourcetype="Gold" condition="Destroy">100.0</bountyreward>
+			<bountyreward unittype="MonumentToPharaohs" resourcetype="Food" condition="Destroy">150.0</bountyreward>
+			<bountyreward unittype="MonumentToPharaohs" resourcetype="Gold" condition="Destroy">150.0</bountyreward>
+			<bountyreward unittype="MonumentToGods" resourcetype="Food" condition="Destroy">350.0</bountyreward>
+			<bountyreward unittype="MonumentToGods" resourcetype="Gold" condition="Destroy">350.0</bountyreward>
+			<bountyreward unittype="Barracks" resourcetype="Gold" condition="Destroy">37.5</bountyreward>
+			<bountyreward unittype="SiegeWorks" resourcetype="Gold" condition="Destroy">37.5</bountyreward>
+			<bountyreward unittype="Lighthouse" resourcetype="Gold" condition="Destroy">150.0</bountyreward>
+			<bountyreward unittype="MigdolStronghold" resourcetype="Gold" condition="Destroy">250.0</bountyreward>
+			<bountyreward unittype="OxCart" resourcetype="Food" condition="Destroy">25.0</bountyreward>
+			<bountyreward unittype="OxCart" resourcetype="Wood" condition="Destroy">25.0</bountyreward>
+			<bountyreward unittype="Longhouse" resourcetype="Wood" condition="Destroy">45.0</bountyreward>
+			<bountyreward unittype="GreatHall" resourcetype="Wood" condition="Destroy">67.5</bountyreward>
+			<bountyreward unittype="HillFort" resourcetype="Wood" condition="Destroy">135.0</bountyreward>
+			<bountyreward unittype="HillFort" resourcetype="Gold" condition="Destroy">150.0</bountyreward>
+			<bountyreward unittype="AsgardianHillFort" resourcetype="Wood" condition="Destroy">135.0</bountyreward>
+			<bountyreward unittype="AsgardianHillFort" resourcetype="Gold" condition="Destroy">150.0</bountyreward>
+			<bountyreward unittype="Manor" resourcetype="Wood" condition="Destroy">40.0</bountyreward>
+			<bountyreward unittype="Manor" resourcetype="Gold" condition="Destroy">10.0</bountyreward>
+			<bountyreward unittype="EconomicGuild" resourcetype="Wood" condition="Destroy">25.0</bountyreward>
+			<bountyreward unittype="EconomicGuild" resourcetype="Gold" condition="Destroy">7.5</bountyreward>
+			<bountyreward unittype="SkyPassage" resourcetype="Wood" condition="Destroy">25.0</bountyreward>
+			<bountyreward unittype="MilitaryBarracks" resourcetype="Wood" condition="Destroy">37.5</bountyreward>
+			<bountyreward unittype="MilitaryBarracks" resourcetype="Gold" condition="Destroy">17.5</bountyreward>
+			<bountyreward unittype="CounterBarracks" resourcetype="Wood" condition="Destroy">50.0</bountyreward>
+			<bountyreward unittype="CounterBarracks" resourcetype="Gold" condition="Destroy">12.5</bountyreward>
+			<bountyreward unittype="Palace" resourcetype="Wood" condition="Destroy">150.0</bountyreward>
+			<bountyreward unittype="Palace" resourcetype="Gold" condition="Destroy">150.0</bountyreward>
+			<bountyreward unittype="MirrorTower" resourcetype="Wood" condition="Destroy">37.5</bountyreward>
+			<bountyreward unittype="MirrorTower" resourcetype="Gold" condition="Destroy">25.0</bountyreward>
+			<bountyreward unittype="Silo" resourcetype="Wood" condition="Destroy">25.0</bountyreward>
+			<bountyreward unittype="MilitaryCamp" resourcetype="Wood" condition="Destroy">50.0</bountyreward>
+			<bountyreward unittype="MilitaryCampTower" resourcetype="Wood" condition="Destroy">87.5</bountyreward>
+			<bountyreward unittype="MilitaryCampTower" resourcetype="Gold" condition="Destroy">37.5</bountyreward>
+			<bountyreward unittype="MilitaryCampTrainingYard" resourcetype="Food" condition="Destroy">50.0</bountyreward>
+			<bountyreward unittype="MilitaryCampTrainingYard" resourcetype="Wood" condition="Destroy">75.0</bountyreward>
+			<bountyreward unittype="MachineWorkshop" resourcetype="Wood" condition="Destroy">62.5</bountyreward>
+			<bountyreward unittype="MachineWorkshop" resourcetype="Gold" condition="Destroy">12.5</bountyreward>
+			<bountyreward unittype="MachineWorkshopTower" resourcetype="Wood" condition="Destroy">100.0</bountyreward>
+			<bountyreward unittype="MachineWorkshopTower" resourcetype="Gold" condition="Destroy">50.0</bountyreward>
+			<bountyreward unittype="MachineWorkshopTrainingYard" resourcetype="Wood" condition="Destroy">112.5</bountyreward>
+			<bountyreward unittype="MachineWorkshopTrainingYard" resourcetype="Gold" condition="Destroy">37.5</bountyreward>
+			<bountyreward unittype="ImperialAcademy" resourcetype="Wood" condition="Destroy">50.0</bountyreward>
+			<bountyreward unittype="ImperialAcademy" resourcetype="Gold" condition="Destroy">50.0</bountyreward>
+			<bountyreward unittype="Baolei" resourcetype="Wood" condition="Destroy">150.0</bountyreward>
+			<bountyreward unittype="Baolei" resourcetype="Gold" condition="Destroy">150.0</bountyreward>
+		</bountyresourceearning>
+	</civ>
+	<civ>
+		<name>Nuwa</name>
+		<statsid>SP</statsid>
+		<key>C</key>
+		<culture>Chinese</culture>
+		<displaynameid>STR_CIV_NUWA</displaynameid>
+		<rollovernameid>STR_CIV_NUWA_LR</rollovernameid>
+		<titleid>STR_CIV_NUWA_T</titleid>
+		<agetech age="ArchaicAge">
+			<tech>ArchaicAgeNuwa</tech>
+		</agetech>
+		<deathmatchtech>DeathMatchChinese</deathmatchtech>
+		<buildingefficiency>0.6</buildingefficiency>
+		<extrabuildingefficiency>0.3</extrabuildingefficiency>
+		<startingunits>
+			<unit count="2" delay="2.00" x="-4.00" y="0.00" z="-6.00">VillagerChinese</unit>
+			<unit count="1" delay="3.00" x="-10.00" y="0.00" z="-5.00">Kuafu</unit>
+			<unit count="1" delay="4.50" x="6.00" y="0.00" z="-5.00">Pioneer</unit>
+		</startingunits>
+		<startingunits mode="deathmatch">
+			<unit count="5" delay="2.00" x="0.00" y="0.00" z="0.00">VillagerChinese</unit>
+			<unit count="1" delay="4.00" x="-12.00" y="0.00" z="0.00">Pioneer</unit>
+		</startingunits>
+		<startingqueue>
+			<unit autotrain="true">VillagerChinese</unit>
+		</startingqueue>
+		<startingresources>
+			<food>200</food>
+			<wood>200</wood>
+			<gold>100</gold>
+		</startingresources>
+		<startingresources mode="deathmatch">
+			<food>18000</food>
+			<wood>18000</wood>
+			<gold>18000</gold>
+			<favor>200</favor>
+		</startingresources>
+		<icon>resources\chinese\static_color\major_gods\nuwa_icon.png</icon>
+		<portrait>resources\chinese\static_color\major_gods\nuwa_portrait.png</portrait>
+		<breakoutportrait>resources\chinese\static_color\major_gods\nuwa_breakoutportrait.png</breakoutportrait>
+		<minimapborderimage>ui\ingame\minimap\chi_min_panel</minimapborderimage>
+		<backgroundscenario>backgrounds\\background_chinese.mythscn</backgroundscenario>
+		<buildingchain>
+			<anchor vfx="VFXFavorGlow">AbstractTownCenter</anchor>
+			<abundancevfx small="VFXAbundanceSmall" medium="VFXAbundanceMedium" large="VFXAbundanceLarge"></abundancevfx>
+			<autobuildvfx small="VFXAutoBuild" medium="VFXAutoBuild" large="VFXAutoBuild"></autobuildvfx>
+			<chainablebuilding generationresource="Favor" chainradius="21.0">TownCenter</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="21.0">CitadelCenter</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="16.0">VillageCenter</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="7.0">House</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="7.0">TentSPC</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="11.0">Dock</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="13.0">Temple</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="13.0">SentryTower</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="13.0">Armory</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="13.0">Market</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="26.0">Wonder</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="26.0">CitadelCenter</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="7.0">Silo</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="13.0">MachineWorkshop</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="13.0">MachineWorkshopTower</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="13.0">MachineWorkshopTrainingYard</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="11.0">MilitaryCamp</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="11.0">MilitaryCampTower</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="11.0">MilitaryCampTrainingYard</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="13.0">ImperialAcademy</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="26.0">Baolei</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="16.0">ThePeachBlossomSpring</chainablebuilding>
+			<resourcegeneration>
+				<tilerateperminutetier resource="Favor" mintiles="0">0.01</tilerateperminutetier>
+				<tilerateperminutetier resource="Favor" mintiles="3000">0.005</tilerateperminutetier>
+				<tilerateperminutetier resource="Favor" mintiles="5000">0.001</tilerateperminutetier>
+			</resourcegeneration>
+		</buildingchain>
+	</civ>
+	<civ>
+		<name>Shennong</name>
+		<statsid>SP</statsid>
+		<key>C</key>
+		<culture>Chinese</culture>
+		<displaynameid>STR_CIV_SHENNONG</displaynameid>
+		<rollovernameid>STR_CIV_SHENNONG_LR</rollovernameid>
+		<titleid>STR_CIV_SHENNONG_T</titleid>
+		<agetech age="ArchaicAge">
+			<tech>ArchaicAgeShennong</tech>
+		</agetech>
+		<deathmatchtech>DeathMatchChinese</deathmatchtech>
+		<buildingefficiency>0.6</buildingefficiency>
+		<extrabuildingefficiency>0.3</extrabuildingefficiency>
+		<startingunits>
+			<unit count="2" delay="2.00" x="-4.00" y="0.00" z="-6.00">VillagerChinese</unit>
+			<unit count="1" delay="3.00" x="-10.00" y="0.00" z="-5.00">Kuafu</unit>
+			<unit count="1" delay="4.50" x="6.00" y="0.00" z="-5.00">Pioneer</unit>
+		</startingunits>
+		<startingunits mode="deathmatch">
+			<unit count="5" delay="2.00" x="0.00" y="0.00" z="0.00">VillagerChinese</unit>
+			<unit count="1" delay="2.00" x="0.00" y="0.00" z="0.00">Kuafu</unit>
+			<unit count="1" delay="4.00" x="-12.00" y="0.00" z="0.00">Pioneer</unit>
+		</startingunits>
+		<startingqueue>
+			<unit autotrain="true">VillagerChinese</unit>
+		</startingqueue>
+		<startingresources>
+			<food>200</food>
+			<wood>200</wood>
+			<gold>100</gold>
+		</startingresources>
+		<startingresources mode="deathmatch">
+			<food>18000</food>
+			<wood>18000</wood>
+			<gold>18000</gold>
+			<favor>200</favor>
+		</startingresources>
+		<icon>resources\chinese\static_color\major_gods\shennong_icon.png</icon>
+		<portrait>resources\chinese\static_color\major_gods\shennong_portrait.png</portrait>
+		<breakoutportrait>resources\chinese\static_color\major_gods\shennong_breakoutportrait.png</breakoutportrait>
+		<minimapborderimage>ui\ingame\minimap\chi_min_panel</minimapborderimage>
+		<backgroundscenario>backgrounds\\background_chinese.mythscn</backgroundscenario>
+		<buildingchain>
+			<anchor vfx="VFXFavorGlow">AbstractTownCenter</anchor>
+			<abundancevfx small="VFXAbundanceSmall" medium="VFXAbundanceMedium" large="VFXAbundanceLarge"></abundancevfx>
+			<chainablebuilding generationresource="Favor" chainradius="20.0">TownCenter</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="20.0">CitadelCenter</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="15.0">VillageCenter</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="6.0">House</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="6.0">TentSPC</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="10.0">Dock</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="12.0">Temple</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="12.0">SentryTower</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="12.0">Armory</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="12.0">Market</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="25.0">Wonder</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="25.0">CitadelCenter</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="6.0">Silo</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="12.0">MachineWorkshop</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="12.0">MachineWorkshopTower</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="12.0">MachineWorkshopTrainingYard</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="10.0">MilitaryCamp</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="10.0">MilitaryCampTower</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="10.0">MilitaryCampTrainingYard</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="12.0">ImperialAcademy</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="25.0">Baolei</chainablebuilding>
+			<chainablebuilding generationresource="Favor" chainradius="15.0">ThePeachBlossomSpring</chainablebuilding>
+			<resourcegeneration>
+				<tilerateperminutetier resource="Favor" mintiles="0">0.01</tilerateperminutetier>
+				<tilerateperminutetier resource="Favor" mintiles="3000">0.005</tilerateperminutetier>
+				<tilerateperminutetier resource="Favor" mintiles="5000">0.001</tilerateperminutetier>
+			</resourcegeneration>
+		</buildingchain>
+		<bonusunitspawning>
+			<resourcegoal name="ShennongSpawn" rewardtracking="Single">
+				<agerestricted>true</agerestricted>
+				<archaicspawn>true</archaicspawn>
+				<nextageonly>true</nextageonly>
+				<displayonhud>true</displayonhud>
+				<displayinfo>
+					<displaynameid>STR_ABILITY_SPAWN_REWARD</displaynameid>
+					<rolloverid>STR_ABILITY_SPAWN_REWARD_LR</rolloverid>
+					<progresstooltipid>STR_ABILITY_SPAWN_REWARD_PROG</progresstooltipid>
+					<nextunittooltipid>STR_ABILITY_SPAWN_REWARD_NEXT_UNIT</nextunittooltipid>
+					<progresstype>SpawnReward</progresstype>
+					<icon>chinese\static_color\god_powers\shennong_gift_classical.png</icon>
+					<notificationsound>GodBlessingCircleComplete</notificationsound>
+					<notificationmessageid>STR_ABILITY_SPAWN_REWARD_NOTIFICATION</notificationmessageid>
+				</displayinfo>
+				<goalamount>1</goalamount>
+				<reward>MythUnit</reward>
+				<contributor resource="Favor">1.0</contributor>
+				<excludefromreward>Dryad</excludefromreward>
+				<excludefromreward>PiXiu</excludefromreward>
+				<excludefromreward>ChiWen</excludefromreward>
+				<excludefromreward>XuanWu</excludefromreward>
+				<excludefromreward>Fei</excludefromreward>
+				<spawnlocation type="FromBuilding" landbuilding="Temple" waterbuilding="Dock"></spawnlocation>
+				<rewardpointcost resourcetype="Food">0.20</rewardpointcost>
+				<rewardpointcost resourcetype="Wood">0.20</rewardpointcost>
+				<rewardpointcost resourcetype="Gold">0.20</rewardpointcost>
+				<rewardpointcost resourcetype="Favor">0.60</rewardpointcost>
+			</resourcegoal>
+		</bonusunitspawning>
+		<bountyresourceearning>
+			<active>false</active>
+			<vfx>VFXCoinBurst</vfx>
+			<excludedtarget>AbstractWall</excludedtarget>
+			<bountyreward unittype="AbstractTownCenter" resourcetype="Wood" condition="Destroy">175.0</bountyreward>
+			<bountyreward unittype="AbstractTownCenter" resourcetype="Gold" condition="Destroy">175.0</bountyreward>
+			<bountyreward unittype="House" resourcetype="Wood" condition="Destroy">25.0</bountyreward>
+			<bountyreward unittype="Granary" resourcetype="Wood" condition="Destroy">25.0</bountyreward>
+			<bountyreward unittype="Temple" resourcetype="Wood" condition="Destroy">75.0</bountyreward>
+			<bountyreward unittype="Temple" resourcetype="Gold" condition="Destroy">75.0</bountyreward>
+			<bountyreward unittype="Dock" resourcetype="Wood" condition="Destroy">50.0</bountyreward>
+			<bountyreward unittype="AbstractArmory" resourcetype="Wood" condition="Destroy">75.0</bountyreward>
+			<bountyreward unittype="Market" resourcetype="Wood" condition="Destroy">75.0</bountyreward>
+			<bountyreward unittype="AbstractFarm" resourcetype="Wood" condition="Destroy">37.5</bountyreward>
+			<bountyreward unittype="SentryTower" resourcetype="Wood" condition="Destroy">75.0</bountyreward>
+			<bountyreward unittype="SentryTower" resourcetype="Gold" condition="Destroy">50.0</bountyreward>
+			<bountyreward unittype="Wonder" resourcetype="Food" condition="Destroy">2500.0</bountyreward>
+			<bountyreward unittype="Wonder" resourcetype="Wood" condition="Destroy">2500.0</bountyreward>
+			<bountyreward unittype="Wonder" resourcetype="Gold" condition="Destroy">2500.0</bountyreward>
+			<bountyreward unittype="Storehouse" resourcetype="Wood" condition="Destroy">25.0</bountyreward>
+			<bountyreward unittype="ArcheryRange" resourcetype="Wood" condition="Destroy">50.0</bountyreward>
+			<bountyreward unittype="Stable" resourcetype="Wood" condition="Destroy">50.0</bountyreward>
+			<bountyreward unittype="MilitaryAcademy" resourcetype="Wood" condition="Destroy">50.0</bountyreward>
+			<bountyreward unittype="Fortress" resourcetype="Wood" condition="Destroy">150.0</bountyreward>
+			<bountyreward unittype="Fortress" resourcetype="Gold" condition="Destroy">150.0</bountyreward>
+			<bountyreward unittype="Obelisk" resourcetype="Gold" condition="Destroy">5.0</bountyreward>
+			<bountyreward unittype="LumberCamp" resourcetype="Wood" condition="Destroy">25.0</bountyreward>
+			<bountyreward unittype="MiningCamp" resourcetype="Wood" condition="Destroy">25.0</bountyreward>
+			<bountyreward unittype="MonumentToVillagers" resourcetype="Food" condition="Destroy">25.0</bountyreward>
+			<bountyreward unittype="MonumentToVillagers" resourcetype="Gold" condition="Destroy">25.0</bountyreward>
+			<bountyreward unittype="MonumentToSoldiers" resourcetype="Food" condition="Destroy">50.0</bountyreward>
+			<bountyreward unittype="MonumentToSoldiers" resourcetype="Gold" condition="Destroy">50.0</bountyreward>
+			<bountyreward unittype="MonumentToPriests" resourcetype="Food" condition="Destroy">100.0</bountyreward>
+			<bountyreward unittype="MonumentToPriests" resourcetype="Gold" condition="Destroy">100.0</bountyreward>
+			<bountyreward unittype="MonumentToPharaohs" resourcetype="Food" condition="Destroy">150.0</bountyreward>
+			<bountyreward unittype="MonumentToPharaohs" resourcetype="Gold" condition="Destroy">150.0</bountyreward>
+			<bountyreward unittype="MonumentToGods" resourcetype="Food" condition="Destroy">350.0</bountyreward>
+			<bountyreward unittype="MonumentToGods" resourcetype="Gold" condition="Destroy">350.0</bountyreward>
+			<bountyreward unittype="Barracks" resourcetype="Gold" condition="Destroy">37.5</bountyreward>
+			<bountyreward unittype="SiegeWorks" resourcetype="Gold" condition="Destroy">37.5</bountyreward>
+			<bountyreward unittype="Lighthouse" resourcetype="Gold" condition="Destroy">150.0</bountyreward>
+			<bountyreward unittype="MigdolStronghold" resourcetype="Gold" condition="Destroy">250.0</bountyreward>
+			<bountyreward unittype="OxCart" resourcetype="Food" condition="Destroy">25.0</bountyreward>
+			<bountyreward unittype="OxCart" resourcetype="Wood" condition="Destroy">25.0</bountyreward>
+			<bountyreward unittype="Longhouse" resourcetype="Wood" condition="Destroy">45.0</bountyreward>
+			<bountyreward unittype="GreatHall" resourcetype="Wood" condition="Destroy">67.5</bountyreward>
+			<bountyreward unittype="HillFort" resourcetype="Wood" condition="Destroy">135.0</bountyreward>
+			<bountyreward unittype="HillFort" resourcetype="Gold" condition="Destroy">150.0</bountyreward>
+			<bountyreward unittype="AsgardianHillFort" resourcetype="Wood" condition="Destroy">135.0</bountyreward>
+			<bountyreward unittype="AsgardianHillFort" resourcetype="Gold" condition="Destroy">150.0</bountyreward>
+			<bountyreward unittype="Manor" resourcetype="Wood" condition="Destroy">40.0</bountyreward>
+			<bountyreward unittype="Manor" resourcetype="Gold" condition="Destroy">10.0</bountyreward>
+			<bountyreward unittype="EconomicGuild" resourcetype="Wood" condition="Destroy">25.0</bountyreward>
+			<bountyreward unittype="EconomicGuild" resourcetype="Gold" condition="Destroy">7.5</bountyreward>
+			<bountyreward unittype="SkyPassage" resourcetype="Wood" condition="Destroy">25.0</bountyreward>
+			<bountyreward unittype="MilitaryBarracks" resourcetype="Wood" condition="Destroy">37.5</bountyreward>
+			<bountyreward unittype="MilitaryBarracks" resourcetype="Gold" condition="Destroy">17.5</bountyreward>
+			<bountyreward unittype="CounterBarracks" resourcetype="Wood" condition="Destroy">50.0</bountyreward>
+			<bountyreward unittype="CounterBarracks" resourcetype="Gold" condition="Destroy">12.5</bountyreward>
+			<bountyreward unittype="Palace" resourcetype="Wood" condition="Destroy">150.0</bountyreward>
+			<bountyreward unittype="Palace" resourcetype="Gold" condition="Destroy">150.0</bountyreward>
+			<bountyreward unittype="MirrorTower" resourcetype="Wood" condition="Destroy">37.5</bountyreward>
+			<bountyreward unittype="MirrorTower" resourcetype="Gold" condition="Destroy">25.0</bountyreward>
+			<bountyreward unittype="Silo" resourcetype="Wood" condition="Destroy">25.0</bountyreward>
+			<bountyreward unittype="MilitaryCamp" resourcetype="Wood" condition="Destroy">50.0</bountyreward>
+			<bountyreward unittype="MilitaryCampTower" resourcetype="Wood" condition="Destroy">87.5</bountyreward>
+			<bountyreward unittype="MilitaryCampTower" resourcetype="Gold" condition="Destroy">37.5</bountyreward>
+			<bountyreward unittype="MilitaryCampTrainingYard" resourcetype="Food" condition="Destroy">50.0</bountyreward>
+			<bountyreward unittype="MilitaryCampTrainingYard" resourcetype="Wood" condition="Destroy">75.0</bountyreward>
+			<bountyreward unittype="MachineWorkshop" resourcetype="Wood" condition="Destroy">62.5</bountyreward>
+			<bountyreward unittype="MachineWorkshop" resourcetype="Gold" condition="Destroy">12.5</bountyreward>
+			<bountyreward unittype="MachineWorkshopTower" resourcetype="Wood" condition="Destroy">100.0</bountyreward>
+			<bountyreward unittype="MachineWorkshopTower" resourcetype="Gold" condition="Destroy">50.0</bountyreward>
+			<bountyreward unittype="MachineWorkshopTrainingYard" resourcetype="Wood" condition="Destroy">112.5</bountyreward>
+			<bountyreward unittype="MachineWorkshopTrainingYard" resourcetype="Gold" condition="Destroy">37.5</bountyreward>
+			<bountyreward unittype="ImperialAcademy" resourcetype="Wood" condition="Destroy">50.0</bountyreward>
+			<bountyreward unittype="ImperialAcademy" resourcetype="Gold" condition="Destroy">50.0</bountyreward>
+			<bountyreward unittype="Baolei" resourcetype="Wood" condition="Destroy">150.0</bountyreward>
+			<bountyreward unittype="Baolei" resourcetype="Gold" condition="Destroy">150.0</bountyreward>
+		</bountyresourceearning>
+	</civ>
+</civs>
