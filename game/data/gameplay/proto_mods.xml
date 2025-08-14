@@ -1,0 +1,225 @@
+<protomods>
+
+	
+	
+	<!-- ATLANTEAN -->
+	
+	<unit name="Oracle" mergeMode="replace">
+		<displaynameid>STR_UNIT_ORACLE_NAME</displaynameid>
+		<rollovertextid>STR_UNIT_ORACLE_LR</rollovertextid>
+		<shortrollovertextid>STR_UNIT_ORACLE_SR</shortrollovertextid>
+		<icon>resources\atlantean\player_color\units\oracle_icon.png</icon>
+		<minimapicon>ui\minimap\minimap_oracle</minimapicon>
+		<animfile>atlantean\units\infantry\oracle\oracle.xml</animfile>
+		<soundsetfile>atlantean\vo\oracle\oracle.xml</soundsetfile>
+		<obstructionradiusx>0.4900</obstructionradiusx>
+		<obstructionradiusz>0.4900</obstructionradiusz>
+		<impacttype>Unarmoured</impacttype>
+		<unitaitype>HandCombative</unitaitype>
+		<movementtype>land</movementtype>
+		<turnrate>18.0000</turnrate>
+		<initialhitpoints>90.0000</initialhitpoints>
+		<maxhitpoints>90.0000</maxhitpoints>
+		<trainpoints>9.0000</trainpoints>
+		<weightclass>5</weightclass> <!-- TO CHANGE -->
+		<populationcount>1</populationcount>
+		<maxvelocity>3.5000</maxvelocity>
+		<los>2.0000</los> <!-- not 7 because it's always the lowest when moving -->
+		<cost resourcetype="Food">25.0000</cost>
+		<cost resourcetype="Gold">35.0000</cost>
+		<armor type="Hack" value="0.15"></armor>
+		<armor type="Pierce" value="0.05"></armor>
+		<armor type="Crush" value="0.9900"></armor>
+		<unittype>LogicalTypeNeededForVictory</unittype>
+		<unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+		<unittype>LogicalTypeGarrisonInShips</unittype>
+		<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeVillagersAttack</unittype>
+		<unittype>LogicalTypeHandUnitsAttack</unittype>
+		<unittype>LogicalTypeRangedUnitsAttack</unittype>
+		<unittype>LogicalTypeMinimapFilterMilitary</unittype>
+		<unittype>LogicalTypeEasySelectAvoid</unittype>
+		<unittype>UnitClass</unittype>
+		<unittype>Unit</unittype>
+		<unittype>HumanSoldier</unittype>
+		<unittype>AbstractScout</unittype>
+		<unittype>LogicalTypeValidBoltTarget</unittype>
+		<unittype>DisplayQueue</unittype>
+		<unittype>LogicalTypeConvertsHerds</unittype>
+		<unittype>AbstractOracle</unittype>
+		<unittype>LogicalTypeEarthquakeAttack</unittype>
+		<unittype>LogicalTypeAffectedByRestoration</unittype>
+		<unittype>LogicalTypeValidMeteorTarget</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<unittype>LogicalTypeValidShiftingSandsTarget</unittype>
+		<unittype>LogicalTypeValidSpyTarget</unittype>
+		<unittype>LogicalTypeValidFrostTarget</unittype>
+		<unittype>LogicalTypeAffectedByValor</unittype>
+		<unittype>LogicalTypeValidTraitorTarget</unittype>
+		<unittype>LogicalTypeHealed</unittype>
+		<unittype>LogicalTypeValidShockwaveTarget</unittype>
+		<unittype>CountsTowardEconomicScore</unittype>
+		<unittype>LogicalTypeNotEconomicOrMilitaryUnit</unittype>
+		<hotkeycontext>MilitaryAccel</hotkeycontext>
+		<flag>CollidesWithProjectiles</flag>
+		<flag>CorpseDecays</flag>
+		<flag>ShowGarrisonButton</flag>
+		<flag>DontRotateObstruction</flag>
+		<flag>ObscuredByUnits</flag>
+		<flag>CommonCommands</flag>
+		<flag>ExcludeFromIdleQuery</flag>
+		<flag>DoNotDragSelectWithUnits</flag>
+		<flag>DisplayRange</flag>
+		<flag>DisplayRangeOverride</flag>
+		<flag>CreateUnitGroupAutomatically</flag>
+		<command row="1" column="5">OracleToHero</command>
+		<command row="3" column="3">Patrol</command>
+		<transformcommand>OracleToHero</transformcommand>
+		<tactics>oracle.tactics</tactics>
+		<protoaction>
+			<name>HandAttack</name>
+			<rof>1.500000</rof>
+			<active>0</active>
+		</protoaction>
+		<protoaction>
+			<name>AutoLOS</name>
+			<modifyamount>0.45000</modifyamount>
+			<modifyratecap>28.000000</modifyratecap>
+			<modifydecay>100.000000</modifydecay>
+			<modifytype>LOS</modifytype>
+		</protoaction>
+		<!-- desactivate autogather favor -->
+		<protoaction>			
+			<name>AutoGatherFavor</name>
+			<active>0</active>           
+			<modifyratecap>25.000000</modifyratecap>
+			<modifybase>100.000000</modifybase>
+			<rate type="Favor">0.010000</rate>
+			<modifymultiplier>0.750000</modifymultiplier>
+		</protoaction>
+		<!-- desactivate autogather favor -->
+	</unit>
+	<unit name="OracleHero" mergeMode="replace">
+		<displaynameid>STR_UNIT_ORACLE_HERO_NAME</displaynameid>
+		<rollovertextid>STR_UNIT_ORACLE_HERO_LR</rollovertextid>
+		<shortrollovertextid>STR_UNIT_ORACLE_HERO_SR</shortrollovertextid>
+		<icon>resources\atlantean\player_color\units\oracle_hero_icon.png</icon>
+		<minimapicon>ui\minimap\minimap_oracle</minimapicon>
+		<animfile>atlantean\units\hero\oracle_hero\oracle_hero.xml</animfile>
+		<soundsetfile>atlantean\vo\oracle_hero\oracle_hero.xml</soundsetfile>
+		<obstructionradiusx>0.7000</obstructionradiusx>
+		<obstructionradiusz>0.7000</obstructionradiusz>
+		<impacttype>Unarmoured</impacttype>
+		<unitaitype>HandCombative</unitaitype>
+		<movementtype>land</movementtype>
+		<turnrate>13.5000</turnrate>
+		<initialhitpoints>100.0000</initialhitpoints>
+		<maxhitpoints>100.0000</maxhitpoints>
+		<trainpoints>9.0000</trainpoints>
+		<weightclass>5</weightclass> <!-- TO CHANGE -->
+		<maxcontained>1</maxcontained>
+		<populationcount>2</populationcount>
+		<maxvelocity>4.0000</maxvelocity>
+		<los>2.0000</los> <!-- not 7 because it's always the lowest when moving -->
+		<cost resourcetype="Food">40.0000</cost>
+		<cost resourcetype="Gold">65.0000</cost>
+		<cost resourcetype="Favor">2.0000</cost>
+		<armor type="Hack" value="0.1500"></armor>
+		<armor type="Pierce" value="0.1000"></armor>
+		<armor type="Crush" value="0.9900"></armor>
+		<culture>Atlantean</culture>
+		<unittype>LogicalTypeNeededForVictory</unittype>
+		<unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+		<unittype>LogicalTypeGarrisonInShips</unittype>
+		<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeVillagersAttack</unittype>
+		<unittype>LogicalTypeHandUnitsAttack</unittype>
+		<unittype>LogicalTypeRangedUnitsAttack</unittype>
+		<unittype>LogicalTypeMinimapFilterMilitary</unittype>
+		<unittype>LogicalTypeEasySelectAvoid</unittype>
+		<unittype>Unit</unittype>
+		<unittype>UnitClass</unittype>
+		<unittype>AbstractScout</unittype>
+		<unittype>Hero</unittype>
+		<unittype>HeroShadowUpgraded</unittype>
+		<unittype>LogicalTypeValidBoltTarget</unittype>
+		<unittype>LogicalTypeConvertsHerds</unittype>
+		<unittype>AbstractOracle</unittype>
+		<unittype>LogicalTypeEarthquakeAttack</unittype>
+		<unittype>LogicalTypeAffectedByRestoration</unittype>
+		<unittype>LogicalTypeValidMeteorTarget</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<unittype>LogicalTypeValidShiftingSandsTarget</unittype>
+		<unittype>LogicalTypeParticipatesInBattlecries</unittype>
+		<unittype>LogicalTypeValidSpyTarget</unittype>
+		<unittype>LogicalTypeValidFrostTarget</unittype>
+		<unittype>LogicalTypeHealed</unittype>
+		<unittype>LogicalTypeValidShockwaveTarget</unittype>
+		<unittype>CountsTowardEconomicScore</unittype>
+		<unittype>MinorHero</unittype>
+		<unittype>LogicalTypeNotEconomicOrMilitaryUnit</unittype>
+		<flag>CollidesWithProjectiles</flag>
+		<flag>CorpseDecays</flag>
+		<flag>ShowGarrisonButton</flag>
+		<flag>DontRotateObstruction</flag>
+		<flag>ObscuredByUnits</flag>
+		<flag>UnitTransformFree</flag>
+		<flag>CommonCommands</flag>
+		<flag>MilitaryCommands</flag>
+		<flag>ExcludeFromIdleQuery</flag>
+		<flag>DisplayRange</flag>
+		<flag>DisplayRangeOverride</flag>
+		<flag>HideGarrisonFlag</flag>
+		<flag>CreateUnitGroupAutomatically</flag>
+		<contain external="1">LogicalTypePickable</contain>
+		<command row="3" column="3">Patrol</command>
+		<tactics>oracle.tactics</tactics>
+		<protoaction>
+			<name>HandAttack</name>
+			<rof>1.500000</rof>
+			<damage type="Hack">9.000000</damage>
+			<damagebonus type="MythUnit">3.500000</damagebonus>
+			<damagebonus type="AnimalOfSet">5.000000</damagebonus>
+			<maxrange>0.300000</maxrange>
+		</protoaction>
+		<protoaction>
+			<name>AutoLOS</name>
+			<modifyamount>0.850000</modifyamount>
+			<modifyratecap>31.000000</modifyratecap>
+			<modifydecay>100.000000</modifydecay>
+			<modifytype>LOS</modifytype>
+		</protoaction>
+		<protoaction>
+			<name>Pickup</name>
+			<type>Pickup</type>
+			<maxrange>1</maxrange>
+			<rate type="LogicalTypePickable">1.00000</rate>
+			<active>0</active>
+		</protoaction>
+		<protoaction>
+			<name>RelicNoPickup</name>
+			<type>NoWork</type>
+			<maxrange>1</maxrange>
+			<rate type="LogicalTypePickable">1.00000</rate>
+		</protoaction>
+		<protoaction>
+			<name>DropOff</name>
+			<type>DropOff</type>
+			<maxrange>1</maxrange>
+			<rate type="AbstractTemple">1.00000</rate>
+		</protoaction>
+		<!-- desactivate autogather favor -->
+		<protoaction> 
+			<name>AutoGatherFavor</name>
+			<active>0</active>
+			<modifyratecap>30.000000</modifyratecap>
+			<modifybase>100.000000</modifybase>
+			<rate type="Favor">0.010000</rate>
+			<modifymultiplier>0.800000</modifymultiplier>
+		</protoaction>
+		<!-- desactivate autogather favor -->
+	</unit>
+
+</protomods>

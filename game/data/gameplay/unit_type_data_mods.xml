@@ -1,0 +1,18 @@
+<unittypedatamods>
+
+	<unittypeentry>
+		<unittype>AnimalOfSet</unittype>
+		<icon>resources/shared/hud/unit_types/animal_of_set_icon_legacy.png</icon>
+		<displaynameid>STR_HUD_UNIT_TYPE_ANIMAL_OF_SET</displaynameid>
+	</unittypeentry>
+	<unittypeentry>
+		<unittype>AbstractScout</unittype>
+		<displaynameid>STR_HUD_UNIT_TYPE_ABSTRACT_SCOUT</displaynameid>
+	</unittypeentry>
+	<unittypeentry>
+		<unittype>AbstractPharaoh</unittype>
+		<displaynameid>STR_HUD_UNIT_TYPE_ABSTRACT_PHARAOH</displaynameid>
+	</unittypeentry>
+
+
+</unittypedatamods>

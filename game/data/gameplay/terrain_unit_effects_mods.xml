@@ -1,0 +1,9 @@
+<terrainuniteffectsmods>
+
+	<terrainuniteffect name="GaiaCreepSpeedEffect" active="" mergeMode="remove">
+		<effect name="GaiaCreepSpeedAll" class="unitModify" type="speed" amount="1.15"></effect>
+		<tech state="enabled">Channels</tech>
+		<creep target="self">GaiaCreep</creep>
+	</terrainuniteffect>
+
+</terrainuniteffectsmods>

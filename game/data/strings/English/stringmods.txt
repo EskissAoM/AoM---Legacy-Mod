@@ -1,0 +1,327 @@
+Language = "English"
+
+// TECHNOLOGIES
+
+// Shared - added technologies
+
+ID = "STR_TECH_HUNTING_DOGS_NAME"   ;   Str = "Hunting Dogs"
+ID = "STR_TECH_HUNTING_DOGS_LR"   ;   Str = "Villagers gather Food from hunted animals faster."
+
+ID = "STR_TECH_ARROW_SHIP_CLADDING_NAME"   ;   Str = "Arrow Ship Cladding"
+ID = "STR_TECH_ARROW_SHIP_CLADDING_LR"   ;   Str = "Upgrades your arrow ships to heavy arrow ships, with more hitpoints, range and attack."
+
+ID = "STR_TECH_REINFORCED_HULL_NAME"   ;   Str = "Reinforced Hull"
+ID = "STR_TECH_REINFORCED_HULL_LR"   ;   Str = "Upgrades your Hammer Ships to Heavy Hammer Ships, with more hitpoints and attack."
+
+ID = "STR_TECH_HEAVY_FIRE_SHIP_NAME"   ;   Str = "Heavy Fire Ship"
+ID = "STR_TECH_HEAVY_FIRE_SHIP_LR"   ;   Str = "Upgrades your Fire ships to Heavy Fire ships, with more hitpoints."
+
+ID = "STR_TECH_NAVAL_OXYBELES_NAME"   ;   Str = "Naval Oxybeles"
+ID = "STR_TECH_NAVAL_OXYBELES_LR"   ;   Str = "Upgrades your Siege Ships to Heavy Siege Ships, with more hitpoints and range."
+
+// Shared - modified technologies
+
+ID = "STR_TECH_BURNING_PITCH_LR"   ;   Str = "Archers, arrow ships, Ballistae and Cheiroballistae fire flaming missiles for greater attack against buildings and ships."
+
+ID = "STR_TECH_ENCLOSED_DECK_LR"   ;   Str = "Increases the carry capacity of transport ships."
+
+ID = "STR_TECH_HEROIC_FLEET_LR"   ;   Str = "The gods make all your ships better at fighting myth units."
+
+ID = "STR_TECH_MASONS_LR"   ;   Str = "Improves hitpoints of buildings and makes them more resistant to crush attacks, such as siege weapons."
+
+ID = "STR_TECH_ARCHITECTS_LR"   ;   Str = "Improves hitpoints of buildings and makes them more resistant to crush attacks, such as siege weapons."
+
+ID = "STR_TECH_TAX_COLLECTORS_LR"   ;   Str = "Reduces the cost of buying or selling resources at the Market."
+
+ID = "STR_TECH_AMBASSADORS_LR"   ;   Str = "Reduces tribute penalty at the Market."
+
+ID = "STR_TECH_COPPER_ARMOR_NAME"   ;   Str = "Copper Mail"
+ID = "STR_TECH_BRONZE_ARMOR_NAME"   ;   Str = "Bronze Mail"
+ID = "STR_TECH_IRON_ARMOR_NAME"   ;   Str = "Iron Mail"
+
+ID = "STR_TECH_MEDIUM_ARCHERS_NAME"   ;   Str = "Medium Archers"
+ID = "STR_TECH_HEAVY_ARCHERS_NAME"   ;   Str = "Heavy Archers"
+ID = "STR_TECH_CHAMPION_ARCHERS_NAME"   ;   Str = "Champion Archers"
+
+
+// GREEKS - added technologies
+
+ID = "STR_TECH_ATHENIAN_WALL_NAME"   ;   Str = "Athenian Wall"
+ID = "STR_TECH_ATHENIAN_WALL_LR"   ;   Str = "Hera grants more hitpoints for buildings."
+
+ID = "STR_TECH_TRIERARCH_NAME"   ;   Str = "Trierarch"
+ID = "STR_TECH_TRIERARCH_LR"   ;   Str = "Artemis appoints Trierarchs to your Triremes, making them more resistant to Siege Ships."
+
+ID = "STR_TECH_WEAPON_OF_THE_TITANS_NAME"   ;   Str = "Weapon of the Titans"
+ID = "STR_TECH_WEAPON_OF_THE_TITANS_LR"   ;   Str = "Hephaestus improves the attack of Hetairoi, Myrmidon and Gastraphetes."
+
+// GREEKS - modified technologies
+
+ID = "STR_TECH_LEVY_RANGED_SOLDIERS_NAME"   ;   Str = "Levy Archers"
+ID = "STR_TECH_CONSCRIPT_RANGED_SOLDIERS_NAME"   ;   Str = "Conscript Archers"
+
+ID = "STR_TECH_OLYMPIAN_PARENTAGE_NAME"   ;   Str = "Olympic Parentage"
+ID = "STR_TECH_OLYMPIAN_PARENTAGE_LR"   ;   Str = "The blood of Zeus causes Heroes to have more hitpoints."
+
+ID = "STR_TECH_LORD_OF_HORSES_LR"   ;   Str = "Poseidon improves the line of sight of your cavalry and scouts."
+
+ID = "STR_TECH_SARISSA_LR"   ;   Str = "Athena's technology improves Hoplite hack armor."
+
+ID = "STR_TECH_AEGIS_SHIELD_LR"   ;   Str = "Athena makes infantry more resistant to pierce attacks, such as arrows."
+
+ID = "STR_TECH_LABYRINTH_OF_MINOS_LR"   ;   Str = "Athena upgrades Minotaurs to Bull Minotaurs, which are cheaper and more powerful."
+
+ID = "STR_TECH_SPIRITED_CHARGE_LR"   ;   Str = "Hermes increases Cavalry speed and attack."
+
+ID = "STR_TECH_SYLVAN_LORE_LR"   ;   Str = "Hermes increases Centaurs to Centaur Polemarchs, which are faster and have more hitpoints."
+
+ID = "STR_TECH_WINGED_MESSENGER_LR"   ;   Str = "Hermes makes your Pegasi cost no Food, trains them faster, and improves their line of sight."
+
+ID = "STR_TECH_PHOBOS_SPEAR_OF_PANIC_LR"   ;   Str = "Ares lends the Spear of Panic to increase Hoplite attack."
+
+ID = "STR_TECH_DEIMOS_SWORD_OF_DREAD_LR"   ;   Str = "Ares lends Hypaspists the Sword of Dread, increasing their attack."
+
+ID = "STR_TECH_ENYOS_BOW_OF_HORROR_LR"   ;   Str = "Ares lends Toxotes the Bow of Horror, increasing their attack."
+
+ID = "STR_TECH_WILL_OF_KRONOS_LR"   ;   Str = "Ares improves your Cyclopes to Elder Cyclopes, which train faster and cause more damage."
+
+ID = "STR_TECH_ORACLE_LR"   ;   Str = "Apollo improves the line of sight of units and buildings."
+
+ID = "STR_TECH_SUN_RAY_LR"   ;   Str = "Apollo increases the attack of Archers, Peltasts, Manticores, Centaurs, and Medusae."
+
+ID = "STR_TECH_ANASTROPHE_LR"   ;   Str = "Dionysus improves the attack, movement and training speed of Pentekonter ramming ships."
+
+ID = "STR_TECH_DIONYSIA_NAME"   ;   Str = "Bacchanalia"
+
+ID = "STR_TECH_THRACIAN_HORSES_LR"   ;   Str = "Dionysus sends the carnivorous Thracian Horses, improving cavalry hitpoints."
+
+ID = "STR_TECH_ROAR_OF_ORTHUS_LR"   ;   Str = "Aphrodite improves the hack and pierce armor of your Nemean Lions."
+
+ID = "STR_TECH_FACE_OF_THE_GORGON_LR"   ;   Str = "Hera upgrades Medusae to Medusae Matriarchs, with more hitpoints."
+
+ID = "STR_TECH_MONSTROUS_RAGE_LR"   ;   Str = "Hera increases myth unit hack, pierce and crush attacks."
+
+ID = "STR_TECH_FORGE_OF_OLYMPUS_LR"   ;   Str = "Hephaestus employs his Forge of Olympus to reduce the costs of all Armory improvements."
+
+ID = "STR_TECH_SHAFTS_OF_PLAGUE_LR"   ;   Str = "Artemis sends your Toxotes, Peltasts, and Gastraphetes her Shafts of Plague, increasing their attack."
+
+ID = "STR_TECH_FLAMES_OF_TYPHON_LR"   ;   Str = "Artemis upgrades Chimera to Chimera Tyrants, which have increased hitpoints and attack."
+
+ID = "STR_TECH_BEAST_SLAYER_LR"   ;   Str = "The Greek gods improve Hetairoi, Myrmidon and Gastraphetes attack versus myth units."
+
+
+
+
+// EGYPTIAN - added technologies
+
+ID = "STR_TECH_FERAL_NAME"   ;   Str = "Feral"
+ID = "STR_TECH_FERAL_LR"   ;   Str = "Set improves the hitpoints, speed, armor and attack of converted or summoned animals."
+
+ID = "STR_TECH_MEDJAY_NAME"   ;   Str = "Medjay"
+ID = "STR_TECH_MEDJAY_LR"   ;   Str = "Hathor increases the lifespan of Mercenaries."
+
+ID = "STR_TECH_CITY_OF_THE_DEAD_NAME"   ;   Str = "City of the Dead"
+ID = "STR_TECH_CITY_OF_THE_DEAD_LR"   ;   Str = "Nephthys makes Pharaohs stronger and return from the dead more quickly."
+
+ID = "STR_TECH_STONES_OF_RED_LINEN_NAME"   ;   Str = "Stones of Red Linen"
+ID = "STR_TECH_STONES_OF_RED_LINEN_LR"   ;   Str = "Sekhmet enables your Catapults and War Barges to do extra damage to buildings."
+
+// EGYPTIAN - modified technologies
+
+ID = "STR_TECH_SOBEK_NAME"   ;   Str = "Hathor"
+ID = "STR_TECH_HATHOR_NAME"   ;   Str = "Hathor"
+ID = "STR_TECH_SOBEK_LR"   ;   Str = "Goddess of the sky, love and fertility. Her improvements benefit your buildings."
+ID = "STR_TECH_SOBEK_SELF"   ;   Str = "You have advanced to the Heroic Age through the grace of Hathor!"
+ID = "STR_TECH_SOBEK_OTHER"   ;   Str = "{0} advances to the Heroic Age through the grace of Hathor."
+
+
+ID = "STR_TECH_HEAVY_CAMEL_RIDERS_NAME"   ;   Str = "Heavy Camelry"
+ID = "STR_TECH_CHAMPION_CAMEL_RIDERS_NAME"   ;   Str = "Champion Camelry"
+
+ID = "STR_TECH_FLOOD_OF_THE_NILE_LR"   ;   Str = "Ra improves Villager hack and pierce armor, and hand attack."
+
+ID = "STR_TECH_SACRED_CATS_LR"   ;   Str = "Bast's cats protect Farms from vermin, making them produce Food faster."
+
+ID = "STR_TECH_SERPENT_SPEAR_LR"   ;   Str = "Anubis grants your Spearmen weapons coated with venom, which increases their attack."
+
+ID = "STR_TECH_ELECTRUM_BULLETS_LR"   ;   Str = "Ptah's invention improves the damage of Slingers."
+
+ID = "STR_TECH_SUN_DRIED_MUD_BRICK_LR"   ;   Str = "Hathor improves building hitpoints and lowers costs."
+
+ID = "STR_TECH_CROCODILOPOLIS_LR"   ;   Str = "Hathor increases Petsuchos range."
+
+ID = "STR_TECH_FORCE_OF_THE_WEST_WIND_NAME"   ;   Str = "Ram of the West Wind"
+ID = "STR_TECH_FORCE_OF_THE_WEST_WIND_LR"   ;   Str = "Sekhmet's breath grants hitpoints and crush attack to Siege Towers."
+
+ID = "STR_TECH_FUNERAL_RITES_LR"   ;   Str = "Nephthys increases Priest and Pharaoh damage against myth units."
+
+ID = "STR_TECH_FUNERAL_BARGE_LR"   ;   Str = "Osiris lets your Kebenits do bonus damage to archer ships."
+
+ID = "STR_TECH_TUSKS_OF_APEDEMAK_LR"   ;   Str = "Thoth increases the hitpoints and attack of your War Elephants."
+
+ID = "STR_TECH_VALLEY_OF_THE_KINGS_LR"   ;   Str = "Thoth teaches secrets to let Camels, Chariots and War Elephants train faster."
+
+ID = "STR_TECH_AXE_OF_VENGEANCE_LR"   ;   Str = "Horus gives Axemen increased attack damage, and bonus damage against buildings."
+
+ID = "STR_TECH_GREATEST_OF_FIFTY_LR"   ;   Str = "Horus improves Spearman hack armor and bonus damage against cavalry."
+
+ID = "STR_TECH_SPEAR_OF_HORUS_NAME"   ;   Str = "Spear on the Horizon"
+ID = "STR_TECH_SPEAR_OF_HORUS_LR"   ;   Str = "Horus improves Spearman attack and hitpoints."
+
+
+// EGYPTIAN - modified units
+
+ID = "STR_UNIT_PETSOBEK_NAME"   ;   Str = "Petsuchos Ra"
+
+// NORSE - added technologies
+
+ID = "STR_TECH_AXE_OF_MUSPELL_NAME"   ;   Str = "Axe of Muspell"
+ID = "STR_TECH_AXE_OF_MUSPELL_LR"   ;   Str = "The Norse gods improve Throwing Axeman attack against flying units."
+
+ID = "STR_TECH_PIG_STICKER_NAME"   ;   Str = "Pig Sticker"
+ID = "STR_TECH_PIG_STICKER_LR"   ;   Str = "Thor increases Villager attack and gather rate for hunted animals."
+
+ID = "STR_TECH_LONE_WANDERER_NAME"   ;   Str = "Lone Wanderer"
+ID = "STR_TECH_LONE_WANDERER_LR"   ;   Str = "Odin imbues Ulfsarks with the spirit of the Lone Wanderer, increasing their speed."
+
+ID = "STR_TECH_ARCTIC_GALE_NAME"   ;   Str = "Arctic Gale"
+ID = "STR_TECH_ARCTIC_GALE_LR"   ;   Str = "Baldr increases Dragon Ship speed and resistance to Hammer Ships."
+
+// NORSE - modified technologies
+
+ID = "STR_TECH_DWARVEN_WEAPONS_NAME"   ;   Str = "Hammer of the Gods"
+ID = "STR_TECH_DWARVEN_WEAPONS_LR"   ;   Str = "Improves attack of all heroes and human soldiers."
+
+ID = "STR_TECH_METEORIC_IRON_ARMOR_NAME"   ;   Str = "Meteoric Iron Mail"
+ID = "STR_TECH_METEORIC_IRON_ARMOR_LR"   ;   Str = "Heroes and human soldiers are more resistant to hack attacks, such as swords."
+
+ID = "STR_TECH_DRAGONSCALE_SHIELDS_LR"   ;   Str = "Heroes and human soldiers are more resistant to pierce attacks, such as arrows."
+
+ID = "STR_TECH_EYES_IN_THE_FOREST_LR"   ;   Str = "Loki improves the line of sight of infantry."
+
+ID = "STR_TECH_DISABLOT_NAME"   ;   Str = "Aurora Borealis"
+
+ID = "STR_TECH_CAVE_TROLL_NAME"   ;   Str = "Hamarrtroll"
+ID = "STR_TECH_CAVE_TROLL_LR"   ;   Str = "Forseti upgrades Trolls to Hamarrtrolls, with more hitpoints, range and attack."
+
+ID = "STR_TECH_HALL_OF_THANES_LR"   ;   Str = "Forseti improves your Hersir speed and hitpoints."
+
+ID = "STR_TECH_DWARVEN_BREASTPLATE_NAME"   ;   Str = "Mithril Breastplate"
+ID = "STR_TECH_DWARVEN_BREASTPLATE_NAME"   ;   Str = "Forseti makes Ulfsarks more resistant to hack attacks, such as swords."
+
+ID = "STR_TECH_GJALLARHORN_NAME"   ;   Str = "Eldhrimnir Kettle"
+ID = "STR_TECH_GJALLARHORN_LR"   ;   Str = "Heimdall feeds your Einherjar from the Elhrimnir Kettle, increasing their hitpoints and attack."
+
+ID = "STR_TECH_SAFEGUARD_LR"   ;   Str = "Heimdall makes your Walls and Towers stronger and makes Towers cheaper."
+
+ID = "STR_TECH_HUNTRESS_AXE_LR"   ;   Str = "Skadi improves Throwing Axeman attack."
+
+ID = "STR_TECH_WINTER_HARVEST_LR"   ;   Str = 	"Skadi's harvest lets Farmers work faster."
+
+ID = "STR_TECH_ARCTIC_WINDS_LR"   ;   Str = "Heimdall grants increased movement speed and hitpoints for Longboats"
+
+ID = "STR_TECH_CALL_OF_VALHALLA_LR"   ;   Str = "Bragi improves Ulfsark hitpoints."
+
+ID = "STR_TECH_THURISAZ_RUNE_LR"   ;   Str = "Bragi brands myth units with the Thurisaz Rune, improving their speed."
+
+ID = "STR_TECH_SWINE_ARRAY_LR"   ;   Str = "Bragi's technique makes Ulfsarks do extra damage to cavalry."
+
+ID = "STR_TECH_LONG_SERPENT_LR"   ;   Str = "Njord increases Longboat attack and resistance to Siege Ships."
+
+ID = "STR_TECH_RING_GIVER_LR"   ;   Str = "Njord grants Jarls lore of the rings, improving their hitpoints."
+
+ID = "STR_TECH_WRATH_OF_THE_DEEP_LR"   ;   Str = "Njord upgrades Krakens to deadly Trench Krakens, with more hitpoints."
+
+ID = "STR_TECH_SONS_OF_SLEIPNIR_LR"   ;   Str = "Baldr allows your Raiding Cavalry to do bonus damage against archers and Throwing Axemen."
+
+ID = "STR_TECH_BERSERKERGANG_LR"   ;   Str = "Tyr instructs your Ulfsarks in the Berserkergang, improving their attack and hitpoints."
+
+// NORSE - modified units
+
+ID = "STR_UNIT_BERSERK_NAME"   ;   Str = "Ulfsark"
+ID = "STR_UNIT_MEDIUM_BERSERK_NAME"   ;   Str = "Medium Ulfsark"
+ID = "STR_UNIT_HEAVY_BERSERK_NAME"   ;   Str = "Heavy Ulfsark"
+ID = "STR_UNIT_CHAMPION_BERSERK_NAME"   ;   Str = "Champion Ulfsark"
+
+ID = "STR_UNIT_CAVE_TROLL_NAME"   ;   Str = "Hamarrtroll"
+
+ID = "STR_UNIT_EINHERI_NAME"   ;   Str = "Einherjar"
+ID = "STR_UNIT_GIANT_KILLER_EINHERI_NAME"   ;   Str = "Giant-killer Einherjar"
+
+// ATLANTEAN - added technologies
+
+
+ID = "STR_TECH_HEAVY_CHEIROBALLISTA_NAME"   ;   Str = "Heavy Cheiroballista"
+ID = "STR_TECH_HEAVY_CHEIROBALLISTA_LR"   ;   Str = "Cheiroballistae improved to Heavy Cheiroballistae, with more hitpoints and attack."
+
+ID = "STR_TECH_CHAMPION_CHEIROBALLISTA_NAME"   ;   Str = "Champion Cheiroballista"
+ID = "STR_TECH_CHAMPION_CHEIROBALLISTA_LR"   ;   Str = "Cheiroballistae improved to Champion Cheiroballistae, with more hitpoints and attack."
+
+ID = "STR_TECH_FOCUS_NAME"   ;   Str = "Focus"
+ID = "STR_TECH_FOCUS_LR"   ;   Str = "Kronos forces intense focus upon Oracles, increasing their speed and the speed at which their line of sight grows.  Kronos also increases Hero Oracle's attack and hitpoints."
+
+ID = "STR_TECH_EYES_OF_ATLAS_NAME"   ;   Str = "Eyes of Atlas"
+ID = "STR_TECH_EYES_OF_ATLAS_LR"   ;   Str = "Atlas increases the line of sight for all your myth units."
+
+ID = "STR_TECH_LEMURIAN_DESCENDANTS_NAME"   ;   Str = "Lemurian Descendants"
+ID = "STR_TECH_LEMURIAN_DESCENDANTS_LR"   ;   Str = "Theia increases the line of sight for all your human soldiers and heroes."
+
+// ATLANTEAN - modified technologies
+
+ID = "STR_TECH_LEVY_MAINLINE_SOLDIERS_NAME"   ;   Str = "Levy Mainline Units"
+
+ID = "STR_TECH_CONSCRIPT_MAINLINE_SOLDIERS_NAME"   ;   Str = "Conscript Mainline Units"
+
+ID = "STR_TECH_LEVY_COUNTER_SOLDIERS_NAME"   ;   Str = "Levy Counter Units"
+
+ID = "STR_TECH_CONSCRIPT_COUNTER_SOLDIERS_NAME"   ;   Str = "Conscript Counter Units"
+
+ID = "STR_TECH_ORICHALCUM_WALL_NAME"   ;   Str = "Orichalkos Wall"
+ID = "STR_TECH_ORICHALCUM_WALL_LR"   ;   Str = "Upgrades Iron Walls to Orichalkos Walls, with more hitpoints."
+
+ID = "STR_TECH_CHANNELS_LR"   ;   Str = "Gaia lets your economic units move faster."
+
+ID = "STR_TECH_ALLUVIAL_CLAY_LR"   ;   Str = "Prometheus increases the hitpoints of Prometheans and their offspring."
+
+ID = "STR_TECH_BITE_OF_THE_SHARK_LR"   ;   Str = "Oceanus provides Murmillo and Fanatics with serrated swords, increasing their attack."
+
+ID = "STR_TECH_GEMINI_NAME"   ;   Str = "Gemino"
+ID = "STR_TECH_GEMINI_LR"   ;   Str = "Hyperion doubles the amount of javelins your Satyr throws."
+
+ID = "STR_TECH_HORNS_OF_CONSECRATION_LR"   ;   Str = "Rheia grants you a faster favor trickle."
+
+ID = "STR_TECH_ORICHALCUM_MAIL_NAME"   ;   Str = "Mail of Orichalkos"
+ID = "STR_TECH_ORICHALCUM_MAIL_LR"   ;   Str = "Rheia makes your archers more resistant to hack and pierce attacks, such as swords."
+
+ID = "STR_TECH_RHEIAS_GIFT_LR"   ;   Str = "Rheia reduces the Favor cost of all of your mythological improvements."
+
+ID = "STR_TECH_POSEIDONS_SECRET_LR"   ;   Str = "Theia steals the secrets of Poseidon and gives your Cavalry more speed and attack."
+
+ID = "STR_TECH_LANCE_OF_STONE_LR"   ;   Str = "Theia improves Contarius heroes attack, especially versus buildings."
+
+ID = "STR_TECH_ASPER_BLOOD_LR"   ;   Str = "Hekate makes the blood of Lampades do area damage to units and improves range and recharge time of its special attack."
+
+ID = "STR_TECH_CELERITY_LR"   ;   Str = "Hekate forces myth units to train much faster."
+
+ID = "STR_TECH_HALO_OF_THE_SUN_LR"   ;   Str = "Helios increases damage done by Fire Siphons and Fireships."
+
+ID = "STR_TECH_PETRIFICATION_NAME"   ;   Str = "Petrified"
+ID = "STR_TECH_PETRIFICATION_LR"   ;   Str = "Helios petrifies the wood of your siege weapons, making them more resistant to hack attacks, such as swords."
+
+ID = "STR_TECH_TITAN_SHIELD_LR"   ;   Str = "Atlas makes buildings more resistant to crush and hack damage, such as siege or infantry attacks."
+
+// ATLANTEAN - modified units
+
+ID = "STR_UNIT_ORACLE_HERO_LR"   ;   Str = "Hero scout. Line of sight grows rapidly when standing still."
+ID = "STR_UNIT_ORACLE_HERO_SR"   ;   Str = "Hero scout. Line of sight grows rapidly when standing still."
+
+ID = "STR_BLD_ORICHALCUM_WALL_NAME"   ;   Str = "Orichalkos Wall"
+ID = "STR_BLD_ORICHALCUM_GATE_NAME"   ;   Str = "Orichalkos Gate"
+
+
+// MISC - modified
+
+ID = "STR_HUD_UNIT_TYPE_ANIMAL_OF_SET"   ;   Str = "Animal of Set"
+ID = "STR_HUD_UNIT_TYPE_ABSTRACT_SCOUT"   ;   Str = "Scout"
+ID = "STR_HUD_UNIT_TYPE_ABSTRACT_PHARAOH"   ;   Str = "Pharaoh and Son of Osiris"
+
