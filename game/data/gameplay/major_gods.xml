@@ -26,8 +26,10 @@
 		<buildingefficiency>0.6</buildingefficiency>
 		<extrabuildingefficiency>0.3</extrabuildingefficiency>
 		<startingunits>
-			<unit count="4" delay="2.00" x="0.00" y="0.00" z="-5.00">VillagerGreek</unit>
-			<unit count="1" delay="4.00" x="6.00" y="0.00" z="0.00">Kataskopos</unit>
+			<unit count="1" delay="1.00" x="-3.00" y="0.00" z="-4.00">VillagerGreek</unit>
+			<unit count="1" delay="1.00" x="1.00" y="0.00" z="-4.00">VillagerGreek</unit>
+			<unit count="1" delay="1.00" x="-1.00" y="0.00" z="-4.00">VillagerGreek</unit>
+			<unit count="1" delay="1.00" x="-12.00" y="0.00" z="0.00">Kataskopos</unit>
 		</startingunits>
 		<startingunits mode="deathmatch">
 			<unit count="9" delay="2.00" x="0.00" y="0.00" z="0.00">VillagerGreek</unit>
@@ -41,10 +43,10 @@
 			<unit prequeue="true">Jason</unit>
 		</startingqueue>
 		<startingresources>
-			<food>200</food>
-			<wood>250</wood>
-			<gold>50</gold>
-			<favor>10</favor>
+			<food>250</food>
+			<wood>255</wood>
+			<gold>100</gold>
+			<favor>15</favor>
 		</startingresources>
 		<startingresources mode="deathmatch">
 			<food>18000</food>
@@ -79,8 +81,10 @@
 		<buildingefficiency>0.6</buildingefficiency>
 		<extrabuildingefficiency>0.3</extrabuildingefficiency>
 		<startingunits>
-			<unit count="4" delay="2.00" x="0.00" y="0.00" z="-5.00">VillagerGreek</unit>
-			<unit count="1" delay="4.00" x="6.00" y="0.00" z="0.00">Kataskopos</unit>
+			<unit count="1" delay="1.00" x="-3.00" y="0.00" z="-4.00">VillagerGreek</unit>
+			<unit count="1" delay="1.00" x="1.00" y="0.00" z="-4.00">VillagerGreek</unit>
+			<unit count="1" delay="1.00" x="-1.00" y="0.00" z="-4.00">VillagerGreek</unit>
+			<unit count="1" delay="1.00" x="-12.00" y="0.00" z="0.00">Kataskopos</unit>
 		</startingunits>
 		<startingunits mode="deathmatch">
 			<unit count="9" delay="2.00" x="0.00" y="0.00" z="0.00">VillagerGreek</unit>
@@ -90,9 +94,9 @@
 			<unit autotrain="true">VillagerGreek</unit>
 		</startingqueue>
 		<startingresources>
-			<food>200</food>
-			<wood>250</wood>
-			<gold>50</gold>
+			<food>250</food>
+			<wood>255</wood>
+			<gold>100</gold>
 		</startingresources>
 		<startingresources mode="deathmatch">
 			<food>18000</food>
@@ -122,8 +126,10 @@
 		<buildingefficiency>0.6</buildingefficiency>
 		<extrabuildingefficiency>0.3</extrabuildingefficiency>
 		<startingunits>
-			<unit count="4" delay="2.00" x="0.00" y="0.00" z="-5.00">VillagerGreek</unit>
-			<unit count="1" delay="4.00" x="6.00" y="0.00" z="0.00">Kataskopos</unit>
+			<unit count="1" delay="1.00" x="-3.00" y="0.00" z="-4.00">VillagerGreek</unit>
+			<unit count="1" delay="1.00" x="1.00" y="0.00" z="-4.00">VillagerGreek</unit>
+			<unit count="1" delay="1.00" x="-1.00" y="0.00" z="-4.00">VillagerGreek</unit>
+			<unit count="1" delay="1.00" x="-12.00" y="0.00" z="0.00">Kataskopos</unit>
 		</startingunits>
 		<startingunits mode="deathmatch">
 			<unit count="9" delay="2.00" x="0.00" y="0.00" z="0.00">VillagerGreek</unit>
@@ -133,9 +139,9 @@
 			<unit autotrain="true">VillagerGreek</unit>
 		</startingqueue>
 		<startingresources>
-			<food>200</food>
-			<wood>250</wood>
-			<gold>50</gold>
+			<food>250</food>
+			<wood>255</wood>
+			<gold>100</gold>
 		</startingresources>
 		<startingresources mode="deathmatch">
 			<food>18000</food>
@@ -164,8 +170,8 @@
 		<buildingefficiency>0.6</buildingefficiency>
 		<extrabuildingefficiency>0.3</extrabuildingefficiency>
 		<startingunits>
-			<unit count="3" delay="2.00" x="0.00" y="0.00" z="-5.00">VillagerEgyptian</unit>
-			<unit count="1" delay="4.00" x="-8.00" y="0.00" z="-4.00">Priest</unit>
+			<unit count="2" delay="1.00" x="0.00" y="0.00" z="-5.00">VillagerEgyptian</unit>
+			<unit count="1" delay="1.00" x="-5.00" y="0.00" z="0.00">Priest</unit>
 		</startingunits>
 		<startingunits mode="deathmatch">
 			<unit count="13" delay="2.00" x="0.00" y="0.00" z="0.00">VillagerEgyptian</unit>
@@ -175,9 +181,9 @@
 			<unit autotrain="true">VillagerEgyptian</unit>
 		</startingqueue>
 		<startingresources>
-			<food>200</food>
+			<food>250</food>
 			<wood>100</wood>
-			<gold>50</gold>
+			<gold>100</gold>
 		</startingresources>
 		<startingresources mode="deathmatch">
 			<food>18000</food>
@@ -206,8 +212,8 @@
 		<buildingefficiency>0.6</buildingefficiency>
 		<extrabuildingefficiency>0.3</extrabuildingefficiency>
 		<startingunits>
-			<unit count="3" delay="2.00" x="0.00" y="0.00" z="-5.00">VillagerEgyptian</unit>
-			<unit count="1" delay="4.00" x="-8.00" y="0.00" z="-4.00">Priest</unit>
+			<unit count="2" delay="1.00" x="0.00" y="0.00" z="-5.00">VillagerEgyptian</unit>
+			<unit count="1" delay="1.00" x="-5.00" y="0.00" z="0.00">Priest</unit>
 		</startingunits>
 		<startingunits mode="deathmatch">
 			<unit count="13" delay="2.00" x="0.00" y="0.00" z="0.00">VillagerEgyptian</unit>
@@ -217,9 +223,9 @@
 			<unit autotrain="true">VillagerEgyptian</unit>
 		</startingqueue>
 		<startingresources>
-			<food>200</food>
+			<food>250</food>
 			<wood>100</wood>
-			<gold>50</gold>
+			<gold>100</gold>
 		</startingresources>
 		<startingresources mode="deathmatch">
 			<food>18000</food>
@@ -248,9 +254,9 @@
 		<buildingefficiency>0.6</buildingefficiency>
 		<extrabuildingefficiency>0.3</extrabuildingefficiency>
 		<startingunits>
-			<unit count="3" delay="2.00" x="0.00" y="0.00" z="-5.00">VillagerEgyptian</unit>
-			<unit count="1" delay="4.00" x="-8.00" y="0.00" z="-4.00">Priest</unit>
-			<unit count="1" delay="6.00" x="-11.00" y="0.00" z="-4.00">BaboonOfSet</unit>
+			<unit count="2" delay="1.00" x="0.00" y="0.00" z="-5.00">VillagerEgyptian</unit>
+			<unit count="1" delay="1.00" x="-5.00" y="0.00" z="0.00">Priest</unit>
+			<unit count="1" delay="1.00" x="-11.00" y="0.00" z="-4.00">HyenaOfSet</unit>
 		</startingunits>
 		<startingunits mode="deathmatch">
 			<unit count="13" delay="2.00" x="0.00" y="0.00" z="0.00">VillagerEgyptian</unit>
@@ -261,9 +267,9 @@
 			<unit autotrain="true">VillagerEgyptian</unit>
 		</startingqueue>
 		<startingresources>
-			<food>200</food>
+			<food>250</food>
 			<wood>100</wood>
-			<gold>50</gold>
+			<gold>100</gold>
 		</startingresources>
 		<startingresources mode="deathmatch">
 			<food>18000</food>
@@ -292,9 +298,9 @@
 		<buildingefficiency>0.6</buildingefficiency>
 		<extrabuildingefficiency>0.3</extrabuildingefficiency>
 		<startingunits>
-			<unit count="3" delay="2.00" x="-4.00" y="0.00" z="-6.00">VillagerDwarf</unit>
-			<unit count="1" delay="3.00" x="-10.00" y="0.00" z="-5.00">OxCart</unit>
-			<unit count="1" delay="4.50" x="6.00" y="0.00" z="-5.00">Berserk</unit>
+			<unit count="2" delay="1.00" x="-6.00" y="0.00" z="-6.00">VillagerDwarf</unit>
+			<unit count="1" delay="1.00" x="-15.00" y="0.00" z="0.00">OxCart</unit>
+			<unit count="1" delay="1.00" x="6.00" y="0.00" z="0.00">Berserk</unit>
 		</startingunits>
 		<startingunits mode="deathmatch">
 			<unit count="5" delay="1.00" x="0.00" y="0.00" z="0.00">Berserk</unit>
@@ -303,9 +309,9 @@
 			<unit autotrain="true">VillagerNorse</unit>
 		</startingqueue>
 		<startingresources>
-			<food>200</food>
-			<wood>150</wood>
-			<gold>100</gold>
+			<food>250</food>
+			<wood>200</wood>
+			<gold>150</gold>
 		</startingresources>
 		<startingresources mode="deathmatch">
 			<food>18000</food>
@@ -352,9 +358,9 @@
 		<buildingefficiency>0.6</buildingefficiency>
 		<extrabuildingefficiency>0.3</extrabuildingefficiency>
 		<startingunits>
-			<unit count="3" delay="2.00" x="-4.00" y="0.00" z="-6.00">VillagerNorse</unit>
-			<unit count="1" delay="3.00" x="-10.00" y="0.00" z="-5.00">OxCart</unit>
-			<unit count="1" delay="4.50" x="6.00" y="0.00" z="-5.00">Berserk</unit>
+			<unit count="2" delay="1.00" x="-6.00" y="0.00" z="-6.00">VillagerNorse</unit>
+			<unit count="1" delay="1.00" x="-15.00" y="0.00" z="0.00">OxCart</unit>
+			<unit count="1" delay="1.00" x="6.00" y="0.00" z="0.00">Berserk</unit>
 		</startingunits>
 		<startingunits mode="deathmatch">
 			<unit count="5" delay="1.00" x="0.00" y="0.00" z="0.00">Berserk</unit>
@@ -363,9 +369,9 @@
 			<unit autotrain="true">VillagerNorse</unit>
 		</startingqueue>
 		<startingresources>
-			<food>200</food>
-			<wood>150</wood>
-			<gold>100</gold>
+			<food>250</food>
+			<wood>200</wood>
+			<gold>150</gold>
 		</startingresources>
 		<startingresources mode="deathmatch">
 			<food>18000</food>
@@ -416,9 +422,9 @@
 		<buildingefficiency>0.6</buildingefficiency>
 		<extrabuildingefficiency>0.3</extrabuildingefficiency>
 		<startingunits>
-			<unit count="3" delay="2.00" x="-4.00" y="0.00" z="-6.00">VillagerNorse</unit>
-			<unit count="1" delay="3.00" x="-10.00" y="0.00" z="-5.00">OxCart</unit>
-			<unit count="1" delay="4.50" x="6.00" y="0.00" z="-5.00">Berserk</unit>
+			<unit count="2" delay="1.00" x="-6.00" y="0.00" z="-6.00">VillagerNorse</unit>
+			<unit count="1" delay="1.00" x="-15.00" y="0.00" z="0.00">OxCart</unit>
+			<unit count="1" delay="1.00" x="6.00" y="0.00" z="0.00">Berserk</unit>
 		</startingunits>
 		<startingunits mode="deathmatch">
 			<unit count="5" delay="1.00" x="0.00" y="0.00" z="0.00">Berserk</unit>
@@ -427,9 +433,9 @@
 			<unit autotrain="true">VillagerNorse</unit>
 		</startingqueue>
 		<startingresources>
-			<food>200</food>
-			<wood>150</wood>
-			<gold>100</gold>
+			<food>250</food>
+			<wood>200</wood>
+			<gold>150</gold>
 		</startingresources>
 		<startingresources mode="deathmatch">
 			<food>18000</food>
@@ -496,10 +502,10 @@
 		<buildingefficiency>0.6</buildingefficiency>
 		<extrabuildingefficiency>0.3</extrabuildingefficiency>
 		<startingunits>
-			<unit count="1" delay="6.00" x="19.00" y="0.00" z="40.00">Oracle</unit>
-			<unit count="1" delay="10.00" x="-45.00" y="0.00" z="25.00">Oracle</unit>
-			<unit count="1" delay="14.00" x="12.00" y="0.00" z="-25.00">Oracle</unit>
-			<unit count="2" delay="2.00" x="-2.00" y="0.00" z="0.00">VillagerAtlantean</unit>
+			<unit count="1" delay="1.00" x="7.00" y="0.00" z="28.00">Oracle</unit>
+			<unit count="1" delay="10.00" x="-20.00" y="0.00" z="28.00">Oracle</unit>
+			<unit count="1" delay="20.00" x="9.00" y="0.00" z="-8.00">Oracle</unit>
+			<unit count="1" delay="2.00" x="-7.00" y="0.00" z="-3.00">VillagerAtlantean</unit>
 		</startingunits>
 		<startingunits mode="deathmatch">
 			<unit count="1" delay="4.00" x="7.00" y="0.00" z="28.00">Oracle</unit>
@@ -511,9 +517,9 @@
 			<unit autotrain="true">VillagerAtlantean</unit>
 		</startingqueue>
 		<startingresources>
-			<food>275</food>
-			<wood>250</wood>
-			<gold>75</gold>
+			<food>325</food>
+			<wood>300</wood>
+			<gold>125</gold>
 		</startingresources>
 		<startingresources mode="deathmatch">
 			<food>18000</food>
@@ -556,10 +562,10 @@
 		<buildingefficiency>0.6</buildingefficiency>
 		<extrabuildingefficiency>0.3</extrabuildingefficiency>
 		<startingunits>
-			<unit count="1" delay="6.00" x="19.00" y="0.00" z="40.00">Oracle</unit>
-			<unit count="1" delay="10.00" x="-45.00" y="0.00" z="25.00">Oracle</unit>
-			<unit count="1" delay="14.00" x="12.00" y="0.00" z="-25.00">Oracle</unit>
-			<unit count="2" delay="2.00" x="-2.00" y="0.00" z="0.00">VillagerAtlantean</unit>
+			<unit count="1" delay="1.00" x="7.00" y="0.00" z="28.00">Oracle</unit>
+			<unit count="1" delay="10.00" x="-20.00" y="0.00" z="28.00">Oracle</unit>
+			<unit count="1" delay="20.00" x="9.00" y="0.00" z="-8.00">Oracle</unit>
+			<unit count="1" delay="2.00" x="-7.00" y="0.00" z="-3.00">VillagerAtlantean</unit>
 		</startingunits>
 		<startingunits mode="deathmatch">
 			<unit count="1" delay="4.00" x="7.00" y="0.00" z="28.00">Oracle</unit>
@@ -602,10 +608,10 @@
 		<buildingefficiency>0.6</buildingefficiency>
 		<extrabuildingefficiency>0.3</extrabuildingefficiency>
 		<startingunits>
-			<unit count="1" delay="6.00" x="19.00" y="0.00" z="40.00">Oracle</unit>
-			<unit count="1" delay="10.00" x="-45.00" y="0.00" z="25.00">Oracle</unit>
-			<unit count="1" delay="14.00" x="12.00" y="0.00" z="-25.00">Oracle</unit>
-			<unit count="2" delay="2.00" x="-2.00" y="0.00" z="0.00">VillagerAtlanteanHero</unit>
+			<unit count="1" delay="1.00" x="7.00" y="0.00" z="28.00">Oracle</unit>
+			<unit count="1" delay="10.00" x="-20.00" y="0.00" z="28.00">Oracle</unit>
+			<unit count="1" delay="20.00" x="9.00" y="0.00" z="-8.00">Oracle</unit>
+			<unit count="1" delay="2.00" x="-7.00" y="0.00" z="-3.00">VillagerAtlantean</unit>
 		</startingunits>
 		<startingunits mode="deathmatch">
 			<unit count="1" delay="4.00" x="7.00" y="0.00" z="28.00">Oracle</unit>

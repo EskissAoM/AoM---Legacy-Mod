@@ -150,6 +150,9 @@
 			<effect type="Data" action="RangedAttack" amount="1.10" subtype="Damage" relativity="BasePercent">
 				<target type="ProtoUnit">Hero</target>
 			</effect>
+			<effect type="Data" amount="1.00" subtype="SetUnitType" unittype="LogicalTypeValidBoltTarget" relativity="Absolute">
+				<target type="ProtoUnit">Berserk</target>
+			</effect>
 			<!-- <effect type="Data" action="RangedAttack" amount="3.5" subtype="Trackrating" relativity="Assign"> -->
 				<!-- <target type="ProtoUnit">AbstractTownCenter</target> -->
 			<!-- </effect> -->
@@ -3689,7 +3692,6 @@
 			</effect>
 			<effect type="TechStatus" status="active">ArchaicAgeWeakenUnits</effect>
 			<effect type="TechStatus" status="active">ArchaicAgeEgyptian</effect>
-			<effect type="TechStatus" status="obtainable">SkinOfTheRhino</effect>
 			<effect type="TechStatus" status="obtainable">ClassicalAgePtah</effect>
 			<effect type="TechStatus" status="obtainable">ClassicalAgeBast</effect>
 			<effect type="TechStatus" status="obtainable">ClassicalAgeRa</effect>
@@ -3733,6 +3735,7 @@
 		<effects>
 			<effect type="TechStatus" status="active">ClassicalAgeGeneral</effect>
 			<effect type="TechStatus" status="active">ClassicalAgeEgyptian</effect>
+			<effect type="TechStatus" status="obtainable">SkinOfTheRhino</effect>
 			<effect type="TechStatus" status="obtainable">HeroicAgeSekhmet</effect>
 			<effect type="TechStatus" status="obtainable">HeroicAgeSobek</effect>
 			<effect type="TechStatus" status="obtainable">HeroicAgeRa</effect>
