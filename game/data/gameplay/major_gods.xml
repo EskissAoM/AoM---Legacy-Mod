@@ -527,18 +527,18 @@
 		<minimapborderimage>ui\ingame\minimap\atl_min_panel</minimapborderimage>
 		<backgroundscenario>backgrounds\\background_atlantis.mythscn</backgroundscenario>
 		<timeshifting maxconcurrenttimeshifts="1">
-			<protounit costratio="0.0" timeratio="0.50">Manor</protounit>
-			<protounit costratio="0.0" timeratio="0.50">Farm</protounit>
-			<protounit costratio="0.0" timeratio="0.50">EconomicGuild</protounit>
-			<protounit costratio="0.0" timeratio="0.50">MilitaryBarracks</protounit>
-			<protounit costratio="0.0" timeratio="0.50">CounterBarracks</protounit>
-			<protounit costratio="0.0" timeratio="0.50">Dock</protounit>
-			<protounit costratio="0.0" timeratio="0.50">Temple</protounit>
-			<protounit costratio="0.0" timeratio="0.50">Armory</protounit>
-			<protounit costratio="0.0" timeratio="0.50">Market</protounit>
-			<protounit costratio="0.50" timeratio="0.667">Palace</protounit>
-			<protounit costratio="0.50" timeratio="0.667">SentryTower</protounit>
-			<protounit costratio="0.50" timeratio="0.667">MirrorTower</protounit>
+			<protounit costratio="0.0625" timeratio="0.50">Manor</protounit>
+			<protounit costratio="0.025" timeratio="0.50">Farm</protounit>
+			<protounit costratio="0.0625" timeratio="0.50">EconomicGuild</protounit>
+			<protounit costratio="0.0666" timeratio="0.50">MilitaryBarracks</protounit>
+			<protounit costratio="0.05" timeratio="0.50">CounterBarracks</protounit>
+			<protounit costratio="0.04" timeratio="0.50">Dock</protounit>
+			<protounit costratio="0.05" timeratio="0.50">Temple</protounit>
+			<protounit costratio="0.0333" timeratio="0.50">Armory</protounit>
+			<protounit costratio="0.0166" timeratio="0.50">Market</protounit>
+			<protounit costratio="0.25" timeratio="0.50">Palace</protounit>
+			<protounit costratio="0.375" timeratio="0.50">SentryTower</protounit>
+			<protounit costratio="0.25" timeratio="0.50">MirrorTower</protounit>
 		</timeshifting>
 	</civ>
 	<civ>
@@ -633,13 +633,20 @@
 		<minimapborderimage>ui\ingame\minimap\atl_min_panel</minimapborderimage>
 		<backgroundscenario>backgrounds\\background_atlantis.mythscn</backgroundscenario>
 		<terraincreeps>
-			<terraincreep creep="GaiaCreep" maxradius="24.0" growthrate="0.50" decayrate="0.5" minupdateinterval="3.0" maxupdateinterval="4.0" avoidunbuildable="" avoidimpassable="">
+			<terraincreep creep="GaiaCreep" maxradius="20.0" growthrate="0.36" decayrate="0.225" minupdateinterval="5.5" maxupdateinterval="5.6" avoidunbuildable="" avoidimpassable="" buildability="unbuildableEnemies">
 				<protounit>TownCenter</protounit>
-				<protounit>VillageCenter</protounit>
 				<protounit>CitadelCenter</protounit>
 				<protounit>Manor</protounit>
 				<protounit>EconomicGuild</protounit>
+				<protounit>Dock</protounit>
+				<protounit>Temple</protounit>
 				<protounit>Market</protounit>
+				<protounit>Armory</protounit>
+				<protounit>MilitaryBarracks</protounit>
+				<protounit>CounterBarracks</protounit>
+				<protounit>SentryTower</protounit>
+				<protounit>MirrorTower</protounit>
+				<protounit>Palace</protounit>
 			</terraincreep>
 		</terraincreeps>
 	</civ>

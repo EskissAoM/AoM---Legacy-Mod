@@ -260,6 +260,9 @@ ID = "STR_TECH_CHAMPION_CHEIROBALLISTA_LR"   ;   Str = "Cheiroballistae improved
 ID = "STR_TECH_FOCUS_NAME"   ;   Str = "Focus"
 ID = "STR_TECH_FOCUS_LR"   ;   Str = "Kronos forces intense focus upon Oracles, increasing their speed and the speed at which their line of sight grows.  Kronos also increases Hero Oracle's attack and hitpoints."
 
+ID = "STR_TECH_SAFE_PASSAGE_NAME"   ;   Str = "Safe Passage"
+ID = "STR_TECH_SAFE_PASSAGE_LR"   ;   Str = "Oranos makes your Sky Passages cheaper, have more line of sight and a ranged attack."
+
 ID = "STR_TECH_EYES_OF_ATLAS_NAME"   ;   Str = "Eyes of Atlas"
 ID = "STR_TECH_EYES_OF_ATLAS_LR"   ;   Str = "Atlas increases the line of sight for all your myth units."
 

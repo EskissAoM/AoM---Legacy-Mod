@@ -10,6 +10,7 @@
 		<researchpoints>20.0000</researchpoints>
 		<status>UNOBTAINABLE</status>
 		<icon>resources\shared\static_color\technologies\hunting_dogs_icon_legacy.png</icon>
+		<techtype>GaiaTech</techtype>
 		<flag>CountsTowardEconomicScore</flag>
 		<effects>
 			<effect type="Data" action="Gather" amount="1.30" subtype="WorkRate" unittype="Huntable" relativity="BasePercent">
@@ -195,6 +196,7 @@
 		<researchpoints>30.0000</researchpoints>
 		<status>UNOBTAINABLE</status>
 		<icon>resources\shared\static_color\technologies\husbandry_icon.png</icon>
+		<techtype>GaiaTech</techtype>
 		<flag>CountsTowardEconomicScore</flag>
 		<effects>
 			<effect type="Data" action="AutoGatherFood" amount="1.30" subtype="WorkRate" unittype="Food" relativity="BasePercent">
@@ -219,6 +221,7 @@
 		<researchpoints>40.0000</researchpoints>
 		<status>UNOBTAINABLE</status>
 		<icon>resources\shared\static_color\technologies\plow_icon.png</icon>
+		<techtype>GaiaTech</techtype>
 		<flag>CountsTowardEconomicScore</flag>
 		<effects>
 			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="AbstractFarm" relativity="BasePercent">
@@ -237,6 +240,7 @@
 		<researchpoints>30.0000</researchpoints>
 		<status>UNOBTAINABLE</status>
 		<icon>resources\shared\static_color\technologies\irrigation_icon.png</icon>
+		<techtype>GaiaTech</techtype>
 		<flag>CountsTowardEconomicScore</flag>
 		<techage>HeroicAge</techage>
 		<prereqs>
@@ -259,6 +263,7 @@
 		<researchpoints>40.0000</researchpoints>
 		<status>UNOBTAINABLE</status>
 		<icon>resources\shared\static_color\technologies\flood_control_icon.png</icon>
+		<techtype>GaiaTech</techtype>
 		<flag>CountsTowardEconomicScore</flag>
 		<techage>MythicAge</techage>
 		<prereqs>
@@ -281,6 +286,7 @@
 		<researchpoints>30.0000</researchpoints>
 		<status>UNOBTAINABLE</status>
 		<icon>resources\shared\static_color\technologies\hand_axe_icon.png</icon>
+		<techtype>GaiaTech</techtype>
 		<flag>CountsTowardEconomicScore</flag>
 		<effects>
 			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="WoodResource" relativity="BasePercent">
@@ -305,6 +311,7 @@
 		<researchpoints>45.0000</researchpoints>
 		<status>UNOBTAINABLE</status>
 		<icon>resources\shared\static_color\technologies\bow_saw_icon.png</icon>
+		<techtype>GaiaTech</techtype>
 		<flag>CountsTowardEconomicScore</flag>
 		<techage>HeroicAge</techage>
 		<prereqs>
@@ -333,6 +340,7 @@
 		<researchpoints>55.0000</researchpoints>
 		<status>UNOBTAINABLE</status>
 		<icon>resources\shared\static_color\technologies\carpenters_icon.png</icon>
+		<techtype>GaiaTech</techtype>
 		<flag>CountsTowardEconomicScore</flag>
 		<techage>MythicAge</techage>
 		<prereqs>
@@ -361,6 +369,7 @@
 		<researchpoints>30.0000</researchpoints>
 		<status>UNOBTAINABLE</status>
 		<icon>resources\shared\static_color\technologies\pickaxe_icon.png</icon>
+		<techtype>GaiaTech</techtype>
 		<flag>CountsTowardEconomicScore</flag>
 		<effects>
 			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="GoldResource" relativity="BasePercent">
@@ -385,6 +394,7 @@
 		<researchpoints>40.0000</researchpoints>
 		<status>UNOBTAINABLE</status>
 		<icon>resources\shared\static_color\technologies\shaft_mine_icon.png</icon>
+		<techtype>GaiaTech</techtype>
 		<flag>CountsTowardEconomicScore</flag>
 		<techage>HeroicAge</techage>
 		<prereqs>
@@ -413,6 +423,7 @@
 		<researchpoints>50.0000</researchpoints>
 		<status>UNOBTAINABLE</status>
 		<icon>resources\shared\static_color\technologies\quarry_icon.png</icon>
+		<techtype>GaiaTech</techtype>
 		<flag>CountsTowardEconomicScore</flag>
 		<techage>MythicAge</techage>
 		<prereqs>
@@ -441,6 +452,7 @@
 		<researchpoints>20.0000</researchpoints>
 		<status>UNOBTAINABLE</status>
 		<icon>resources\shared\static_color\technologies\purse_seine_icon.png</icon>
+		<techtype>GaiaTech</techtype>
 		<flag>CountsTowardEconomicScore</flag>
 		<effects>
 			<effect type="Data" action="Gather" amount="1.3" subtype="WorkRate" unittype="FishResource" relativity="BasePercent">
@@ -456,6 +468,7 @@
 		<researchpoints>30.0000</researchpoints>
 		<status>UNOBTAINABLE</status>
 		<icon>resources\shared\static_color\technologies\salt_amphora_icon.png</icon>
+		<techtype>GaiaTech</techtype>
 		<flag>CountsTowardEconomicScore</flag>
 		<prereqs>
 			<techstatus status="Active">PurseSeine</techstatus>
@@ -1805,6 +1818,8 @@
 			<effect type="TechStatus" status="obtainable">EnclosedDeck</effect>
 			<effect type="TechStatus" status="obtainable">HeroicFleet</effect>
 			<effect type="TechStatus" status="obtainable">Plow</effect>
+			<effect type="TechStatus" status="obtainable">BowSaw</effect>
+			<effect type="TechStatus" status="obtainable">ShaftMine</effect>
 		</effects>
 	</tech>
 	<tech name="HeroicAgeGreek" mergeMode="replace">
@@ -1858,12 +1873,11 @@
 			<effect type="TechStatus" status="obtainable">BronzeArmor</effect>
 			<effect type="TechStatus" status="obtainable">BronzeShields</effect>
 			<effect type="TechStatus" status="obtainable">DraftHorses</effect>
-			<!-- <effect type="TechStatus" status="obtainable">Ballistics</effect> -->
 			<effect type="TechStatus" status="obtainable">SaltAmphora</effect>
 			<effect type="TechStatus" status="obtainable">ArrowShipCladding</effect>
 			<effect type="TechStatus" status="obtainable">Irrigation</effect>
-			<effect type="TechStatus" status="obtainable">BowSaw</effect>
-			<effect type="TechStatus" status="obtainable">ShaftMine</effect>
+			<effect type="TechStatus" status="obtainable">Carpenters</effect>
+			<effect type="TechStatus" status="obtainable">Quarry</effect>
 			<effect type="TechStatus" status="obtainable">TaxCollectors</effect>
 			<effect type="TechStatus" status="obtainable">Ambassadors</effect>
 		</effects>
@@ -1896,8 +1910,6 @@
 			<effect type="TechStatus" status="obtainable">NavalOxybeles</effect>
 			<effect type="TechStatus" status="obtainable">ReinforcedHull</effect>
 			<effect type="TechStatus" status="obtainable">FloodControl</effect>
-			<effect type="TechStatus" status="obtainable">Carpenters</effect>
-			<effect type="TechStatus" status="obtainable">Quarry</effect>
 			<effect type="TechStatus" status="obtainable">Coinage</effect>
 		</effects>
 	</tech>
@@ -3507,6 +3519,8 @@
 			<effect type="TechStatus" status="obtainable">EnclosedDeck</effect>
 			<effect type="TechStatus" status="obtainable">HeroicFleet</effect>
 			<effect type="TechStatus" status="obtainable">Plow</effect>
+			<effect type="TechStatus" status="obtainable">BowSaw</effect>
+			<effect type="TechStatus" status="obtainable">ShaftMine</effect>
 		</effects>
 	</tech>
 	<tech name="HeroicAgeEgyptian" mergeMode="replace">
@@ -3595,8 +3609,8 @@
 			<effect type="TechStatus" status="obtainable">SaltAmphora</effect>
 			<effect type="TechStatus" status="obtainable">ArrowShipCladding</effect>
 			<effect type="TechStatus" status="obtainable">Irrigation</effect>
-			<effect type="TechStatus" status="obtainable">BowSaw</effect>
-			<effect type="TechStatus" status="obtainable">ShaftMine</effect>
+			<effect type="TechStatus" status="obtainable">Carpenters</effect>
+			<effect type="TechStatus" status="obtainable">Quarry</effect>
 			<effect type="TechStatus" status="obtainable">TaxCollectors</effect>
 			<effect type="TechStatus" status="obtainable">Ambassadors</effect>
 		</effects>
@@ -3662,8 +3676,6 @@
 			<effect type="TechStatus" status="obtainable">ReinforcedHull</effect>
 			<effect type="TechStatus" status="obtainable">NavalOxybeles</effect>
 			<effect type="TechStatus" status="obtainable">FloodControl</effect>
-			<effect type="TechStatus" status="obtainable">Carpenters</effect>
-			<effect type="TechStatus" status="obtainable">Quarry</effect>
 			<effect type="TechStatus" status="obtainable">Coinage</effect>
 		</effects>
 	</tech>
@@ -4260,7 +4272,15 @@
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">ScorpionMan</target>
 			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Leviathan</target>
+			</effect>
 			<effect type="CreateUnit" unit="ScorpionMan" generator="AbstractTemple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-5.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="CreateUnit" unit="Leviathan" generator="Dock">
 				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
 					<offset x="-5.00" y="0.00" z="0.00"></offset>
 				</pattern>
@@ -4362,7 +4382,15 @@
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Phoenix</target>
 			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">WarTurtle</target>
+			</effect>
 			<effect type="CreateUnit" unit="Phoenix" generator="AbstractTemple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-5.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="CreateUnit" unit="WarTurtle" generator="Dock">
 				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
 					<offset x="-5.00" y="0.00" z="0.00"></offset>
 				</pattern>
@@ -5914,6 +5942,8 @@
 			<effect type="TechStatus" status="obtainable">EnclosedDeck</effect>
 			<effect type="TechStatus" status="obtainable">HeroicFleet</effect>
 			<effect type="TechStatus" status="obtainable">Plow</effect>
+			<effect type="TechStatus" status="obtainable">BowSaw</effect>
+			<effect type="TechStatus" status="obtainable">ShaftMine</effect>
 		</effects>
 	</tech>
 	<tech name="HeroicAgeNorse" mergeMode="replace">
@@ -5960,8 +5990,8 @@
 			<effect type="TechStatus" status="obtainable">SaltAmphora</effect>
 			<effect type="TechStatus" status="obtainable">ArrowShipCladding</effect>
 			<effect type="TechStatus" status="obtainable">Irrigation</effect>
-			<effect type="TechStatus" status="obtainable">BowSaw</effect>
-			<effect type="TechStatus" status="obtainable">ShaftMine</effect>
+			<effect type="TechStatus" status="obtainable">Carpenters</effect>
+			<effect type="TechStatus" status="obtainable">Quarry</effect>
 			<effect type="TechStatus" status="obtainable">TaxCollectors</effect>
 			<effect type="TechStatus" status="obtainable">Ambassadors</effect>
 		</effects>
@@ -5987,8 +6017,6 @@
 			<effect type="TechStatus" status="obtainable">NavalOxybeles</effect>
 			<effect type="TechStatus" status="obtainable">ReinforcedHull</effect>
 			<effect type="TechStatus" status="obtainable">FloodControl</effect>
-			<effect type="TechStatus" status="obtainable">Carpenters</effect>
-			<effect type="TechStatus" status="obtainable">Quarry</effect>
 			<effect type="TechStatus" status="obtainable">Coinage</effect>
 		</effects>
 	</tech>
@@ -6565,7 +6593,15 @@
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">MountainGiant</target>
 			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Kraken</target>
+			</effect>
 			<effect type="CreateUnit" unit="MountainGiant" generator="AbstractTemple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-5.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="CreateUnit" unit="Kraken" generator="Dock">
 				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
 					<offset x="-5.00" y="0.00" z="0.00"></offset>
 				</pattern>
@@ -6672,7 +6708,15 @@
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">FenrisWolfBrood</target>
 			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">JormunElver</target>
+			</effect>
 			<effect type="CreateUnit" unit="FenrisWolfBrood" generator="AbstractTemple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-5.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="CreateUnit" unit="JormunElver" generator="Dock">
 				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
 					<offset x="-5.00" y="0.00" z="0.00"></offset>
 				</pattern>
@@ -7488,6 +7532,903 @@
 
 <!-- ATLANTEAN - Age technologies -->
 
+	<tech name="ArchaicAgeAtlantean" mergeMode="replace">
+		<status>UNOBTAINABLE</status>
+		<flag>HideAllNotifications</flag>
+		<flag>AgeTech</flag>
+		<effects>
+			<effect type="Data" amount="101.0" subtype="MaxResource" resource="Favor" relativity="Absolute"> <!-- MAX 100 favor -->
+				<target type="Player"></target>
+			</effect>
+			<effect type="Data" action="Autogather" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+				<target type="ProtoUnit">AbstractTownCenter</target>
+			</effect>
+			<effect type="Data" action="Autogather" amount="0.09" subtype="WorkRate" unittype="Favor" relativity="Absolute">
+				<target type="ProtoUnit">AbstractTownCenter</target>
+			</effect>
+			<effect type="Data" amount="-1.00" subtype="BuildLimit" relativity="Assign">
+				<target type="ProtoUnit">TownCenter</target>
+			</effect>
+			<effect type="Data" amount="125.00" subtype="cost" resource="Wood" relativity="Absolute">
+				<target type="ProtoUnit">Farm</target>
+			</effect>
+			<effect type="Data" amount="200.00" subtype="Hitpoints" relativity="Absolute">
+				<target type="ProtoUnit">Farm</target>
+			</effect>
+			<effect type="Data" amount="-25.00" subtype="Cost" resource="Gold" relativity="Absolute">
+				<target type="ProtoUnit">TownCenter</target>
+			</effect>
+			<effect type="Data" amount="-25.00" subtype="Cost" resource="Wood" relativity="Absolute">
+				<target type="ProtoUnit">TownCenter</target>
+			</effect>
+			<effect type="Data" amount="0.75" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractTownCenter</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="0.75" subtype="Damage" damagetype="Pierce" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractTownCenter</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="-2.00" subtype="MaximumRange" relativity="Absolute">
+				<target type="ProtoUnit">AbstractTownCenter</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">VillagerAtlantean</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Oracle</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">FishingShipAtlantean</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Manor</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Temple</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">EconomicGuild</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Dock</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">TownCenter</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">CitadelCenter</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">WallShort</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">WallMedium</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">WallLong</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">WallConnector</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">WallGate</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Dryad</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="ModifyReplacement" replacementtype="Build" proto="TitanAtlantean" relativity="Absolute">
+				<target type="ProtoUnit">TitanGate</target>
+			</effect>
+			<effect type="TechStatus" status="obtainable">Husbandry</effect>
+			<effect type="TechStatus" status="obtainable">HandAxe</effect>
+			<effect type="TechStatus" status="obtainable">Pickaxe</effect>
+			<effect type="TechStatus" status="obtainable">HuntingDogs</effect>
+			<effect type="TechStatus" status="active">VillagerAtlanteanToHero</effect>
+			<effect type="TechStatus" status="active">OracleToHero</effect>
+			<effect type="TechStatus" status="active">KatapeltesToHero</effect>
+			<effect type="TechStatus" status="active">TurmaToHero</effect>
+			<effect type="TechStatus" status="active">MurmilloToHero</effect>
+			<effect type="TechStatus" status="active">ContariusToHero</effect>
+			<effect type="TechStatus" status="active">ArcusToHero</effect>
+			<effect type="TechStatus" status="active">DestroyerToHero</effect>
+			<effect type="TechStatus" status="active">FanaticToHero</effect>
+			<effect type="TechStatus" status="obtainable">EnableRelicPickup</effect>
+		</effects>
+	</tech>
+	<tech name="ClassicalAgeAtlantean" mergeMode="replace">
+		<status>UNOBTAINABLE</status>
+		<flag>HideAllNotifications</flag>
+		<flag>AgeTech</flag>
+		<effects>
+			<effect type="Data" amount="1.10" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">Hero</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="1.10" subtype="Damage" damagetype="Hack" relativity="BasePercent">
+				<target type="ProtoUnit">Hero</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="1.10" subtype="Damage" damagetype="Pierce" relativity="BasePercent">
+				<target type="ProtoUnit">Hero</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Katapeltes</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Turma</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Cheiroballista</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Murmillo</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">TransportShipAtlantean</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Bireme</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Farm</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">SentryTower</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">MilitaryBarracks</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">CounterBarracks</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Armory</target>
+			</effect>
+			<effect type="TechStatus" status="obtainable">MediumInfantry</effect>
+			<effect type="TechStatus" status="active">MediumArchers</effect>
+			<effect type="TechStatus" status="obtainable">StoneWall</effect>
+			<effect type="TechStatus" status="obtainable">BronzeWall</effect>
+			<effect type="TechStatus" status="obtainable">Masons</effect>
+			<effect type="TechStatus" status="obtainable">WatchTower</effect>
+			<effect type="TechStatus" status="obtainable">SignalFires</effect>
+			<effect type="TechStatus" status="obtainable">Crenellations</effect>
+			<effect type="TechStatus" status="obtainable">CopperWeapons</effect>
+			<effect type="TechStatus" status="obtainable">CopperArmor</effect>
+			<effect type="TechStatus" status="obtainable">CopperShields</effect>
+			<effect type="TechStatus" status="obtainable">PurseSeine</effect>
+			<effect type="TechStatus" status="obtainable">EnclosedDeck</effect>
+			<effect type="TechStatus" status="obtainable">HeroicFleet</effect>
+			<effect type="TechStatus" status="obtainable">Plow</effect>
+			<effect type="TechStatus" status="obtainable">BowSaw</effect>
+			<effect type="TechStatus" status="obtainable">ShaftMine</effect>
+		</effects>
+	</tech>
+	<tech name="HeroicAgeAtlantean" mergeMode="replace">
+		<status>UNOBTAINABLE</status>
+		<flag>HideAllNotifications</flag>
+		<flag>AgeTech</flag>
+		<effects>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">CaravanAtlantean</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Arcus</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Contarius</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Destroyer</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">FireShip</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">SiegeBireme</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Market</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Palace</target>
+			</effect>
+			<effect type="TechStatus" status="active">MediumCavalry</effect>
+			<effect type="TechStatus" status="obtainable">HeavyInfantry</effect>
+			<effect type="TechStatus" status="obtainable">HeavyCavalry</effect>
+			<effect type="TechStatus" status="obtainable">HeavyArchers</effect>
+			<effect type="TechStatus" status="obtainable">HeavyCheiroballista</effect>
+			<effect type="TechStatus" status="obtainable">LevyMainlineSoldiers</effect>
+			<effect type="TechStatus" status="obtainable">LevyCounterSoldiers</effect>
+			<effect type="TechStatus" status="obtainable">LevyPalaceSoldiers</effect>
+			<effect type="TechStatus" status="obtainable">GuardTower</effect>
+			<effect type="TechStatus" status="obtainable">IronWall</effect>
+			<effect type="TechStatus" status="obtainable">Architects</effect>
+			<effect type="TechStatus" status="obtainable">FortifiedTownCenter</effect>
+			<effect type="TechStatus" status="obtainable">CarrierPigeons</effect>
+			<effect type="TechStatus" status="obtainable">BoilingOil</effect>
+			<effect type="TechStatus" status="obtainable">BronzeWeapons</effect>
+			<effect type="TechStatus" status="obtainable">BronzeArmor</effect>
+			<effect type="TechStatus" status="obtainable">BronzeShields</effect>
+			<effect type="TechStatus" status="obtainable">DraftHorses</effect>
+			<effect type="TechStatus" status="obtainable">ArrowShipCladding</effect>
+			<effect type="TechStatus" status="obtainable">SaltAmphora</effect>
+			<effect type="TechStatus" status="obtainable">HeavyWarships</effect>
+			<effect type="TechStatus" status="obtainable">Irrigation</effect>
+			<effect type="TechStatus" status="obtainable">Carpenters</effect>
+			<effect type="TechStatus" status="obtainable">Quarry</effect>
+			<effect type="TechStatus" status="obtainable">TaxCollectors</effect>
+			<effect type="TechStatus" status="obtainable">Ambassadors</effect>
+		</effects>
+	</tech>
+	<tech name="MythicAgeAtlantean" mergeMode="replace">
+		<status>UNOBTAINABLE</status>
+		<flag>HideAllNotifications</flag>
+		<flag>AgeTech</flag>
+		<effects>
+			<effect type="Data" amount="0.95" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">Hero</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="0.95" subtype="Damage" damagetype="Hack" relativity="BasePercent">
+				<target type="ProtoUnit">Hero</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="0.95" subtype="Damage" damagetype="Pierce" relativity="BasePercent">
+				<target type="ProtoUnit">Hero</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Fanatic</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">FireSiphon</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Wonder</target>
+			</effect>
+			<effect type="TechStatus" status="obtainable">ChampionInfantry</effect>
+			<effect type="TechStatus" status="obtainable">ChampionCavalry</effect>
+			<effect type="TechStatus" status="obtainable">ChampionArchers</effect>
+			<effect type="TechStatus" status="obtainable">ChampionCheiroballista</effect>
+			<effect type="TechStatus" status="obtainable">ConscriptMainlineSoldiers</effect>
+			<effect type="TechStatus" status="obtainable">ConscriptCounterSoldiers</effect>
+			<effect type="TechStatus" status="obtainable">ConscriptPalaceSoldiers</effect>
+			<effect type="TechStatus" status="obtainable">OrichalcumWall</effect>
+			<effect type="TechStatus" status="obtainable">Omniscience</effect>
+			<effect type="TechStatus" status="obtainable">IronWeapons</effect>
+			<effect type="TechStatus" status="obtainable">IronArmor</effect>
+			<effect type="TechStatus" status="obtainable">IronShields</effect>
+			<effect type="TechStatus" status="obtainable">BurningPitch</effect>
+			<effect type="TechStatus" status="obtainable">Engineers</effect>
+			<effect type="TechStatus" status="obtainable">ConscriptSailors</effect>
+			<effect type="TechStatus" status="obtainable">HeavyFireShip</effect>
+			<effect type="TechStatus" status="obtainable">NavalOxybeles</effect>
+			<effect type="TechStatus" status="obtainable">FloodControl</effect>
+			<effect type="TechStatus" status="obtainable">Coinage</effect>
+		</effects>
+	</tech>
+	<tech name="ArchaicAgeKronos" mergeMode="replace">
+		<status>UNOBTAINABLE</status>
+		<flag>HideAllNotifications</flag>
+		<flag>AgeTech</flag>
+		<effects>
+			<effect type="Data" subtype="GodPower" power="Deconstruction" amount="2.0" cooldown="240.0" relativity="Absolute">
+				<target type="Player"></target>
+			</effect>
+			<effect type="TechStatus" status="active">ArchaicAgeWeakenUnits</effect>
+			<effect type="TechStatus" status="active">ArchaicAgeAtlantean</effect>
+			<effect type="TechStatus" status="obtainable">Focus</effect>
+			<effect type="TechStatus" status="obtainable">ClassicalAgePrometheus</effect>
+			<effect type="TechStatus" status="obtainable">ClassicalAgeLeto</effect>
+			<effect type="TechStatus" status="obtainable">ClassicalAgeKronos</effect>
+			<effect type="Data" amount="0.90" subtype="Cost" resource="Gold" relativity="Percent">
+				<target type="ProtoUnit">MythUnit</target>
+			</effect>
+			<effect type="Data" amount="0.90" subtype="Cost" resource="Wood" relativity="Percent">
+				<target type="ProtoUnit">MythUnit</target>
+			</effect>
+			<effect type="Data" amount="0.90" subtype="Cost" resource="Food" relativity="Percent">
+				<target type="ProtoUnit">MythUnit</target>
+			</effect>
+			<effect type="Data" amount="0.90" subtype="Cost" resource="Favor" relativity="Percent">
+				<target type="ProtoUnit">MythUnit</target>
+			</effect>
+			<effect type="Data" amount="0.90" subtype="Cost" resource="Food" relativity="Percent">
+				<target type="ProtoUnit">Destroyer</target>
+			</effect>
+			<effect type="Data" amount="0.90" subtype="Cost" resource="Gold" relativity="Percent">
+				<target type="ProtoUnit">Destroyer</target>
+			</effect>
+			<effect type="Data" amount="0.90" subtype="Cost" resource="Food" relativity="Percent">
+				<target type="ProtoUnit">DestroyerHero</target>
+			</effect>
+			<effect type="Data" amount="0.90" subtype="Cost" resource="Gold" relativity="Percent">
+				<target type="ProtoUnit">DestroyerHero</target>
+			</effect>
+			<effect type="Data" amount="0.90" subtype="Cost" resource="Wood" relativity="Percent">
+				<target type="ProtoUnit">SiegeBireme</target>
+			</effect>
+			<effect type="Data" amount="0.90" subtype="Cost" resource="Gold" relativity="Percent">
+				<target type="ProtoUnit">SiegeBireme</target>
+			</effect>
+			<effect type="Data" amount="0.90" subtype="Cost" resource="Wood" relativity="Percent">
+				<target type="ProtoUnit">AbstractSiegeWeapon</target>
+			</effect>
+			<effect type="Data" amount="0.90" subtype="Cost" resource="Gold" relativity="Percent">
+				<target type="ProtoUnit">AbstractSiegeWeapon</target>
+			</effect>
+			<effect type="Data" amount="1.10" subtype="MaximumVelocity" relativity="BasePercent">
+				<target type="ProtoUnit">LogicalTypeMythUnitNotTitan</target>
+			</effect>
+			<effect type="Data" amount="1.10" subtype="MaximumVelocity" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractSiegeWeapon</target>
+			</effect>
+			<effect type="Data" amount="1.10" subtype="MaximumVelocity" relativity="BasePercent">
+				<target type="ProtoUnit">SiegeBireme</target>
+			</effect>
+			<effect type="Data" amount="1.10" subtype="MaximumVelocity" relativity="BasePercent">
+				<target type="ProtoUnit">Destroyer</target>
+			</effect>
+			<effect type="Data" amount="1.10" subtype="MaximumVelocity" relativity="BasePercent">
+				<target type="ProtoUnit">DestroyerHero</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="ClassicalAgeKronos" mergeMode="replace">
+		<status>UNOBTAINABLE</status>
+		<flag>HideAllNotifications</flag>
+		<flag>Volatile</flag>
+		<flag>AgeTech</flag>
+		<prereqs>
+			<specificage>ClassicalAge</specificage>
+		</prereqs>
+		<effects>
+			<effect type="TechStatus" status="active">ClassicalAgeGeneral</effect>
+			<effect type="TechStatus" status="active">ClassicalAgeAtlantean</effect>
+			<effect type="TechStatus" status="obtainable">HeroicAgeHyperion</effect>
+			<effect type="TechStatus" status="obtainable">HeroicAgeRheia</effect>
+			<effect type="TechStatus" status="obtainable">HeroicAgeKronos</effect>
+		</effects>
+	</tech>
+	<tech name="HeroicAgeKronos" mergeMode="replace">
+		<status>UNOBTAINABLE</status>
+		<flag>HideAllNotifications</flag>
+		<flag>Volatile</flag>
+		<flag>AgeTech</flag>
+		<prereqs>
+			<specificage>HeroicAge</specificage>
+		</prereqs>
+		<effects>
+			<effect type="TechStatus" status="active">HeroicAgeGeneral</effect>
+			<effect type="TechStatus" status="active">HeroicAgeAtlantean</effect>
+			<effect type="TechStatus" status="obtainable">MythicAgeAtlas</effect>
+			<effect type="TechStatus" status="obtainable">MythicAgeHelios</effect>
+			<effect type="TechStatus" status="obtainable">MythicAgeKronos</effect>
+		</effects>
+	</tech>
+	<tech name="MythicAgeKronos" mergeMode="replace">
+		<status>UNOBTAINABLE</status>
+		<flag>HideAllNotifications</flag>
+		<flag>Volatile</flag>
+		<flag>AgeTech</flag>
+		<prereqs>
+			<specificage>MythicAge</specificage>
+		</prereqs>
+		<effects>
+			<effect type="TechStatus" status="active">MythicAgeGeneral</effect>
+			<effect type="TechStatus" status="active">MythicAgeAtlantean</effect>
+		</effects>
+	</tech>
+	<tech name="ArchaicAgeGaia" mergeMode="replace">
+		<status>UNOBTAINABLE</status>
+		<flag>HideAllNotifications</flag>
+		<flag>AgeTech</flag>
+		<effects>
+			<effect type="Data" subtype="GodPower" power="GaiaForest" amount="4.0" cooldown="120.0" relativity="Absolute">
+				<target type="Player"></target>
+			</effect>
+			<effect type="TechStatus" status="active">ArchaicAgeWeakenUnits</effect>
+			<effect type="TechStatus" status="active">ArchaicAgeAtlantean</effect>
+			<effect type="TechStatus" status="obtainable">Channels</effect>
+			<effect type="TechStatus" status="obtainable">ClassicalAgeLeto</effect>
+			<effect type="TechStatus" status="obtainable">ClassicalAgeOceanus</effect>
+			<effect type="TechStatus" status="obtainable">ClassicalAgeGaia</effect>
+			<effect type="TechStatus" status="obtainable">Plow</effect>
+			<effect type="TechStatus" status="obtainable">BowSaw</effect>
+			<effect type="TechStatus" status="obtainable">ShaftMine</effect>
+			<effect type="TechStatus" status="obtainable">Irrigation</effect>
+			<effect type="TechStatus" status="obtainable">Carpenters</effect>
+			<effect type="TechStatus" status="obtainable">Quarry</effect>
+			<effect type="TechStatus" status="obtainable">FloodControl</effect>
+			<effect type="Data" amount="0.65" subtype="Cost" resource="Food" relativity="Percent">
+				<target type="techType">GaiaTech</target>
+			</effect>
+			<effect type="Data" amount="0.65" subtype="Cost" resource="Wood" relativity="Percent">
+				<target type="techType">GaiaTech</target>
+			</effect>
+			<effect type="Data" amount="0.65" subtype="Cost" resource="Gold" relativity="Percent">
+				<target type="techType">GaiaTech</target>
+			</effect>
+			<effect type="Data" amount="0.75" subtype="ResearchPoints" resource="Gold" relativity="Percent">
+				<target type="techType">GaiaTech</target>
+			</effect>
+			<effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">FishingShipAtlantean</target>
+			</effect>
+			<effect type="Data" amount="1.25" subtype="Hitpoints" relativity="BasePercent">
+				<target type="ProtoUnit">CaravanAtlantean</target>
+			</effect>
+			<effect type="Data" amount="0.90" subtype="Cost" resource="Wood" relativity="Percent">
+				<target type="ProtoUnit">FishingShipAtlantean</target>
+			</effect>
+			<effect type="Data" amount="0.80" subtype="Cost" resource="Food" relativity="Percent">
+				<target type="ProtoUnit">CaravanAtlantean</target>
+			</effect>
+			<effect type="Data" amount="0.70" subtype="Cost" resource="Food" relativity="Percent">
+				<target type="techType">HeroPromotion</target>
+			</effect>
+			<effect type="Data" amount="0.70" subtype="Cost" resource="Wood" relativity="Percent">
+				<target type="techType">HeroPromotion</target>
+			</effect>
+			<effect type="Data" amount="0.70" subtype="Cost" resource="Gold" relativity="Percent">
+				<target type="techType">HeroPromotion</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="ClassicalAgeGaia" mergeMode="replace">
+		<status>UNOBTAINABLE</status>
+		<flag>HideAllNotifications</flag>
+		<flag>Volatile</flag>
+		<flag>AgeTech</flag>
+		<prereqs>
+			<specificage>ClassicalAge</specificage>
+		</prereqs>
+		<effects>
+			<effect type="TechStatus" status="active">ClassicalAgeGeneral</effect>
+			<effect type="TechStatus" status="active">ClassicalAgeAtlantean</effect>
+			<effect type="TechStatus" status="obtainable">HeroicAgeTheia</effect>
+			<effect type="TechStatus" status="obtainable">HeroicAgeRheia</effect>
+			<effect type="TechStatus" status="obtainable">HeroicAgeGaia</effect>
+		</effects>
+	</tech>
+	<tech name="HeroicAgeGaia" mergeMode="replace">
+		<status>UNOBTAINABLE</status>
+		<flag>HideAllNotifications</flag>
+		<flag>Volatile</flag>
+		<flag>AgeTech</flag>
+		<prereqs>
+			<specificage>HeroicAge</specificage>
+		</prereqs>
+		<effects>
+			<effect type="TechStatus" status="active">HeroicAgeGeneral</effect>
+			<effect type="TechStatus" status="active">HeroicAgeAtlantean</effect>
+			<effect type="TechStatus" status="obtainable">MythicAgeAtlas</effect>
+			<effect type="TechStatus" status="obtainable">MythicAgeHekate</effect>
+			<effect type="TechStatus" status="obtainable">MythicAgeGaia</effect>
+		</effects>
+	</tech>
+	<tech name="MythicAgeGaia" mergeMode="replace">
+		<status>UNOBTAINABLE</status>
+		<flag>HideAllNotifications</flag>
+		<flag>Volatile</flag>
+		<flag>AgeTech</flag>
+		<prereqs>
+			<specificage>MythicAge</specificage>
+		</prereqs>
+		<effects>
+			<effect type="TechStatus" status="active">MythicAgeGeneral</effect>
+			<effect type="TechStatus" status="active">MythicAgeAtlantean</effect>
+		</effects>
+	</tech>
+	<tech name="ArchaicAgeOranos" mergeMode="replace">
+		<status>UNOBTAINABLE</status>
+		<flag>HideAllNotifications</flag>
+		<flag>AgeTech</flag>
+		<effects>
+			<effect type="Data" subtype="GodPower" power="Shockwave" amount="3.0" cooldown="260.0" relativity="Absolute">
+				<target type="Player"></target>
+			</effect>
+			<effect type="TechStatus" status="active">ArchaicAgeWeakenUnits</effect>
+			<effect type="TechStatus" status="active">ArchaicAgeAtlantean</effect>
+			<effect type="TechStatus" status="obtainable">SafePassage</effect>
+			<effect type="TechStatus" status="obtainable">ArchaicAgeOranosRevealSettlement</effect>
+			<effect type="TechStatus" status="obtainable">ClassicalAgePrometheus</effect>
+			<effect type="TechStatus" status="obtainable">ClassicalAgeOceanus</effect>
+			<effect type="TechStatus" status="obtainable">ClassicalAgeOranos</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">SkyPassage</target>
+			</effect>
+			<effect type="Data" amount="1.10" subtype="MaximumVelocity" relativity="BasePercent">
+				<target type="ProtoUnit">HumanSoldier</target>
+			</effect>
+			<effect type="Data" amount="0.90" subtype="MaximumVelocity" relativity="BasePercent">
+				<target type="ProtoUnit">Oracle</target>
+			</effect>
+			<effect type="Data" amount="1.10" subtype="MaximumVelocity" relativity="BasePercent">
+				<target type="ProtoUnit">Hero</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="ArchaicAgeOranosRevealSettlement">
+		<status>UNOBTAINABLE</status>
+		<researchpoints>0.0000</researchpoints>
+		<delay>1.0000</delay>
+		<flag>HideFromDialogs</flag>
+		<effects>
+			<effect type="Data" amount="1.0" subtype="RevealLOS" unittype="Settlement" relativity="Absolute">
+				<target type="ProtoUnit">Settlement</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="ClassicalAgeOranos" mergeMode="replace">
+		<status>UNOBTAINABLE</status>
+		<flag>HideAllNotifications</flag>
+		<flag>Volatile</flag>
+		<flag>AgeTech</flag>
+		<prereqs>
+			<specificage>ClassicalAge</specificage>
+		</prereqs>
+		<effects>
+			<effect type="TechStatus" status="active">ClassicalAgeGeneral</effect>
+			<effect type="TechStatus" status="active">ClassicalAgeAtlantean</effect>
+			<effect type="TechStatus" status="obtainable">HeroicAgeHyperion</effect>
+			<effect type="TechStatus" status="obtainable">HeroicAgeTheia</effect>
+			<effect type="TechStatus" status="obtainable">HeroicAgeOranos</effect>
+		</effects>
+	</tech>
+	<tech name="HeroicAgeOranos" mergeMode="replace">
+		<status>UNOBTAINABLE</status>
+		<flag>HideAllNotifications</flag>
+		<flag>Volatile</flag>
+		<flag>AgeTech</flag>
+		<prereqs>
+			<specificage>HeroicAge</specificage>
+		</prereqs>
+		<effects>
+			<effect type="TechStatus" status="active">HeroicAgeGeneral</effect>
+			<effect type="TechStatus" status="active">HeroicAgeAtlantean</effect>
+			<effect type="TechStatus" status="obtainable">MythicAgeHekate</effect>
+			<effect type="TechStatus" status="obtainable">MythicAgeHelios</effect>
+			<effect type="TechStatus" status="obtainable">MythicAgeOranos</effect>
+		</effects>
+	</tech>
+	<tech name="MythicAgeOranos" mergeMode="replace">
+		<status>UNOBTAINABLE</status>
+		<flag>HideAllNotifications</flag>
+		<flag>Volatile</flag>
+		<flag>AgeTech</flag>
+		<prereqs>
+			<specificage>MythicAge</specificage>
+		</prereqs>
+		<effects>
+			<effect type="TechStatus" status="active">MythicAgeGeneral</effect>
+			<effect type="TechStatus" status="active">MythicAgeAtlantean</effect>
+		</effects>
+	</tech>
+	<tech name="ClassicalAgePrometheus" mergeMode="replace">
+		<displaynameid>STR_TECH_PROMETHEUS_NAME</displaynameid>
+		<rollovertextid>STR_TECH_PROMETHEUS_LR</rollovertextid>
+		<cost resourcetype="Food">400.0000</cost>
+		<researchpoints>60.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>resources\shared\static_color\technologies\classical_age_icon.png</icon>
+		<flag>AgeUpgrade</flag>
+		<flag>CountsTowardEconomicScore</flag>
+		<techtype>ClassicalAge</techtype>
+		<prereqs>
+			<typecount unit="AbstractTemple" count="1.00" state="aliveState" operator="gte"></typecount>
+		</prereqs>
+		<effects>
+			<effect type="SetAge">ClassicalAge</effect>
+			<effect type="Data" subtype="GodPower" power="Valor" amount="3.0" cooldown="120.0" relativity="Absolute">
+				<target type="Player"></target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Promethean</target>
+			</effect>
+			<effect type="CreateUnit" unit="Promethean" generator="AbstractTemple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-5.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="TechStatus" status="obtainable">AlluvialClay</effect>
+			<effect type="TechStatus" status="obtainable">HeartOfTheTitans</effect>
+			<effect type="TextOutput">STR_TECH_PROMETHEUS_SELF</effect>
+			<effect all="true" type="TextOutput">STR_TECH_PROMETHEUS_OTHER</effect>
+		</effects>
+	</tech>
+	<tech name="ClassicalAgeOceanus" mergeMode="replace">
+		<displaynameid>STR_TECH_OCEANUS_NAME</displaynameid>
+		<rollovertextid>STR_TECH_OCEANUS_LR</rollovertextid>
+		<cost resourcetype="Food">400.0000</cost>
+		<researchpoints>60.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>resources\shared\static_color\technologies\classical_age_icon.png</icon>
+		<flag>AgeUpgrade</flag>
+		<flag>CountsTowardEconomicScore</flag>
+		<techtype>ClassicalAge</techtype>
+		<prereqs>
+			<typecount unit="AbstractTemple" count="1.00" state="aliveState" operator="gte"></typecount>
+		</prereqs>
+		<effects>
+			<effect type="SetAge">ClassicalAge</effect>
+			<effect type="Data" subtype="GodPower" power="Carnivora" amount="3.0" cooldown="120.0" relativity="Absolute">
+				<target type="Player"></target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Caladria</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Servant</target>
+			</effect>
+			<effect type="CreateUnit" unit="Caladria" generator="AbstractTemple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-5.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="CreateUnit" unit="Servant" generator="Dock">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-5.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="TechStatus" status="obtainable">BiteOfTheShark</effect>
+			<effect type="TechStatus" status="obtainable">WeightlessMace</effect>
+			<effect type="TextOutput">STR_TECH_OCEANUS_SELF</effect>
+			<effect all="true" type="TextOutput">STR_TECH_OCEANUS_OTHER</effect>
+		</effects>
+	</tech>
+	<tech name="ClassicalAgeLeto" mergeMode="replace">
+		<displaynameid>STR_TECH_LETO_NAME</displaynameid>
+		<rollovertextid>STR_TECH_LETO_LR</rollovertextid>
+		<cost resourcetype="Food">400.0000</cost>
+		<researchpoints>60.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>resources\shared\static_color\technologies\classical_age_icon.png</icon>
+		<flag>AgeUpgrade</flag>
+		<flag>CountsTowardEconomicScore</flag>
+		<techtype>ClassicalAge</techtype>
+		<prereqs>
+			<typecount unit="AbstractTemple" count="1.00" state="aliveState" operator="gte"></typecount>
+		</prereqs>
+		<effects>
+			<effect type="SetAge">ClassicalAge</effect>
+			<effect type="Data" subtype="GodPower" power="SpiderLair" amount="3.0" cooldown="180.0" relativity="Absolute">
+				<target type="Player"></target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Automaton</target>
+			</effect>
+			<effect type="CreateUnit" unit="Automaton" generator="AbstractTemple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-5.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="TechStatus" status="obtainable">HephaestusRevenge</effect>
+			<effect type="TechStatus" status="obtainable">VolcanicForge</effect>
+			<effect type="TextOutput">STR_TECH_LETO_SELF</effect>
+			<effect all="true" type="TextOutput">STR_TECH_LETO_OTHER</effect>
+		</effects>
+	</tech>
+	<tech name="HeroicAgeHyperion" mergeMode="replace">
+		<displaynameid>STR_TECH_HYPERION_NAME</displaynameid>
+		<rollovertextid>STR_TECH_HYPERION_LR</rollovertextid>
+		<cost resourcetype="Food">800.0000</cost>
+		<cost resourcetype="Gold">500.0000</cost>
+		<researchpoints>60.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>resources\shared\static_color\technologies\heroic_age_icon.png</icon>
+		<flag>AgeUpgrade</flag>
+		<flag>CountsTowardEconomicScore</flag>
+		<techtype>HeroicAge</techtype>
+		<prereqs>
+			<typecount unit="Armory" count="1.00" state="aliveState" operator="gte"></typecount>
+		</prereqs>
+		<effects>
+			<effect type="SetAge">HeroicAge</effect>
+			<effect type="Data" subtype="GodPower" power="Chaos" amount="2.0" cooldown="260.0" relativity="Absolute">
+				<target type="Player"></target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Satyr</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Nereid</target>
+			</effect>
+			<effect type="CreateUnit" unit="Satyr" generator="AbstractTemple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-5.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="CreateUnit" unit="Nereid" generator="Dock">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-5.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="TechStatus" status="obtainable">Gemini</effect>
+			<effect type="TechStatus" status="obtainable">HeroicRenewal</effect>
+			<effect type="TextOutput">STR_TECH_HYPERION_SELF</effect>
+			<effect all="true" type="TextOutput">STR_TECH_HYPERION_OTHER</effect>
+		</effects>
+	</tech>
+	<tech name="HeroicAgeTheia" mergeMode="replace">
+		<displaynameid>STR_TECH_THEIA_NAME</displaynameid>
+		<rollovertextid>STR_TECH_THEIA_LR</rollovertextid>
+		<cost resourcetype="Food">800.0000</cost>
+		<cost resourcetype="Gold">500.0000</cost>
+		<researchpoints>60.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>resources\shared\static_color\technologies\heroic_age_icon.png</icon>
+		<flag>AgeUpgrade</flag>
+		<flag>CountsTowardEconomicScore</flag>
+		<techtype>HeroicAge</techtype>
+		<prereqs>
+			<typecount unit="Armory" count="1.00" state="aliveState" operator="gte"></typecount>
+		</prereqs>
+		<effects>
+			<effect type="SetAge">HeroicAge</effect>
+			<effect type="Data" subtype="GodPower" power="HesperidesTree" amount="2.0" cooldown="120.0" relativity="Absolute">
+				<target type="Player"></target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Dryad</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">StymphalianBird</target>
+			</effect>
+			<effect type="CreateUnit" unit="StymphalianBird" generator="AbstractTemple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-5.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="TechStatus" status="obtainable">LemurianDescendants</effect>
+			<effect type="TechStatus" status="obtainable">PoseidonsSecret</effect>
+			<effect type="TechStatus" status="obtainable">LanceOfStone</effect>
+			<effect type="TextOutput">STR_TECH_THEIA_SELF</effect>
+			<effect all="true" type="TextOutput">STR_TECH_THEIA_OTHER</effect>
+		</effects>
+	</tech>
+	<tech name="HeroicAgeRheia" mergeMode="replace">
+		<displaynameid>STR_TECH_RHEIA_NAME</displaynameid>
+		<rollovertextid>STR_TECH_RHEIA_LR</rollovertextid>
+		<cost resourcetype="Food">800.0000</cost>
+		<cost resourcetype="Gold">500.0000</cost>
+		<researchpoints>60.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>resources\shared\static_color\technologies\heroic_age_icon.png</icon>
+		<flag>AgeUpgrade</flag>
+		<flag>CountsTowardEconomicScore</flag>
+		<techtype>HeroicAge</techtype>
+		<prereqs>
+			<typecount unit="Armory" count="1.00" state="aliveState" operator="gte"></typecount>
+		</prereqs>
+		<effects>
+			<effect type="SetAge">HeroicAge</effect>
+			<effect type="Data" subtype="GodPower" power="Traitor" amount="3.0" cooldown="180.0" relativity="Absolute">
+				<target type="Player"></target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Behemoth</target>
+			</effect>
+			<effect type="CreateUnit" unit="Behemoth" generator="AbstractTemple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-5.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="TechStatus" status="obtainable">Daktyloi</effect>
+			<effect type="TechStatus" status="obtainable">HornsOfConsecration</effect>
+			<effect type="TechStatus" status="obtainable">OrichalcumMail</effect>
+			<effect type="TechStatus" status="obtainable">RheiasGift</effect>
+			<effect type="TextOutput">STR_TECH_RHEIA_SELF</effect>
+			<effect all="true" type="TextOutput">STR_TECH_RHEIA_OTHER</effect>
+		</effects>
+	</tech>
+	<tech name="MythicAgeHekate" mergeMode="replace">
+		<displaynameid>STR_TECH_HEKATE_NAME</displaynameid>
+		<rollovertextid>STR_TECH_HEKATE_LR</rollovertextid>
+		<cost resourcetype="Food">1000.0000</cost>
+		<cost resourcetype="Gold">1000.0000</cost>
+		<researchpoints>90.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>resources\shared\static_color\technologies\mythic_age_icon.png</icon>
+		<flag>AgeUpgrade</flag>
+		<flag>CountsTowardEconomicScore</flag>
+		<techtype>MythicAge</techtype>
+		<prereqs>
+			<typecount unit="Market" count="1.00" state="aliveState" operator="gte"></typecount>
+		</prereqs>
+		<effects>
+			<effect type="SetAge">MythicAge</effect>
+			<effect type="Data" subtype="GodPower" power="TartarianGate" amount="1.0" relativity="Absolute">
+				<target type="Player"></target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Lampades</target>
+			</effect>
+			<effect type="CreateUnit" unit="Lampades" generator="AbstractTemple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-5.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="TechStatus" status="obtainable">AsperBlood</effect>
+			<effect type="TechStatus" status="obtainable">MythicRejuvenation</effect>
+			<effect type="TechStatus" status="obtainable">Celerity</effect>
+			<effect type="TextOutput">STR_TECH_HEKATE_SELF</effect>
+			<effect all="true" type="TextOutput">STR_TECH_HEKATE_OTHER</effect>
+		</effects>
+	</tech>
+	<tech name="MythicAgeHelios" mergeMode="replace">
+		<displaynameid>STR_TECH_HELIOS_NAME</displaynameid>
+		<rollovertextid>STR_TECH_HELIOS_LR</rollovertextid>
+		<cost resourcetype="Food">1000.0000</cost>
+		<cost resourcetype="Gold">1000.0000</cost>
+		<researchpoints>90.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>resources\shared\static_color\technologies\mythic_age_icon.png</icon>
+		<flag>AgeUpgrade</flag>
+		<flag>CountsTowardEconomicScore</flag>
+		<techtype>MythicAge</techtype>
+		<prereqs>
+			<typecount unit="Market" count="1.00" state="aliveState" operator="gte"></typecount>
+		</prereqs>
+		<effects>
+			<effect type="SetAge">MythicAge</effect>
+			<effect type="Data" subtype="GodPower" power="Vortex" amount="3.0" cooldown="60.0" relativity="Absolute">
+				<target type="Player"></target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">MirrorTower</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Centimanus</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">ManOWar</target>
+			</effect>
+			<effect type="CreateUnit" unit="Centimanus" generator="AbstractTemple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-5.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="CreateUnit" unit="ManOWar" generator="Dock">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-5.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="TechStatus" status="obtainable">HaloOfTheSun</effect>
+			<effect type="TechStatus" status="obtainable">Petrification</effect>
+			<effect type="TextOutput">STR_TECH_HELIOS_SELF</effect>
+			<effect all="true" type="TextOutput">STR_TECH_HELIOS_OTHER</effect>
+		</effects>
+	</tech>
+	<tech name="MythicAgeAtlas" mergeMode="replace">
+		<displaynameid>STR_TECH_ATLAS_NAME</displaynameid>
+		<rollovertextid>STR_TECH_ATLAS_LR</rollovertextid>
+		<cost resourcetype="Food">1000.0000</cost>
+		<cost resourcetype="Gold">1000.0000</cost>
+		<researchpoints>90.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>resources\shared\static_color\technologies\mythic_age_icon.png</icon>
+		<flag>AgeUpgrade</flag>
+		<flag>CountsTowardEconomicScore</flag>
+		<techtype>MythicAge</techtype>
+		<prereqs>
+			<typecount unit="Market" count="1.00" state="aliveState" operator="gte"></typecount>
+		</prereqs>
+		<effects>
+			<effect type="SetAge">MythicAge</effect>
+			<effect type="Data" subtype="GodPower" power="Implode" amount="1.0" relativity="Absolute">
+				<target type="Player"></target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
+				<target type="ProtoUnit">Argus</target>
+			</effect>
+			<effect type="CreateUnit" unit="Argus" generator="AbstractTemple">
+				<pattern type="Leaving" speed="0.00" radius="0.00" quantity="1.00" minradius="0.00">
+					<offset x="-5.00" y="0.00" z="0.00"></offset>
+				</pattern>
+			</effect>
+			<effect type="TechStatus" status="obtainable">GuardianOfIo</effect>
+			<effect type="TechStatus" status="obtainable">EyesOfAtlas</effect>
+			<effect type="TechStatus" status="obtainable">TitanShield</effect>
+			<effect type="TextOutput">STR_TECH_ATLAS_SELF</effect>
+			<effect all="true" type="TextOutput">STR_TECH_ATLAS_OTHER</effect>
+		</effects>
+	</tech>
+
 <!-- ATLANTEAN - Added technologies -->	
 
 	<tech name="HeavyCheiroballista">
@@ -7556,6 +8497,32 @@
 			</effect>
 			<effect type="Data" action="AutoLOS" amount="1.55" subtype="ModifyRate" relativity="Assign">
 				<target type="ProtoUnit">OracleHero</target>
+			</effect>
+		</effects>
+	</tech>
+	<tech name="SafePassage"> <!-- WIP -->	
+		<displaynameid>STR_TECH_SAFE_PASSAGE_NAME</displaynameid>
+		<rollovertextid>STR_TECH_SAFE_PASSAGE_LR</rollovertextid>
+		<cost resourcetype="Wood">200.0000</cost>
+		<cost resourcetype="Gold">0.0000</cost>
+		<cost resourcetype="Favor">10.0000</cost>
+		<researchpoints>40.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>resources\atlantean\static_color\technologies\safe_passage_icon_legacy.png</icon>
+		<flag>CountsTowardMilitaryScore</flag>
+		<flag>MythTech</flag>
+		<effects>
+			<!-- <effect type="Data" action="RangedAttack" amount="1.00" subtype="ActionEnable" relativity="Absolute">
+				<target type="ProtoUnit">SkyPassage</target>
+			</effect> -->
+			<effect type="Data" amount="0.75" subtype="Cost" resource="Wood" relativity="Percent">
+				<target type="ProtoUnit">SkyPassage</target>
+			</effect>
+			<effect type="Data" amount="0.80" subtype="Cost" resource="Gold" relativity="Percent">
+				<target type="ProtoUnit">SkyPassage</target>
+			</effect>
+			<effect type="Data" amount="6.00" subtype="LOS" relativity="Absolute">
+				<target type="ProtoUnit">SkyPassage</target>
 			</effect>
 		</effects>
 	</tech>
