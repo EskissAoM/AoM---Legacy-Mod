@@ -361,6 +361,7 @@
 			<unit count="2" delay="1.00" x="-6.00" y="0.00" z="-6.00">VillagerNorse</unit>
 			<unit count="1" delay="1.00" x="-15.00" y="0.00" z="0.00">OxCart</unit>
 			<unit count="1" delay="1.00" x="6.00" y="0.00" z="0.00">Berserk</unit>
+			<unit count="1" delay="1.00" x="0.00" y="0.00" z="0.00">OdinPassiveRegenerationDummy</unit>
 		</startingunits>
 		<startingunits mode="deathmatch">
 			<unit count="5" delay="1.00" x="0.00" y="0.00" z="0.00">Berserk</unit>
@@ -452,15 +453,13 @@
 			<active>true</active>
 			<excludedtarget>AbstractWall</excludedtarget>
 			<bountydamagegoal>80.0</bountydamagegoal>
-			<bountyreductionstart>100.0</bountyreductionstart>
-			<bountyreductionend>300.0</bountyreductionend>
-			<bountyreductionstrength>0.5</bountyreductionstrength>
-			<bountyreward unittype="Ship" condition="Damage" resourcetype="Favor">0.5</bountyreward>
-			<bountyreward unittype="AbstractVillager" condition="Damage" resourcetype="Favor">1.0</bountyreward>
-			<bountyreward unittype="HumanSoldier" condition="Damage" resourcetype="Favor">1.0</bountyreward>
-			<bountyreward unittype="Hero" condition="Damage" resourcetype="Favor">1.0</bountyreward>
-			<bountyreward protounit="RaidingCavalry" condition="Damage" resourcetype="Favor">1.0</bountyreward>
-			<bountyreward unittype="LogicalTypeMythUnitThatGeneratesFavor" condition="Damage" resourcetype="Favor">0.5</bountyreward>
+			<bountyreward protoUnit="Longboat" condition="Damage" resourcetype="Favor">2.5</bountyreward>
+			<bountyreward protoUnit="Hersir" condition="Damage" resourcetype="Favor">2.0</bountyreward>
+			<bountyreward unittype="Ship" condition="Damage" resourcetype="Favor">1.0</bountyreward>
+			<bountyreward unittype="AbstractVillager" condition="Damage" resourcetype="Favor">1.1</bountyreward>
+			<bountyreward unittype="HumanSoldier" condition="Damage" resourcetype="Favor">1.1</bountyreward>
+			<bountyreward unittype="Hero" condition="Damage" resourcetype="Favor">1.1</bountyreward>
+			<bountyreward unittype="AbstractSiegeWeapon" condition="Damage" resourcetype="Favor">1.1</bountyreward>
 			<bountytargetmultiplier unittype="Huntable" condition="Damage" resourcetype="Favor">2.0</bountytargetmultiplier>
 			<bountytargetmultiplier unittype="Herdable" condition="Damage" resourcetype="Favor">30.0</bountytargetmultiplier>
 			<bountytargetmultiplier unittype="NonConvertableHerdable" condition="Damage" resourcetype="Favor">30.0</bountytargetmultiplier>
@@ -468,22 +467,21 @@
 			<bountytargetmultiplier unittype="LogicalTypeBuildingsThatShoot" condition="Damage" resourcetype="Favor">0.5</bountytargetmultiplier>
 		</bountyresourceearning>
 		<bonusunitspawning>
+			<active>false</active>
 			<damagegoal name="LokiSpawn" rewardtracking="Single">
+				<forcespawn>false</forcespawn>
 				<goalamount>1.0</goalamount>
 				<spawnlocation type="DamageTarget"></spawnlocation>
 				<reward>MythUnit</reward>
 				<excludefromreward>Dryad</excludefromreward>
 				<excludefromreward>Kraken</excludefromreward>
 				<excludefromreward>JormunElver</excludefromreward>
-				<excludedtarget>Building</excludedtarget>
-				<excludedtarget>MythUnit</excludedtarget>
-				<contributor unit="Hersir">0.5</contributor>
-				<contributor unit="Godi">0.1</contributor>
-				<contributor type="HumanSoldier">0.1</contributor>
-				<rewardpointcost resourcetype="Food">1.0</rewardpointcost>
-				<rewardpointcost resourcetype="Wood">1.0</rewardpointcost>
-				<rewardpointcost resourcetype="Gold">1.0</rewardpointcost>
-				<rewardpointcost resourcetype="Favor">10.0</rewardpointcost>
+				<excludefromreward>Draugr</excludefromreward>
+				<excludefromreward>RockGiant</excludefromreward>
+				<excludefromreward>Fafnir</excludefromreward>
+				<excludedtarget>AbstractWall</excludedtarget>
+				<contributor unit="Hersir">1.2</contributor>
+				<rewardpointcost resourcetype="Favor">72.0</rewardpointcost>
 			</damagegoal>
 		</bonusunitspawning>
 	</civ>

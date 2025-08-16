@@ -14,7 +14,7 @@
 		<flag>CountsTowardEconomicScore</flag>
 		<effects>
 			<effect type="Data" action="Gather" amount="1.30" subtype="WorkRate" unittype="Huntable" relativity="BasePercent">
-				<target type="ProtoUnit">EconomicUpgraded</target>
+				<target type="ProtoUnit">AbstractVillager</target>
 			</effect>
 		</effects>
 	</tech>
@@ -206,13 +206,13 @@
 				<target type="ProtoUnit">Herdable</target>
 			</effect>
 			<effect type="Data" amount="2.00" subtype="CarryCapacity" resource="Food" relativity="BasePercent">
-				<target type="ProtoUnit">EconomicUpgraded</target>
+				<target type="ProtoUnit">AbstractVillager</target>
 			</effect>
 			<effect type="Data" action="Gather" amount="1.20" subtype="WorkRate" unittype="Herdable" relativity="BasePercent">
-				<target type="ProtoUnit">EconomicUpgraded</target>
+				<target type="ProtoUnit">AbstractVillager</target>
 			</effect>
 			<effect type="Data" action="Gather" amount="1.20" subtype="WorkRate" unittype="NonConvertableHerdable" relativity="BasePercent">
-				<target type="ProtoUnit">EconomicUpgraded</target>
+				<target type="ProtoUnit">AbstractVillager</target>
 			</effect>
 		</effects>
 	</tech>
@@ -228,7 +228,7 @@
 		<flag>CountsTowardEconomicScore</flag>
 		<effects>
 			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="AbstractFarm" relativity="BasePercent">
-				<target type="ProtoUnit">EconomicUpgraded</target>
+				<target type="ProtoUnit">AbstractVillager</target>
 			</effect>
 			<effect type="Data" action="Gather" amount="1.12" subtype="WorkRate" unittype="AbstractFarm" relativity="BasePercent">
 				<target type="ProtoUnit">VillagerEgyptian</target>
@@ -251,7 +251,7 @@
 		</prereqs>
 		<effects>
 			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="AbstractFarm" relativity="BasePercent">
-				<target type="ProtoUnit">EconomicUpgraded</target>
+				<target type="ProtoUnit">AbstractVillager</target>
 			</effect>
 			<effect type="Data" action="Gather" amount="1.01" subtype="WorkRate" unittype="AbstractFarm" relativity="BasePercent">
 				<target type="ProtoUnit">VillagerEgyptian</target>
@@ -274,7 +274,7 @@
 		</prereqs>
 		<effects>
 			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="AbstractFarm" relativity="BasePercent">
-				<target type="ProtoUnit">EconomicUpgraded</target>
+				<target type="ProtoUnit">AbstractVillager</target>
 			</effect>
 			<effect type="Data" action="Gather" amount="1.01" subtype="WorkRate" unittype="AbstractFarm" relativity="BasePercent">
 				<target type="ProtoUnit">VillagerEgyptian</target>
@@ -293,16 +293,16 @@
 		<flag>CountsTowardEconomicScore</flag>
 		<effects>
 			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="WoodResource" relativity="BasePercent">
-				<target type="ProtoUnit">EconomicUpgraded</target>
+				<target type="ProtoUnit">AbstractVillager</target>
 			</effect>
 			<effect type="Data" action="Gather" amount="1.01" subtype="WorkRate" unittype="WoodResource" relativity="BasePercent">
 				<target type="ProtoUnit">VillagerEgyptian</target>
 			</effect>
 			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="TreeGaia" relativity="BasePercent">
-				<target type="ProtoUnit">EconomicUpgraded</target>
+				<target type="ProtoUnit">AbstractVillager</target>
 			</effect>
 			<effect type="Data" amount="1.50" subtype="CarryCapacity" resource="Wood" relativity="BasePercent">
-				<target type="ProtoUnit">EconomicUpgraded</target>
+				<target type="ProtoUnit">AbstractVillager</target>
 			</effect>
 		</effects>
 	</tech>
@@ -322,16 +322,16 @@
 		</prereqs>
 		<effects>
 			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="WoodResource" relativity="BasePercent">
-				<target type="ProtoUnit">EconomicUpgraded</target>
+				<target type="ProtoUnit">AbstractVillager</target>
 			</effect>
 			<effect type="Data" action="Gather" amount="1.01" subtype="WorkRate" unittype="WoodResource" relativity="BasePercent">
 				<target type="ProtoUnit">VillagerEgyptian</target>
 			</effect>
 			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="TreeGaia" relativity="BasePercent">
-				<target type="ProtoUnit">EconomicUpgraded</target>
+				<target type="ProtoUnit">AbstractVillager</target>
 			</effect>
 			<effect type="Data" amount="1.50" subtype="CarryCapacity" resource="Wood" relativity="BasePercent">
-				<target type="ProtoUnit">EconomicUpgraded</target>
+				<target type="ProtoUnit">AbstractVillager</target>
 			</effect>
 		</effects>
 	</tech>
@@ -351,16 +351,16 @@
 		</prereqs>
 		<effects>
 			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="WoodResource" relativity="BasePercent">
-				<target type="ProtoUnit">EconomicUpgraded</target>
+				<target type="ProtoUnit">AbstractVillager</target>
 			</effect>
 			<effect type="Data" action="Gather" amount="1.01" subtype="WorkRate" unittype="WoodResource" relativity="BasePercent">
 				<target type="ProtoUnit">VillagerEgyptian</target>
 			</effect>
 			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="TreeGaia" relativity="BasePercent">
-				<target type="ProtoUnit">EconomicUpgraded</target>
+				<target type="ProtoUnit">AbstractVillager</target>
 			</effect>
 			<effect type="Data" amount="1.50" subtype="CarryCapacity" resource="Wood" relativity="BasePercent">
-				<target type="ProtoUnit">EconomicUpgraded</target>
+				<target type="ProtoUnit">AbstractVillager</target>
 			</effect>
 		</effects>
 	</tech>
@@ -376,13 +376,10 @@
 		<flag>CountsTowardEconomicScore</flag>
 		<effects>
 			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="GoldResource" relativity="BasePercent">
-				<target type="ProtoUnit">EconomicUpgraded</target>
+				<target type="ProtoUnit">AbstractVillager</target>
 			</effect>
 			<effect type="Data" amount="1.50" subtype="CarryCapacity" resource="Gold" relativity="BasePercent">
-				<target type="ProtoUnit">EconomicUpgraded</target>
-			</effect>
-			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="GoldResource" relativity="BasePercent">
-				<target type="ProtoUnit">VillagerDwarf</target>
+				<target type="ProtoUnit">AbstractVillager</target>
 			</effect>
 			<effect type="Data" action="Gather" amount="1.01" subtype="WorkRate" unittype="GoldResource" relativity="BasePercent">
 				<target type="ProtoUnit">VillagerEgyptian</target>
@@ -405,13 +402,10 @@
 		</prereqs>
 		<effects>
 			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="GoldResource" relativity="BasePercent">
-				<target type="ProtoUnit">EconomicUpgraded</target>
+				<target type="ProtoUnit">AbstractVillager</target>
 			</effect>
 			<effect type="Data" amount="1.50" subtype="CarryCapacity" resource="Gold" relativity="BasePercent">
-				<target type="ProtoUnit">EconomicUpgraded</target>
-			</effect>
-			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="GoldResource" relativity="BasePercent">
-				<target type="ProtoUnit">VillagerDwarf</target>
+				<target type="ProtoUnit">AbstractVillager</target>
 			</effect>
 			<effect type="Data" action="Gather" amount="1.01" subtype="WorkRate" unittype="GoldResource" relativity="BasePercent">
 				<target type="ProtoUnit">VillagerEgyptian</target>
@@ -434,13 +428,10 @@
 		</prereqs>
 		<effects>
 			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="GoldResource" relativity="BasePercent">
-				<target type="ProtoUnit">EconomicUpgraded</target>
+				<target type="ProtoUnit">AbstractVillager</target>
 			</effect>
 			<effect type="Data" amount="1.50" subtype="CarryCapacity" resource="Gold" relativity="BasePercent">
-				<target type="ProtoUnit">EconomicUpgraded</target>
-			</effect>
-			<effect type="Data" action="Gather" amount="1.10" subtype="WorkRate" unittype="GoldResource" relativity="BasePercent">
-				<target type="ProtoUnit">VillagerDwarf</target>
+				<target type="ProtoUnit">AbstractVillager</target>
 			</effect>
 			<effect type="Data" action="Gather" amount="1.01" subtype="WorkRate" unittype="GoldResource" relativity="BasePercent">
 				<target type="ProtoUnit">VillagerEgyptian</target>
@@ -1941,7 +1932,7 @@
 				<target type="ProtoUnit">Hoplite</target>
 			</effect>
 			<effect type="Data" action="Gather" amount="1.30" subtype="WorkRate" unittype="Temple" relativity="BasePercent">
-				<target type="ProtoUnit">EconomicUpgraded</target>
+				<target type="ProtoUnit">AbstractVillager</target>
 			</effect>
 		</effects>
 	</tech>
@@ -6245,7 +6236,10 @@
 				<target type="ProtoUnit">HumanSoldier</target>
 			</effect>
 			<effect type="Data" amount="0.12" subtype="UnitRegenRate" relativity="Absolute">
-				<target type="ProtoUnit">Hero</target>
+				<target type="ProtoUnit">Hersir</target>
+			</effect>
+			<effect type="Data" amount="0.12" subtype="UnitRegenRate" relativity="Absolute">
+				<target type="ProtoUnit">HeroOfRagnarok</target>
 			</effect>
 		</effects>
 	</tech>
@@ -6269,8 +6263,11 @@
 			<effect type="Data" amount="0.10" subtype="UnitRegenRate" relativity="Absolute">
 				<target type="ProtoUnit">HumanSoldier</target>
 			</effect>
-			<effect type="Data" amount="0.10" subtype="UnitRegenRate" relativity="Absolute">
-				<target type="ProtoUnit">Hero</target>
+			<effect type="Data" amount="0.12" subtype="UnitRegenRate" relativity="Absolute">
+				<target type="ProtoUnit">Hersir</target>
+			</effect>
+			<effect type="Data" amount="0.12" subtype="UnitRegenRate" relativity="Absolute">
+				<target type="ProtoUnit">HeroOfRagnarok</target>
 			</effect>
 		</effects>
 	</tech>
@@ -6292,8 +6289,11 @@
 			<effect type="Data" amount="0.10" subtype="UnitRegenRate" relativity="Absolute">
 				<target type="ProtoUnit">HumanSoldier</target>
 			</effect>
-			<effect type="Data" amount="0.10" subtype="UnitRegenRate" relativity="Absolute">
-				<target type="ProtoUnit">Hero</target>
+			<effect type="Data" amount="0.12" subtype="UnitRegenRate" relativity="Absolute">
+				<target type="ProtoUnit">Hersir</target>
+			</effect>
+			<effect type="Data" amount="0.12" subtype="UnitRegenRate" relativity="Absolute">
+				<target type="ProtoUnit">HeroOfRagnarok</target>
 			</effect>
 		</effects>
 	</tech>
@@ -6359,6 +6359,9 @@
 			<effect type="TechStatus" status="active">ClassicalAgeNorse</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">
 				<target type="ProtoUnit">Armory</target>
+			</effect>
+			<effect type="Data" amount="1.00" subtype="SetGoalActive" goalName="LokiSpawn" relativity="Absolute">
+				<target type="Player"></target>
 			</effect>
 			<effect type="TechStatus" status="obtainable">CopperWeapons</effect>
 			<effect type="TechStatus" status="obtainable">CopperArmor</effect>

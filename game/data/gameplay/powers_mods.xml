@@ -25,17 +25,15 @@
 		<rolloverid>STR_POWER_SENTINEL_LR</rolloverid>
 		<icon>greek\static_color\god_powers\sentinel_icon.png</icon>
 		<placement ally="" allownature="" usetargetunitpositionforplacement="" fullybuiltonly="">Unit</placement>
-		<abstractplacementtargettype>LogicalTypeValidSentinelTarget</abstractplacementtargettype>
+		<abstractplacementtargettype>AbstractTownCenter</abstractplacementtargettype>
 		<minimapeventtime sendalertto="Ally">10.0</minimapeventtime>
 		<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
 		<soundset type="StartSound" listenertype="IfOnScreenAlly">SentinelBirth</soundset>
 		<activetime>3.0</activetime>
 		<powerplayerrelation>Ally</powerplayerrelation>
-		<cost>50.0</cost>
-		<repeatcost>5.0</repeatcost>
 		<smoothrotation></smoothrotation>
 		<attachproto>SentinelBase</attachproto>
-		<createunit quantity="5" minradius="20" maxradius="26" pattern="symmetric" permanent="" norandomrotate="" delay="0.0">Sentinel</createunit>
+		<createunit quantity="4" minradius="19" maxradius="27" pattern="symmetric" permanent="" norandomrotate="" delay="0.0">Sentinel</createunit>
 		<forceplacement></forceplacement>
 	</power>
 	<power name="Lure" type="Lure" godpower="" mergeMode="replace">
@@ -48,20 +46,17 @@
 		<soundset type="StartSound" listenertype="IfOnScreenAlly">LureSelect</soundset>
 		<soundset type="ExistSound" listenertype="IfOnScreenAll" playdelay="20.0" positional="">LureExists</soundset>
 		<activetime>-1</activetime>
-		<cost>20.0</cost>
-		<repeatcost>5.0</repeatcost>
 		<lureproto>Lure</lureproto>
-		<minrange>50.0</minrange>
-		<maxrange>200.0</maxrange>
-		<attractrate>30.0</attractrate>
-		<variance>0.0</variance>
-		<spawnproto>Chicken</spawnproto>
+		<minrange>5.0</minrange>
+		<maxrange>150.0</maxrange>
+		<attractrate>24.0</attractrate>
+		<variance>0.15</variance>
 		<spawnvfx>VFXLure</spawnvfx>
-		<ageinfo maxfood="1200" numspawns="3">1</ageinfo>
-		<ageinfo maxfood="1300" numspawns="4">2</ageinfo>
-		<ageinfo maxfood="1500" numspawns="6">3</ageinfo>
-		<ageinfo maxfood="1900" numspawns="10">4</ageinfo>
-		<ageinfo maxfood="3000" numspawns="15">5</ageinfo>
+		<ageinfo maxfood="1000">1</ageinfo>
+		<ageinfo maxfood="1000">2</ageinfo>
+		<ageinfo maxfood="1000">3</ageinfo>
+		<ageinfo maxfood="1000">4</ageinfo>
+		<ageinfo maxfood="1000">5</ageinfo>
 		<attracttype>Herdable</attracttype>
 		<attracttype>Huntable</attracttype>
 		<attractiondistancetocountagainstcap>40.0</attractiondistancetocountagainstcap>
@@ -81,13 +76,11 @@
 		<radius>25.0</radius>
 		<powerplayerrelation>Ally</powerplayerrelation>
 		<abstractattacktargettype>LogicalTypeAffectedByRestoration</abstractattacktargettype>
-		<cost>100.0</cost>
-		<repeatcost>20.0</repeatcost>
 		<healvfx>VFXHealing</healvfx>
 		<areavfx>VFXHealingArea</areavfx>
-		<healspeed>50.0</healspeed>
-		<slowhealmultiplier>0.50</slowhealmultiplier>
-		<scaninterval>0.25</scaninterval>
+		<healspeed>300.0</healspeed>
+		<slowhealmultiplier>0.10</slowhealmultiplier>
+		<scaninterval>1.0</scaninterval>
 	</power>
 	<power name="CeaseFire" type="CeaseFire" godpower="" mergeMode="replace">
 		<displaynameid>STR_POWER_CEASE_FIRE</displaynameid>
@@ -98,13 +91,11 @@
 		<soundset type="StartSound" listenertype="All">CeaseFireBirth</soundset>
 		<soundset type="ExistSound" listenertype="All" playdelay="12.0">CeaseFireExists</soundset>
 		<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
-		<activetime>30.0</activetime>
+		<activetime>60.0</activetime>
 		<exclusive></exclusive>
-		<cost>75.0</cost>
-		<repeatcost>25.0</repeatcost>
 		<vfxproto>VFXDoves</vfxproto>
 		<attachvfxto>AbstractSettlement</attachvfxto>
-		<effect type="BuildPoints" relativity="BasePercent" amount="2.00">
+		<effect type="BuildPoints" relativity="Assign" amount="99999">
 			<target type="ProtoUnit">LogicalTypeAffectedByCeaseFireBuildingSlow</target>
 		</effect>
 	</power>
@@ -114,24 +105,20 @@
 		<icon>greek\static_color\god_powers\pestilence_icon.png</icon>
 		<minimapeventtime sendalertto="All">15.0</minimapeventtime>
 		<placement>Full</placement>
-		<rangeindicator range="50.0" speed="0.2">Circle</rangeindicator>
-		<reveallos radius="50.0">Revealer</reveallos>
+		<rangeindicator range="30.0" speed="0.2">Circle</rangeindicator>
+		<reveallos radius="30.0">Revealer</reveallos>
 		<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
 		<soundset type="StartSound" listenertype="IfOnScreenAll">PestilenceBirth</soundset>
 		<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
-		<activetime>60.0</activetime>
-		<radius>50.0</radius>
+		<activetime>50.0</activetime>
+		<radius>30.0</radius>
 		<powerplayerrelation>Enemy</powerplayerrelation>
 		<abstractattacktargettype>LogicalTypeMilitaryProductionBuilding</abstractattacktargettype>
 		<abstractattacktargettype>Dock</abstractattacktargettype>
-		<abstractattacktargettype>AbstractTower</abstractattacktargettype>
-		<cost>50.0</cost>
-		<repeatcost>10.0</repeatcost>
 		<smallvfxproto>VFXPestilenceSmall</smallvfxproto>
 		<largevfxproto>VFXPestilenceLarge</largevfxproto>
 		<rescaninterval>5.0</rescaninterval>
-		<rofpercentpenalty>1.0</rofpercentpenalty>
-		<trainratepenalty>2.0</trainratepenalty>
+		<trainratepenalty>999.0</trainratepenalty>
 	</power>
 	<power name="Bronze" type="Bronze" godpower="" mergeMode="replace">
 		<displaynameid>STR_POWER_BRONZE</displaynameid>
@@ -143,28 +130,19 @@
 		<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
 		<soundset type="StartSound" listenertype="IfOnScreenAll">BronzeBirth</soundset>
 		<soundset type="EndSound" listenertype="All">GodPowerEnd</soundset>
-		<activetime>40.0</activetime>
+		<activetime>90.0</activetime>
 		<radius>30.0</radius>
-		<powerplayerrelation>Player</powerplayerrelation>
-		<cost>150</cost>
-		<repeatcost>10.0</repeatcost>
+		<powerplayerrelation>Ally</powerplayerrelation>
 		<armor>
 			<abstracttype>HumanSoldier</abstracttype>
-			<armortype vulnerabilitypercentdelta="-0.35">Hack</armortype>
-			<armortype vulnerabilitypercentdelta="-0.35">Pierce</armortype>
+			<armortype vulnerabilitypercentdelta="-0.30">Hack</armortype>
+			<armortype vulnerabilitypercentdelta="-0.30">Pierce</armortype>
 			<vfxproto>VFXArmorGlowSmall</vfxproto>
 		</armor>
 		<armor>
-			<abstracttype>AbstractWarship</abstracttype>
-			<armortype vulnerabilitypercentdelta="-0.35">Hack</armortype>
-			<armortype vulnerabilitypercentdelta="-0.35">Pierce</armortype>
-			<armortype vulnerabilitypercentdelta="-0.35">Crush</armortype>
-			<vfxproto>VFXArmorGlowSmall</vfxproto>
-		</armor>
-		<armor>
-			<abstracttype>LogicalTypeMythUnitNotTitan</abstracttype>
-			<armortype vulnerabilitypercentdelta="-0.35">Hack</armortype>
-			<armortype vulnerabilitypercentdelta="-0.35">Pierce</armortype>
+			<abstracttype>Ship</abstracttype>
+			<armortype vulnerabilitypercentdelta="-0.30">Hack</armortype>
+			<armortype vulnerabilitypercentdelta="-0.30">Pierce</armortype>
 			<vfxproto>VFXArmorGlowSmall</vfxproto>
 		</armor>
 	</power>
@@ -180,13 +158,13 @@
 		<activetime>3.0</activetime>
 		<radius>20.0</radius>
 		<powerplayerrelation>Enemy</powerplayerrelation>
-		<abstractattacktargettype>LogicalTypeLandMilitary</abstractattacktargettype>
+		<abstractattacktargettype>HumanSoldier</abstractattacktargettype>
+		<abstractattacktargettype>AbstractVillager</abstractattacktargettype>
 		<explicitlyrestrictedattacktargettype>Hero</explicitlyrestrictedattacktargettype>
 		<explicitlyrestrictedattacktargettype>LogicalTypeDivineImmunity</explicitlyrestrictedattacktargettype>
 		<explicitlyrestrictedattacktargettype>NavalUnit</explicitlyrestrictedattacktargettype>
 		<explicitlyrestrictedattacktargettype>AbstractFlyingUnit</explicitlyrestrictedattacktargettype>
-		<cost>125</cost>
-		<repeatcost>5.0</repeatcost>
+		<convertusingminmax minswapamount="3" maxswapamount="9"></convertusingminmax>
 		<swapdelay>0.5</swapdelay>
 		<vfxproto>VFXCurse</vfxproto>
 		<maxresources>800.0</maxresources>
@@ -205,8 +183,6 @@
 		<soundset type="ExistSound" listenertype="IfOnScreenAll" playdelay="20.0" positional="">UnderworldPassageExists</soundset>
 		<soundset type="ExistSound" listenertype="IfOnScreenAll" playdelay="20.0" positional="" usesecondlocation="1">UnderworldPassageExists</soundset>
 		<activetime>-1</activetime>
-		<cost>200.0</cost>
-		<repeatcost>25.0</repeatcost>
 		<inportal>UnderworldPassage</inportal>
 		<outportal>UnderworldPassage</outportal>
 	</power>
@@ -219,8 +195,6 @@
 		<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
 		<soundset type="StartSound" listenertype="Caster">PlentyBirth</soundset>
 		<activetime>3.0</activetime>
-		<cost>200.0</cost>
-		<repeatcost>200.0</repeatcost>
 		<createunit quantity="1" radius="0.0" delay="0.0" norandomrotate="" permanent="">PlentyVault</createunit>
 	</power>
 	<power name="LightningStorm" type="LightningStorm" godpower="" mergeMode="replace">
@@ -252,8 +226,6 @@
 		<powerplayerrelation>EnemyNotMotherNature</powerplayerrelation>
 		<fasteststriketime>-0.5</fasteststriketime>
 		<sloweststriketime>0.0</sloweststriketime>
-		<cost>350.0</cost>
-		<repeatcost>5.0</repeatcost>
 		<strikeproto>LightningStrike</strikeproto>
 		<rainvfxproto>VFXLightningRain</rainvfxproto>
 		<cloudvfxproto>VFXLightningCloud</cloudvfxproto>
@@ -293,8 +265,6 @@
 		<abstractattacktargettype>LogicalTypeEarthquakeAttack</abstractattacktargettype>
 		<explicitlyrestrictedattacktargettype>Farm</explicitlyrestrictedattacktargettype>
 		<terrainrumbling height="0.25" width="2.0" speed="15.0" fadetime="2.0"></terrainrumbling>
-		<cost>350.0</cost>
-		<repeatcost>5.0</repeatcost>
 		<attackproto>Earthquake</attackproto>
 		<attackinterval>0.25</attackinterval>
 		<attacktreeaccuracy>0.025</attacktreeaccuracy>

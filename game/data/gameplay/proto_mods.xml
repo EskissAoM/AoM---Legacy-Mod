@@ -2,7 +2,7 @@
 
 	
 	
-	<!-- ATLANTEAN -->
+<!-- ATLANTEAN -->
 	
 	<unit name="Oracle" mergeMode="replace">
 		<displaynameid>STR_UNIT_ORACLE_NAME</displaynameid>
@@ -221,5 +221,133 @@
 		</protoaction>
 		<!-- desactivate autogather favor -->
 	</unit>
+
+<!-- NATURE -->
+
+	<unit name="TreeGaia" mergeMode="replace">
+		<displaynameid>STR_EMB_TREE_GAIA_NAME</displaynameid>
+		<rollovertextid>STR_EMB_TREE_GAIA_LR</rollovertextid>
+		<shortrollovertextid>STR_EMB_WOOD_SR</shortrollovertextid>
+		<editornameid>STR_EMB_TREE_GAIA_EDT_NAME</editornameid>
+		<icon>resources\nature\trees\tree_gaia_icon.png</icon>
+		<animfile>nature\trees\gaia_tree\gaia_tree.xml</animfile>
+		<obstructionradiusx>1.0000</obstructionradiusx>
+		<obstructionradiusz>1.0000</obstructionradiusz>
+		<impacttype>Wood</impacttype>
+		<replacement type="dead">StumpGaiaTree</replacement>
+		<movementtype>land</movementtype>
+		<initialhitpoints>20.0000</initialhitpoints>
+		<maxhitpoints>20.0000</maxhitpoints>
+		<weightclass>255</weightclass>
+		<initialresource resourcetype="Wood">200.0100</initialresource>
+		<resourcesubtype>wood</resourcesubtype>
+		<resourcepriority>50.0000</resourcepriority>
+		<workersoftlimit>2</workersoftlimit>
+		<unittype>LogicalTypeMinimapFilterEconomic</unittype>
+		<unittype>LogicalTypeVillagersAttack</unittype>
+		<unittype>LogicalTypeVillagersRespondToAttack</unittype>
+		<unittype>Tree</unittype>
+		<unittype>Nature</unittype>
+		<unittype>NatureClass</unittype>
+		<unittype>HuntedResource</unittype>
+		<unittype>Resource</unittype>
+		<unittype>WoodResource</unittype>
+		<unittype>LogicalTypeEarthquakeAttack</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<flag>SelectWithObstruction</flag>
+		<flag>ObscuresUnits</flag>
+		<flag>NoHPBar</flag>
+		<flag>DoNotDieAtZeroHitpoints</flag>
+		<flag>NonAutoFormedUnit</flag>
+		<flag>Immoveable</flag>
+		<flag>Doppled</flag>
+		<flag>DoppleOnlyWhenDead</flag>
+		<flag>ForceToNature</flag>
+		<flag>DieAtZeroResources</flag>
+		<flag>DoNotValidateResourceInventory</flag>
+		<flag>DontRotateObstruction</flag>
+		<flag>NoIdleActions</flag>
+		<flag>RMCanRotate</flag>
+		<flag>StartOnNoUpdate</flag>
+		<flag>DynamicUpdate</flag>
+		<flag>DoNotShowOnMiniMap</flag>
+		<flag>NotDeathTracked</flag>
+		<command row="0" column="0">SetVillagerToGather</command>
+		<command row="0" column="1">ResourceUnitConstructStorehouse</command>
+		<command row="0" column="1">ResourceUnitConstructLumberCamp</command>
+		<command row="0" column="1">ResourceUnitConstructSilo</command>
+		<command row="0" column="4">FlareAtUnit</command>
+		<command row="3" column="0">SetRallyPointOfNearbyEconUnitsToUnitPos</command>
+		<command row="3" column="1">SetRallyPointOfNearbyMilitaryUnitsToUnitPos</command>
+	</unit>
+
+<!-- GODPOWERS -->
+
+	<unit name="BoltStrike">
+		<animfile>greek\godpowers\bolt\bolt.xml</animfile>
+		<obstructionradiusx>0.1000</obstructionradiusx>
+		<obstructionradiusz>0.1000</obstructionradiusz>
+		<lifespan>6.0000</lifespan>
+		<decay delay="0.0000" duration="0.0100"></decay>
+		<movementtype>air</movementtype>
+		<flag>NotSelectable</flag>
+		<flag>NotSearchable</flag>
+		<flag>DoNotYawDuringMovement</flag>
+		<flag>NonCollideable</flag>
+		<flag>GivesLOSToAll</flag>
+		<flag>NoHPBar</flag>
+		<flag>NotPlayerPlaceable</flag>
+		<flag>DoNotShowOnMiniMap</flag>
+		<flag>HasContinuousParticles</flag>
+		<flag>NoIdleActions</flag>
+		<flag>NotKBTracked</flag>
+		<flag>NotDeathTracked</flag>
+		<tactics>handattack.tactics</tactics>
+		<protoaction>
+			<name>HandAttack</name>
+			<rof>1.0</rof>
+			<damage type="Hack">10000</damage>
+			<damage type="Crush">10000</damage>
+			<damage type="Pierce">10000</damage>
+			<damagebonus type="SonOfOsiris">0.02</damagebonus>
+			<damagebonus type="Nidhogg">0.02</damagebonus>
+			<damagebonus type="AbstractTitan">0.50</damagebonus>
+			<maxrange>0.300000</maxrange>
+		</protoaction>
+	</unit>
+
+<!-- CUSTOM -->
+
+	<unit name="OdinPassiveRegenerationDummy">
+		<obstructionradiusx>0.1000</obstructionradiusx>
+		<obstructionradiusz>0.1000</obstructionradiusz>
+		<movementtype>Land</movementtype>
+		<flag>NonCollideable</flag>
+		<flag>NotSearchable</flag>
+		<flag>NoIdleActions</flag>
+		<flag>NonAutoFormedUnit</flag>
+		<flag>Invulnerable</flag>
+		<flag>Immoveable</flag>
+		<flag>DoNotShowOnMiniMap</flag>
+		<flag>NotSelectable</flag>
+		<flag>NoTieToGround</flag>
+		<flag>NoHPBar</flag>
+		<flag>NotDeathTracked</flag>
+		<flag>NotKBTracked</flag>
+		<tactics>area_damage.tactics</tactics>
+		<protoaction>
+			<name>AreaHeal</name>
+			<type>AutoRangedModify</type>
+			<modifyabstracttype>HumanSoldier</modifyabstracttype>
+			<modifyunittype>Hersir</modifyunittype>
+			<modifyunittype>HeroOfRagnarok</modifyunittype>
+			<persistent>1</persistent>
+			<modifytype>HealRate</modifytype>
+			<maxrange>999</maxrange>
+			<modifyamount>0.8</modifyamount>
+			<slowhealmultiplier>0.1</slowhealmultiplier>
+		</protoaction>
+	</unit>
+
 
 </protomods>
