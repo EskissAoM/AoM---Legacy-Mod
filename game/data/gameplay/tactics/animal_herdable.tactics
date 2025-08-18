@@ -1,0 +1,26 @@
+<tactics>
+	<action>
+		<name stringid="STR_ACTION_AUTO_GATHER">AutoGatherFood</name>
+		<type>AutoGather</type>
+		<persistent>1</persistent>
+		<addresourcestoinventory>1</addresourcestoinventory>
+	</action>
+	<action>
+		<name>AutoConvert</name>
+		<type>AutoConvert</type>
+		<maxrange>12.0</maxrange>
+		<persistent>1</persistent>
+		<modelattachment>vfx\conversion\herdable_conversion_vfx.xml</modelattachment>
+		<modelattachmentbone>spine</modelattachmentbone>
+		<modelattachmenttimer>750</modelattachmenttimer>
+	</action>
+	<action>
+		<name>Gather</name>
+		<type>Gather</type>
+		<typedanim type="HerdableMagnet">Idle</typedanim>
+		<maxrange>2</maxrange>
+		<donotdepositresources>1</donotdepositresources>
+		<rate type="HerdableMagnet">1.0</rate>
+	</action>
+	<tactic>Default<action>AutoConvert</action><action>AutoGatherFood</action><action>Gather</action></tactic>
+</tactics>

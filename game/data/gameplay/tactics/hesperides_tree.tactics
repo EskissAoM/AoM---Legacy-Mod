@@ -1,0 +1,20 @@
+<tactics>
+	<action>
+		<name>AreaHeal</name>
+		<type>AutoRangedModify</type>
+		<modifyabstracttype>LogicalTypeMythUnitNotTitan</modifyabstracttype>
+		<forbidunittype>Nidhogg</forbidunittype>
+		<persistent>1</persistent>
+		<modifytype>HealRate</modifytype>
+		<modifyflyingunits>1</modifyflyingunits>
+		<includeally>1</includeally>
+		<modelattachment>greek\godpowers\restoration\healing_vfx.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<action>
+		<name>AutoConvert</name>
+		<type>AutoConvert</type>
+		<persistent>1</persistent>
+	</action>
+	<tactic>Normal<action>AreaHeal</action><action>AutoConvert</action></tactic>
+</tactics>

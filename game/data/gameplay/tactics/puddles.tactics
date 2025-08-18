@@ -1,0 +1,17 @@
+<tactics>
+	<action>
+		<name>EnemySpeedModify</name>
+		<type>AutoRangedModify</type>
+		<maxrange>6</maxrange>
+		<persistent>1</persistent>
+		<modifyabstracttype>MilitaryUnit</modifyabstracttype>
+		<modifytype>Speed</modifytype>
+		<modifymultiplier>0.50</modifymultiplier>
+		<nostack>1</nostack>
+		<modelattachment>vfx\glow\arkantos_boost.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+		<targetenemy>1</targetenemy>
+		<nostack>1</nostack>
+	</action>
+	<tactic>Normal<action>EnemySpeedModify</action></tactic>
+</tactics>

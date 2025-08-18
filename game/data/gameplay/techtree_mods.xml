@@ -3802,7 +3802,7 @@
 			<effect type="Data" amount="3.00" subtype="PopulationCapAddition" relativity="Absolute">
 				<target type="ProtoUnit">AbstractSocketedTownCenter</target>
 			</effect>
-			<effect type="Data" amount="50.00" subtype="GodPowerBlockRadius" relativity="Absolute">
+			<effect type="Data" amount="25.00" subtype="GodPowerBlockRadius" relativity="Absolute">
 				<target type="ProtoUnit">AbstractMonument</target>
 			</effect>
 		</effects>

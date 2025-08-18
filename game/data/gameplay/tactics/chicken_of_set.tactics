@@ -1,0 +1,22 @@
+<tactics>
+	<action>
+		<name stringid="STR_ACTION_HAND">HandAttack</name>
+		<type>Attack</type>
+		<rate type="All">1.0</rate>
+		<attackaction>1</attackaction>
+		<handlogic>1</handlogic>
+		<anim>HandAttack</anim>
+		<impacteffect>effects\impacts\crush</impacteffect>
+	</action>
+	<action>
+		<name>SelfDestructAttack</name>
+		<type>Attack</type>
+		<anim>HandAttack</anim>
+		<rate type="Unit">1.0</rate>
+		<attackaction>1</attackaction>
+		<basedamagecap>1</basedamagecap>
+		<areasortmode>Radial</areasortmode>
+		<impacteffect>effects\impacts\crush</impacteffect>
+	</action>
+	<tactic>Default<action priority="100">HandAttack</action><attacktype>LogicalTypeHandUnitsAttack</attacktype></tactic>
+</tactics>

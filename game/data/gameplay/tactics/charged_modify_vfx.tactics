@@ -1,0 +1,13 @@
+<tactics>
+	<action>
+		<name>ChargedModifyAutumnOfAbundance</name>
+		<type>ChargedModify</type>
+		<persistent>1</persistent>
+		<charged>
+			<chargedmodifyvfx>VFXAutumnOfAbundance</chargedmodifyvfx>
+			<activationtype>Always</activationtype>
+			<duration>1.5</duration>
+		</charged>
+		<forceupdatemode>1</forceupdatemode>
+	</action>
+</tactics>

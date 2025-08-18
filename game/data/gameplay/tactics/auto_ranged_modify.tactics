@@ -1,0 +1,11 @@
+<tactics>
+	<action>
+		<name>BerserkDamageBoost</name>
+		<type>AutoRangedModify</type>
+		<modifyprotoid>Berserk</modifyprotoid>
+		<persistent>1</persistent>
+		<modelattachment>vfx\glow\arkantos_boost.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<tactic>Default<action>BerserkDamageBoost</action></tactic>
+</tactics>

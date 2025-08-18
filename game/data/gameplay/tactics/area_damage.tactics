@@ -1,0 +1,12 @@
+<tactics>
+	<action>
+		<name stringid="STR_INGAME_HELP_DAMAGE_AREA">AreaDamage</name>
+		<type>AutoRangedModify</type>
+		<modifyabstracttype>Unit</modifyabstracttype>
+		<modifyabstracttype>Building</modifyabstracttype>
+		<persistent>1</persistent>
+		<modifytype>HealRate</modifytype>
+		<nostack>1</nostack>
+	</action>
+	<tactic>Normal<attacktype>LogicalTypeHandUnitsAttack</attacktype><action>AreaDamage</action></tactic>
+</tactics>

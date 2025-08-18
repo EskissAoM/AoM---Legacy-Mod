@@ -1,0 +1,29 @@
+<tactics>
+	<action>
+		<name stringid="STR_ACTION_RANGED">RangedAttack</name>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>RangedAttack</anim>
+		<accuracy>1.0</accuracy>
+		<maxspread>5</maxspread>
+		<spreadfactor>0.1</spreadfactor>
+		<trackrating>99.0</trackrating>
+		<impacteffect>effects\impacts\pierce</impacteffect>
+		<rate type="All">1.0</rate>
+	</action>
+	<action>
+		<name stringid="STR_ACTION_RANGED">FlyingUnitAttack</name>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>FlyingUnitAttack</anim>
+		<accuracy>1.0</accuracy>
+		<maxspread>5</maxspread>
+		<spreadfactor>0.1</spreadfactor>
+		<trackrating>99.0</trackrating>
+		<impacteffect>effects\impacts\pierce</impacteffect>
+		<rate type="AbstractFlyingUnit">1.0</rate>
+	</action>
+	<tactic>Default<action priority="100">FlyingUnitAttack</action><action priority="90">RangedAttack</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype></tactic>
+</tactics>

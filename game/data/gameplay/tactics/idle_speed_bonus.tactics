@@ -1,0 +1,8 @@
+<tactics>
+	<action>
+		<name>LonghouseSpeedBonus</name>
+		<type>IdleStatBonus</type>
+		<persistent>1</persistent>
+	</action>
+	<tactic>Default<action>LonghouseSpeedBonus</action></tactic>
+</tactics>

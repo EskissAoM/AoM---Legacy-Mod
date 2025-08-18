@@ -1,0 +1,38 @@
+<tactics>
+	<action>
+		<name stringid="STR_ACTION_HAND">HandAttack</name>
+		<type>Attack</type>
+		<rate type="All">1.0</rate>
+		<attackaction>1</attackaction>
+		<handlogic>1</handlogic>
+		<forceareaattacktarget>1</forceareaattacktarget>
+		<excludefromrangeindicator>1</excludefromrangeindicator>
+		<anim>HandAttack</anim>
+		<onhiteffect type="Snare" duration="2" rate="0.85"></onhiteffect>
+		<impacteffect>effects\impacts\hack</impacteffect>
+	</action>
+	<action>
+		<name>AutoLOS</name>
+		<type>IdleStatBonus</type>
+		<anim>MaxLOS</anim>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name stringid="STR_ACTION_AUTO_GATHER_FAVOR">AutoGatherFavor</name>
+		<type>AutoGather</type>
+		<persistent>1</persistent>
+		<modifyrangeuselos>1</modifyrangeuselos>
+	</action>
+	<action>
+		<name stringid="STR_ACTION_REVEAL_UI">OracleRevealEnemyUI</name>
+		<type>AutoRangedModify</type>
+		<active>0</active>
+		<maxrange>5</maxrange>
+		<persistent>1</persistent>
+		<targetnonally>1</targetnonally>
+		<modifyabstracttype>Building</modifyabstracttype>
+		<modifyrangeuselos>1</modifyrangeuselos>
+		<modifytype>RevealUI</modifytype>
+	</action>
+	<tactic>Default<action priority="100">HandAttack</action><action>AutoLOS</action><action>AutoGatherFavor</action><action>OracleRevealEnemyUI</action><attacktype>LogicalTypeHandUnitsAttack</attacktype></tactic>
+</tactics>

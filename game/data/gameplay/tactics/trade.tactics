@@ -1,0 +1,7 @@
+<tactics>
+	<action>
+		<name stringid="STR_EDT_TRADE">Trade</name>
+		<type>Trade</type>
+	</action>
+	<tactic>Default<action>Trade</action></tactic>
+</tactics>

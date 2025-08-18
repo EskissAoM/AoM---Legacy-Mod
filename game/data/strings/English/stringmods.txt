@@ -134,7 +134,7 @@ ID = "STR_TECH_SOBEK_LR"   ;   Str = "Goddess of the sky, love and fertility. He
 ID = "STR_TECH_SOBEK_SELF"   ;   Str = "You have advanced to the Heroic Age through the grace of Hathor!"
 ID = "STR_TECH_SOBEK_OTHER"   ;   Str = "{0} advances to the Heroic Age through the grace of Hathor."
 
-
+ID = "STR_UNIT_CAMEL_RIDER_NAME"   ;   Str = "Camelry"
 ID = "STR_TECH_HEAVY_CAMEL_RIDERS_NAME"   ;   Str = "Heavy Camelry"
 ID = "STR_TECH_CHAMPION_CAMEL_RIDERS_NAME"   ;   Str = "Champion Camelry"
 

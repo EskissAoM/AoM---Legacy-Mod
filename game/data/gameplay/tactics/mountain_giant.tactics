@@ -1,0 +1,54 @@
+<tactics>
+	<action>
+		<name stringid="STR_ACTION_HAND">HandAttack</name>
+		<type>Attack</type>
+		<rate type="All">1.0</rate>
+		<attackaction>1</attackaction>
+		<handlogic>1</handlogic>
+		<anim>HandAttack</anim>
+		<onhiteffect type="Snare" duration="2" rate="0.85"></onhiteffect>
+		<impacteffect>effects\impacts\crush</impacteffect>
+	</action>
+	<action>
+		<name stringid="STR_ACTION_CHARGE_HAND">ChargedHandAttack</name>
+		<type>Attack</type>
+		<rate type="Building">1.0</rate>
+		<attackaction>1</attackaction>
+		<chargeaction>1</chargeaction>
+		<handlogic>1</handlogic>
+		<anim>ChannelAttack</anim>
+		<impacteffect>effects\impacts\crush</impacteffect>
+	</action>
+	<action>
+		<name stringid="STR_ACTION_PUNT">DwarvenPunt</name>
+		<type>Gore</type>
+		<rate type="VillagerDwarf">1.0</rate>
+		<attackaction>1</attackaction>
+		<handlogic>1</handlogic>
+		<anim>Gore</anim>
+		<auxchargeaction>1</auxchargeaction>
+		<impacteffect>effects\impacts\crush</impacteffect>
+	</action>
+	<action>
+		<name stringid="STR_ACTION_PUNT">Punt</name>
+		<type>Gore</type>
+		<rate type="HumanSoldier">1.0</rate>
+		<rate type="LogicalTypeVillagerNotHero">1.0</rate>
+		<rate type="TradeUnit">1.0</rate>
+		<attackaction>1</attackaction>
+		<handlogic>1</handlogic>
+		<anim>Gore</anim>
+		<auxchargeaction>1</auxchargeaction>
+		<impacteffect>effects\impacts\crush</impacteffect>
+	</action>
+	<action>
+		<name>Footy</name>
+		<type>Gore</type>
+		<rate type="Football">1.0</rate>
+		<attackaction>1</attackaction>
+		<handlogic>1</handlogic>
+		<anim>Gore</anim>
+		<impacteffect>effects\impacts\crush</impacteffect>
+	</action>
+	<tactic>Default<action priority="100">ChargedHandAttack</action><action priority="95">Footy</action><action priority="90">DwarvenPunt</action><action priority="90">Punt</action><action priority="80">HandAttack</action><attacktype>LogicalTypeHandUnitsAttack</attacktype><autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype><attackmovetype>AbstractWall</attackmovetype></tactic>
+</tactics>

@@ -2,6 +2,242 @@
 
 <!-- EGYPTIAN -->	
 
+	<unit name="Spearman" mergemode="replace">
+		<displaynameid>STR_UNIT_SPEARMAN_NAME</displaynameid>
+		<rollovertextid>STR_UNIT_SPEARMAN_LR</rollovertextid>
+		<shortrollovertextid>STR_UNIT_SPEARMAN_SR</shortrollovertextid>
+		<icon>resources\egyptian\player_color\units\spearman_icon.png</icon>
+		<animfile>egyptian\units\infantry\spearman\spearman.xml</animfile>
+		<soundsetfile>egyptian\vo\spearman\spearman.xml</soundsetfile>
+		<obstructionradiusx>0.4900</obstructionradiusx>
+		<obstructionradiusz>0.4900</obstructionradiusz>
+		<impacttype>Armoured</impacttype>
+		<unitaitype>HandCombative</unitaitype>
+		<movementtype>land</movementtype>
+		<turnrate>18.0000</turnrate>
+		<initialhitpoints>70.0000</initialhitpoints>
+		<maxhitpoints>70.0000</maxhitpoints>
+		<trainpoints>9.0000</trainpoints>
+		<weightclass>5</weightclass>
+		<populationcount>2</populationcount>
+		<maxvelocity>5.0000</maxvelocity>
+		<los>16.0000</los>
+		<cost resourcetype="Food">50.0000</cost>
+		<cost resourcetype="Gold">20.0000</cost>
+		<armor type="Hack" value="0.4000"></armor>
+		<armor type="Pierce" value="0.2000"></armor>
+		<armor type="Crush" value="0.9900"></armor>
+		<unittype>LogicalTypeNeededForVictory</unittype>
+		<unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeLandMilitary</unittype>
+		<unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+		<unittype>LogicalTypeGarrisonInShips</unittype>
+		<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeVillagersAttack</unittype>
+		<unittype>LogicalTypeHandUnitsAttack</unittype>
+		<unittype>LogicalTypeRangedUnitsAttack</unittype>
+		<unittype>LogicalTypeMinimapFilterMilitary</unittype>
+		<unittype>LogicalTypeHealed</unittype>
+		<unittype>CountsTowardMilitaryScore</unittype>
+		<unittype>Unit</unittype>
+		<unittype>UnitClass</unittype>
+		<unittype>MilitaryUnit</unittype>
+		<unittype>AbstractInfantry</unittype>
+		<unittype>HumanSoldier</unittype>
+		<unittype>LogicalTypeValidBoltTarget</unittype>
+		<unittype>LogicalTypeConvertsHerds</unittype>
+		<unittype>LogicalTypeEarthquakeAttack</unittype>
+		<unittype>LogicalTypeAffectedByRestoration</unittype>
+		<unittype>LogicalTypeValidMeteorTarget</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<unittype>LogicalTypeValidShiftingSandsTarget</unittype>
+		<unittype>LogicalTypeParticipatesInBattlecries</unittype>
+		<unittype>LogicalTypeValidSpyTarget</unittype>
+		<unittype>LogicalTypeValidFrostTarget</unittype>
+		<unittype>LogicalTypeValidTraitorTarget</unittype>
+		<unittype>LogicalTypeValidShockwaveTarget</unittype>
+		<flag>CollidesWithProjectiles</flag>
+		<flag>CorpseDecays</flag>
+		<flag>ShowGarrisonButton</flag>
+		<flag>DontRotateObstruction</flag>
+		<flag>ObscuredByUnits</flag>
+		<flag>CommonCommands</flag>
+		<flag>MilitaryCommands</flag>
+		<flag>CreateUnitGroupAutomatically</flag>
+		<tactics>handattack.tactics</tactics>
+		<protoaction>
+			<name>HandAttack</name>
+			<rof>1.000000</rof>
+			<damage type="Hack">7.000000</damage>
+			<damagebonus type="AbstractCavalry">1.100000</damagebonus>
+			<damagebonus type="AbstractSiegeWeapon">2.000000</damagebonus>
+			<damagebonus type="ContariusHero">1.100000</damagebonus>
+			<damagebonus type="Turma">1.250000</damagebonus>
+			<damagebonus type="TurmaHero">1.250000</damagebonus>
+			<maxrange>0.750000</maxrange>
+		</protoaction>
+	</unit>
+	<unit name="Axeman" mergemode="replace">
+		<displaynameid>STR_UNIT_AXEMAN_NAME</displaynameid>
+		<rollovertextid>STR_UNIT_AXEMAN_LR</rollovertextid>
+		<shortrollovertextid>STR_UNIT_AXEMAN_SR</shortrollovertextid>
+		<icon>resources\egyptian\player_color\units\axeman_icon.png</icon>
+		<animfile>egyptian\units\infantry\axeman\axeman.xml</animfile>
+		<soundsetfile>egyptian\vo\axeman\axeman.xml</soundsetfile>
+		<obstructionradiusx>0.4900</obstructionradiusx>
+		<obstructionradiusz>0.4900</obstructionradiusz>
+		<impacttype>Armoured</impacttype>
+		<unitaitype>HandCombative</unitaitype>
+		<movementtype>land</movementtype>
+		<turnrate>18.0000</turnrate>
+		<initialhitpoints>70.0000</initialhitpoints>
+		<maxhitpoints>70.0000</maxhitpoints>
+		<trainpoints>10.0000</trainpoints>
+		<weightclass>5</weightclass>
+		<populationcount>2</populationcount>
+		<maxvelocity>4.3000</maxvelocity>
+		<los>16.0000</los>
+		<cost resourcetype="Food">40.0000</cost>
+		<cost resourcetype="Gold">30.0000</cost>
+		<armor type="Hack" value="0.4000"></armor>
+		<armor type="Pierce" value="0.1500"></armor>
+		<armor type="Crush" value="0.9900"></armor>
+		<unittype>LogicalTypeNeededForVictory</unittype>
+		<unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeLandMilitary</unittype>
+		<unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+		<unittype>LogicalTypeGarrisonInShips</unittype>
+		<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeVillagersAttack</unittype>
+		<unittype>LogicalTypeHandUnitsAttack</unittype>
+		<unittype>LogicalTypeRangedUnitsAttack</unittype>
+		<unittype>LogicalTypeMinimapFilterMilitary</unittype>
+		<unittype>LogicalTypeHealed</unittype>
+		<unittype>CountsTowardMilitaryScore</unittype>
+		<unittype>Unit</unittype>
+		<unittype>UnitClass</unittype>
+		<unittype>MilitaryUnit</unittype>
+		<unittype>AbstractInfantry</unittype>
+		<unittype>HumanSoldier</unittype>
+		<unittype>LogicalTypeValidBoltTarget</unittype>
+		<unittype>LogicalTypeConvertsHerds</unittype>
+		<unittype>LogicalTypeEarthquakeAttack</unittype>
+		<unittype>LogicalTypeAffectedByRestoration</unittype>
+		<unittype>LogicalTypeValidMeteorTarget</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<unittype>LogicalTypeValidShiftingSandsTarget</unittype>
+		<unittype>LogicalTypeParticipatesInBattlecries</unittype>
+		<unittype>LogicalTypeValidSpyTarget</unittype>
+		<unittype>LogicalTypeValidFrostTarget</unittype>
+		<unittype>LogicalTypeValidTraitorTarget</unittype>
+		<unittype>LogicalTypeValidShockwaveTarget</unittype>
+		<flag>CollidesWithProjectiles</flag>
+		<flag>CorpseDecays</flag>
+		<flag>ShowGarrisonButton</flag>
+		<flag>DontRotateObstruction</flag>
+		<flag>ObscuredByUnits</flag>
+		<flag>CommonCommands</flag>
+		<flag>MilitaryCommands</flag>
+		<flag>CreateUnitGroupAutomatically</flag>
+		<tactics>handattack.tactics</tactics>
+		<protoaction>
+			<name>HandAttack</name>
+			<rof>1.000000</rof>
+			<damage type="Hack">5.000000</damage>
+			<damagebonus type="AbstractInfantry">4.000000</damagebonus>
+			<damagebonus type="Hersir">4.000000</damagebonus>
+			<damagebonus type="HeroOfRagnarok">4.000000</damagebonus>
+			<damagebonus type="MurmilloHero">4.000000</damagebonus>
+			<damagebonus type="KatapeltesHero">4.000000</damagebonus>
+			<damagebonus type="FanaticHero">4.000000</damagebonus>
+			<damagebonus type="DestroyerHero">4.000000</damagebonus>
+			<maxrange>0.500000</maxrange>
+		</protoaction>
+	</unit>
+	<unit name="Slinger" mergemode="replace">
+		<displaynameid>STR_UNIT_SLINGER_NAME</displaynameid>
+		<rollovertextid>STR_UNIT_SLINGER_LR</rollovertextid>
+		<shortrollovertextid>STR_UNIT_SLINGER_SR</shortrollovertextid>
+		<icon>resources\egyptian\player_color\units\slinger_icon.png</icon>
+		<animfile>egyptian\units\archery\slinger\slinger.xml</animfile>
+		<soundsetfile>egyptian\vo\slinger\slinger.xml</soundsetfile>
+		<obstructionradiusx>0.4900</obstructionradiusx>
+		<obstructionradiusz>0.4900</obstructionradiusz>
+		<impacttype>Armoured</impacttype>
+		<unitaitype>RangedCombative</unitaitype>
+		<autoattackrange>20.0000</autoattackrange>
+		<movementtype>land</movementtype>
+		<turnrate>18.0000</turnrate>
+		<initialhitpoints>65.0000</initialhitpoints>
+		<maxhitpoints>65.0000</maxhitpoints>
+		<trainpoints>14.0000</trainpoints>
+		<weightclass>4</weightclass>
+		<populationcount>2</populationcount>
+		<maxvelocity>4.0000</maxvelocity>
+		<los>20.0000</los>
+		<cost resourcetype="Wood">60.0000</cost>
+		<cost resourcetype="Gold">24.0000</cost>
+		<armor type="Hack" value="0.1500"></armor>
+		<armor type="Pierce" value="0.2000"></armor>
+		<armor type="Crush" value="0.9900"></armor>
+		<unittype>LogicalTypeNeededForVictory</unittype>
+		<unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeLandMilitary</unittype>
+		<unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+		<unittype>LogicalTypeGarrisonInShips</unittype>
+		<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeVillagersAttack</unittype>
+		<unittype>LogicalTypeHandUnitsAttack</unittype>
+		<unittype>LogicalTypeRangedUnitsAttack</unittype>
+		<unittype>LogicalTypeMinimapFilterMilitary</unittype>
+		<unittype>LogicalTypeHealed</unittype>
+		<unittype>MilitaryUnit</unittype>
+		<unittype>UnitClass</unittype>
+		<unittype>Unit</unittype>
+		<unittype>CountsTowardMilitaryScore</unittype>
+		<unittype>Ranged</unittype>
+		<unittype>AbstractArcher</unittype>
+		<unittype>HumanSoldier</unittype>
+		<unittype>LogicalTypeValidBoltTarget</unittype>
+		<unittype>LogicalTypeConvertsHerds</unittype>
+		<unittype>LogicalTypeEarthquakeAttack</unittype>
+		<unittype>LogicalTypeAffectedByRestoration</unittype>
+		<unittype>LogicalTypeValidMeteorTarget</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<unittype>LogicalTypeValidShiftingSandsTarget</unittype>
+		<unittype>LogicalTypeParticipatesInBattlecries</unittype>
+		<unittype>LogicalTypeValidSpyTarget</unittype>
+		<unittype>LogicalTypeValidFrostTarget</unittype>
+		<unittype>LogicalTypeValidTraitorTarget</unittype>
+		<unittype>LogicalTypeValidShockwaveTarget</unittype>
+		<flag>CollidesWithProjectiles</flag>
+		<flag>CorpseDecays</flag>
+		<flag>ShowGarrisonButton</flag>
+		<flag>DontRotateObstruction</flag>
+		<flag>ObscuredByUnits</flag>
+		<flag>CommonCommands</flag>
+		<flag>MilitaryCommands</flag>
+		<flag>CreateUnitGroupAutomatically</flag>
+		<tactics>rangedattack.tactics</tactics>
+		<protoaction>
+			<name>RangedAttack</name>
+			<rof>1.000000</rof>
+			<damage type="Pierce">3.000000</damage>
+			<damagebonus type="AbstractArcher">4.000000</damagebonus>
+			<damagebonus type="ThrowingAxeman">3.000000</damagebonus>
+			<damagebonus type="Hypaspist">1.250000</damagebonus>
+			<damagebonus type="Axeman">1.250000</damagebonus>
+			<damagebonus type="ArcusHero">4.000000</damagebonus>
+			<damagebonus type="TurmaHero">4.000000</damagebonus>
+			<maxrange>16.000000</maxrange>
+			<projectile>ProjectileSlingStoneFlaming</projectile>
+			<!-- <maxspread>5.0</maxspread>
+			<spreadfactor>0.25</spreadfactor>
+			<trackrating>5.0</trackrating>
+			<accuracy>0.8</accuracy>
+			<unintentionaldamagemultiplier>0.3</unintentionaldamagemultiplier> -->
+		</protoaction>
+	</unit>
 	<unit name="WarElephant" mergemode="replace">
 		<displaynameid>STR_UNIT_WAR_ELEPHANT_NAME</displaynameid>
 		<rollovertextid>STR_UNIT_WAR_ELEPHANT_LR</rollovertextid>
@@ -73,6 +309,1329 @@
 			<damage type="Hack">19.600000</damage>
 			<damagebonus type="Building">3.000000</damagebonus>
 			<maxrange>0.750000</maxrange>
+		</protoaction>
+	</unit>
+	<unit name="CamelRider" mergemode="replace">
+		<displaynameid>STR_UNIT_CAMEL_RIDER_NAME</displaynameid>
+		<rollovertextid>STR_UNIT_CAMEL_RIDER_LR</rollovertextid>
+		<shortrollovertextid>STR_UNIT_CAMEL_RIDER_SR</shortrollovertextid>
+		<icon>resources\egyptian\player_color\units\camel_rider_icon.png</icon>
+		<animfile>egyptian\units\cavalry\camel_rider\camel_rider.xml</animfile>
+		<soundsetfile>egyptian\vo\camel_rider\camel_rider.xml</soundsetfile>
+		<obstructionradiusx>0.7000</obstructionradiusx>
+		<obstructionradiusz>0.7000</obstructionradiusz>
+		<selectionradiusx>0.8000</selectionradiusx>
+		<selectionradiusz>1.2500</selectionradiusz>
+		<impacttype>Armoured</impacttype>
+		<unitaitype>HandCombative</unitaitype>
+		<movementtype>land</movementtype>
+		<turnrate>9.0000</turnrate>
+		<heighthitpointbaroffset>0.75</heighthitpointbaroffset>
+		<initialhitpoints>125.0000</initialhitpoints>
+		<maxhitpoints>125.0000</maxhitpoints>
+		<trainpoints>8.0000</trainpoints>
+		<weightclass>6</weightclass>
+		<populationcount>3</populationcount>
+		<maxvelocity>6.0000</maxvelocity>
+		<los>16.0000</los>
+		<cost resourcetype="Food">50.0000</cost>
+		<cost resourcetype="Gold">70.0000</cost>
+		<armor type="Hack" value="0.1500"></armor>
+		<armor type="Pierce" value="0.3000"></armor>
+		<armor type="Crush" value="0.9900"></armor>
+		<unittype>LogicalTypeNeededForVictory</unittype>
+		<unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeLandMilitary</unittype>
+		<unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+		<unittype>LogicalTypeGarrisonInShips</unittype>
+		<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeVillagersAttack</unittype>
+		<unittype>LogicalTypeHandUnitsAttack</unittype>
+		<unittype>LogicalTypeRangedUnitsAttack</unittype>
+		<unittype>LogicalTypeMinimapFilterMilitary</unittype>
+		<unittype>LogicalTypeHealed</unittype>
+		<unittype>CountsTowardMilitaryScore</unittype>
+		<unittype>Unit</unittype>
+		<unittype>UnitClass</unittype>
+		<unittype>MilitaryUnit</unittype>
+		<unittype>AbstractCavalry</unittype>
+		<unittype>HumanSoldier</unittype>
+		<unittype>LogicalTypeValidBoltTarget</unittype>
+		<unittype>LogicalTypeConvertsHerds</unittype>
+		<unittype>LogicalTypeEarthquakeAttack</unittype>
+		<unittype>LogicalTypeAffectedByRestoration</unittype>
+		<unittype>LogicalTypeValidMeteorTarget</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<unittype>LogicalTypeValidShiftingSandsTarget</unittype>
+		<unittype>LogicalTypeParticipatesInBattlecries</unittype>
+		<unittype>LogicalTypeValidSpyTarget</unittype>
+		<unittype>LogicalTypeValidFrostTarget</unittype>
+		<unittype>LogicalTypeValidTraitorTarget</unittype>
+		<unittype>LogicalTypeValidShockwaveTarget</unittype>
+		<flag>CollidesWithProjectiles</flag>
+		<flag>CorpseDecays</flag>
+		<flag>ShowGarrisonButton</flag>
+		<flag>DontRotateObstruction</flag>
+		<flag>ObscuredByUnits</flag>
+		<flag>CommonCommands</flag>
+		<flag>MilitaryCommands</flag>
+		<flag>CreateUnitGroupAutomatically</flag>
+		<tactics>handattack.tactics</tactics>
+		<protoaction>
+			<name>HandAttack</name>
+			<rof>1.000000</rof>
+			<damage type="Hack">8.000000</damage>
+			<damagebonus type="AbstractCavalry">1.750000</damagebonus>
+			<damagebonus type="ContariusHero">1.750000</damagebonus>
+			<maxrange>0.750000</maxrange>
+		</protoaction>
+	</unit>
+	<unit name="ChariotArcher" mergemode="replace">
+		<displaynameid>STR_UNIT_CHARIOT_ARCHER_NAME</displaynameid>
+		<rollovertextid>STR_UNIT_CHARIOT_ARCHER_LR</rollovertextid>
+		<shortrollovertextid>STR_UNIT_CHARIOT_ARCHER_SR</shortrollovertextid>
+		<icon>resources\egyptian\player_color\units\chariot_archer_icon.png</icon>
+		<animfile>egyptian\units\archery\chariot_archer\chariot_archer.xml</animfile>
+		<soundsetfile>egyptian\vo\chariot_archer\chariot_archer.xml</soundsetfile>
+		<obstructionradiusx>0.7000</obstructionradiusx>
+		<obstructionradiusz>0.7000</obstructionradiusz>
+		<selectionradiusx>1.0000</selectionradiusx>
+		<selectionradiusz>1.8500</selectionradiusz>
+		<impacttype>Armoured</impacttype>
+		<unitaitype>RangedCombative</unitaitype>
+		<movementtype>land</movementtype>
+		<turnrate>9.0000</turnrate>
+		<initialhitpoints>90.0000</initialhitpoints>
+		<maxhitpoints>90.0000</maxhitpoints>
+		<trainpoints>6.0000</trainpoints>
+		<weightclass>6</weightclass>
+		<populationcount>3</populationcount>
+		<maxvelocity>5.0000</maxvelocity>
+		<los>24.0000</los>
+		<cost resourcetype="Wood">100.0000</cost>
+		<cost resourcetype="Gold">40.0000</cost>
+		<armor type="Hack" value="0.3000"></armor>
+		<armor type="Pierce" value="0.2000"></armor>
+		<armor type="Crush" value="0.9900"></armor>
+		<unittype>LogicalTypeNeededForVictory</unittype>
+		<unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeLandMilitary</unittype>
+		<unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+		<unittype>LogicalTypeGarrisonInShips</unittype>
+		<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeVillagersAttack</unittype>
+		<unittype>LogicalTypeHandUnitsAttack</unittype>
+		<unittype>LogicalTypeRangedUnitsAttack</unittype>
+		<unittype>LogicalTypeMinimapFilterMilitary</unittype>
+		<unittype>LogicalTypeHealed</unittype>
+		<unittype>MilitaryUnit</unittype>
+		<unittype>UnitClass</unittype>
+		<unittype>Unit</unittype>
+		<unittype>CountsTowardMilitaryScore</unittype>
+		<unittype>Ranged</unittype>
+		<unittype>AbstractArcher</unittype>
+		<unittype>HumanSoldier</unittype>
+		<unittype>LogicalTypeValidBoltTarget</unittype>
+		<unittype>LogicalTypeConvertsHerds</unittype>
+		<unittype>LogicalTypeEarthquakeAttack</unittype>
+		<unittype>LogicalTypeAffectedByRestoration</unittype>
+		<unittype>LogicalTypeValidMeteorTarget</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<unittype>LogicalTypeValidShiftingSandsTarget</unittype>
+		<unittype>LogicalTypeParticipatesInBattlecries</unittype>
+		<unittype>LogicalTypeValidSpyTarget</unittype>
+		<unittype>LogicalTypeValidFrostTarget</unittype>
+		<unittype>LogicalTypeValidTraitorTarget</unittype>
+		<unittype>LogicalTypeValidShockwaveTarget</unittype>
+		<flag>OrientUnitWithGround</flag>
+		<flag>CollidesWithProjectiles</flag>
+		<flag>CorpseDecays</flag>
+		<flag>ShowGarrisonButton</flag>
+		<flag>DontRotateObstruction</flag>
+		<flag>ObscuredByUnits</flag>
+		<flag>CommonCommands</flag>
+		<flag>MilitaryCommands</flag>
+		<flag>ConstrainOrientation</flag>
+		<flag>CreateUnitGroupAutomatically</flag>
+		<tactics>rangedattack.tactics</tactics>
+		<protoaction>
+			<name>RangedAttack</name>
+			<rof>1.500000</rof>
+			<damage type="Pierce">12.7500000</damage>
+			<maxrange>20.000000</maxrange>
+			<projectile>ProjectileArrowFlaming</projectile>
+			<!-- <accuracy>0.8</accuracy>
+			<maxspread>5.0</maxspread>
+			<trackrating>5.0</trackrating>
+			<unintentionaldamagemultiplier>0.3</unintentionaldamagemultiplier>
+			<accuracyreductionfactor>1.5</accuracyreductionfactor> -->
+		</protoaction>
+	</unit>
+	<unit name="Catapult" mergemode="replace">
+		<displaynameid>STR_UNIT_CATAPULT_NAME</displaynameid>
+		<rollovertextid>STR_UNIT_CATAPULT_LR</rollovertextid>
+		<shortrollovertextid>STR_UNIT_CATAPULT_SR</shortrollovertextid>
+		<icon>resources\egyptian\player_color\units\catapult_icon.png</icon>
+		<animfile>egyptian\units\siege\catapult\catapult.xml</animfile>
+		<soundsetfile>egyptian\vo\catapult\catapult.xml</soundsetfile>
+		<obstructionradiusx>0.9900</obstructionradiusx>
+		<obstructionradiusz>0.9900</obstructionradiusz>
+		<selectionradiusx>1.7500</selectionradiusx>
+		<selectionradiusz>2.0000</selectionradiusz>
+		<impacttype>Wood</impacttype>
+		<unitaitype>RangedCombative</unitaitype>
+		<movementtype>land</movementtype>
+		<turnrate>3.0000</turnrate>
+		<initialhitpoints>115.0000</initialhitpoints>
+		<maxhitpoints>115.0000</maxhitpoints>
+		<trainpoints>24.0000</trainpoints>
+		<weightclass>8</weightclass>
+		<populationcount>4</populationcount>
+		<maxvelocity>2.4000</maxvelocity>
+		<los>40.0000</los>
+		<cost resourcetype="Wood">200.0000</cost>
+		<cost resourcetype="Gold">200.0000</cost>
+		<armor type="Hack" value="0.3000"></armor>
+		<armor type="Pierce" value="0.9000"></armor>
+		<armor type="Crush" value="0.9000"></armor>
+		<unittype>LogicalTypeNeededForVictory</unittype>
+		<unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeLandMilitary</unittype>
+		<unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+		<unittype>LogicalTypeGarrisonInShips</unittype>
+		<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeVillagersAttack</unittype>
+		<unittype>LogicalTypeHandUnitsAttack</unittype>
+		<unittype>LogicalTypeRangedUnitsAttack</unittype>
+		<unittype>LogicalTypeMinimapFilterMilitary</unittype>
+		<unittype>LogicalTypeHealed</unittype>
+		<unittype>LogicalTypeAutoAttackFocusBuildings</unittype>
+		<unittype>CountsTowardMilitaryScore</unittype>
+		<unittype>Ranged</unittype>
+		<unittype>Unit</unittype>
+		<unittype>UnitClass</unittype>
+		<unittype>MilitaryUnit</unittype>
+		<unittype>AbstractSiegeWeapon</unittype>
+		<unittype>LogicalTypeValidBoltTarget</unittype>
+		<unittype>LogicalTypeConvertsHerds</unittype>
+		<unittype>LogicalTypeEarthquakeAttack</unittype>
+		<unittype>LogicalTypeAffectedByRestoration</unittype>
+		<unittype>LogicalTypeValidMeteorTarget</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<unittype>LogicalTypeValidShiftingSandsTarget</unittype>
+		<unittype>LogicalTypeValidSpyTarget</unittype>
+		<unittype>LogicalTypeValidFrostTarget</unittype>
+		<unittype>LogicalTypeValidTraitorTarget</unittype>
+		<unittype>LogicalTypeValidShockwaveTarget</unittype>
+		<unittype>SiegeLineUpgraded</unittype>
+		<flag>OrientUnitWithGround</flag>
+		<flag>RotateInPlace</flag>
+		<flag>CollidesWithProjectiles</flag>
+		<flag>CorpseDecays</flag>
+		<flag>ShowGarrisonButton</flag>
+		<flag>DontRotateObstruction</flag>
+		<flag>ObscuredByUnits</flag>
+		<flag>CommonCommands</flag>
+		<flag>MilitaryCommands</flag>
+		<flag>ConstrainOrientation</flag>
+		<flag>DisplayMinimumRange</flag>
+		<flag>DisplayRange</flag>
+		<flag>CreateUnitGroupAutomatically</flag>
+		<tactics>rangedattack_antiwall.tactics</tactics>
+		<protoaction>
+			<name>AntiWallAttack</name>
+			<rof>4.000000</rof>
+			<damage type="Pierce">40.000000</damage>
+			<damage type="Crush">200.000000</damage>
+			<damagebonus type="Ship">2.500000</damagebonus>
+			<minrange>10.000000</minrange>
+			<maxrange>28.000000</maxrange>
+			<projectile>ProjectileCatapultShot</projectile>
+			<!-- <spreadfactor>0.1</spreadfactor>
+			<MaxSpread>5.0</MaxSpread>
+			<accuracy>0.9</accuracy>
+			<accuracyreductionfactor>3</accuracyreductionfactor>
+			<trackrating>2.0<trackrating>
+			<unintentionaldamagemultiplier>0.5</unintentionaldamagemultiplier> -->
+		</protoaction>
+		<protoaction>
+			<name>RangedAttack</name>
+			<rof>4.000000</rof>
+			<damage type="Pierce">40.000000</damage>
+			<damage type="Crush">200.000000</damage>
+			<damagebonus type="Ship">2.500000</damagebonus>
+			<minrange>10.000000</minrange>
+			<maxrange>28.000000</maxrange>
+			<projectile>ProjectileCatapultShot</projectile>
+			<!-- <spreadfactor>0.1</spreadfactor>
+			<MaxSpread>5.0</MaxSpread>
+			<accuracy>0.9</accuracy>
+			<accuracyreductionfactor>3</accuracyreductionfactor>
+			<trackrating>2.0<trackrating>
+			<unintentionaldamagemultiplier>0.5</unintentionaldamagemultiplier> -->
+		</protoaction>
+	</unit>
+	<unit name="Mercenary" mergemode="replace">
+    	<displaynameid>STR_UNIT_MERCENARY_NAME</displaynameid>
+    	<rollovertextid>STR_UNIT_MERCENARY_LR</rollovertextid>
+    	<shortrollovertextid>STR_UNIT_MERCENARY_SR</shortrollovertextid>
+    	<icon>resources\egyptian\player_color\units\mercenary_icon.png</icon>
+    	<animfile>egyptian\units\infantry\mercenary\mercenary.xml</animfile>
+    	<soundsetfile>egyptian\vo\mercenary\mercenary.xml</soundsetfile>
+    	<obstructionradiusx>0.4900</obstructionradiusx>
+		<obstructionradiusz>0.4900</obstructionradiusz>
+		<impacttype>Armoured</impacttype>
+		<unitaitype>HandCombative</unitaitype>
+		<movementtype>land</movementtype>
+		<turnrate>18.0000</turnrate>
+		<initialhitpoints>85.0000</initialhitpoints>
+		<maxhitpoints>85.0000</maxhitpoints>
+		<trainpoints>4.0000</trainpoints>
+		<buildlimit>12</buildlimit>
+		<weightclass>5</weightclass>
+		<populationcount>0</populationcount>
+		<maxvelocity>4.3000</maxvelocity>
+		<lifespan>35.0000</lifespan>
+		<los>20.0000</los>
+		<cost resourcetype="Gold">90.0000</cost>
+		<armor type="Hack" value="0.4500"></armor>
+		<armor type="Pierce" value="0.3000"></armor>
+		<armor type="Crush" value="0.9900"></armor>
+		<unittype>LogicalTypeNeededForVictory</unittype>
+		<unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeLandMilitary</unittype>
+		<unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+		<unittype>LogicalTypeGarrisonInShips</unittype>
+		<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeVillagersAttack</unittype>
+		<unittype>LogicalTypeHandUnitsAttack</unittype>
+		<unittype>LogicalTypeRangedUnitsAttack</unittype>
+		<unittype>LogicalTypeMinimapFilterMilitary</unittype>
+		<unittype>Unit</unittype>
+		<unittype>MilitaryUnit</unittype>
+		<unittype>UnitClass</unittype>
+		<unittype>CountsTowardMilitaryScore</unittype>
+		<unittype>AbstractInfantry</unittype>
+		<unittype>HumanSoldier</unittype>
+		<unittype>LogicalTypeValidBoltTarget</unittype>
+		<unittype>LogicalTypeConvertsHerds</unittype>
+		<unittype>LogicalTypeEarthquakeAttack</unittype>
+		<unittype>LogicalTypeAffectedByRestoration</unittype>
+		<unittype>LogicalTypeValidMeteorTarget</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<unittype>LogicalTypeValidShiftingSandsTarget</unittype>
+		<unittype>LogicalTypeParticipatesInBattlecries</unittype>
+		<unittype>LogicalTypeValidSpyTarget</unittype>
+		<unittype>LogicalTypeValidFrostTarget</unittype>
+		<unittype>LogicalTypeValidTraitorTarget</unittype>
+		<unittype>LogicalTypeValidShockwaveTarget</unittype>
+		<flag>CollidesWithProjectiles</flag>
+		<flag>CorpseDecays</flag>
+		<flag>ShowGarrisonButton</flag>
+		<flag>DontRotateObstruction</flag>
+		<flag>ObscuredByUnits</flag>
+		<flag>CommonCommands</flag>
+		<flag>MilitaryCommands</flag>
+		<flag>CreateUnitGroupAutomatically</flag>
+		<tactics>handattack.tactics</tactics>
+		<protoaction>
+			<name>HandAttack</name>
+			<rof>1.000000</rof>
+			<damage type="Hack">8.000000</damage>
+			<maxrange>0.750000</maxrange>
+		</protoaction>
+  </unit>
+  <unit name="MercenaryCavalry" mergemode="replace">
+		<displaynameid>STR_UNIT_MERCENARY_CAVALRY_NAME</displaynameid>
+		<rollovertextid>STR_UNIT_MERCENARY_CAVALRY_LR</rollovertextid>
+		<shortrollovertextid>STR_UNIT_MERCENARY_CAVALRY_SR</shortrollovertextid>
+		<icon>resources\egyptian\player_color\units\mercenary_cavalry_icon.png</icon>
+		<animfile>egyptian\units\cavalry\mercenary_cavalry\mercenary_cavalry.xml</animfile>
+		<soundsetfile>egyptian\vo\mercenary_cavalry\mercenary_cavalry.xml</soundsetfile>
+		<obstructionradiusx>0.7000</obstructionradiusx>
+		<obstructionradiusz>0.7000</obstructionradiusz>
+		<selectionradiusx>0.7500</selectionradiusx>
+		<selectionradiusz>1.1500</selectionradiusz>
+		<impacttype>Armoured</impacttype>
+		<unitaitype>HandCombative</unitaitype>
+		<movementtype>land</movementtype>
+		<turnrate>18.0000</turnrate>
+		<initialhitpoints>190.0000</initialhitpoints>
+		<maxhitpoints>190.0000</maxhitpoints>
+		<trainpoints>6.0000</trainpoints>
+		<buildlimit>8</buildlimit>
+		<weightclass>6</weightclass>
+		<populationcount>0</populationcount>
+		<maxvelocity>5.3000</maxvelocity>
+		<lifespan>35.0000</lifespan>
+		<los>22.0000</los>
+		<cost resourcetype="Gold">120.0000</cost>
+		<armor type="Hack" value="0.2000"></armor>
+		<armor type="Pierce" value="0.3500"></armor>
+		<armor type="Crush" value="0.9900"></armor>
+		<unittype>LogicalTypeNeededForVictory</unittype>
+		<unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeLandMilitary</unittype>
+		<unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+		<unittype>LogicalTypeGarrisonInShips</unittype>
+		<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeVillagersAttack</unittype>
+		<unittype>LogicalTypeHandUnitsAttack</unittype>
+		<unittype>LogicalTypeRangedUnitsAttack</unittype>
+		<unittype>LogicalTypeMinimapFilterMilitary</unittype>
+		<unittype>CountsTowardMilitaryScore</unittype>
+		<unittype>Unit</unittype>
+		<unittype>UnitClass</unittype>
+		<unittype>MilitaryUnit</unittype>
+		<unittype>AbstractCavalry</unittype>
+		<unittype>HumanSoldier</unittype>
+		<unittype>LogicalTypeValidBoltTarget</unittype>
+		<unittype>LogicalTypeConvertsHerds</unittype>
+		<unittype>LogicalTypeEarthquakeAttack</unittype>
+		<unittype>LogicalTypeAffectedByRestoration</unittype>
+		<unittype>LogicalTypeValidMeteorTarget</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<unittype>LogicalTypeValidShiftingSandsTarget</unittype>
+		<unittype>LogicalTypeParticipatesInBattlecries</unittype>
+		<unittype>LogicalTypeValidSpyTarget</unittype>
+		<unittype>LogicalTypeValidFrostTarget</unittype>
+		<unittype>LogicalTypeValidTraitorTarget</unittype>
+		<unittype>LogicalTypeValidShockwaveTarget</unittype>
+		<flag>CollidesWithProjectiles</flag>
+		<flag>CorpseDecays</flag>
+		<flag>ShowGarrisonButton</flag>
+		<flag>DontRotateObstruction</flag>
+		<flag>ObscuredByUnits</flag>
+		<flag>CommonCommands</flag>
+		<flag>MilitaryCommands</flag>
+		<flag>CreateUnitGroupAutomatically</flag>
+		<tactics>handattack.tactics</tactics>
+		<protoaction>
+			<name>HandAttack</name>
+			<rof>1.000000</rof>
+			<damage type="Hack">8.000000</damage>
+			<maxrange>0.750000</maxrange>
+		</protoaction>
+	</unit>
+
+	<unit name="Roc" mergemode="replace">
+    	<displaynameid>STR_UNIT_ROC_NAME</displaynameid>
+	 	<rollovertextid>STR_UNIT_ROC_LR</rollovertextid>
+    	<shortrollovertextid>STR_UNIT_ROC_SR</shortrollovertextid>
+    	<icon>resources\egyptian\player_color\units\roc_icon.png</icon>
+    	<animfile>egyptian\units\myth\roc\roc.xml</animfile>
+    	<soundsetfile>egyptian\vo\roc\roc.xml</soundsetfile>
+    	<obstructionradiusx>0.9900</obstructionradiusx>
+    	<obstructionradiusz>0.9900</obstructionradiusz>
+    	<impacttype>Unarmoured</impacttype>
+    	<unitaitype>Passive</unitaitype>
+    	<movementtype>air</movementtype>
+    	<turnrate>13.5000</turnrate>
+    	<heighthitpointbaroffset>3.50</heighthitpointbaroffset>
+    	<initialhitpoints>350.0000</initialhitpoints>
+    	<maxhitpoints>350.0000</maxhitpoints>
+    	<trainpoints>14.0000</trainpoints>
+    	<maxcontained>15</maxcontained>
+    	<populationcount>3</populationcount>
+    	<maxvelocity>4.0000</maxvelocity>
+    	<los>20.0000</los>
+    	<cost resourcetype="Gold">150.0000</cost>
+    	<cost resourcetype="Favor">15.0000</cost>
+    	<armor type="Hack" value="0.1000"></armor>
+    	<armor type="Pierce" value="0.2500"></armor>
+    	<armor type="Crush" value="0.8000"></armor>
+    	<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+    	<unittype>LogicalTypeRangedUnitsAttack</unittype>
+    	<unittype>LogicalTypeHealed</unittype>
+    	<unittype>LogicalTypeHeroicMythUnit</unittype>
+    	<unittype>Unit</unittype>
+    	<unittype>UnitClass</unittype>
+    	<unittype>MythUnit</unittype>
+    	<unittype>Transport</unittype>
+    	<unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+    	<unittype>LogicalTypeAffectedByRestoration</unittype>
+    	<unittype>LogicalTypeValidTornadoAttack</unittype>
+    	<unittype>LogicalTypeMythUnitNotTitan</unittype>
+    	<unittype>LogicalTypeValidSpyTarget</unittype>
+    	<unittype>AbstractFlyingUnit</unittype>
+    	<unittype>LogicalTypeMinimapFilterMilitary</unittype>
+    	<unittype>LogicalTypeValidShiftingSandsTarget</unittype>
+    	<unittype>CountsTowardMilitaryScore</unittype>
+    	<unittype>LogicalTypeNotEconomicOrMilitaryUnit</unittype>
+    	<unittype>LogicalTypeDivineImmunity</unittype>
+    	<flag>FlyingUnit</flag>
+    	<flag>NoTieToGround</flag>
+    	<flag>CollidesWithProjectiles</flag>
+    	<flag>DontRotateObstruction</flag>
+    	<flag>HasGatherPoint</flag>
+    	<flag>NonCollideable</flag>
+    	<flag>AllowAutoGarrison</flag>
+    	<flag>CorpseDecays</flag>
+    	<flag>CreateUnitGroupAutomatically</flag>
+    	<contain>LogicalTypeGarrisonInShips</contain>
+    	<command row="3" column="0">Stop</command>
+    	<command row="3" column="1">Eject</command>
+    	<command row="3" column="3">Patrol</command>
+    	<command row="3" column="5">Delete</command>
+  	</unit>
+
+	<unit name="Obelisk" mergemode="replace">
+		<displaynameid>STR_BLD_OBELISK_NAME</displaynameid>
+		<rollovertextid>STR_BLD_OBELISK_LR</rollovertextid>
+		<shortrollovertextid>STR_BLD_OBELISK_SR</shortrollovertextid>
+		<icon>resources\egyptian\static_color\buildings\obelisk_icon.png</icon>
+		<animfile>egyptian\buildings\obelisk\obelisk.xml</animfile>
+		<soundsetfile>egyptian\sfx\buildings\obelisk.xml</soundsetfile>
+		<obstructionradiusx>1.0000</obstructionradiusx>
+		<obstructionradiusz>1.0000</obstructionradiusz>
+		<impacttype>Stone</impacttype>
+		<movementtype>land</movementtype>
+		<initialhitpoints>50.0000</initialhitpoints>
+		<maxhitpoints>50.0000</maxhitpoints>
+		<buildpoints>20.0000</buildpoints>
+		<los>30.0000</los>
+		<cost resourcetype="Gold">15.0000</cost>
+		<armor type="Hack" value="0.3000"></armor>
+		<armor type="Pierce" value="0.9000"></armor>
+		<armor type="Crush" value="0.0500"></armor>
+		<unittype>LogicalTypeMinimapFilterEconomic</unittype>
+		<unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeBuildingsNotWalls</unittype>
+		<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeVillagersAttack</unittype>
+		<unittype>LogicalTypeHandUnitsAttack</unittype>
+		<unittype>LogicalTypeRangedUnitsAttack</unittype>
+		<unittype>BuildingClass</unittype>
+		<unittype>Building</unittype>
+		<unittype>CountsTowardEconomicScore</unittype>
+		<unittype>LogicalTypeEarthquakeAttack</unittype>
+		<unittype>LogicalTypeValidMeteorTarget</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<unittype>LogicalTypeBuildingEmpoweredForLOS</unittype>
+		<unittype>LogicalTypeTartarianGateValidOverlapPlacement</unittype>
+		<unittype>LogicalTypeValidForestProtectionPlacement</unittype>
+		<unittype>LogicalTypeBuildingNotWonderOrTitan</unittype>
+		<hotkeycontext>ObeliskAccel</hotkeycontext>
+		<tech row="0" column="0">SignalFires</tech>
+		<tech row="0" column="0">CarrierPigeons</tech>
+		<flag>CollidesWithProjectiles</flag>
+		<flag>Immoveable</flag>
+		<flag>ObscuresUnits</flag>
+		<flag>NoIdleActions</flag>
+		<flag>NonAutoFormedUnit</flag>
+		<flag>Doppled</flag>
+		<flag>SelectWithObstruction</flag>
+		<flag>PaintTextureWhenPlacing</flag>
+		<flag>FlattenGround</flag>
+		<flag>DisplayRange</flag>
+		<flag>DynamicUpdate</flag>
+		<command row="0" column="0">MoveNearbyPriestToBuild</command>
+		<command row="3" column="0">SetRallyPointOfNearbyEconUnitsToUnitPos</command>
+		<command row="3" column="1">SetRallyPointOfNearbyMilitaryUnitsToUnitPos</command>
+		<command row="1" column="1">CancelBuilding</command>
+		<command row="3" column="5">Delete</command>
+	</unit>
+	<unit name="Lighthouse" mergemode="replace">
+		<displaynameid>STR_BLD_LIGHTHOUSE_NAME</displaynameid>
+		<rollovertextid>STR_BLD_LIGHTHOUSE_LR</rollovertextid>
+		<shortrollovertextid>STR_BLD_LIGHTHOUSE_SR</shortrollovertextid>
+		<icon>resources\egyptian\static_color\buildings\lighthouse_icon.png</icon>
+		<animfile>egyptian\buildings\lighthouse\lighthouse.xml</animfile>
+		<soundsetfile>egyptian\sfx\buildings\lighthouse.xml</soundsetfile>
+		<obstructionradiusx>3.0000</obstructionradiusx>
+		<obstructionradiusz>3.0000</obstructionradiusz>
+		<impacttype>Stone</impacttype>
+		<screenshakeondestruction>0.300</screenshakeondestruction>
+		<movementtype>land</movementtype>
+		<initialhitpoints>1400.0000</initialhitpoints>
+		<maxhitpoints>1400.0000</maxhitpoints>
+		<buildpoints>120.0000</buildpoints>
+		<maxcontained>10</maxcontained>
+		<los>60.0000</los>
+		<cost resourcetype="Gold">300.0000</cost>
+		<armor type="Hack" value="0.3000"></armor>
+		<armor type="Pierce" value="0.9000"></armor>
+		<armor type="Crush" value="0.0500"></armor>
+		<unittype>LogicalTypeMinimapFilterEconomic</unittype>
+		<unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeBuildingsNotWalls</unittype>
+		<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeVillagersAttack</unittype>
+		<unittype>LogicalTypeHandUnitsAttack</unittype>
+		<unittype>LogicalTypeRangedUnitsAttack</unittype>
+		<unittype>BuildingClass</unittype>
+		<unittype>Building</unittype>
+		<unittype>CountsTowardEconomicScore</unittype>
+		<unittype>LogicalTypeEarthquakeAttack</unittype>
+		<unittype>LogicalTypeAffectedByRestoration</unittype>
+		<unittype>LogicalTypeValidMeteorTarget</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<unittype>LogicalTypeTartarianGateValidOverlapPlacement</unittype>
+		<unittype>LogicalTypeBuildingThatCanBeEmpowered</unittype>
+		<unittype>LogicalTypeBuildingNotWonderOrTitan</unittype>
+		<unittype>LogicalTypeValidForestProtectionPlacement</unittype>
+		<unittype>LogicalTypeBuildingThatConvertsConvertibles</unittype>
+		<flag>CollidesWithProjectiles</flag>
+		<flag>Immoveable</flag>
+		<flag>ObscuresUnits</flag>
+		<flag>NoIdleActions</flag>
+		<flag>NonAutoFormedUnit</flag>
+		<flag>Doppled</flag>
+		<flag>SelectWithObstruction</flag>
+		<flag>PaintTextureWhenPlacing</flag>
+		<flag>FlattenGround</flag>
+		<flag>DisplayRange</flag>
+		<flag>HasGatherPoint</flag>
+		<contain>Unit</contain>
+		<notcontain>MythUnit</notcontain>
+		<notcontain>AbstractSiegeWeapon</notcontain>
+		<notcontain>Ship</notcontain>
+		<notcontain>Resource</notcontain>
+		<command row="1" column="1">CancelBuilding</command>
+		<command row="3" column="0">SetGatherPoint</command>
+		<command row="3" column="1">Eject</command>
+		<command row="3" column="2">EjectBackToWork</command>
+		<command row="3" column="4">ReturnToWork</command>
+		<command row="3" column="5">Delete</command>
+	</unit>
+	<unit name="LumberCamp" mergemode="replace">
+		<displaynameid>STR_BLD_LUMBER_CAMP_NAME</displaynameid>
+		<rollovertextid>STR_BLD_LUMBER_CAMP_LR</rollovertextid>
+		<shortrollovertextid>STR_BLD_LUMBER_CAMP_SR</shortrollovertextid>
+		<icon>resources\egyptian\static_color\buildings\lumber_camp_icon.png</icon>
+		<animfile>egyptian\buildings\lumber_camp\lumber_camp.xml</animfile>
+		<soundsetfile>egyptian\sfx\buildings\lumber_camp.xml</soundsetfile>
+		<obstructionradiusx>2.0000</obstructionradiusx>
+		<obstructionradiusz>2.0000</obstructionradiusz>
+		<impacttype>Stone</impacttype>
+		<movementtype>land</movementtype>
+		<initialhitpoints>400.0000</initialhitpoints>
+		<maxhitpoints>400.0000</maxhitpoints>
+		<buildpoints>15.0000</buildpoints>
+		<los>9.0000</los>
+		<carrycapacity resourcetype="Wood">1.0000</carrycapacity>
+		<armor type="Hack" value="0.3000"></armor>
+		<armor type="Pierce" value="0.9600"></armor>
+		<armor type="Crush" value="0.0500"></armor>
+		<unittype>LogicalTypeMinimapFilterEconomic</unittype>
+		<unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeBuildingsNotWalls</unittype>
+		<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeVillagersAttack</unittype>
+		<unittype>LogicalTypeHandUnitsAttack</unittype>
+		<unittype>LogicalTypeRangedUnitsAttack</unittype>
+		<unittype>BuildingClass</unittype>
+		<unittype>Building</unittype>
+		<unittype>CountsTowardEconomicScore</unittype>
+		<unittype>Dropsite</unittype>
+		<unittype>WoodDropsite</unittype>
+		<unittype>LogicalTypeEarthquakeAttack</unittype>
+		<unittype>LogicalTypeAffectedByRestoration</unittype>
+		<unittype>LogicalTypeValidMeteorTarget</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<unittype>LogicalTypeFindWoodDropsite</unittype>
+		<unittype>LogicalTypeTartarianGateValidOverlapPlacement</unittype>
+		<unittype>LogicalTypeBuildingThatCanBeEmpowered</unittype>
+		<unittype>LogicalTypeBuildingNotWonderOrTitan</unittype>
+		<unittype>LogicalTypeValidForestProtectionPlacement</unittype>
+		<hotkeycontext>LumberCampAccel</hotkeycontext>
+		<tech row="0" column="0">HandAxe</tech>
+		<tech row="0" column="0">BowSaw</tech>
+		<tech row="0" column="0">Carpenters</tech>
+		<tech row="1" column="0">AdzeOfWepwawet</tech>
+		<flag>CollidesWithProjectiles</flag>
+		<flag>Immoveable</flag>
+		<flag>ObscuresUnits</flag>
+		<flag>NoIdleActions</flag>
+		<flag>NonAutoFormedUnit</flag>
+		<flag>Doppled</flag>
+		<flag>SelectWithObstruction</flag>
+		<flag>PaintTextureWhenPlacing</flag>
+		<flag>FlattenGround</flag>
+		<flag>DynamicUpdate</flag>
+		<command row="1" column="1">CancelBuilding</command>
+		<command row="2" column="0">SendVillagerToBuildingAndGather</command>
+		<command row="2" column="2">UnitRepairBuilding</command>
+		<command row="3" column="0">SetRallyPointOfNearbyEconUnitsToUnitPos</command>
+		<command row="3" column="1">SetRallyPointOfNearbyMilitaryUnitsToUnitPos</command>
+		<command row="3" column="5">Delete</command>
+	</unit>
+	<unit name="MiningCamp" mergemode="replace">
+		<displaynameid>STR_BLD_MINING_CAMP_NAME</displaynameid>
+		<rollovertextid>STR_BLD_MINING_CAMP_LR</rollovertextid>
+		<shortrollovertextid>STR_BLD_MINING_CAMP_SR</shortrollovertextid>
+		<icon>resources\egyptian\static_color\buildings\mining_camp_icon.png</icon>
+		<animfile>egyptian\buildings\mining_camp\mining_camp.xml</animfile>
+		<soundsetfile>egyptian\sfx\buildings\mining_camp.xml</soundsetfile>
+		<obstructionradiusx>2.0000</obstructionradiusx>
+		<obstructionradiusz>2.0000</obstructionradiusz>
+		<impacttype>Stone</impacttype>
+		<movementtype>land</movementtype>
+		<initialhitpoints>400.0000</initialhitpoints>
+		<maxhitpoints>400.0000</maxhitpoints>
+		<buildpoints>15.0000</buildpoints>
+		<los>9.0000</los>
+		<carrycapacity resourcetype="Gold">1.0000</carrycapacity>
+		<armor type="Hack" value="0.3000"></armor>
+		<armor type="Pierce" value="0.9600"></armor>
+		<armor type="Crush" value="0.0500"></armor>
+		<unittype>LogicalTypeMinimapFilterEconomic</unittype>
+		<unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeBuildingsNotWalls</unittype>
+		<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeVillagersAttack</unittype>
+		<unittype>LogicalTypeHandUnitsAttack</unittype>
+		<unittype>LogicalTypeRangedUnitsAttack</unittype>
+		<unittype>BuildingClass</unittype>
+		<unittype>Building</unittype>
+		<unittype>CountsTowardEconomicScore</unittype>
+		<unittype>Dropsite</unittype>
+		<unittype>GoldDropsite</unittype>
+		<unittype>LogicalTypeEarthquakeAttack</unittype>
+		<unittype>LogicalTypeAffectedByRestoration</unittype>
+		<unittype>LogicalTypeValidMeteorTarget</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<unittype>LogicalTypeFindGoldDropsite</unittype>
+		<unittype>LogicalTypeTartarianGateValidOverlapPlacement</unittype>
+		<unittype>LogicalTypeBuildingThatCanBeEmpowered</unittype>
+		<unittype>LogicalTypeBuildingNotWonderOrTitan</unittype>
+		<unittype>LogicalTypeValidForestProtectionPlacement</unittype>
+		<hotkeycontext>MiningCampAccel</hotkeycontext>
+		<tech row="0" column="0">Pickaxe</tech>
+		<tech row="0" column="0">ShaftMine</tech>
+		<tech row="0" column="0">Quarry</tech>
+		<flag>CollidesWithProjectiles</flag>
+		<flag>Immoveable</flag>
+		<flag>ObscuresUnits</flag>
+		<flag>NoIdleActions</flag>
+		<flag>NonAutoFormedUnit</flag>
+		<flag>Doppled</flag>
+		<flag>SelectWithObstruction</flag>
+		<flag>PaintTextureWhenPlacing</flag>
+		<flag>FlattenGround</flag>
+		<flag>DynamicUpdate</flag>
+		<command row="1" column="1">CancelBuilding</command>
+		<command row="3" column="0">SetRallyPointOfNearbyEconUnitsToUnitPos</command>
+		<command row="3" column="1">SetRallyPointOfNearbyMilitaryUnitsToUnitPos</command>
+		<command row="3" column="5">Delete</command>
+	</unit>
+	<unit name="Barracks" mergemode="replace">
+		<displaynameid>STR_BLD_BARRACKS_NAME</displaynameid>
+		<rollovertextid>STR_BLD_BARRACKS_LR</rollovertextid>
+		<shortrollovertextid>STR_BLD_BARRACKS_SR</shortrollovertextid>
+		<icon>resources\egyptian\static_color\buildings\barracks_icon.png</icon>
+		<animfile>egyptian\buildings\barracks\barracks.xml</animfile>
+		<soundsetfile>egyptian\sfx\buildings\barracks.xml</soundsetfile>
+		<obstructionradiusx>4.0000</obstructionradiusx>
+		<obstructionradiusz>4.0000</obstructionradiusz>
+		<impacttype>Stone</impacttype>
+		<screenshakeondestruction>0.400</screenshakeondestruction>
+		<movementtype>land</movementtype>
+		<initialhitpoints>1200.0000</initialhitpoints>
+		<maxhitpoints>1200.0000</maxhitpoints>
+		<buildpoints>35.0000</buildpoints>
+		<maxcontained>5</maxcontained>
+		<los>9.0000</los>
+		<cost resourcetype="Gold">75.0000</cost>
+		<armor type="Hack" value="0.3000"></armor>
+		<armor type="Pierce" value="0.9600"></armor>
+		<armor type="Crush" value="0.0500"></armor>
+		<unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeBuildingsNotWalls</unittype>
+		<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeVillagersAttack</unittype>
+		<unittype>LogicalTypeHandUnitsAttack</unittype>
+		<unittype>LogicalTypeRangedUnitsAttack</unittype>
+		<unittype>LogicalTypeMinimapFilterMilitary</unittype>
+		<unittype>Building</unittype>
+		<unittype>MilitaryBuilding</unittype>
+		<unittype>BuildingClass</unittype>
+		<unittype>CountsTowardMilitaryScore</unittype>
+		<unittype>LogicalTypeEarthquakeAttack</unittype>
+		<unittype>LogicalTypeAffectedByRestoration</unittype>
+		<unittype>LogicalTypeValidMeteorTarget</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<unittype>LogicalTypeFindBarracks</unittype>
+		<unittype>LogicalTypeMilitaryProductionBuilding</unittype>
+		<unittype>LogicalTypeTartarianGateValidOverlapPlacement</unittype>
+		<unittype>LogicalTypeNeededForVictory</unittype>
+		<unittype>LogicalTypeBuildingThatCanBeEmpowered</unittype>
+		<unittype>LogicalTypeBuildingNotWonderOrTitan</unittype>
+		<unittype>LogicalTypeAffectedByValleyOfTheKings</unittype>
+		<unittype>LogicalTypeValidForestProtectionPlacement</unittype>
+		<unittype>LogicalTypeBuildingThatConvertsConvertibles</unittype>
+		<hotkeycontext>BarracksAccel</hotkeycontext>
+		<train row="0" column="0">Spearman</train>
+		<train row="0" column="1">Axeman</train>
+		<train row="0" column="2">Slinger</train>
+		<tech row="1" column="0">MediumSpearmen</tech>
+		<tech row="1" column="0">HeavySpearmen</tech>
+		<tech row="1" column="0">ChampionSpearmen</tech>
+		<tech row="1" column="1">MediumAxemen</tech>
+		<tech row="1" column="1">HeavyAxemen</tech>
+		<tech row="1" column="1">ChampionAxemen</tech>
+		<tech row="1" column="2">MediumSlingers</tech>
+		<tech row="1" column="2">HeavySlingers</tech>
+		<tech row="1" column="2">ChampionSlingers</tech>
+		<tech row="1" column="3">LevyBarracksSoldiers</tech>
+		<tech row="1" column="3">ConscriptBarracksSoldiers</tech>
+		<tech row="2" column="0">SerpentSpear</tech>
+		<tech row="2" column="1">AxeOfVengeance</tech>
+		<tech row="2" column="2">SlingsOfTheSun</tech>
+		<tech row="2" column="3">GreatestOfFifty</tech>
+		<tech row="2" column="4">SpearOfHorus</tech>		<!--idk if renamed to SpearOnTheHorizon -->
+		<flag>CollidesWithProjectiles</flag>
+		<flag>Immoveable</flag>
+		<flag>ObscuresUnits</flag>
+		<flag>NoIdleActions</flag>
+		<flag>NonAutoFormedUnit</flag>
+		<flag>Doppled</flag>
+		<flag>SelectWithObstruction</flag>
+		<flag>PaintTextureWhenPlacing</flag>
+		<flag>FlattenGround</flag>
+		<flag>HasGatherPoint</flag>
+		<flag>InitialGarrisonOnly</flag>
+		<flag>DynamicUpdate</flag>
+		<command row="1" column="1">CancelBuilding</command>
+		<command row="3" column="0">SetGatherPoint</command>
+		<command row="3" column="1">Eject</command>
+		<command row="3" column="5">Delete</command>
+	</unit>
+	<unit name="SiegeWorks" mergemode="replace">
+		<displaynameid>STR_BLD_SIEGE_WORKS_NAME</displaynameid>
+		<rollovertextid>STR_BLD_SIEGE_WORKS_LR</rollovertextid>
+		<shortrollovertextid>STR_BLD_SIEGE_WORKS_SR</shortrollovertextid>
+		<icon>resources\egyptian\static_color\buildings\siege_works_icon.png</icon>
+		<animfile>egyptian\buildings\siege_works\siege_works.xml</animfile>
+		<soundsetfile>egyptian\sfx\buildings\siege_works.xml</soundsetfile>
+		<obstructionradiusx>5.0000</obstructionradiusx>
+		<obstructionradiusz>5.0000</obstructionradiusz>
+		<impacttype>Stone</impacttype>
+		<screenshakeondestruction>0.400</screenshakeondestruction>
+		<movementtype>land</movementtype>
+		<initialhitpoints>1200.0000</initialhitpoints>
+		<maxhitpoints>1200.0000</maxhitpoints>
+		<buildpoints>50.0000</buildpoints>
+		<maxcontained>5</maxcontained>
+		<los>9.0000</los>
+		<cost resourcetype="Gold">25.0000</cost>
+		<armor type="Hack" value="0.3000"></armor>
+		<armor type="Pierce" value="0.9600"></armor>
+		<armor type="Crush" value="0.0500"></armor>
+		<unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeBuildingsNotWalls</unittype>
+		<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeVillagersAttack</unittype>
+		<unittype>LogicalTypeHandUnitsAttack</unittype>
+		<unittype>LogicalTypeRangedUnitsAttack</unittype>
+		<unittype>LogicalTypeMinimapFilterMilitary</unittype>
+		<unittype>Building</unittype>
+		<unittype>MilitaryBuilding</unittype>
+		<unittype>BuildingClass</unittype>
+		<unittype>CountsTowardMilitaryScore</unittype>
+		<unittype>LogicalTypeEarthquakeAttack</unittype>
+		<unittype>LogicalTypeAffectedByRestoration</unittype>
+		<unittype>LogicalTypeValidMeteorTarget</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<unittype>LogicalTypeMilitaryProductionBuilding</unittype>
+		<unittype>LogicalTypeTartarianGateValidOverlapPlacement</unittype>
+		<unittype>LogicalTypeFindStable</unittype>
+		<unittype>LogicalTypeNeededForVictory</unittype>
+		<unittype>LogicalTypeBuildingThatCanBeEmpowered</unittype>
+		<unittype>LogicalTypeValidForestProtectionPlacement</unittype>
+		<unittype>LogicalTypeBuildingNotWonderOrTitan</unittype>
+		<unittype>LogicalTypeBuildingThatConvertsConvertibles</unittype>
+		<hotkeycontext>SiegeWorksAccel</hotkeycontext>
+		<train row="0" column="0">SiegeTower</train>
+		<train row="0" column="1">Catapult</train>
+		<tech row="1" column="0">DraftHorses</tech>
+		<tech row="1" column="1">Engineers</tech>
+		<tech row="2" column="0">ForceOfTheWestWind</tech>
+		<tech row="2" column="1">StonesOfRedLinen</tech>
+		<flag>CollidesWithProjectiles</flag>
+		<flag>Immoveable</flag>
+		<flag>ObscuresUnits</flag>
+		<flag>NoIdleActions</flag>
+		<flag>NonAutoFormedUnit</flag>
+		<flag>Doppled</flag>
+		<flag>SelectWithObstruction</flag>
+		<flag>PaintTextureWhenPlacing</flag>
+		<flag>FlattenGround</flag>
+		<flag>HasGatherPoint</flag>
+		<flag>InitialGarrisonOnly</flag>
+		<flag>DynamicUpdate</flag>
+		<command row="1" column="1">CancelBuilding</command>
+		<command row="3" column="0">SetGatherPoint</command>
+		<command row="3" column="1">Eject</command>
+		<command row="3" column="5">Delete</command>
+	</unit>
+	<unit name="MonumentToVillagers" mergemode="replace">
+		<displaynameid>STR_BLD_MONUMENT_TO_VILLAGERS_NAME</displaynameid>
+		<rollovertextid>STR_BLD_MONUMENT_TO_VILLAGERS_LR</rollovertextid>
+		<shortrollovertextid>STR_BLD_MONUMENT_TO_VILLAGERS_SR</shortrollovertextid>
+		<icon>resources\egyptian\static_color\buildings\monument_to_villagers_icon.png</icon>
+		<animfile>egyptian\buildings\monument_to_villagers\monument_to_villagers.xml</animfile>
+		<soundsetfile>egyptian\sfx\buildings\monument_to_villagers.xml</soundsetfile>
+		<obstructionradiusx>1.0000</obstructionradiusx>
+		<obstructionradiusz>1.0000</obstructionradiusz>
+		<impacttype>Stone</impacttype>
+		<movementtype>land</movementtype>
+		<initialhitpoints>450.0000</initialhitpoints>
+		<maxhitpoints>450.0000</maxhitpoints>
+		<buildpoints>20.0000</buildpoints>
+		<buildlimit>1</buildlimit>
+		<los>9.0000</los>
+		<displayedrange>20.0000</displayedrange>
+		<sharedselectionunittypes>
+			<unittype>AbstractMonument</unittype>
+		</sharedselectionunittypes>
+		<cost resourcetype="Food">50.0000</cost>
+		<cost resourcetype="Gold">50.0000</cost>
+		<armor type="Hack" value="0.3000"></armor>
+		<armor type="Pierce" value="0.9600"></armor>
+		<armor type="Crush" value="0.0500"></armor>
+		<unittype>LogicalTypeMinimapFilterEconomic</unittype>
+		<unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeBuildingsNotWalls</unittype>
+		<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeVillagersAttack</unittype>
+		<unittype>LogicalTypeHandUnitsAttack</unittype>
+		<unittype>LogicalTypeRangedUnitsAttack</unittype>
+		<unittype>BuildingClass</unittype>
+		<unittype>Building</unittype>
+		<unittype>CountsTowardEconomicScore</unittype>
+		<unittype>AbstractMonument</unittype>
+		<unittype>LogicalTypeEarthquakeAttack</unittype>
+		<unittype>LogicalTypeAffectedByRestoration</unittype>
+		<unittype>LogicalTypeValidMeteorTarget</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<unittype>LogicalTypeTartarianGateValidOverlapPlacement</unittype>
+		<unittype>LogicalTypeBuildingThatCanBeEmpowered</unittype>
+		<unittype>LogicalTypeBuildingNotWonderOrTitan</unittype>
+		<unittype>LogicalTypeValidForestProtectionPlacement</unittype>
+		<unittype>LogicalTypeFindArchery</unittype>
+		<unittype>LogicalTypeBuildingThatConvertsConvertibles</unittype>
+		<flag>CollidesWithProjectiles</flag>
+		<flag>Immoveable</flag>
+		<flag>ObscuresUnits</flag>
+		<flag>NoIdleActions</flag>
+		<flag>NonAutoFormedUnit</flag>
+		<flag>Doppled</flag>
+		<flag>SelectWithObstruction</flag>
+		<flag>PaintTextureWhenPlacing</flag>
+		<flag>FlattenGround</flag>
+		<flag>DisplayRange</flag>
+		<flag>DisplayRangeOverride</flag>
+		<command row="1" column="1">CancelBuilding</command>
+		<command row="3" column="5">Delete</command>
+		<tactics>monument.tactics</tactics>
+		<protoaction>
+			<name>AutoGather</name>
+			<rate type="Favor">0.100000</rate>
+		</protoaction>
+	</unit>
+	<unit name="MonumentToSoldiers" mergemode="replace">
+		<displaynameid>STR_BLD_MONUMENT_TO_SOLDIERS_NAME</displaynameid>
+		<rollovertextid>STR_BLD_MONUMENT_TO_SOLDIERS_LR</rollovertextid>
+		<shortrollovertextid>STR_BLD_MONUMENT_TO_SOLDIERS_SR</shortrollovertextid>
+		<icon>resources\egyptian\static_color\buildings\monument_to_soldiers_icon.png</icon>
+		<animfile>egyptian\buildings\monument_to_soldiers\monument_to_soldiers.xml</animfile>
+		<soundsetfile>egyptian\sfx\buildings\monument_to_soldiers.xml</soundsetfile>
+		<obstructionradiusx>1.0000</obstructionradiusx>
+		<obstructionradiusz>1.0000</obstructionradiusz>
+		<impacttype>Stone</impacttype>
+		<movementtype>land</movementtype>
+		<initialhitpoints>640.0000</initialhitpoints>
+		<maxhitpoints>640.0000</maxhitpoints>
+		<buildpoints>30.0000</buildpoints>
+		<buildlimit>1</buildlimit>
+		<los>9.0000</los>
+		<displayedrange>20.0000</displayedrange>
+		<sharedselectionunittypes>
+			<unittype>AbstractMonument</unittype>
+		</sharedselectionunittypes>
+		<cost resourcetype="Food">100.0000</cost>
+		<cost resourcetype="Gold">100.0000</cost>
+		<armor type="Hack" value="0.3000"></armor>
+		<armor type="Pierce" value="0.9600"></armor>
+		<armor type="Crush" value="0.0500"></armor>
+		<unittype>LogicalTypeMinimapFilterEconomic</unittype>
+		<unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeBuildingsNotWalls</unittype>
+		<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeVillagersAttack</unittype>
+		<unittype>LogicalTypeHandUnitsAttack</unittype>
+		<unittype>LogicalTypeRangedUnitsAttack</unittype>
+		<unittype>BuildingClass</unittype>
+		<unittype>Building</unittype>
+		<unittype>CountsTowardEconomicScore</unittype>
+		<unittype>AbstractMonument</unittype>
+		<unittype>LogicalTypeEarthquakeAttack</unittype>
+		<unittype>LogicalTypeAffectedByRestoration</unittype>
+		<unittype>LogicalTypeValidMeteorTarget</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<unittype>LogicalTypeTartarianGateValidOverlapPlacement</unittype>
+		<unittype>LogicalTypeBuildingThatCanBeEmpowered</unittype>
+		<unittype>LogicalTypeBuildingNotWonderOrTitan</unittype>
+		<unittype>LogicalTypeValidForestProtectionPlacement</unittype>
+		<unittype>LogicalTypeFindArchery</unittype>
+		<unittype>LogicalTypeBuildingThatConvertsConvertibles</unittype>
+		<flag>CollidesWithProjectiles</flag>
+		<flag>Immoveable</flag>
+		<flag>ObscuresUnits</flag>
+		<flag>NoIdleActions</flag>
+		<flag>NonAutoFormedUnit</flag>
+		<flag>Doppled</flag>
+		<flag>SelectWithObstruction</flag>
+		<flag>PaintTextureWhenPlacing</flag>
+		<flag>FlattenGround</flag>
+		<flag>DisplayRange</flag>
+		<flag>DisplayRangeOverride</flag>
+		<command row="1" column="1">CancelBuilding</command>
+		<command row="3" column="5">Delete</command>
+		<tactics>monument.tactics</tactics>
+		<protoaction>
+			<name>AutoGather</name>
+			<rate type="Favor">0.082000</rate>
+		</protoaction>
+	</unit>
+	<unit name="MonumentToPriests" mergemode="replace">
+		<displaynameid>STR_BLD_MONUMENT_TO_PRIESTS_NAME</displaynameid>
+		<rollovertextid>STR_BLD_MONUMENT_TO_PRIESTS_LR</rollovertextid>
+		<shortrollovertextid>STR_BLD_MONUMENT_TO_PRIESTS_SR</shortrollovertextid>
+		<icon>resources\egyptian\static_color\buildings\monument_to_priests_icon.png</icon>
+		<animfile>egyptian\buildings\monument_to_priests\monument_to_priests.xml</animfile>
+		<soundsetfile>egyptian\sfx\buildings\monument_to_priests.xml</soundsetfile>
+		<obstructionradiusx>1.0000</obstructionradiusx>
+		<obstructionradiusz>1.0000</obstructionradiusz>
+		<impacttype>Stone</impacttype>
+		<movementtype>land</movementtype>
+		<initialhitpoints>960.0000</initialhitpoints>
+		<maxhitpoints>960.0000</maxhitpoints>
+		<buildpoints>50.0000</buildpoints>
+		<buildlimit>1</buildlimit>
+		<los>9.0000</los>
+		<displayedrange>20.0000</displayedrange>
+		<sharedselectionunittypes>
+			<unittype>AbstractMonument</unittype>
+		</sharedselectionunittypes>
+		<cost resourcetype="Food">200.0000</cost>
+		<cost resourcetype="Gold">200.0000</cost>
+		<armor type="Hack" value="0.3000"></armor>
+		<armor type="Pierce" value="0.9600"></armor>
+		<armor type="Crush" value="0.0500"></armor>
+		<unittype>LogicalTypeMinimapFilterEconomic</unittype>
+		<unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeBuildingsNotWalls</unittype>
+		<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeVillagersAttack</unittype>
+		<unittype>LogicalTypeHandUnitsAttack</unittype>
+		<unittype>LogicalTypeRangedUnitsAttack</unittype>
+		<unittype>BuildingClass</unittype>
+		<unittype>Building</unittype>
+		<unittype>CountsTowardEconomicScore</unittype>
+		<unittype>AbstractMonument</unittype>
+		<unittype>LogicalTypeEarthquakeAttack</unittype>
+		<unittype>LogicalTypeAffectedByRestoration</unittype>
+		<unittype>LogicalTypeValidMeteorTarget</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<unittype>LogicalTypeTartarianGateValidOverlapPlacement</unittype>
+		<unittype>LogicalTypeBuildingThatCanBeEmpowered</unittype>
+		<unittype>LogicalTypeBuildingNotWonderOrTitan</unittype>
+		<unittype>LogicalTypeValidForestProtectionPlacement</unittype>
+		<unittype>LogicalTypeFindArchery</unittype>
+		<unittype>LogicalTypeBuildingThatConvertsConvertibles</unittype>
+		<flag>CollidesWithProjectiles</flag>
+		<flag>Immoveable</flag>
+		<flag>ObscuresUnits</flag>
+		<flag>NoIdleActions</flag>
+		<flag>NonAutoFormedUnit</flag>
+		<flag>Doppled</flag>
+		<flag>SelectWithObstruction</flag>
+		<flag>PaintTextureWhenPlacing</flag>
+		<flag>FlattenGround</flag>
+		<flag>DisplayRange</flag>
+		<flag>DisplayRangeOverride</flag>
+		<command row="1" column="1">CancelBuilding</command>
+		<command row="3" column="5">Delete</command>
+		<tactics>monument.tactics</tactics>
+		<protoaction>
+			<name>AutoGather</name>
+			<rate type="Favor">0.085000</rate>
+		</protoaction>
+	</unit>
+	<unit name="MonumentToPharaohs" mergemode="replace">
+		<displaynameid>STR_BLD_MONUMENT_TO_PHARAOHS_NAME</displaynameid>
+		<rollovertextid>STR_BLD_MONUMENT_TO_PHARAOHS_LR</rollovertextid>
+		<shortrollovertextid>STR_BLD_MONUMENT_TO_PHARAOHS_SR</shortrollovertextid>
+		<icon>resources\egyptian\static_color\buildings\monument_to_pharaohs_icon.png</icon>
+		<animfile>egyptian\buildings\monument_to_pharaohs\monument_to_pharaohs.xml</animfile>
+		<soundsetfile>egyptian\sfx\buildings\monument_to_pharaohs.xml</soundsetfile>
+		<obstructionradiusx>2.0000</obstructionradiusx>
+		<obstructionradiusz>2.0000</obstructionradiusz>
+		<impacttype>Stone</impacttype>
+		<movementtype>land</movementtype>
+		<initialhitpoints>1600.0000</initialhitpoints>
+		<maxhitpoints>1600.0000</maxhitpoints>
+		<buildpoints>60.0000</buildpoints>
+		<buildlimit>1</buildlimit>
+		<los>9.0000</los>
+		<displayedrange>20.0000</displayedrange>
+		<sharedselectionunittypes>
+			<unittype>AbstractMonument</unittype>
+		</sharedselectionunittypes>
+		<cost resourcetype="Food">300.0000</cost>
+		<cost resourcetype="Gold">300.0000</cost>
+		<armor type="Hack" value="0.3000"></armor>
+		<armor type="Pierce" value="0.9600"></armor>
+		<armor type="Crush" value="0.0500"></armor>
+		<unittype>LogicalTypeMinimapFilterEconomic</unittype>
+		<unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeBuildingsNotWalls</unittype>
+		<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeVillagersAttack</unittype>
+		<unittype>LogicalTypeHandUnitsAttack</unittype>
+		<unittype>LogicalTypeRangedUnitsAttack</unittype>
+		<unittype>BuildingClass</unittype>
+		<unittype>Building</unittype>
+		<unittype>CountsTowardEconomicScore</unittype>
+		<unittype>AbstractMonument</unittype>
+		<unittype>LogicalTypeEarthquakeAttack</unittype>
+		<unittype>LogicalTypeAffectedByRestoration</unittype>
+		<unittype>LogicalTypeValidMeteorTarget</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<unittype>LogicalTypeTartarianGateValidOverlapPlacement</unittype>
+		<unittype>LogicalTypeBuildingThatCanBeEmpowered</unittype>
+		<unittype>LogicalTypeBuildingNotWonderOrTitan</unittype>
+		<unittype>LogicalTypeValidForestProtectionPlacement</unittype>
+		<unittype>LogicalTypeFindArchery</unittype>
+		<unittype>LogicalTypeBuildingThatConvertsConvertibles</unittype>
+		<flag>CollidesWithProjectiles</flag>
+		<flag>Immoveable</flag>
+		<flag>ObscuresUnits</flag>
+		<flag>NoIdleActions</flag>
+		<flag>NonAutoFormedUnit</flag>
+		<flag>Doppled</flag>
+		<flag>SelectWithObstruction</flag>
+		<flag>PaintTextureWhenPlacing</flag>
+		<flag>FlattenGround</flag>
+		<flag>DisplayRange</flag>
+		<flag>DisplayRangeOverride</flag>
+		<command row="1" column="1">CancelBuilding</command>
+		<command row="3" column="5">Delete</command>
+		<tactics>monument.tactics</tactics>
+		<protoaction>
+			<name>AutoGather</name>
+			<rate type="Favor">0.095000</rate>
+		</protoaction>
+	</unit>
+	<unit name="MonumentToGods" mergemode="replace">
+		<displaynameid>STR_BLD_MONUMENT_TO_GODS_NAME</displaynameid>
+		<rollovertextid>STR_BLD_MONUMENT_TO_GODS_LR</rollovertextid>
+		<shortrollovertextid>STR_BLD_MONUMENT_TO_GODS_SR</shortrollovertextid>
+		<icon>resources\egyptian\static_color\buildings\monument_to_gods_icon.png</icon>
+		<animfile>egyptian\buildings\monument_to_gods\monument_to_gods.xml</animfile>
+		<soundsetfile>egyptian\sfx\buildings\monument_to_gods.xml</soundsetfile>
+		<obstructionradiusx>3.0000</obstructionradiusx>
+		<obstructionradiusz>3.0000</obstructionradiusz>
+		<impacttype>Stone</impacttype>
+		<screenshakeondestruction>0.300</screenshakeondestruction>
+		<movementtype>land</movementtype>
+		<initialhitpoints>2400.0000</initialhitpoints>
+		<maxhitpoints>2400.0000</maxhitpoints>
+		<buildpoints>80.0000</buildpoints>
+		<buildlimit>1</buildlimit>
+		<los>9.0000</los>
+		<displayedrange>20.0000</displayedrange>
+		<sharedselectionunittypes>
+			<unittype>AbstractMonument</unittype>
+		</sharedselectionunittypes>
+		<cost resourcetype="Food">400.0000</cost>
+		<cost resourcetype="Gold">400.0000</cost>
+		<armor type="Hack" value="0.3000"></armor>
+		<armor type="Pierce" value="0.9600"></armor>
+		<armor type="Crush" value="0.0500"></armor>
+		<unittype>LogicalTypeMinimapFilterEconomic</unittype>
+		<unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeBuildingsNotWalls</unittype>
+		<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeVillagersAttack</unittype>
+		<unittype>LogicalTypeHandUnitsAttack</unittype>
+		<unittype>LogicalTypeRangedUnitsAttack</unittype>
+		<unittype>BuildingClass</unittype>
+		<unittype>Building</unittype>
+		<unittype>CountsTowardEconomicScore</unittype>
+		<unittype>AbstractMonument</unittype>
+		<unittype>LogicalTypeEarthquakeAttack</unittype>
+		<unittype>LogicalTypeAffectedByRestoration</unittype>
+		<unittype>LogicalTypeValidMeteorTarget</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<unittype>LogicalTypeTartarianGateValidOverlapPlacement</unittype>
+		<unittype>LogicalTypeBuildingThatCanBeEmpowered</unittype>
+		<unittype>LogicalTypeBuildingNotWonderOrTitan</unittype>
+		<unittype>LogicalTypeValidForestProtectionPlacement</unittype>
+		<unittype>LogicalTypeFindArchery</unittype>
+		<unittype>LogicalTypeBuildingThatConvertsConvertibles</unittype>
+		<flag>CollidesWithProjectiles</flag>
+		<flag>Immoveable</flag>
+		<flag>ObscuresUnits</flag>
+		<flag>NoIdleActions</flag>
+		<flag>NonAutoFormedUnit</flag>
+		<flag>Doppled</flag>
+		<flag>SelectWithObstruction</flag>
+		<flag>PaintTextureWhenPlacing</flag>
+		<flag>FlattenGround</flag>
+		<flag>DisplayRange</flag>
+		<flag>DisplayRangeOverride</flag>
+		<command row="1" column="1">CancelBuilding</command>
+		<command row="3" column="5">Delete</command>
+		<tactics>monument.tactics</tactics>
+		<protoaction>
+			<name>AutoGather</name>
+			<rate type="Favor">0.11500</rate>
+		</protoaction>
+	</unit>
+	<unit name="MigdolStronghold" mergemode="replace">
+		<displaynameid>STR_BLD_MIGDOL_STRONGHOLD_NAME</displaynameid>
+		<rollovertextid>STR_BLD_MIGDOL_STRONGHOLD_LR</rollovertextid>
+		<shortrollovertextid>STR_BLD_MIGDOL_STRONGHOLD_SR</shortrollovertextid>
+		<icon>resources\egyptian\static_color\buildings\migdol_stronghold_icon.png</icon>
+		<minimapicon>ui\minimap\minimap_fortress</minimapicon>
+		<animfile>egyptian\buildings\migdol_stronghold\migdol_stronghold.xml</animfile>
+		<soundsetfile>egyptian\sfx\buildings\migdol_stronghold.xml</soundsetfile>
+		<obstructionradiusx>5.0000</obstructionradiusx>
+		<obstructionradiusz>5.0000</obstructionradiusz>
+		<impacttype>Stone</impacttype>
+		<screenshakeondestruction>1.500</screenshakeondestruction>
+		<unitaitype>RangedCombative</unitaitype>
+		<movementtype>land</movementtype>
+		<initialhitpoints>2600.0000</initialhitpoints>
+		<maxhitpoints>2600.0000</maxhitpoints>
+		<buildpoints>80.0000</buildpoints>
+		<buildlimit>10</buildlimit>
+		<maxcontained>10</maxcontained>
+		<los>30.0000</los>
+		<cost resourcetype="Gold">400.0000</cost>
+		<cost resourcetype="Favor">10.0000</cost>
+		<armor type="Hack" value="0.3000"></armor>
+		<armor type="Pierce" value="0.9600"></armor>
+		<armor type="Crush" value="0.0500"></armor>
+		<unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeBuildingsNotWalls</unittype>
+		<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeVillagersAttack</unittype>
+		<unittype>LogicalTypeHandUnitsAttack</unittype>
+		<unittype>LogicalTypeRangedUnitsAttack</unittype>
+		<unittype>LogicalTypeMinimapFilterMilitary</unittype>
+		<unittype>LogicalTypeAffectedByCeaseFireBuildingSlow</unittype>
+		<unittype>AbstractFortress</unittype>
+		<unittype>Building</unittype>
+		<unittype>MilitaryBuilding</unittype>
+		<unittype>BuildingClass</unittype>
+		<unittype>CountsTowardMilitaryScore</unittype>
+		<unittype>LogicalTypeEarthquakeAttack</unittype>
+		<unittype>LogicalTypeAffectedByRestoration</unittype>
+		<unittype>LogicalTypeValidMeteorTarget</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<unittype>LogicalTypeValidSentinelTarget</unittype>
+		<unittype>LogicalTypeMilitaryProductionBuilding</unittype>
+		<unittype>LogicalTypeTartarianGateValidOverlapPlacement</unittype>
+		<unittype>LogicalTypeNeededForVictory</unittype>
+		<unittype>LogicalTypeBuildingThatCanBeEmpowered</unittype>
+		<unittype>LogicalTypeBuildingNotWonderOrTitan</unittype>
+		<unittype>LogicalTypeBuildingsThatShoot</unittype>
+		<unittype>LogicalTypeAffectedByValleyOfTheKings</unittype>
+		<unittype>LogicalTypeValidForestProtectionPlacement</unittype>
+		<unittype>LogicalTypeBuildingThatConvertsConvertibles</unittype>
+		<hotkeycontext>MigdolStrongholdAccel</hotkeycontext>
+		<train row="0" column="0">ChariotArcher</train>
+		<train row="0" column="1">CamelRider</train>
+		<train row="0" column="2">WarElephant</train>
+		<tech row="1" column="0">HeavyChariotArchers</tech>
+		<tech row="1" column="0">ChampionChariotArchers</tech>
+		<tech row="1" column="1">HeavyCamelRiders</tech>
+		<tech row="1" column="1">ChampionCamelRiders</tech>
+		<tech row="1" column="2">HeavyWarElephants</tech>
+		<tech row="1" column="2">ChampionWarElephants</tech>
+		<tech row="1" column="3">LevyMigdolSoldiers</tech>
+		<tech row="1" column="3">ConscriptMigdolSoldiers</tech>
+		<tech row="2" column="0">BoneBow</tech>
+		<tech row="2" column="1">DesertWind</tech>
+		<tech row="2" column="2">TusksOfApedemak</tech>
+		<tech row="2" column="3">ValleyOfTheKings</tech>
+		<flag>CollidesWithProjectiles</flag>
+		<flag>Immoveable</flag>
+		<flag>ObscuresUnits</flag>
+		<flag>NonAutoFormedUnit</flag>
+		<flag>Doppled</flag>
+		<flag>SelectWithObstruction</flag>
+		<flag>PaintTextureWhenPlacing</flag>
+		<flag>FlattenGround</flag>
+		<flag>HasGatherPoint</flag>
+		<flag>DisplayRange</flag>
+		<flag>DisplayMinimumRange</flag>
+		<flag>BattleMusicTrigger</flag>
+		<flag>DeleteConfirmation</flag>
+		<flag>CreateUnitGroupAutomatically</flag>
+		<contain>Unit</contain>
+		<notcontain>MythUnit</notcontain>
+		<notcontain>AbstractSiegeWeapon</notcontain>
+		<notcontain>Ship</notcontain>
+		<notcontain>Resource</notcontain>
+		<command row="1" column="1">CancelBuilding</command>
+		<command row="3" column="0">SetGatherPoint</command>
+		<command row="3" column="1">Eject</command>
+		<command row="3" column="2">EjectBackToWork</command>
+		<command row="3" column="4">ReturnToWork</command>
+		<command row="3" column="5">Delete</command>
+		<tactics>fortress.tactics</tactics>
+		<protoaction>
+			<name>RangedAttack</name>
+			<rof>1.000000</rof>
+			<damage type="Pierce">12.000000</damage>
+			<damagebonus type="Ship">6.000000</damagebonus>
+			<damagebonus type="Hetairos">0.750000</damagebonus>
+			<minrange>4.000000</minrange>
+			<maxrange>20.000000</maxrange>
+			<projectile>ProjectileArrow</projectile>
+			<displayednumberprojectiles>3</displayednumberprojectiles>
+			<autoretarget>1</autoretarget>
+			<canattackground>1</canattackground>
+			<!-- <accuracy>0.9</accuracy>
+			<accuracyreductionfactor>1.5<accuracyreductionfactor>
+			<maxspread>5.0<maxspread>
+			<spreadfactor>0.1<spreadfactor>
+			<trackrating>5.0</trackrating>
+			<unintentionaldamagemultiplier>0.5</unintentionaldamagemultiplier> -->
+		</protoaction>
+		<protoaction>
+			<name>FlyingUnitAttack</name>
+			<rof>1.000000</rof>
+			<damage type="Pierce">12.000000</damage>
+			<damagebonus type="Ship">6.000000</damagebonus>
+			<damagebonus type="Hetairos">0.750000</damagebonus>
+			<minrange>4.000000</minrange>
+			<maxrange>20.000000</maxrange>
+			<projectile>ProjectileArrow</projectile>
+			<displayednumberprojectiles>3</displayednumberprojectiles>
+			<autoretarget>1</autoretarget>
+			<canattackground>1</canattackground>
+			<!-- <accuracy>0.9</accuracy>
+			<accuracyreductionfactor>1.5<accuracyreductionfactor>
+			<maxspread>5.0<maxspread>
+			<spreadfactor>0.1<spreadfactor>
+			<trackrating>5.0</trackrating>
+			<unintentionaldamagemultiplier>0.5</unintentionaldamagemultiplier> -->
+		</protoaction>
+		<protoaction>
+			<name>HandAttack</name>
+			<active>0</active>
+			<rof>1.000000</rof>
+			<damage type="Pierce">12.000000</damage>
+			<damagebonus type="Ship">3.000000</damagebonus>
+			<damagebonus type="Hetairos">0.750000</damagebonus>
+			<maxrange>4.000000</maxrange>
+			<impacteffect>effects\impacts\pierce</impacteffect>
 		</protoaction>
 	</unit>
 	

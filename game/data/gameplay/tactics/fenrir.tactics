@@ -1,0 +1,23 @@
+<tactics>
+	<action>
+		<name stringid="STR_ACTION_HAND">HandAttack</name>
+		<type>Attack</type>
+		<rate type="All">1.0</rate>
+		<attackaction>1</attackaction>
+		<handlogic>1</handlogic>
+		<forceareaattacktarget>1</forceareaattacktarget>
+		<anim>HandAttack</anim>
+		<onhiteffect type="Snare" duration="2" rate="0.85"></onhiteffect>
+		<impacteffect>effects\impacts\hack</impacteffect>
+	</action>
+	<action>
+		<name>SelfDestructAttack</name>
+		<type>Attack</type>
+		<anim>HandAttack</anim>
+		<rate type="All">1.0</rate>
+		<attackaction>1</attackaction>
+		<areasortmode>Radial</areasortmode>
+		<impacteffect>effects\impacts\pierce</impacteffect>
+	</action>
+	<tactic>Default<action priority="100">HandAttack</action><attacktype>LogicalTypeHandUnitsAttack</attacktype><attacktype>Tree</attacktype><attacktype>Herdable</attacktype><attacktype>NonConvertableHerdable</attacktype><attacktype>WildCrops</attacktype><autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype></tactic>
+</tactics>

@@ -1,0 +1,11 @@
+<tactics>
+	<action>
+		<name>Gather</name>
+		<type>Gather</type>
+		<typedanim type="Resource">Idle</typedanim>
+		<maxrange>2</maxrange>
+		<donotdepositresources>1</donotdepositresources>
+		<rate type="Resource">1.0</rate>
+	</action>
+	<tactic>Default<action>Gather</action></tactic>
+</tactics>

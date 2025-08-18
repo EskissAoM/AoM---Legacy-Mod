@@ -1,0 +1,22 @@
+<tactics>
+	<action>
+		<name>AreaDamage</name>
+		<type>AutoRangedModify</type>
+		<modifyabstracttype>Unit</modifyabstracttype>
+		<modifyabstracttype>Building</modifyabstracttype>
+		<persistent>1</persistent>
+		<modifytype>HealRate</modifytype>
+		<targetenemy>1</targetenemy>
+		<nostack>1</nostack>
+	</action>
+	<action>
+		<name>WaterTornado</name>
+		<type>WaterTornado</type>
+		<maxrange>5.0</maxrange>
+		<minrange>0.2</minrange>
+		<maxspread>5.0</maxspread>
+		<spreadfactor>0.2</spreadfactor>
+		<persistent>1</persistent>
+	</action>
+	<tactic>Normal<action>AreaDamage</action><action>WaterTornado</action></tactic>
+</tactics>

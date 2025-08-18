@@ -1,0 +1,55 @@
+<tactics>
+	<action>
+		<name>ModifyGatherFood</name>
+		<type>ModifyGather</type>
+		<rate type="Food">1.000000</rate>
+		<modifyresourcesubtype>grain</modifyresourcesubtype>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>ModifyGatherWood</name>
+		<type>ModifyGather</type>
+		<rate type="Wood">1.000000</rate>
+		<modifyresourcesubtype>wood</modifyresourcesubtype>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>ModifyGatherGold</name>
+		<type>ModifyGather</type>
+		<rate type="Gold">1.000000</rate>
+		<modifyresourcesubtype>gold</modifyresourcesubtype>
+		<persistent>1</persistent>
+	</action>
+	<action>
+		<name>AutoGatherFood</name>
+		<type>AutoGather</type>
+		<rate type="Food">2.000000</rate>
+		<persistent>1</persistent>
+		<addresourcestoinventory>1</addresourcestoinventory>
+		<donotautogatherifgathered>1</donotautogatherifgathered>
+	</action>
+	<action>
+		<name>AutoGatherWood</name>
+		<type>AutoGather</type>
+		<rate type="Wood">2.000000</rate>
+		<persistent>1</persistent>
+		<addresourcestoinventory>1</addresourcestoinventory>
+		<donotautogatherifgathered>1</donotautogatherifgathered>
+	</action>
+	<action>
+		<name>AutoGatherGold</name>
+		<type>AutoGather</type>
+		<rate type="Gold">2.000000</rate>
+		<persistent>1</persistent>
+		<addresourcestoinventory>1</addresourcestoinventory>
+		<donotautogatherifgathered>1</donotautogatherifgathered>
+	</action>
+	<action>
+		<name>AutoConvert</name>
+		<type>AutoConvert</type>
+		<persistent>1</persistent>
+	</action>
+	<tactic>TacticFood<action>ModifyGatherFood</action><action>AutoGatherFood</action><action>AutoConvert</action></tactic>
+	<tactic>TacticWood<action>ModifyGatherWood</action><action>AutoGatherWood</action><action>AutoConvert</action></tactic>
+	<tactic>TacticGold<action>ModifyGatherGold</action><action>AutoGatherGold</action><action>AutoConvert</action></tactic>
+</tactics>

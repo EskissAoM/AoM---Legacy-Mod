@@ -1,0 +1,64 @@
+<tactics>
+	<action>
+		<name stringid="STR_ACTION_ROCK_SOLID">RockSolidHackBonus</name>
+		<type>IdleStatBonus</type>
+		<persistent>1</persistent>
+		<modifytype>ArmorSpecific</modifytype>
+		<modifydamagetype>Hack</modifydamagetype>
+		<modifyamount>0.025000</modifyamount>
+		<modifyratecap>1.400000</modifyratecap>
+		<modifybase>1.000000</modifybase>
+		<modifydecay>0.010000</modifydecay>
+		<trailprotounit frequency="3.0">VFXRockSolid</trailprotounit>
+	</action>
+	<action>
+		<name>RockSolidPierceBonus</name>
+		<type>IdleStatBonus</type>
+		<persistent>1</persistent>
+		<modifytype>ArmorSpecific</modifytype>
+		<modifydamagetype>Pierce</modifydamagetype>
+		<modifyamount>0.025000</modifyamount>
+		<modifyratecap>1.400000</modifyratecap>
+		<modifybase>1.000000</modifybase>
+		<modifydecay>0.010000</modifydecay>
+	</action>
+	<action>
+		<name stringid="STR_ACTION_FLAMING_BLOOD_AREA_DAMAGE">FlamingBloodAreaDamage</name>
+		<type>AutoRangedModify</type>
+		<modifyabstracttype>Unit</modifyabstracttype>
+		<modifyabstracttype>Building</modifyabstracttype>
+		<forbidabstracttype>Hero</forbidabstracttype>
+		<modifyamount>-3</modifyamount>
+		<modifydamagetype>Divine</modifydamagetype>
+		<maxrange>4</maxrange>
+		<persistent>1</persistent>
+		<modifytype>HealRate</modifytype>
+		<targetenemy>1</targetenemy>
+		<nostack>1</nostack>
+		<modelattachment>vfx\godtechs\flaming_blood_target.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<action>
+		<name stringid="STR_ACTION_HAND">LightningWeaponAttack</name>
+		<type>Attack</type>
+		<persistent>1</persistent>
+		<maxrange>0.300000</maxrange>
+		<damage type="Divine">1.000000</damage>
+		<rate type="All">1.0</rate>
+		<forceareaattacktarget>1</forceareaattacktarget>
+		<onhiteffect type="Snare" duration="3" rate="0.85"></onhiteffect>
+		<impacteffect>effects\impacts\hack</impacteffect>
+		<onhiteffect type="Stun" duration="1.00" hidevfx="true" globalprob="50">
+			<target attacktype="Unit"></target>
+			<target ignoretype="LogicalTypeDivineImmunity"></target>
+		</onhiteffect>
+		<onhiteffect type="Attach" proto="VFXLightningWeaponsUnitImpact" duration="1.00" globalprob="50">
+			<target attacktype="Unit"></target>
+			<target ignoretype="LogicalTypeDivineImmunity"></target>
+		</onhiteffect>
+		<onhiteffect type="DamageOverTime" duration="1.00" rate="4.00" globalprob="50">
+			<target attacktype="Unit"></target>
+			<target ignoretype="LogicalTypeDivineImmunity"></target>
+		</onhiteffect>
+	</action>
+</tactics>

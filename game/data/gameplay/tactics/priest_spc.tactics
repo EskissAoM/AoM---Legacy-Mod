@@ -1,0 +1,42 @@
+<tactics>
+	<action>
+		<name stringid="STR_ACTION_BUILD">Build</name>
+		<type>Build</type>
+		<anim>Build</anim>
+		<maxrange>3.0</maxrange>
+	</action>
+	<action>
+		<name stringid="STR_ACTION_HEAL">Heal</name>
+		<type>Heal</type>
+		<anim>Heal</anim>
+		<modelattachment>greek\godpowers\restoration\healing_vfx.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<action>
+		<name stringid="STR_ACTION_RANGED">RangedAttack</name>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>RangedAttack</anim>
+		<accuracy>1.0</accuracy>
+		<maxspread>0</maxspread>
+		<spreadfactor>0.0</spreadfactor>
+		<trackrating>99</trackrating>
+		<impacteffect>effects\impacts\pierce</impacteffect>
+		<rate type="All">1.0</rate>
+	</action>
+	<action>
+		<name stringid="STR_ACTION_RANGED">RangedAttackMyth</name>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>RangedAttack</anim>
+		<accuracy>1.0</accuracy>
+		<maxspread>0</maxspread>
+		<spreadfactor>0.0</spreadfactor>
+		<trackrating>99</trackrating>
+		<impacteffect>effects\impacts\pierce</impacteffect>
+		<rate type="MythUnit">1.0</rate>
+	</action>
+	<tactic>Default<action priority="100">RangedAttackMyth</action><action priority="90">RangedAttack</action><action>Heal</action><action>Build</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype></tactic>
+</tactics>

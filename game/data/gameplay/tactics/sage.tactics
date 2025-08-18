@@ -1,0 +1,51 @@
+<tactics>
+	<action>
+		<name stringid="STR_ACTION_CONVERT">Convert</name>
+		<type>Convert</type>
+		<anim>Convert</anim>
+		<attackaction>1</attackaction>
+		<chargeaction>1</chargeaction>
+		<charmedconvert>1</charmedconvert>
+		<exclusive>1</exclusive>
+		<rate type="LogicalTypeDivineImmunity">0.000000</rate>
+		<modelattachment>vfx\glow\shengxian_unit_convert_activate.xml</modelattachment>
+		<modelattachmentbone>vfx_top</modelattachmentbone>
+	</action>
+	<action>
+		<name stringid="STR_ACTION_HEAL">Heal</name>
+		<type>Heal</type>
+		<anim>Heal</anim>
+		<modelattachment>greek\godpowers\restoration\healing_vfx.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<action>
+		<name stringid="STR_ACTION_HEAL">HealUnitArea</name>
+		<type>Heal</type>
+		<anim>Heal</anim>
+		<modelattachment>greek\godpowers\restoration\healing_vfx.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<action>
+		<name>HealTitanGateSPC</name>
+		<type>Heal</type>
+		<anim>Heal</anim>
+		<maxrange>13</maxrange>
+		<modelattachment>vfx\glow\empower_pharaoh.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+		<rate type="TitanGateSPC">5.25</rate>
+	</action>
+	<action>
+		<name stringid="STR_ACTION_RANGED">RangedAttack</name>
+		<type>Attack</type>
+		<attackaction>1</attackaction>
+		<rangedlogic>1</rangedlogic>
+		<anim>RangedAttack</anim>
+		<accuracy>1.0</accuracy>
+		<maxspread>0</maxspread>
+		<spreadfactor>0.0</spreadfactor>
+		<trackrating>99</trackrating>
+		<impacteffect>effects\impacts\pierce</impacteffect>
+		<rate type="All">1.0</rate>
+	</action>
+	<tactic>Default<action priority="100">Convert</action><action priority="90">RangedAttack</action><attackprioritytype bonusfactor="40.00">MythUnit</attackprioritytype><action>Heal</action><action>HealUnitArea</action><action>HealTitanGateSPC</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype></tactic>
+</tactics>

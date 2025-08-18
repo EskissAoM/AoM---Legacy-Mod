@@ -1,0 +1,11 @@
+<tactics>
+	<action>
+		<name>Attaching</name>
+		<type>Attaching</type>
+		<maxrange>10.75</maxrange>
+		<rate type="Unit">1.0</rate>
+		<rate type="Building">1.0</rate>
+		<singleuse>1</singleuse>
+	</action>
+	<tactic>Default<action priority="100">Attaching</action></tactic>
+</tactics>

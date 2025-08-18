@@ -1,0 +1,13 @@
+<tactics>
+	<action>
+		<name>LOSWithResources</name>
+		<type>AutoRangedAttach</type>
+		<modifyratebytype>1</modifyratebytype>
+		<modifyabstracttype>Resource</modifyabstracttype>
+		<attachprotounit>EyesOnForestRevealer</attachprotounit>
+		<forceupdatemode>1</forceupdatemode>
+		<targetnature>1</targetnature>
+		<maxrange>8</maxrange>
+		<persistent>1</persistent>
+	</action>
+</tactics>

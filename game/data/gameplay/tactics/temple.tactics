@@ -1,0 +1,26 @@
+<tactics>
+	<action>
+		<name>AreaHeal</name>
+		<active>0</active>
+		<type>AutoRangedModify</type>
+		<modifyabstracttype>LogicalTypeHealed</modifyabstracttype>
+		<persistent>1</persistent>
+		<modifytype>HealRate</modifytype>
+		<includeally>1</includeally>
+		<modifyflyingunits>1</modifyflyingunits>
+		<modelattachment>greek\godpowers\restoration\healing_vfx.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<action>
+		<name>BlessingAreaHeal</name>
+		<active>0</active>
+		<type>AutoRangedModify</type>
+		<modifyabstracttype>LogicalTypeHealed</modifyabstracttype>
+		<persistent>1</persistent>
+		<modifytype>HealRate</modifytype>
+		<includeally>1</includeally>
+		<modelattachment>greek\godpowers\restoration\healing_vfx.xml</modelattachment>
+		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
+	</action>
+	<tactic>Default<action>AreaHeal</action><action>BlessingAreaHeal</action></tactic>
+</tactics>

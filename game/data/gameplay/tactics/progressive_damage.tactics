@@ -1,0 +1,24 @@
+<tactics>
+	<action>
+		<name>ProgressiveDamageLight</name>
+		<type>AutoRangedModify</type>
+		<modifyabstracttype>LogicalTypeRangedUnitsAttack</modifyabstracttype>
+		<forbidabstracttype>Building</forbidabstracttype>
+		<persistent>1</persistent>
+		<modifytype>HealRate</modifytype>
+		<modifyduration>3000</modifyduration>
+		<targetenemy>1</targetenemy>
+	</action>
+	<action>
+		<name>ProgressiveDamageHigh</name>
+		<type>AutoRangedModify</type>
+		<modifyabstracttype>LogicalTypeRangedUnitsAttack</modifyabstracttype>
+		<forbidabstracttype>Building</forbidabstracttype>
+		<persistent>1</persistent>
+		<modifytype>HealRate</modifytype>
+		<timer>3000</timer>
+		<modifyduration>2000</modifyduration>
+		<targetenemy>1</targetenemy>
+	</action>
+	<tactic>Normal<action>ProgressiveDamageLight</action><action>ProgressiveDamageHigh</action></tactic>
+</tactics>

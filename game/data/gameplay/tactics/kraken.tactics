@@ -1,0 +1,42 @@
+<tactics>
+	<action>
+		<name stringid="STR_ACTION_THROW">Throw</name>
+		<type>Throw</type>
+		<rate type="LogicalTypeVillagerNotHero">1.0</rate>
+		<rate type="TradeUnit">1.0</rate>
+		<rate type="HumanSoldier">1.0</rate>
+		<minrate type="Building">1.0</minrate>
+		<attackaction>1</attackaction>
+		<handlogic>1</handlogic>
+		<anim>Pickup</anim>
+		<impacteffect>effects\impacts\crush</impacteffect>
+		<chargeaction>1</chargeaction>
+	</action>
+	<action>
+		<name stringid="STR_ACTION_THROW">Capsize</name>
+		<type>Throw</type>
+		<rate type="AbstractFishingShip">1.0</rate>
+		<rate type="AbstractTransportShip">1.0</rate>
+		<rate type="AbstractWarship">1.0</rate>
+		<attackaction>1</attackaction>
+		<handlogic>1</handlogic>
+		<anim>Capsize</anim>
+		<sizeclassanim class="1">CapsizeSmallShip</sizeclassanim>
+		<sizeclassanim class="2">CapsizeMediumShip</sizeclassanim>
+		<sizeclassanim class="3">CapsizeLargeShip</sizeclassanim>
+		<sizeclassanim class="4">CapsizeXLargeShip</sizeclassanim>
+		<auxchargeaction>1</auxchargeaction>
+		<impacteffect>effects\impacts\crush</impacteffect>
+	</action>
+	<action>
+		<name stringid="STR_ACTION_HAND">HandAttack</name>
+		<type>Attack</type>
+		<rate type="All">1.0</rate>
+		<attackaction>1</attackaction>
+		<handlogic>1</handlogic>
+		<anim>HandAttack</anim>
+		<onhiteffect type="Snare" duration="2" rate="0.85"></onhiteffect>
+		<impacteffect>effects\impacts\crush</impacteffect>
+	</action>
+	<tactic>Default<action priority="100">Throw</action><action priority="90">Capsize</action><action priority="80">HandAttack</action><attacktype>LogicalTypeHandUnitsAttack</attacktype><autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype></tactic>
+</tactics>

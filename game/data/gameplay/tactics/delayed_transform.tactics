@@ -1,0 +1,8 @@
+<tactics>
+	<action>
+		<name>DelayedTransform</name>
+		<type>DelayedTransform</type>
+		<anim>Transform</anim>
+	</action>
+	<tactic>Default<action>DelayedTransform</action><attacktype>LogicalTypeVillagersAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype></tactic>
+</tactics>
