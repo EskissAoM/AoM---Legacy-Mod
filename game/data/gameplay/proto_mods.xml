@@ -2561,6 +2561,376 @@
 		</protoaction>
 	</unit>
 
+	<unit name="MineDwarvenLarge" mergemode="replace">
+		<displaynameid>STR_EMB_DWARVEN_MINE_NAME</displaynameid>
+		<rollovertextid>STR_EMB_DWARVEN_MINE_LR</rollovertextid>
+		<shortrollovertextid>STR_EMB_GOLD_SR</shortrollovertextid>
+		<editornameid>STR_EMB_DWARVEN_MINE_LARGE_EDT_NAME</editornameid>
+		<icon>resources\norse\static_color\god_powers\dwarven_mine_icon.png</icon>
+		<minimapicon>ui\minimap\minimap_gold</minimapicon>
+		<minimapcolor red="0.8900" blue="0.2500" green="0.7000"></minimapcolor>
+		<animfile>nature\mines\gold_mine_dwarven\gold_mine_dwarven.xml</animfile>
+		<soundsetfile>nature\mines\gold_mine_dwarven.xml</soundsetfile>
+		<obstructionradiusx>2.0000</obstructionradiusx>
+		<obstructionradiusz>3.0000</obstructionradiusz>
+		<impacttype>Stone</impacttype>
+		<decay delay="0.0000" duration="0.0000"></decay>
+		<movementtype>land</movementtype>
+		<weightclass>255</weightclass>
+		<los>0.0000</los>
+		<initialresource resourcetype="Gold">6000.0000</initialresource>
+		<resourcesubtype>Gold</resourcesubtype>
+		<resourcepriority>50.0000</resourcepriority>
+		<carrycapacity resourcetype="Gold">6000.0000</carrycapacity>
+		<unittype>LogicalTypeMinimapFilterEconomic</unittype>
+		<unittype>GoldResource</unittype>
+		<unittype>NatureClass</unittype>
+		<unittype>Resource</unittype>
+		<flag>Immoveable</flag>
+		<flag>NonAutoFormedUnit</flag>
+		<flag>Doppled</flag>
+		<flag>SelectWithObstruction</flag>
+		<flag>ForceSquareSelection</flag>
+		<flag>DoNotDieAtZeroHitpoints</flag>
+		<flag>DieAtZeroResources</flag>
+		<flag>DoNotValidateResourceInventory</flag>
+		<flag>NoHPBar</flag>
+		<flag>Invulnerable</flag>
+		<flag>ForceToNature</flag>
+		<flag>FlattenGround</flag>
+		<flag>PreventsWallBuilding</flag>
+		<flag>NoIdleActions</flag>
+		<flag>NotDeathTracked</flag>
+		<flag>DynamicUpdate</flag>
+		<command row="0" column="0">SetVillagerToGather</command>
+		<command row="0" column="1">ResourceUnitConstructStorehouse</command>
+		<command row="0" column="1">ResourceUnitConstructMiningCamp</command>
+		<command row="0" column="1">ResourceUnitConstructSilo</command>
+		<command row="0" column="4">FlareAtUnit</command>
+		<command row="3" column="0">SetRallyPointOfNearbyEconUnitsToUnitPos</command>
+		<command row="3" column="1">SetRallyPointOfNearbyMilitaryUnitsToUnitPos</command>
+	</unit>
+	<unit name="SpyEye" mergemode="replace">
+		<animfile>norse\godpowers\spy\spy_vfx.xml</animfile>
+		<obstructionradiusx>0.1000</obstructionradiusx>
+		<obstructionradiusz>0.1000</obstructionradiusz>
+		<los>27.0000</los>
+		<unittype>EmbellishmentClass</unittype>
+		<flag>NoUnitAI</flag>
+		<flag>DoNotShowOnMiniMap</flag>
+		<flag>NotSelectable</flag>
+		<flag>NoIdleActions</flag>
+		<flag>NonAutoFormedUnit</flag>
+		<flag>NotAlive</flag>
+		<flag>Immoveable</flag>
+		<flag>NonCollideable</flag>
+		<flag>NotSearchable</flag>
+		<flag>StartOnAnimationUpdate</flag>
+		<flag>VisibleOwnerOnly</flag>
+		<flag>NotKBTracked</flag>
+		<flag>NotDeathTracked</flag>
+		<flag>NotPlayerPlaceable</flag>
+	</unit>
+	<unit name="ForestFire" mergemode="replace">
+		<obstructionradiusx>0.1000</obstructionradiusx>
+		<obstructionradiusz>0.1000</obstructionradiusz>
+		<los>0.0000</los>
+		<unittype>LogicalTypeClassicalMythUnit</unittype>
+		<flag>NotSelectable</flag>
+		<flag>NotSearchable</flag>
+		<flag>DoNotYawDuringMovement</flag>
+		<flag>NonCollideable</flag>
+		<flag>NoHPBar</flag>
+		<flag>NotPlayerPlaceable</flag>
+		<flag>DoNotShowOnMiniMap</flag>
+		<flag>NoIdleActions</flag>
+		<flag>NotDeathTracked</flag>
+		<flag>AreaDamageConstant</flag>
+		<tactics>forest_fire.tactics</tactics>
+		<protoaction>
+			<name>HandAttack</name>
+			<rof>1.0</rof>
+			<damage type="Crush">40.0</damage>
+			<damage type="Pierce">4.0</damage>
+			<damagearea>5.000000</damagearea>
+			<damagebonus type="Tree">2.0</damagebonus>
+			<maxrange>0.300000</maxrange>
+		</protoaction>
+	</unit>
+	<unit name="ForestFireEmbers" mergemode="replace">
+		<animfile>norse\godpowers\forest_fire\forest_fire_vfx.xml</animfile>
+		<obstructionradiusx>0.1000</obstructionradiusx>
+		<obstructionradiusz>0.1000</obstructionradiusz>
+		<decay duration="3.0" delay="0.0"></decay>
+		<los>9.0000</los>
+		<unittype>LogicalTypeClassicalMythUnit</unittype>
+		<flag>NotSelectable</flag>
+		<flag>NotSearchable</flag>
+		<flag>DoNotYawDuringMovement</flag>
+		<flag>NonCollideable</flag>
+		<flag>NoHPBar</flag>
+		<flag>NotPlayerPlaceable</flag>
+		<flag>HasContinuousParticles</flag>
+		<flag>DoNotShowOnMiniMap</flag>
+		<flag>AreaDamageConstant</flag>
+		<flag>NoIdleActions</flag>
+		<flag>NotDeathTracked</flag>
+	</unit>
+	<unit name="HealingSpring" mergemode="replace">
+		<displaynameid>STR_BLD_HEALING_SPRING_NAME</displaynameid>
+		<rollovertextid>STR_BLD_HEALING_SPRING_LR</rollovertextid>
+		<shortrollovertextid>STR_BLD_HEALING_SPRING_SR</shortrollovertextid>
+		<icon>resources\norse\static_color\buildings\healing_spring_icon.png</icon>
+		<animfile>norse\buildings\healing_spring\healing_spring.xml</animfile>
+		<soundsetfile>norse\sfx\buildings\healing_spring.xml</soundsetfile>
+		<obstructionradiusx>3.0000</obstructionradiusx>
+		<obstructionradiusz>3.0000</obstructionradiusz>
+		<selectionradiusx>5.0000</selectionradiusx>
+		<selectionradiusz>5.0000</selectionradiusz>
+		<movementtype>land</movementtype>
+		<initialhitpoints>2000.0000</initialhitpoints>
+		<maxhitpoints>2000.0000</maxhitpoints>
+		<los>5.0000</los>
+		<displayedrange>22.0000</displayedrange>
+		<unittype>LogicalTypeBuildingsNotWalls</unittype>
+		<unittype>LogicalTypeMinimapFilterMilitary</unittype>
+		<unittype>Building</unittype>
+		<unittype>BuildingClass</unittype>
+		<unittype>LogicalTypeMinimapFilterEconomic</unittype>
+		<unittype>LogicalTypeCapturableBuilding</unittype>
+		<flag>Immoveable</flag>
+		<flag>ObscuresUnits</flag>
+		<flag>NonAutoFormedUnit</flag>
+		<flag>Doppled</flag>
+		<flag>SelectWithObstruction</flag>
+		<flag>FlattenGround</flag>
+		<flag>NoHPBar</flag>
+		<flag>Invulnerable</flag>
+		<flag>NotDeleteable</flag>
+		<flag>NotCommandable</flag>
+		<flag>PaintTextureWhenPlacing</flag>
+		<flag>DisplayRange</flag>
+		<flag>DisplayRangeOverride</flag>
+		<flag>NoIdleActions</flag>
+		<flag>NonSolid</flag>
+		<flag>NotRepairable</flag>
+		<tactics>area_heal.tactics</tactics>
+		<protoaction>
+			<name>AreaHeal</name>
+			<modifyamount>3</modifyamount>
+			<maxrange>22</maxrange>
+			<slowhealmultiplier>0.10</slowhealmultiplier>
+		</protoaction>
+		<protoaction>
+			<name>AutoConvert</name>
+			<maxrange>10</maxrange>
+			<cannotbeconvertedbyallies>1</cannotbeconvertedbyallies>
+			<modifyabstracttype>LogicalTypeBuildingThatConvertsConvertibles</modifyabstracttype>
+		</protoaction>
+	</unit>
+	<unit name="UndermineDamage" mergemode="replace">
+		<animfile>norse\godpowers\undermine\undermine_path_vfx.xml</animfile>
+		<obstructionradiusx>10.0000</obstructionradiusx>
+		<obstructionradiusz>10.0000</obstructionradiusz>
+		<movementtype>air</movementtype>
+		<maxvelocity>2.0000</maxvelocity>
+		<los>20.0000</los>
+		<flag>NoIdleActions</flag>
+		<flag>NonAutoFormedUnit</flag>
+		<flag>NoTieToGround</flag>
+		<flag>VisibleUnderFog</flag>
+		<flag>NoHPBar</flag>
+		<flag>NotSelectable</flag>
+		<flag>NotSearchable</flag>
+		<flag>NonSolid</flag>
+		<flag>Invulnerable</flag>
+		<flag>DoNotShowOnMiniMap</flag>
+		<flag>NotDeathTracked</flag>
+		<flag>NotPlayerPlaceable</flag>
+		<tactics>handattack.tactics</tactics>
+		<protoaction>
+			<name>HandAttack</name>
+			<rof>1.0</rof>
+			<damage type="Crush">25.0</damage>
+			<damagebonus type="AbstractSocketedTownCenter">0.575</damagebonus>
+			<damagebonus type="Dock">0.72</damagebonus>
+			<damagebonus type="Temple">0.46</damagebonus>
+			<damagebonus type="Armory">0.46</damagebonus>
+			<damagebonus type="House">0.17</damagebonus>
+			<damagebonus type="Market">0.46</damagebonus>
+			<damagebonus type="Wonder">0.76</damagebonus>
+			<damagebonus type="LumberCamp">0.16</damagebonus>
+			<damagebonus type="Granary">0.16</damagebonus>
+			<damagebonus type="MiningCamp">0.16</damagebonus>
+			<damagebonus type="MonumentToVillagers">0.17</damagebonus>
+			<damagebonus type="MonumentToSoldiers">0.25</damagebonus>
+			<damagebonus type="MonumentToPriests">0.37</damagebonus>
+			<damagebonus type="MonumentToPharaohs">0.61</damagebonus>
+			<damagebonus type="MonumentToGods">0.91</damagebonus>
+			<damagebonus type="Barracks">0.46</damagebonus>
+			<damagebonus type="Longhouse">0.46</damagebonus>
+			<damagebonus type="SiegeWorks">0.46</damagebonus>
+			<damagebonus type="Lighthouse">0.53</damagebonus>
+			<damagebonus type="DwarvenArmory">0.46</damagebonus>
+			<damagebonus type="Storehouse">0.16</damagebonus>
+			<damagebonus type="ArcheryRange">0.46</damagebonus>
+			<damagebonus type="Stable">0.46</damagebonus>
+			<damagebonus type="MilitaryAcademy">0.46</damagebonus>
+			<damagebonus type="EconomicGuild">0.16</damagebonus>
+			<damagebonus type="Manor">0.38</damagebonus>
+			<damagebonus type="SkyPassage">0.38</damagebonus>
+			<damagebonus type="MilitaryBarracks">0.46</damagebonus>
+			<damagebonus type="CounterBarracks">0.46</damagebonus>
+			<damagebonus type="Tent">0.12</damagebonus>
+			<maxrange>2.300000</maxrange>
+		</protoaction>
+	</unit>
+	<unit name="FimbulwinterWolf" mergemode="replace">
+		<displaynameid>STR_UNIT_FIMBULWINTER_WOLF_NAME</displaynameid>
+		<rollovertextid>STR_UNIT_FIMBULWINTER_WOLF_LR</rollovertextid>
+		<shortrollovertextid>STR_UNIT_FIMBULWINTER_WOLF_SR</shortrollovertextid>
+		<icon>resources\norse\player_color\units\fimbulwinter_wolf_icon.png</icon>
+		<animfile>norse\units\myth\fimbulwinter_wolf\fimbulwinter_wolf.xml</animfile>
+		<soundsetfile>norse\vo\fimbulwinter_wolf\fimbulwinter_wolf.xml</soundsetfile>
+		<obstructionradiusx>0.9900</obstructionradiusx>
+		<obstructionradiusz>0.9900</obstructionradiusz>
+		<selectionradiusx>0.7500</selectionradiusx>
+		<selectionradiusz>1.0000</selectionradiusz>
+		<impacttype>Unarmoured</impacttype>
+		<unitaitype>HandCombative</unitaitype>
+		<autoattackrange>16.0000</autoattackrange>
+		<movementtype>land</movementtype>
+		<turnrate>18.0000</turnrate>
+		<initialhitpoints>180.0000</initialhitpoints>
+		<maxhitpoints>180.0000</maxhitpoints>
+		<weightclass>4</weightclass>
+		<maxvelocity>6.6000</maxvelocity>
+		<los>25.0000</los>
+		<armor type="Hack" value="0.2000"></armor>
+		<armor type="Pierce" value="0.7000"></armor>
+		<armor type="Crush" value="0.9900"></armor>
+		<unittype>LogicalTypeNeededForVictory</unittype>
+		<unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeLandMilitary</unittype>
+		<unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+		<unittype>LogicalTypeGarrisonInShips</unittype>
+		<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeVillagersAttack</unittype>
+		<unittype>LogicalTypeHandUnitsAttack</unittype>
+		<unittype>LogicalTypeRangedUnitsAttack</unittype>
+		<unittype>LogicalTypeMinimapFilterMilitary</unittype>
+		<unittype>LogicalTypeMythicMythUnit</unittype>
+		<unittype>MilitaryUnit</unittype>
+		<unittype>UnitClass</unittype>
+		<unittype>Unit</unittype>
+		<unittype>MythUnit</unittype>
+		<unittype>AnimalPredator</unittype>
+		<unittype>LogicalTypeValidBoltTarget</unittype>
+		<unittype>LogicalTypeEarthquakeAttack</unittype>
+		<unittype>LogicalTypeAffectedByRestoration</unittype>
+		<unittype>LogicalTypeValidMeteorTarget</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<unittype>LogicalTypeValidShiftingSandsTarget</unittype>
+		<unittype>LogicalTypeMythUnitNotTitan</unittype>
+		<unittype>LogicalTypeValidSpyTarget</unittype>
+		<unittype>LogicalTypeValidFrostTarget</unittype>
+		<unittype>LogicalTypeValidTraitorTarget</unittype>
+		<unittype>LogicalTypeHealed</unittype>
+		<unittype>LogicalTypeVillagersAttackResponse</unittype>
+		<unittype>LogicalTypeValidShockwaveTarget</unittype>
+		<unittype>LogicalTypeFreezableMythUnit</unittype>
+		<unittype>CountsTowardMilitaryScore</unittype>
+		<unittype>LogicalTypeMythUnitNotFlying</unittype>
+		<flag>CollidesWithProjectiles</flag>
+		<flag>CorpseDecays</flag>
+		<flag>ShowGarrisonButton</flag>
+		<flag>DontRotateObstruction</flag>
+		<flag>ObscuredByUnits</flag>
+		<flag>NotCommandable</flag>
+		<flag>NotDeleteable</flag>
+		<flag>CommonCommands</flag>
+		<flag>NeverCountDeathAsLoss</flag>
+		<flag>CreateUnitGroupAutomatically</flag>
+		<flag>ExcludeFromMoveAllMilitary</flag>
+		<flag>ExcludeFromIdleQuery</flag>
+		<flag>IgnoreForFavoriteUnitCount</flag>
+		<flag>PreventRespawn</flag>
+		<tactics>handattack.tactics</tactics>
+		<protoaction>
+			<name>HandAttack</name>
+			<rof>1.500000</rof>
+			<damage type="Hack">21.000000</damage>
+			<damage type="Crush">12.000000</damage>
+			<damagebonus type="Hero">0.500000</damagebonus>
+			<maxrange>0.500000</maxrange>
+		</protoaction>
+	</unit>
+	<unit name="Nidhogg" mergemode="replace">
+		<displaynameid>STR_UNIT_NIDHOGG_NAME</displaynameid>
+		<rollovertextid>STR_UNIT_NIDHOGG_LR</rollovertextid>
+		<shortrollovertextid>STR_UNIT_NIDHOGG_SR</shortrollovertextid>
+		<icon>resources\norse\player_color\units\nidhogg_icon.png</icon>
+		<animfile>norse\units\myth\nidhogg\nidhogg.xml</animfile>
+		<soundsetfile>norse\vo\nidhogg\nidhogg.xml</soundsetfile>
+		<obstructionradiusx>1.9900</obstructionradiusx>
+		<obstructionradiusz>1.9900</obstructionradiusz>
+		<selectionradiusx>2.5000</selectionradiusx>
+		<selectionradiusz>2.5000</selectionradiusz>
+		<impacttype>Unarmoured</impacttype>
+		<unitaitype>RangedCombative</unitaitype>
+		<movementtype>air</movementtype>
+		<turnrate>9.0000</turnrate>
+		<heighthitpointbaroffset>2.25</heighthitpointbaroffset>
+		<initialhitpoints>2000.0000</initialhitpoints>
+		<maxhitpoints>2000.0000</maxhitpoints>
+		<maxvelocity>4.0000</maxvelocity>
+		<los>22.0000</los>
+		<armor type="Hack" value="0.5000"></armor>
+		<armor type="Pierce" value="0.6500"></armor>
+		<armor type="Crush" value="0.9900"></armor>
+		<culture>Norse</culture>
+		<unittype>LogicalTypeValidBoltTarget</unittype>
+		<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeRangedUnitsAttack</unittype>
+		<unittype>Unit</unittype>
+		<unittype>UnitClass</unittype>
+		<unittype>MilitaryUnit</unittype>
+		<unittype>MythUnit</unittype>
+		<unittype>MythUnitRanged</unittype>
+		<unittype>MythUnitSiege</unittype>
+		<unittype>CountsTowardMilitaryScore</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<unittype>LogicalTypeValidSpyTarget</unittype>
+		<unittype>AbstractFlyingUnit</unittype>
+		<unittype>LogicalTypeNeededForVictory</unittype>
+		<unittype>LogicalTypeMinimapFilterMilitary</unittype>
+		<unittype>LogicalTypeValidShiftingSandsTarget</unittype>
+		<unittype>LogicalTypeLandMilitary</unittype>
+		<unittype>LogicalTypeMythUnitThatGeneratesFavor</unittype>
+		<flag>FlyingUnit</flag>
+		<flag>NoTieToGround</flag>
+		<flag>CollidesWithProjectiles</flag>
+		<flag>CreateUnitGroupAutomatically</flag>
+		<flag>CorpseDecays</flag>
+		<flag>DeleteConfirmation</flag>
+		<command row="3" column="0">Stop</command>
+		<command row="3" column="3">Patrol</command>
+		<command row="3" column="4">AttackMove</command>
+		<command row="3" column="5">Delete</command>
+		<tactics>nidhogg.tactics</tactics>
+		<protoaction>
+			<name>HandAttack</name>
+			<rof>2.000000</rof>
+			<damage type="Hack">60.000000</damage>
+			<damage type="Crush">80.000000</damage>
+			<damagearea>6.000000</damagearea>
+			<damageflags>Nature|Enemy</damageflags>
+			<damagebonus type="Hero">0.100000</damagebonus>
+			<maxrange>4.0</maxrange>
+			<projectile>ProjectileNidhoggInvisible</projectile>
+		</protoaction>
+	</unit>
+
 <!-- CUSTOM -->
 
 	<unit name="OdinPassiveRegenerationDummy">

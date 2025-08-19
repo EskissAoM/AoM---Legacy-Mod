@@ -211,9 +211,6 @@
 			<effect type="Data" action="Gather" amount="1.20" subtype="WorkRate" unittype="Herdable" relativity="BasePercent">
 				<target type="ProtoUnit">AbstractVillager</target>
 			</effect>
-			<effect type="Data" action="Gather" amount="1.20" subtype="WorkRate" unittype="NonConvertableHerdable" relativity="BasePercent">
-				<target type="ProtoUnit">AbstractVillager</target>
-			</effect>
 		</effects>
 	</tech>
 	<tech name="Plow" mergeMode="replace">
@@ -7530,6 +7527,44 @@
 			</effect>
 			<effect type="Data" action="HandAttack" amount="1.20" subtype="Damage" damagetype="Hack" relativity="BasePercent">
 				<target type="ProtoUnit">Huskarl</target>
+			</effect>
+		</effects>
+	</tech>
+
+<!-- NORSE - GP technologies -->
+
+	<tech name="FlamingWeaponsActive" mergeMode="replace">
+		<researchpoints>0.1000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<flag>HideFromDialogs</flag>
+		<flag>YPForceUnapply</flag>
+		<effects>
+			<effect type="Data" action="HandAttack" amount="2.00" subtype="Damage" damagetype="Hack" relativity="BasePercent">
+				<target type="ProtoUnit">HumanSoldier</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="2.00" subtype="Damage" damagetype="Pierce" relativity="BasePercent">
+				<target type="ProtoUnit">HumanSoldier</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="1.72" subtype="Damage" damagetype="Hack" relativity="BasePercent">
+				<target type="ProtoUnit">HeroOfRagnarok</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="2.00" subtype="Damage" damagetype="Hack" relativity="BasePercent">
+				<target type="ProtoUnit">Hersir</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="2.00" subtype="Damage" damagetype="Pierce" relativity="BasePercent">
+				<target type="ProtoUnit">Hero</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="2.00" subtype="Damage" damagetype="Hack" relativity="BasePercent">
+				<target type="ProtoUnit">ThrowingAxeman</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="2.00" subtype="Damage" damagetype="Crush" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractSiegeShip</target>
+			</effect>
+			<effect type="Data" action="RangedAttack" amount="2.00" subtype="Damage" damagetype="Pierce" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractArcherShip</target>
+			</effect>
+			<effect type="Data" action="HandAttack" amount="2.00" subtype="Damage" damagetype="Hack" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractCloseCombatShip</target>
 			</effect>
 		</effects>
 	</tech>

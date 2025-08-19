@@ -1,18 +1,6 @@
 <tactics>
 	<action>
-		<name stringid="STR_ACTION_BLAZING_STRAFE">BlazingStrafeAttack</name>
-		<type>LinearAreaAttack</type>
-		<rate type="LogicalTypeHandUnitsAttack">1.0</rate>
-		<maxheight>7.0</maxheight>
-		<walkanim>BlazingStrafeAttack</walkanim>
-		<attackaction>1</attackaction>
-		<handlogic>1</handlogic>
-		<chargeaction>1</chargeaction>
-		<anim>BlazingStrafeAttack</anim>
-		<impacteffect>effects\impacts\hack</impacteffect>
-	</action>
-	<action>
-		<name stringid="STR_ACTION_RANGED">RangedAttack</name>
+		<name stringid="STR_ACTION_RANGED">HandAttack</name>
 		<rate type="All">1.0</rate>
 		<type>Attack</type>
 		<attackaction>1</attackaction>
@@ -20,20 +8,8 @@
 		<anim>RangedAttack</anim>
 		<accuracy>1.0</accuracy>
 		<trackrating>99.0</trackrating>
-		<onhiteffect type="Snare" duration="2" rate="0.85"></onhiteffect>
+		<onhiteffect type="Snare" duration="3" rate="0.65"></onhiteffect>
 		<impacteffect>effects\impacts\hack</impacteffect>
 	</action>
-	<action>
-		<name stringid="STR_ACTION_RANGED">FlyingUnitAttack</name>
-		<rate type="AbstractFlyingUnit">1.0</rate>
-		<type>Attack</type>
-		<attackaction>1</attackaction>
-		<rangedlogic>1</rangedlogic>
-		<anim>RangedAttack</anim>
-		<accuracy>1.0</accuracy>
-		<trackrating>99.0</trackrating>
-		<onhiteffect type="Snare" duration="2" rate="0.85"></onhiteffect>
-		<impacteffect>effects\impacts\hack</impacteffect>
-	</action>
-	<tactic>Default<action priority="100">BlazingStrafeAttack</action><action priority="90">FlyingUnitAttack</action><action priority="80">RangedAttack</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype></tactic>
+	<tactic>Default<action priority="100">HandAttack</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype></tactic>
 </tactics>

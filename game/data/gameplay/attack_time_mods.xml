@@ -1,0 +1,9 @@
+<attacktimemods>
+	
+	<unit name="Nidhogg" mergeMode="replace">
+		<protoaction name="HandAttack">
+			<time>0.3</time>
+		</protoaction>
+	</unit>
+	
+</attacktimemods>
