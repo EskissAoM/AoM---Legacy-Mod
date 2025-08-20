@@ -8155,7 +8155,7 @@
 		</prereqs>
 		<effects>
 			<effect type="SetAge">ClassicalAge</effect>
-			<effect type="Data" subtype="GodPower" power="Valor" amount="3.0" cooldown="120.0" relativity="Absolute">
+			<effect type="Data" subtype="GodPower" power="ValorLegacy" amount="3.0" cooldown="120.0" relativity="Absolute">
 				<target type="Player"></target>
 			</effect>
 			<effect type="Data" amount="1.00" subtype="Enable" relativity="Absolute">

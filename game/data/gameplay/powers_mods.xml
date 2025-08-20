@@ -877,7 +877,7 @@
 		<icon>atlantean\static_color\god_powers\deconstruction_icon.png</icon>
 		<placement enemy="" fullybuiltonly="">Unit</placement>
 		<abstractplacementtargettype>LogicalTypeTartarianGateValidOverlapPlacement</abstractplacementtargettype>
-		<explicitlyrestrictedplacementtargettype>VillageCenter</explicitlyrestrictedplacementtargettype>
+		<explicitlyrestrictedplacementtargettype>Sentinel</explicitlyrestrictedplacementtargettype>
 		<explicitlyrestrictedplacementtargettype>Tent</explicitlyrestrictedplacementtargettype>
 		<explicitlyrestrictedplacementtargettype>AsgardianHillFort</explicitlyrestrictedplacementtargettype>
 		<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
@@ -888,7 +888,7 @@
 		<cracksoundset>DeconstructionDestruction</cracksoundset>
 		<crackintervalmin>2.0</crackintervalmin>
 		<crackintervalmax>4.0</crackintervalmax>
-		<timefactor>0.4</timefactor>
+		<timefactor>0.25</timefactor>
 	</power>
 	<power name="Shockwave" type="Shockwave" godpower="" mergeMode="replace">
 		<displaynameid>STR_POWER_SHOCKWAVE</displaynameid>
@@ -906,7 +906,7 @@
 		<powerplayerrelation>Enemy</powerplayerrelation>
 		<abstractattacktargettype>LogicalTypeValidShockwaveTarget</abstractattacktargettype>
 		<terrainrumbling height="1.20" width="1.0" speed="25.0" fadetime="0.2"></terrainrumbling>
-		<stunlength>1.0</stunlength>
+		<stunlength>2.0</stunlength>
 		<shockwavevfx>VFXShockwave</shockwavevfx>
 		<minthrowdistance>7.0</minthrowdistance>
 		<maxthrowdistance>9.0</maxthrowdistance>
@@ -949,25 +949,40 @@
 		<activetime>3.0</activetime>
 		<createunit quantity="1" radius="0.0" delay="0.0" norandomrotate="" permanent="" waterprotoid="WaterCarnivora">Carnivora</createunit>
 	</power>
-	<power name="Valor" type="Valor" godpower="" mergeMode="replace">
+	<power name="ValorLegacy" type="SwapUnit" godpower="">
 		<displaynameid>STR_POWER_VALOR</displaynameid>
-		<rolloverid>STR_POWER_VALOR_LR</rolloverid>
+		<rolloverid>STR_POWER_VALOR_LEGACY_LR</rolloverid>
 		<icon>atlantean\static_color\god_powers\valor_icon.png</icon>
-		<placement ally="">Unit</placement>
+		<placement>Full</placement>
 		<abstractplacementtargettype>LogicalTypeAffectedByValor</abstractplacementtargettype>
 		<minimapeventtime sendalertto="Ally">10.0</minimapeventtime>
 		<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
 		<soundset type="StartSound" listenertype="Caster">BirthHero</soundset>
+		<rangeindicator range="30.0" speed="0.2">Circle</rangeindicator>
+		<powerplayerrelation>Player</powerplayerrelation>	
 		<activetime>3.0</activetime>
-		<powerplayerrelation>Player</powerplayerrelation>
-		<effectproto>VFXHeroBirth</effectproto>
+		<swapdelay>0.5</swapdelay>
+		<radius>30.0</radius>
+		<mutate></mutate>
+		<vfxproto>VFXHeroBirth</vfxproto>
+		<convertusingminmax minswapamount="3" maxswapamount="4">HumanSoldier</convertusingminmax>
+		<convertusingminmax minswapamount="1" maxswapamount="2">AbstractVillager</convertusingminmax>
+		<abstracttype swapto="MurmilloHero">Murmillo</abstracttype>
+		<abstracttype swapto="KatapeltesHero">Katapeltes</abstracttype>
+		<abstracttype swapto="ContariusHero">Contarius</abstracttype>
+		<abstracttype swapto="ArcusHero">Arcus</abstracttype>
+		<abstracttype swapto="TurmaHero">Turma</abstracttype>
+		<abstracttype swapto="DestroyerHero">Destroyer</abstracttype>
+		<abstracttype swapto="FanaticHero">Fanatic</abstracttype>
+		<abstracttype swapto="OracleHero">Oracle</abstracttype>
+		<abstracttype swapto="VillagerAtlanteanHero">VillagerAtlantean</abstracttype>
 	</power>
 	<power name="SpiderLair" type="Spiders" godpower="" mergeMode="replace">
 		<displaynameid>STR_POWER_SPIDER_LAIR</displaynameid>
 		<rolloverid>STR_POWER_SPIDER_LAIR_LR</rolloverid>
 		<icon>atlantean\static_color\god_powers\spider_lair_icon.png</icon>
 		<placement disallowwatercast="">Full</placement>
-		<vectorplacement></vectorplacement>
+		<radius>10.0</radius>
 		<minimapeventtime sendalertto="Ally">10.0</minimapeventtime>
 		<soundset type="StartSound" listenertype="AllExceptCaster">GodPowerStart</soundset>
 		<soundset type="StartSound" listenertype="IfOnScreenAlly">SpiderLairBirth</soundset>
@@ -976,12 +991,11 @@
 		<messagealertplayerrelation>Ally</messagealertplayerrelation>
 		<powerplayerrelation>Enemy</powerplayerrelation>
 		<abstractattacktargettype>HumanSoldier</abstractattacktargettype>
-		<rangeindicator range="12.0" width="6.0">Arrow</rangeindicator>
-		<rangeindicatorcustomdecal>effects\rangedecals\rangedecals_arrow_1stepline</rangeindicatorcustomdecal>
+		<rangeindicator range="10.0" speed="0.2">Circle</rangeindicator>
 		<activelistvisibility>AlliesOnly</activelistvisibility>
-		<numbertocreate>3</numbertocreate>
+		<numbertocreate>4</numbertocreate>
 		<separationdistance>5.0</separationdistance>
-		<warntime>0.5</warntime>
+		<warntime>1.0</warntime>
 		<initialdelay>0.5</initialdelay>
 		<hatchtime>5.0</hatchtime>
 		<hatchintervalmin>0.2</hatchintervalmin>
@@ -1007,7 +1021,7 @@
 		<powerplayerrelation>Enemy</powerplayerrelation>
 		<abstractattacktargettype>LogicalTypeValidTraitorTarget</abstractattacktargettype>
 		<vfxproto>VFXTraitor</vfxproto>
-		<percentdamageonconvert>0.0</percentdamageonconvert>
+		<percentdamageonconvert>0.15</percentdamageonconvert>
 	</power>
 	<power name="Chaos" type="Chaos" godpower="" mergeMode="replace">
 		<displaynameid>STR_POWER_CHAOS</displaynameid>
@@ -1038,8 +1052,6 @@
 		<soundset type="StartSound" listenertype="Caster">HesperidesTreeBirth</soundset>
 		<activetime>3.0</activetime>
 		<createunit quantity="1" radius="0.0" delay="0.0" norandomrotate="" permanent="">HesperidesTree</createunit>
-		<createunit quantity="1" radius="5.0" delay="0.1" norandomrotate="" permanent="">Dryad</createunit>
-		<createunit quantity="1" radius="5.0" delay="0.1" norandomrotate="" permanent="">Dryad</createunit>
 	</power>
 	<power name="Vortex" type="Vortex" godpower="" mergeMode="replace">
 		<displaynameid>STR_POWER_VORTEX</displaynameid>
@@ -1061,8 +1073,8 @@
 		<explicitlyrestrictedattacktargettype>AbstractTitan</explicitlyrestrictedattacktargettype>
 		<initialdelay>0.0</initialdelay>
 		<uniteffecttime>1.0</uniteffecttime>
-		<dropintervalmin>0.01</dropintervalmin>
-		<dropintervalmax>0.1</dropintervalmax>
+		<dropintervalmin>0.1</dropintervalmin>
+		<dropintervalmax>0.5</dropintervalmax>
 		<maxretryseconds>30</maxretryseconds>
 		<liftsoundset>VortexLift</liftsoundset>
 		<landsoundset>VortexLand</landsoundset>
@@ -1090,13 +1102,13 @@
 		<tartariangateproto>TartarianGate</tartariangateproto>
 		<gatebirthproto>TartarianGateBirth</gatebirthproto>
 		<gateflameproto>TartarianGateFlame</gateflameproto>
-		<sinkholetime>3.0</sinkholetime>
+		<sinkholetime>4.0</sinkholetime>
 		<sinkholeshakestrength>0.08</sinkholeshakestrength>
-		<rumbletime>3.0</rumbletime>
+		<rumbletime>4.0</rumbletime>
 		<spawntimedelay>1.0</spawntimedelay>
 		<spawnintervalmin>1.0</spawnintervalmin>
-		<spawnintervalmax>2.0</spawnintervalmax>
-		<maxnumspawns>7</maxnumspawns>
+		<spawnintervalmax>3.0</spawnintervalmax>
+		<maxnumspawns>6</maxnumspawns>
 		<minthrowdistance>6.0</minthrowdistance>
 		<maxthrowdistance>9.0</maxthrowdistance>
 		<minthrowheight>1.0</minthrowheight>
@@ -1135,8 +1147,8 @@
 		<implodeexplosionwindupsoundset>ImplodeWindup</implodeexplosionwindupsoundset>
 		<explosionwinduplength>1.396</explosionwinduplength>
 		<pullradius>25.0</pullradius>
-		<exploderadius>30.0</exploderadius>
-		<unitescaperadius>30.0</unitescaperadius>
+		<exploderadius>35.0</exploderadius>
+		<unitescaperadius>35.0</unitescaperadius>
 		<damageintervalseconds>999.0</damageintervalseconds>
 		<pullstrengthincrement>0.1</pullstrengthincrement>
 		<maximumpullstrength>1.0</maximumpullstrength>
@@ -1149,8 +1161,8 @@
 		<shearmultiplier>0.2</shearmultiplier>
 		<baseshearincrement>0.1</baseshearincrement>
 		<baseshearmax>1.0</baseshearmax>
-		<unitimplodetimedelaymin>0.15</unitimplodetimedelaymin>
-		<unitimplodetimedelaymax>0.25</unitimplodetimedelaymax>
+		<unitimplodetimedelaymin>0.3</unitimplodetimedelaymin>
+		<unitimplodetimedelaymax>0.7</unitimplodetimedelaymax>
 		<unitimplodeendtimedelaymin>0.01</unitimplodeendtimedelaymin>
 		<unitimplodeendtimedelaymax>0.1</unitimplodeendtimedelaymax>
 		<spheretargetheight>3.0</spheretargetheight>
@@ -1161,7 +1173,7 @@
 		<mintimeinstagepullingunits>4.0</mintimeinstagepullingunits>
 		<mintimeinstageexploding>3.0</mintimeinstageexploding>
 		<explosiondelay>1.6</explosiondelay>
-		<shockwavevelocity>67.2</shockwavevelocity>
+		<shockwavevelocity>15.0</shockwavevelocity>
 		<outerorbitradiussquared>225.0</outerorbitradiussquared>
 		<middleorbitradiussquared>100.0</middleorbitradiussquared>
 		<innerorbitradiussquared>25.0</innerorbitradiussquared>
@@ -1174,10 +1186,10 @@
 		<unitdeathcamerashakestrength>0.1</unitdeathcamerashakestrength>
 		<explosioncamerashakeduration>0.8</explosioncamerashakeduration>
 		<explosioncamerashakestrength>0.3</explosioncamerashakestrength>
-		<minthrowdistance>15.0</minthrowdistance>
-		<maxthrowdistance>25.0</maxthrowdistance>
-		<minthrowheight>1.0</minthrowheight>
-		<maxthrowheight>2.0</maxthrowheight>
+		<minthrowdistance>10.0</minthrowdistance>
+		<maxthrowdistance>15.0</maxthrowdistance>
+		<minthrowheight>0.5</minthrowheight>
+		<maxthrowheight>1.5</maxthrowheight>
 		<minthrowvelocity>15.0</minthrowvelocity>
 		<maxthrowvelocity>22.0</maxthrowvelocity>
 	</power>

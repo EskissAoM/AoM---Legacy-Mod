@@ -6,15 +6,15 @@
 		<attackaction>1</attackaction>
 		<handlogic>1</handlogic>
 		<anim>HandAttack</anim>
-		<onhiteffect type="Snare" duration="2" rate="0.85"></onhiteffect>
+		<onhiteffect type="Snare" duration="3" rate="0.65"></onhiteffect>
 		<impacteffect>effects\impacts\hack</impacteffect>
 	</action>
 	<action>
 		<name stringid="STR_ACTION_THROW">Throw</name>
 		<type>Throw</type>
-		<rate type="LogicalTypeVillagerNotHero">1.0</rate>
-		<rate type="TradeUnit">1.0</rate>
+		<rate type="Ship">1.0</rate>
 		<rate type="HumanSoldier">1.0</rate>
+		<rate type="TheArgo">0.000000</rate>
 		<attackaction>1</attackaction>
 		<handlogic>1</handlogic>
 		<impacteffect>effects\impacts\crush</impacteffect>

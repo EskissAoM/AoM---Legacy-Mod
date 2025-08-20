@@ -16,7 +16,7 @@
 		<attackaction>1</attackaction>
 		<handlogic>1</handlogic>
 		<anim>HandAttack</anim>
-		<onhiteffect type="Snare" duration="2" rate="0.85"></onhiteffect>
+		<onhiteffect type="Snare" duration="3" rate="0.65"></onhiteffect>
 		<impacteffect>effects\impacts\crush</impacteffect>
 	</action>
 	<tactic>Default<action priority="100">Throw</action><action priority="90">HandAttack</action><attacktype>LogicalTypeHandUnitsAttack</attacktype><autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype></tactic>

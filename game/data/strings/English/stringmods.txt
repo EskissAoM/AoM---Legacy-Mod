@@ -321,6 +321,9 @@ ID = "STR_UNIT_ORACLE_HERO_SR"   ;   Str = "Hero scout. Line of sight grows rapi
 ID = "STR_BLD_ORICHALCUM_WALL_NAME"   ;   Str = "Orichalkos Wall"
 ID = "STR_BLD_ORICHALCUM_GATE_NAME"   ;   Str = "Orichalkos Gate"
 
+// GODPOWER - modified
+
+ID = "STR_POWER_VALOR_LEGACY_LR"   ;   Str = "Target a group of your human units to convert some of them into heroes."
 
 // MISC - modified
 
