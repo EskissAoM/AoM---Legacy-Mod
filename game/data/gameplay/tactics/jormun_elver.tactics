@@ -20,7 +20,9 @@
 		<chargeaction>1</chargeaction>
 		<handlogic>1</handlogic>
 		<anim>ChargedHandAttack</anim>
-		<onhiteffect type="Snare" duration="2" rate="0.85"></onhiteffect>
+		<onhiteffect type="StatModify" duration="3.000000">
+    		<modifyramp type="Speed" init="0.650000" final="1.000000"></modifyramp>
+		</onhiteffect>
 		<impacteffect>effects\impacts\hack</impacteffect>
 	</action>
 	<tactic>Default<action priority="100">ChargedHandAttack</action><action priority="90">RangedAttack</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype></tactic>

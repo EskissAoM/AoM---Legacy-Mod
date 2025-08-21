@@ -2785,6 +2785,2358 @@
 			<maxrange>2.300000</maxrange>
 		</protoaction>
 	</unit>
+	<unit name="WalkingWoodsCypress" mergemode="replace">
+		<displaynameid>STR_UNIT_WALKING_WOODS_NAME</displaynameid>
+		<rollovertextid>STR_UNIT_WALKING_WOODS_LR</rollovertextid>
+		<shortrollovertextid>STR_UNIT_WALKING_WOODS_SR</shortrollovertextid>
+		<editornameid>STR_UNIT_WALKING_WOODS_CYPRESS_EDT_NAME</editornameid>
+		<icon>resources\norse\player_color\units\walking_woods_icon.png</icon>
+		<animfile>norse\units\myth\walking_woods_cypress\walking_woods_cypress.xml</animfile>
+		<soundsetfile>norse\vo\walking_woods\walking_woods.xml</soundsetfile>
+		<obstructionradiusx>0.9900</obstructionradiusx>
+		<obstructionradiusz>0.9900</obstructionradiusz>
+		<selectionradiusx>1.5000</selectionradiusx>
+		<selectionradiusz>1.5000</selectionradiusz>
+		<impacttype>Wood</impacttype>
+		<unitaitype>HandCombative</unitaitype>
+		<autoattackrange>30.0000</autoattackrange>
+		<movementtype>land</movementtype>
+		<turnrate>18.0000</turnrate>
+		<initialhitpoints>280.0000</initialhitpoints>
+		<maxhitpoints>280.0000</maxhitpoints>
+		<weightclass>9</weightclass>
+		<maxvelocity>3.5000</maxvelocity>
+		<los>30.0000</los>
+		<sharedselectionunittypes>
+			<unittype>AbstractWalkingWoods</unittype>
+		</sharedselectionunittypes>
+		<populationcount>1</populationcount>
+		<cost resourcetype="Wood">100.0000</cost>
+		<cost resourcetype="Favor">10.0000</cost>
+		<armor type="Hack" value="0.3000"></armor>
+		<armor type="Pierce" value="0.6000"></armor>
+		<armor type="Crush" value="0.9900"></armor>
+		<culture>Norse</culture>
+		<unittype>LogicalTypeNeededForVictory</unittype>
+		<unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeLandMilitary</unittype>
+		<unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+		<unittype>LogicalTypeGarrisonInShips</unittype>
+		<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeVillagersAttack</unittype>
+		<unittype>LogicalTypeHandUnitsAttack</unittype>
+		<unittype>LogicalTypeRangedUnitsAttack</unittype>
+		<unittype>LogicalTypeMinimapFilterMilitary</unittype>
+		<unittype>LogicalTypeHeroicMythUnit</unittype>
+		<unittype>MilitaryUnit</unittype>
+		<unittype>UnitClass</unittype>
+		<unittype>Unit</unittype>
+		<unittype>MythUnit</unittype>
+		<unittype>MythUnitMelee</unittype>
+		<unittype>MythUnitSiege</unittype>
+		<unittype>AbstractWalkingWoods</unittype>
+		<unittype>CountsTowardMilitaryScore</unittype>
+		<unittype>LogicalTypeValidBoltTarget</unittype>
+		<unittype>LogicalTypeConvertsHerds</unittype>
+		<unittype>LogicalTypeEarthquakeAttack</unittype>
+		<unittype>LogicalTypeAffectedByRestoration</unittype>
+		<unittype>LogicalTypeValidMeteorTarget</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<unittype>LogicalTypeValidShiftingSandsTarget</unittype>
+		<unittype>LogicalTypeMythUnitNotTitan</unittype>
+		<unittype>LogicalTypeValidSpyTarget</unittype>
+		<unittype>LogicalTypeValidFrostTarget</unittype>
+		<unittype>LogicalTypeValidTraitorTarget</unittype>
+		<unittype>LogicalTypeValidShockwaveTarget</unittype>
+		<unittype>LogicalTypeFreezableMythUnit</unittype>
+		<unittype>LogicalTypeMythUnitNotFlying</unittype>
+		<flag>CollidesWithProjectiles</flag>
+		<flag>CorpseDecays</flag>
+		<flag>ShowGarrisonButton</flag>
+		<flag>DontRotateObstruction</flag>
+		<flag>ObscuredByUnits</flag>
+		<flag>CommonCommands</flag>
+		<flag>MilitaryCommands</flag>
+		<flag>NeverCountDeathAsLoss</flag>
+		<flag>CreateUnitGroupAutomatically</flag>
+		<flag>GroupSelection</flag>
+		<tactics>handattack.tactics</tactics>
+		<protoaction>
+			<name>HandAttack</name>
+			<rof>2.000000</rof>
+			<damage type="Hack">13.200000</damage>
+			<damage type="Crush">36.000000</damage>
+			<maxrange>0.500000</maxrange>
+		</protoaction>
+	</unit>
+	<unit name="WalkingWoodsCypressSnow" mergemode="replace">
+		<displaynameid>STR_UNIT_WALKING_WOODS_NAME</displaynameid>
+		<rollovertextid>STR_UNIT_WALKING_WOODS_LR</rollovertextid>
+		<shortrollovertextid>STR_UNIT_WALKING_WOODS_SR</shortrollovertextid>
+		<editornameid>STR_UNIT_WALKING_WOODS_CYPRESS_SNOW_EDT_NAME</editornameid>
+		<icon>resources\norse\player_color\units\walking_woods_icon.png</icon>
+		<animfile>norse\units\myth\walking_woods_cypress_snow\walking_woods_cypress_snow.xml</animfile>
+		<soundsetfile>norse\vo\walking_woods\walking_woods.xml</soundsetfile>
+		<obstructionradiusx>0.9900</obstructionradiusx>
+		<obstructionradiusz>0.9900</obstructionradiusz>
+		<selectionradiusx>1.5000</selectionradiusx>
+		<selectionradiusz>1.5000</selectionradiusz>
+		<impacttype>Wood</impacttype>
+		<unitaitype>HandCombative</unitaitype>
+		<autoattackrange>30.0000</autoattackrange>
+		<movementtype>land</movementtype>
+		<turnrate>18.0000</turnrate>
+		<initialhitpoints>280.0000</initialhitpoints>
+		<maxhitpoints>280.0000</maxhitpoints>
+		<weightclass>9</weightclass>
+		<maxvelocity>3.5000</maxvelocity>
+		<los>30.0000</los>
+		<sharedselectionunittypes>
+			<unittype>AbstractWalkingWoods</unittype>
+		</sharedselectionunittypes>
+		<populationcount>1</populationcount>
+		<cost resourcetype="Wood">100.0000</cost>
+		<cost resourcetype="Favor">10.0000</cost>
+		<armor type="Hack" value="0.3000"></armor>
+		<armor type="Pierce" value="0.6000"></armor>
+		<armor type="Crush" value="0.9900"></armor>
+		<culture>Norse</culture>
+		<unittype>LogicalTypeNeededForVictory</unittype>
+		<unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeLandMilitary</unittype>
+		<unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+		<unittype>LogicalTypeGarrisonInShips</unittype>
+		<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeVillagersAttack</unittype>
+		<unittype>LogicalTypeHandUnitsAttack</unittype>
+		<unittype>LogicalTypeRangedUnitsAttack</unittype>
+		<unittype>LogicalTypeMinimapFilterMilitary</unittype>
+		<unittype>LogicalTypeHeroicMythUnit</unittype>
+		<unittype>MilitaryUnit</unittype>
+		<unittype>UnitClass</unittype>
+		<unittype>Unit</unittype>
+		<unittype>MythUnit</unittype>
+		<unittype>MythUnitMelee</unittype>
+		<unittype>MythUnitSiege</unittype>
+		<unittype>AbstractWalkingWoods</unittype>
+		<unittype>CountsTowardMilitaryScore</unittype>
+		<unittype>LogicalTypeValidBoltTarget</unittype>
+		<unittype>LogicalTypeConvertsHerds</unittype>
+		<unittype>LogicalTypeEarthquakeAttack</unittype>
+		<unittype>LogicalTypeAffectedByRestoration</unittype>
+		<unittype>LogicalTypeValidMeteorTarget</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<unittype>LogicalTypeValidShiftingSandsTarget</unittype>
+		<unittype>LogicalTypeMythUnitNotTitan</unittype>
+		<unittype>LogicalTypeValidSpyTarget</unittype>
+		<unittype>LogicalTypeValidFrostTarget</unittype>
+		<unittype>LogicalTypeValidTraitorTarget</unittype>
+		<unittype>LogicalTypeValidShockwaveTarget</unittype>
+		<unittype>LogicalTypeFreezableMythUnit</unittype>
+		<unittype>LogicalTypeMythUnitNotFlying</unittype>
+		<flag>CollidesWithProjectiles</flag>
+		<flag>CorpseDecays</flag>
+		<flag>ShowGarrisonButton</flag>
+		<flag>DontRotateObstruction</flag>
+		<flag>ObscuredByUnits</flag>
+		<flag>CommonCommands</flag>
+		<flag>MilitaryCommands</flag>
+		<flag>NeverCountDeathAsLoss</flag>
+		<flag>CreateUnitGroupAutomatically</flag>
+		<flag>GroupSelection</flag>
+		<tactics>handattack.tactics</tactics>
+		<protoaction>
+			<name>HandAttack</name>
+			<rof>2.000000</rof>
+			<damage type="Hack">13.200000</damage>
+			<damage type="Crush">36.000000</damage>
+			<maxrange>0.500000</maxrange>
+		</protoaction>
+	</unit>
+	<unit name="WalkingWoodsHades" mergemode="replace">
+		<displaynameid>STR_UNIT_WALKING_WOODS_NAME</displaynameid>
+		<rollovertextid>STR_UNIT_WALKING_WOODS_LR</rollovertextid>
+		<shortrollovertextid>STR_UNIT_WALKING_WOODS_SR</shortrollovertextid>
+		<editornameid>STR_UNIT_WALKING_WOODS_HADES_EDT_NAME</editornameid>
+		<icon>resources\norse\player_color\units\walking_woods_icon.png</icon>
+		<animfile>norse\units\myth\walking_woods_hades\walking_woods_hades.xml</animfile>
+		<soundsetfile>norse\vo\walking_woods\walking_woods.xml</soundsetfile>
+		<obstructionradiusx>0.9900</obstructionradiusx>
+		<obstructionradiusz>0.9900</obstructionradiusz>
+		<selectionradiusx>1.5000</selectionradiusx>
+		<selectionradiusz>1.5000</selectionradiusz>
+		<impacttype>Wood</impacttype>
+		<unitaitype>HandCombative</unitaitype>
+		<autoattackrange>30.0000</autoattackrange>
+		<movementtype>land</movementtype>
+		<turnrate>18.0000</turnrate>
+		<initialhitpoints>280.0000</initialhitpoints>
+		<maxhitpoints>280.0000</maxhitpoints>
+		<weightclass>9</weightclass>
+		<maxvelocity>3.5000</maxvelocity>
+		<los>30.0000</los>
+		<sharedselectionunittypes>
+			<unittype>AbstractWalkingWoods</unittype>
+		</sharedselectionunittypes>
+		<populationcount>1</populationcount>
+		<cost resourcetype="Wood">100.0000</cost>
+		<cost resourcetype="Favor">10.0000</cost>
+		<armor type="Hack" value="0.3000"></armor>
+		<armor type="Pierce" value="0.6000"></armor>
+		<armor type="Crush" value="0.9900"></armor>
+		<culture>Norse</culture>
+		<unittype>LogicalTypeNeededForVictory</unittype>
+		<unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeLandMilitary</unittype>
+		<unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+		<unittype>LogicalTypeGarrisonInShips</unittype>
+		<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeVillagersAttack</unittype>
+		<unittype>LogicalTypeHandUnitsAttack</unittype>
+		<unittype>LogicalTypeRangedUnitsAttack</unittype>
+		<unittype>LogicalTypeMinimapFilterMilitary</unittype>
+		<unittype>LogicalTypeHeroicMythUnit</unittype>
+		<unittype>MilitaryUnit</unittype>
+		<unittype>UnitClass</unittype>
+		<unittype>Unit</unittype>
+		<unittype>MythUnit</unittype>
+		<unittype>MythUnitMelee</unittype>
+		<unittype>MythUnitSiege</unittype>
+		<unittype>AbstractWalkingWoods</unittype>
+		<unittype>CountsTowardMilitaryScore</unittype>
+		<unittype>LogicalTypeValidBoltTarget</unittype>
+		<unittype>LogicalTypeConvertsHerds</unittype>
+		<unittype>LogicalTypeEarthquakeAttack</unittype>
+		<unittype>LogicalTypeAffectedByRestoration</unittype>
+		<unittype>LogicalTypeValidMeteorTarget</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<unittype>LogicalTypeValidShiftingSandsTarget</unittype>
+		<unittype>LogicalTypeMythUnitNotTitan</unittype>
+		<unittype>LogicalTypeValidSpyTarget</unittype>
+		<unittype>LogicalTypeValidFrostTarget</unittype>
+		<unittype>LogicalTypeValidTraitorTarget</unittype>
+		<unittype>LogicalTypeValidShockwaveTarget</unittype>
+		<unittype>LogicalTypeFreezableMythUnit</unittype>
+		<unittype>LogicalTypeMythUnitNotFlying</unittype>
+		<flag>CollidesWithProjectiles</flag>
+		<flag>CorpseDecays</flag>
+		<flag>ShowGarrisonButton</flag>
+		<flag>DontRotateObstruction</flag>
+		<flag>ObscuredByUnits</flag>
+		<flag>CommonCommands</flag>
+		<flag>MilitaryCommands</flag>
+		<flag>NeverCountDeathAsLoss</flag>
+		<flag>CreateUnitGroupAutomatically</flag>
+		<flag>GroupSelection</flag>
+		<tactics>handattack.tactics</tactics>
+		<protoaction>
+			<name>HandAttack</name>
+			<rof>2.000000</rof>
+			<damage type="Hack">13.200000</damage>
+			<damage type="Crush">36.000000</damage>
+			<maxrange>0.500000</maxrange>
+		</protoaction>
+	</unit>
+	<unit name="WalkingWoodsGaia" mergemode="replace">
+		<displaynameid>STR_UNIT_WALKING_WOODS_NAME</displaynameid>
+		<rollovertextid>STR_UNIT_WALKING_WOODS_LR</rollovertextid>
+		<shortrollovertextid>STR_UNIT_WALKING_WOODS_SR</shortrollovertextid>
+		<editornameid>STR_UNIT_WALKING_WOODS_GAIA_EDT_NAME</editornameid>
+		<icon>resources\norse\player_color\units\walking_woods_icon.png</icon>
+		<animfile>norse\units\myth\walking_woods_gaia\walking_woods_gaia.xml</animfile>
+		<soundsetfile>norse\vo\walking_woods\walking_woods.xml</soundsetfile>
+		<obstructionradiusx>0.9900</obstructionradiusx>
+		<obstructionradiusz>0.9900</obstructionradiusz>
+		<selectionradiusx>1.5000</selectionradiusx>
+		<selectionradiusz>1.5000</selectionradiusz>
+		<impacttype>Wood</impacttype>
+		<unitaitype>HandCombative</unitaitype>
+		<autoattackrange>30.0000</autoattackrange>
+		<movementtype>land</movementtype>
+		<turnrate>18.0000</turnrate>
+		<initialhitpoints>280.0000</initialhitpoints>
+		<maxhitpoints>280.0000</maxhitpoints>
+		<weightclass>9</weightclass>
+		<maxvelocity>3.5000</maxvelocity>
+		<los>30.0000</los>
+		<sharedselectionunittypes>
+			<unittype>AbstractWalkingWoods</unittype>
+		</sharedselectionunittypes>
+		<populationcount>1</populationcount>
+		<cost resourcetype="Wood">100.0000</cost>
+		<cost resourcetype="Favor">10.0000</cost>
+		<armor type="Hack" value="0.3000"></armor>
+		<armor type="Pierce" value="0.6000"></armor>
+		<armor type="Crush" value="0.9900"></armor>
+		<culture>Norse</culture>
+		<unittype>LogicalTypeNeededForVictory</unittype>
+		<unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeLandMilitary</unittype>
+		<unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+		<unittype>LogicalTypeGarrisonInShips</unittype>
+		<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeVillagersAttack</unittype>
+		<unittype>LogicalTypeHandUnitsAttack</unittype>
+		<unittype>LogicalTypeRangedUnitsAttack</unittype>
+		<unittype>LogicalTypeMinimapFilterMilitary</unittype>
+		<unittype>LogicalTypeHeroicMythUnit</unittype>
+		<unittype>MilitaryUnit</unittype>
+		<unittype>UnitClass</unittype>
+		<unittype>Unit</unittype>
+		<unittype>MythUnit</unittype>
+		<unittype>MythUnitMelee</unittype>
+		<unittype>MythUnitSiege</unittype>
+		<unittype>AbstractWalkingWoods</unittype>
+		<unittype>CountsTowardMilitaryScore</unittype>
+		<unittype>LogicalTypeValidBoltTarget</unittype>
+		<unittype>LogicalTypeConvertsHerds</unittype>
+		<unittype>LogicalTypeEarthquakeAttack</unittype>
+		<unittype>LogicalTypeAffectedByRestoration</unittype>
+		<unittype>LogicalTypeValidMeteorTarget</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<unittype>LogicalTypeValidShiftingSandsTarget</unittype>
+		<unittype>LogicalTypeMythUnitNotTitan</unittype>
+		<unittype>LogicalTypeValidSpyTarget</unittype>
+		<unittype>LogicalTypeValidFrostTarget</unittype>
+		<unittype>LogicalTypeValidTraitorTarget</unittype>
+		<unittype>LogicalTypeValidShockwaveTarget</unittype>
+		<unittype>LogicalTypeFreezableMythUnit</unittype>
+		<unittype>LogicalTypeMythUnitNotFlying</unittype>
+		<flag>CollidesWithProjectiles</flag>
+		<flag>CorpseDecays</flag>
+		<flag>ShowGarrisonButton</flag>
+		<flag>DontRotateObstruction</flag>
+		<flag>ObscuredByUnits</flag>
+		<flag>CommonCommands</flag>
+		<flag>MilitaryCommands</flag>
+		<flag>NeverCountDeathAsLoss</flag>
+		<flag>CreateUnitGroupAutomatically</flag>
+		<flag>GroupSelection</flag>
+		<tactics>handattack.tactics</tactics>
+		<protoaction>
+			<name>HandAttack</name>
+			<rof>2.000000</rof>
+			<damage type="Hack">13.200000</damage>
+			<damage type="Crush">36.000000</damage>
+			<maxrange>0.500000</maxrange>
+		</protoaction>
+	</unit>
+	<unit name="WalkingWoodsMarsh" mergemode="replace">
+		<displaynameid>STR_UNIT_WALKING_WOODS_NAME</displaynameid>
+		<rollovertextid>STR_UNIT_WALKING_WOODS_LR</rollovertextid>
+		<shortrollovertextid>STR_UNIT_WALKING_WOODS_SR</shortrollovertextid>
+		<editornameid>STR_UNIT_WALKING_WOODS_MARSH_EDT_NAME</editornameid>
+		<icon>resources\norse\player_color\units\walking_woods_icon.png</icon>
+		<animfile>norse\units\myth\walking_woods_marsh\walking_woods_marsh.xml</animfile>
+		<soundsetfile>norse\vo\walking_woods\walking_woods.xml</soundsetfile>
+		<obstructionradiusx>0.9900</obstructionradiusx>
+		<obstructionradiusz>0.9900</obstructionradiusz>
+		<selectionradiusx>1.5000</selectionradiusx>
+		<selectionradiusz>1.5000</selectionradiusz>
+		<impacttype>Wood</impacttype>
+		<unitaitype>HandCombative</unitaitype>
+		<autoattackrange>30.0000</autoattackrange>
+		<movementtype>land</movementtype>
+		<turnrate>18.0000</turnrate>
+		<initialhitpoints>280.0000</initialhitpoints>
+		<maxhitpoints>280.0000</maxhitpoints>
+		<weightclass>9</weightclass>
+		<maxvelocity>3.5000</maxvelocity>
+		<los>30.0000</los>
+		<sharedselectionunittypes>
+			<unittype>AbstractWalkingWoods</unittype>
+		</sharedselectionunittypes>
+		<populationcount>1</populationcount>
+		<cost resourcetype="Wood">100.0000</cost>
+		<cost resourcetype="Favor">10.0000</cost>
+		<armor type="Hack" value="0.3000"></armor>
+		<armor type="Pierce" value="0.6000"></armor>
+		<armor type="Crush" value="0.9900"></armor>
+		<culture>Norse</culture>
+		<unittype>LogicalTypeNeededForVictory</unittype>
+		<unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeLandMilitary</unittype>
+		<unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+		<unittype>LogicalTypeGarrisonInShips</unittype>
+		<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeVillagersAttack</unittype>
+		<unittype>LogicalTypeHandUnitsAttack</unittype>
+		<unittype>LogicalTypeRangedUnitsAttack</unittype>
+		<unittype>LogicalTypeMinimapFilterMilitary</unittype>
+		<unittype>LogicalTypeHeroicMythUnit</unittype>
+		<unittype>MilitaryUnit</unittype>
+		<unittype>UnitClass</unittype>
+		<unittype>Unit</unittype>
+		<unittype>MythUnit</unittype>
+		<unittype>MythUnitMelee</unittype>
+		<unittype>MythUnitSiege</unittype>
+		<unittype>AbstractWalkingWoods</unittype>
+		<unittype>CountsTowardMilitaryScore</unittype>
+		<unittype>LogicalTypeValidBoltTarget</unittype>
+		<unittype>LogicalTypeConvertsHerds</unittype>
+		<unittype>LogicalTypeEarthquakeAttack</unittype>
+		<unittype>LogicalTypeAffectedByRestoration</unittype>
+		<unittype>LogicalTypeValidMeteorTarget</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<unittype>LogicalTypeValidShiftingSandsTarget</unittype>
+		<unittype>LogicalTypeMythUnitNotTitan</unittype>
+		<unittype>LogicalTypeValidSpyTarget</unittype>
+		<unittype>LogicalTypeValidFrostTarget</unittype>
+		<unittype>LogicalTypeValidTraitorTarget</unittype>
+		<unittype>LogicalTypeValidShockwaveTarget</unittype>
+		<unittype>LogicalTypeFreezableMythUnit</unittype>
+		<unittype>LogicalTypeMythUnitNotFlying</unittype>
+		<flag>CollidesWithProjectiles</flag>
+		<flag>CorpseDecays</flag>
+		<flag>ShowGarrisonButton</flag>
+		<flag>DontRotateObstruction</flag>
+		<flag>ObscuredByUnits</flag>
+		<flag>CommonCommands</flag>
+		<flag>MilitaryCommands</flag>
+		<flag>NeverCountDeathAsLoss</flag>
+		<flag>CreateUnitGroupAutomatically</flag>
+		<flag>GroupSelection</flag>
+		<tactics>handattack.tactics</tactics>
+		<protoaction>
+			<name>HandAttack</name>
+			<rof>2.000000</rof>
+			<damage type="Hack">13.200000</damage>
+			<damage type="Crush">36.000000</damage>
+			<maxrange>0.500000</maxrange>
+		</protoaction>
+	</unit>
+	<unit name="WalkingWoodsOak" mergemode="replace">
+		<displaynameid>STR_UNIT_WALKING_WOODS_NAME</displaynameid>
+		<rollovertextid>STR_UNIT_WALKING_WOODS_LR</rollovertextid>
+		<shortrollovertextid>STR_UNIT_WALKING_WOODS_SR</shortrollovertextid>
+		<editornameid>STR_UNIT_WALKING_WOODS_OAK_EDT_NAME</editornameid>
+		<icon>resources\norse\player_color\units\walking_woods_icon.png</icon>
+		<animfile>norse\units\myth\walking_woods_oak\walking_woods_oak.xml</animfile>
+		<soundsetfile>norse\vo\walking_woods\walking_woods.xml</soundsetfile>
+		<obstructionradiusx>0.9900</obstructionradiusx>
+		<obstructionradiusz>0.9900</obstructionradiusz>
+		<selectionradiusx>1.5000</selectionradiusx>
+		<selectionradiusz>1.5000</selectionradiusz>
+		<impacttype>Wood</impacttype>
+		<unitaitype>HandCombative</unitaitype>
+		<autoattackrange>30.0000</autoattackrange>
+		<movementtype>land</movementtype>
+		<turnrate>18.0000</turnrate>
+		<initialhitpoints>280.0000</initialhitpoints>
+		<maxhitpoints>280.0000</maxhitpoints>
+		<weightclass>9</weightclass>
+		<maxvelocity>3.5000</maxvelocity>
+		<los>30.0000</los>
+		<sharedselectionunittypes>
+			<unittype>AbstractWalkingWoods</unittype>
+		</sharedselectionunittypes>
+		<populationcount>1</populationcount>
+		<cost resourcetype="Wood">100.0000</cost>
+		<cost resourcetype="Favor">10.0000</cost>
+		<armor type="Hack" value="0.3000"></armor>
+		<armor type="Pierce" value="0.6000"></armor>
+		<armor type="Crush" value="0.9900"></armor>
+		<culture>Norse</culture>
+		<unittype>LogicalTypeNeededForVictory</unittype>
+		<unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeLandMilitary</unittype>
+		<unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+		<unittype>LogicalTypeGarrisonInShips</unittype>
+		<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeVillagersAttack</unittype>
+		<unittype>LogicalTypeHandUnitsAttack</unittype>
+		<unittype>LogicalTypeRangedUnitsAttack</unittype>
+		<unittype>LogicalTypeMinimapFilterMilitary</unittype>
+		<unittype>LogicalTypeHeroicMythUnit</unittype>
+		<unittype>MilitaryUnit</unittype>
+		<unittype>UnitClass</unittype>
+		<unittype>Unit</unittype>
+		<unittype>MythUnit</unittype>
+		<unittype>MythUnitMelee</unittype>
+		<unittype>MythUnitSiege</unittype>
+		<unittype>AbstractWalkingWoods</unittype>
+		<unittype>CountsTowardMilitaryScore</unittype>
+		<unittype>LogicalTypeValidBoltTarget</unittype>
+		<unittype>LogicalTypeConvertsHerds</unittype>
+		<unittype>LogicalTypeEarthquakeAttack</unittype>
+		<unittype>LogicalTypeAffectedByRestoration</unittype>
+		<unittype>LogicalTypeValidMeteorTarget</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<unittype>LogicalTypeValidShiftingSandsTarget</unittype>
+		<unittype>LogicalTypeMythUnitNotTitan</unittype>
+		<unittype>LogicalTypeValidSpyTarget</unittype>
+		<unittype>LogicalTypeValidFrostTarget</unittype>
+		<unittype>LogicalTypeValidTraitorTarget</unittype>
+		<unittype>LogicalTypeValidShockwaveTarget</unittype>
+		<unittype>LogicalTypeFreezableMythUnit</unittype>
+		<unittype>LogicalTypeMythUnitNotFlying</unittype>
+		<flag>CollidesWithProjectiles</flag>
+		<flag>CorpseDecays</flag>
+		<flag>ShowGarrisonButton</flag>
+		<flag>DontRotateObstruction</flag>
+		<flag>ObscuredByUnits</flag>
+		<flag>CommonCommands</flag>
+		<flag>MilitaryCommands</flag>
+		<flag>NeverCountDeathAsLoss</flag>
+		<flag>CreateUnitGroupAutomatically</flag>
+		<flag>GroupSelection</flag>
+		<tactics>handattack.tactics</tactics>
+		<protoaction>
+			<name>HandAttack</name>
+			<rof>2.000000</rof>
+			<damage type="Hack">13.200000</damage>
+			<damage type="Crush">36.000000</damage>
+			<maxrange>0.500000</maxrange>
+		</protoaction>
+	</unit>
+	<unit name="WalkingWoodsOakAutumn" mergemode="replace">
+		<displaynameid>STR_UNIT_WALKING_WOODS_NAME</displaynameid>
+		<rollovertextid>STR_UNIT_WALKING_WOODS_LR</rollovertextid>
+		<shortrollovertextid>STR_UNIT_WALKING_WOODS_SR</shortrollovertextid>
+		<editornameid>STR_UNIT_WALKING_WOODS_OAK_AUTUMN_EDT_NAME</editornameid>
+		<icon>resources\norse\player_color\units\walking_woods_icon.png</icon>
+		<animfile>norse\units\myth\walking_woods_oak_autumn\walking_woods_oak_autumn.xml</animfile>
+		<soundsetfile>norse\vo\walking_woods\walking_woods.xml</soundsetfile>
+		<obstructionradiusx>0.9900</obstructionradiusx>
+		<obstructionradiusz>0.9900</obstructionradiusz>
+		<selectionradiusx>1.5000</selectionradiusx>
+		<selectionradiusz>1.5000</selectionradiusz>
+		<impacttype>Wood</impacttype>
+		<unitaitype>HandCombative</unitaitype>
+		<autoattackrange>30.0000</autoattackrange>
+		<movementtype>land</movementtype>
+		<turnrate>18.0000</turnrate>
+		<initialhitpoints>280.0000</initialhitpoints>
+		<maxhitpoints>280.0000</maxhitpoints>
+		<weightclass>9</weightclass>
+		<maxvelocity>3.5000</maxvelocity>
+		<los>30.0000</los>
+		<sharedselectionunittypes>
+			<unittype>AbstractWalkingWoods</unittype>
+		</sharedselectionunittypes>
+		<populationcount>1</populationcount>
+		<cost resourcetype="Wood">100.0000</cost>
+		<cost resourcetype="Favor">10.0000</cost>
+		<armor type="Hack" value="0.3000"></armor>
+		<armor type="Pierce" value="0.6000"></armor>
+		<armor type="Crush" value="0.9900"></armor>
+		<culture>Norse</culture>
+		<unittype>LogicalTypeNeededForVictory</unittype>
+		<unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeLandMilitary</unittype>
+		<unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+		<unittype>LogicalTypeGarrisonInShips</unittype>
+		<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeVillagersAttack</unittype>
+		<unittype>LogicalTypeHandUnitsAttack</unittype>
+		<unittype>LogicalTypeRangedUnitsAttack</unittype>
+		<unittype>LogicalTypeMinimapFilterMilitary</unittype>
+		<unittype>LogicalTypeHeroicMythUnit</unittype>
+		<unittype>MilitaryUnit</unittype>
+		<unittype>UnitClass</unittype>
+		<unittype>Unit</unittype>
+		<unittype>MythUnit</unittype>
+		<unittype>MythUnitMelee</unittype>
+		<unittype>MythUnitSiege</unittype>
+		<unittype>AbstractWalkingWoods</unittype>
+		<unittype>CountsTowardMilitaryScore</unittype>
+		<unittype>LogicalTypeValidBoltTarget</unittype>
+		<unittype>LogicalTypeConvertsHerds</unittype>
+		<unittype>LogicalTypeEarthquakeAttack</unittype>
+		<unittype>LogicalTypeAffectedByRestoration</unittype>
+		<unittype>LogicalTypeValidMeteorTarget</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<unittype>LogicalTypeValidShiftingSandsTarget</unittype>
+		<unittype>LogicalTypeMythUnitNotTitan</unittype>
+		<unittype>LogicalTypeValidSpyTarget</unittype>
+		<unittype>LogicalTypeValidFrostTarget</unittype>
+		<unittype>LogicalTypeValidTraitorTarget</unittype>
+		<unittype>LogicalTypeValidShockwaveTarget</unittype>
+		<unittype>LogicalTypeFreezableMythUnit</unittype>
+		<unittype>LogicalTypeMythUnitNotFlying</unittype>
+		<flag>CollidesWithProjectiles</flag>
+		<flag>CorpseDecays</flag>
+		<flag>ShowGarrisonButton</flag>
+		<flag>DontRotateObstruction</flag>
+		<flag>ObscuredByUnits</flag>
+		<flag>CommonCommands</flag>
+		<flag>MilitaryCommands</flag>
+		<flag>NeverCountDeathAsLoss</flag>
+		<flag>CreateUnitGroupAutomatically</flag>
+		<flag>GroupSelection</flag>
+		<tactics>handattack.tactics</tactics>
+		<protoaction>
+			<name>HandAttack</name>
+			<rof>2.000000</rof>
+			<damage type="Hack">13.200000</damage>
+			<damage type="Crush">36.000000</damage>
+			<maxrange>0.500000</maxrange>
+		</protoaction>
+	</unit>
+	<unit name="WalkingWoodsOakRound" mergemode="replace">
+		<displaynameid>STR_UNIT_WALKING_WOODS_NAME</displaynameid>
+		<rollovertextid>STR_UNIT_WALKING_WOODS_LR</rollovertextid>
+		<shortrollovertextid>STR_UNIT_WALKING_WOODS_SR</shortrollovertextid>
+		<editornameid>STR_UNIT_WALKING_WOODS_OAK_ROUND_EDT_NAME</editornameid>
+		<icon>resources\norse\player_color\units\walking_woods_icon.png</icon>
+		<animfile>norse\units\myth\walking_woods_oak_round\walking_woods_oak_round.xml</animfile>
+		<soundsetfile>norse\vo\walking_woods\walking_woods.xml</soundsetfile>
+		<obstructionradiusx>0.9900</obstructionradiusx>
+		<obstructionradiusz>0.9900</obstructionradiusz>
+		<selectionradiusx>1.5000</selectionradiusx>
+		<selectionradiusz>1.5000</selectionradiusz>
+		<impacttype>Wood</impacttype>
+		<unitaitype>HandCombative</unitaitype>
+		<autoattackrange>30.0000</autoattackrange>
+		<movementtype>land</movementtype>
+		<turnrate>18.0000</turnrate>
+		<initialhitpoints>280.0000</initialhitpoints>
+		<maxhitpoints>280.0000</maxhitpoints>
+		<weightclass>9</weightclass>
+		<maxvelocity>3.5000</maxvelocity>
+		<los>30.0000</los>
+		<sharedselectionunittypes>
+			<unittype>AbstractWalkingWoods</unittype>
+		</sharedselectionunittypes>
+		<populationcount>1</populationcount>
+		<cost resourcetype="Wood">100.0000</cost>
+		<cost resourcetype="Favor">10.0000</cost>
+		<armor type="Hack" value="0.3000"></armor>
+		<armor type="Pierce" value="0.6000"></armor>
+		<armor type="Crush" value="0.9900"></armor>
+		<culture>Norse</culture>
+		<unittype>LogicalTypeNeededForVictory</unittype>
+		<unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeLandMilitary</unittype>
+		<unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+		<unittype>LogicalTypeGarrisonInShips</unittype>
+		<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeVillagersAttack</unittype>
+		<unittype>LogicalTypeHandUnitsAttack</unittype>
+		<unittype>LogicalTypeRangedUnitsAttack</unittype>
+		<unittype>LogicalTypeMinimapFilterMilitary</unittype>
+		<unittype>LogicalTypeHeroicMythUnit</unittype>
+		<unittype>MilitaryUnit</unittype>
+		<unittype>UnitClass</unittype>
+		<unittype>Unit</unittype>
+		<unittype>MythUnit</unittype>
+		<unittype>MythUnitMelee</unittype>
+		<unittype>MythUnitSiege</unittype>
+		<unittype>AbstractWalkingWoods</unittype>
+		<unittype>CountsTowardMilitaryScore</unittype>
+		<unittype>LogicalTypeValidBoltTarget</unittype>
+		<unittype>LogicalTypeConvertsHerds</unittype>
+		<unittype>LogicalTypeEarthquakeAttack</unittype>
+		<unittype>LogicalTypeAffectedByRestoration</unittype>
+		<unittype>LogicalTypeValidMeteorTarget</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<unittype>LogicalTypeValidShiftingSandsTarget</unittype>
+		<unittype>LogicalTypeMythUnitNotTitan</unittype>
+		<unittype>LogicalTypeValidSpyTarget</unittype>
+		<unittype>LogicalTypeValidFrostTarget</unittype>
+		<unittype>LogicalTypeValidTraitorTarget</unittype>
+		<unittype>LogicalTypeValidShockwaveTarget</unittype>
+		<unittype>LogicalTypeFreezableMythUnit</unittype>
+		<unittype>LogicalTypeMythUnitNotFlying</unittype>
+		<flag>CollidesWithProjectiles</flag>
+		<flag>CorpseDecays</flag>
+		<flag>ShowGarrisonButton</flag>
+		<flag>DontRotateObstruction</flag>
+		<flag>ObscuredByUnits</flag>
+		<flag>CommonCommands</flag>
+		<flag>MilitaryCommands</flag>
+		<flag>NeverCountDeathAsLoss</flag>
+		<flag>CreateUnitGroupAutomatically</flag>
+		<flag>GroupSelection</flag>
+		<tactics>handattack.tactics</tactics>
+		<protoaction>
+			<name>HandAttack</name>
+			<rof>2.000000</rof>
+			<damage type="Hack">13.200000</damage>
+			<damage type="Crush">36.000000</damage>
+			<maxrange>0.500000</maxrange>
+		</protoaction>
+	</unit>
+	<unit name="WalkingWoodsOlive" mergemode="replace">
+		<displaynameid>STR_UNIT_WALKING_WOODS_NAME</displaynameid>
+		<rollovertextid>STR_UNIT_WALKING_WOODS_LR</rollovertextid>
+		<shortrollovertextid>STR_UNIT_WALKING_WOODS_SR</shortrollovertextid>
+		<editornameid>STR_UNIT_WALKING_WOODS_OLIVE_EDT_NAME</editornameid>
+		<icon>resources\norse\player_color\units\walking_woods_icon.png</icon>
+		<animfile>norse\units\myth\walking_woods_olive\walking_woods_olive.xml</animfile>
+		<soundsetfile>norse\vo\walking_woods\walking_woods.xml</soundsetfile>
+		<obstructionradiusx>0.9900</obstructionradiusx>
+		<obstructionradiusz>0.9900</obstructionradiusz>
+		<selectionradiusx>1.5000</selectionradiusx>
+		<selectionradiusz>1.5000</selectionradiusz>
+		<impacttype>Wood</impacttype>
+		<unitaitype>HandCombative</unitaitype>
+		<autoattackrange>30.0000</autoattackrange>
+		<movementtype>land</movementtype>
+		<turnrate>18.0000</turnrate>
+		<initialhitpoints>280.0000</initialhitpoints>
+		<maxhitpoints>280.0000</maxhitpoints>
+		<weightclass>9</weightclass>
+		<maxvelocity>3.5000</maxvelocity>
+		<los>30.0000</los>
+		<sharedselectionunittypes>
+			<unittype>AbstractWalkingWoods</unittype>
+		</sharedselectionunittypes>
+		<populationcount>1</populationcount>
+		<cost resourcetype="Wood">100.0000</cost>
+		<cost resourcetype="Favor">10.0000</cost>
+		<armor type="Hack" value="0.3000"></armor>
+		<armor type="Pierce" value="0.6000"></armor>
+		<armor type="Crush" value="0.9900"></armor>
+		<culture>Norse</culture>
+		<unittype>LogicalTypeNeededForVictory</unittype>
+		<unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeLandMilitary</unittype>
+		<unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+		<unittype>LogicalTypeGarrisonInShips</unittype>
+		<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeVillagersAttack</unittype>
+		<unittype>LogicalTypeHandUnitsAttack</unittype>
+		<unittype>LogicalTypeRangedUnitsAttack</unittype>
+		<unittype>LogicalTypeMinimapFilterMilitary</unittype>
+		<unittype>LogicalTypeHeroicMythUnit</unittype>
+		<unittype>MilitaryUnit</unittype>
+		<unittype>UnitClass</unittype>
+		<unittype>Unit</unittype>
+		<unittype>MythUnit</unittype>
+		<unittype>MythUnitMelee</unittype>
+		<unittype>MythUnitSiege</unittype>
+		<unittype>AbstractWalkingWoods</unittype>
+		<unittype>CountsTowardMilitaryScore</unittype>
+		<unittype>LogicalTypeValidBoltTarget</unittype>
+		<unittype>LogicalTypeConvertsHerds</unittype>
+		<unittype>LogicalTypeEarthquakeAttack</unittype>
+		<unittype>LogicalTypeAffectedByRestoration</unittype>
+		<unittype>LogicalTypeValidMeteorTarget</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<unittype>LogicalTypeValidShiftingSandsTarget</unittype>
+		<unittype>LogicalTypeMythUnitNotTitan</unittype>
+		<unittype>LogicalTypeValidSpyTarget</unittype>
+		<unittype>LogicalTypeValidFrostTarget</unittype>
+		<unittype>LogicalTypeValidTraitorTarget</unittype>
+		<unittype>LogicalTypeValidShockwaveTarget</unittype>
+		<unittype>LogicalTypeFreezableMythUnit</unittype>
+		<unittype>LogicalTypeMythUnitNotFlying</unittype>
+		<flag>CollidesWithProjectiles</flag>
+		<flag>CorpseDecays</flag>
+		<flag>ShowGarrisonButton</flag>
+		<flag>DontRotateObstruction</flag>
+		<flag>ObscuredByUnits</flag>
+		<flag>CommonCommands</flag>
+		<flag>MilitaryCommands</flag>
+		<flag>NeverCountDeathAsLoss</flag>
+		<flag>CreateUnitGroupAutomatically</flag>
+		<flag>GroupSelection</flag>
+		<tactics>handattack.tactics</tactics>
+		<protoaction>
+			<name>HandAttack</name>
+			<rof>2.000000</rof>
+			<damage type="Hack">13.200000</damage>
+			<damage type="Crush">36.000000</damage>
+			<maxrange>0.500000</maxrange>
+		</protoaction>
+	</unit>
+	<unit name="WalkingWoodsPalm" mergemode="replace">
+		<displaynameid>STR_UNIT_WALKING_WOODS_NAME</displaynameid>
+		<rollovertextid>STR_UNIT_WALKING_WOODS_LR</rollovertextid>
+		<shortrollovertextid>STR_UNIT_WALKING_WOODS_SR</shortrollovertextid>
+		<editornameid>STR_UNIT_WALKING_WOODS_PALM_EDT_NAME</editornameid>
+		<icon>resources\norse\player_color\units\walking_woods_icon.png</icon>
+		<animfile>norse\units\myth\walking_woods_palm\walking_woods_palm.xml</animfile>
+		<soundsetfile>norse\vo\walking_woods\walking_woods.xml</soundsetfile>
+		<obstructionradiusx>0.9900</obstructionradiusx>
+		<obstructionradiusz>0.9900</obstructionradiusz>
+		<selectionradiusx>1.5000</selectionradiusx>
+		<selectionradiusz>1.5000</selectionradiusz>
+		<impacttype>Wood</impacttype>
+		<unitaitype>HandCombative</unitaitype>
+		<autoattackrange>30.0000</autoattackrange>
+		<movementtype>land</movementtype>
+		<turnrate>18.0000</turnrate>
+		<initialhitpoints>280.0000</initialhitpoints>
+		<maxhitpoints>280.0000</maxhitpoints>
+		<weightclass>9</weightclass>
+		<maxvelocity>3.5000</maxvelocity>
+		<los>30.0000</los>
+		<sharedselectionunittypes>
+			<unittype>AbstractWalkingWoods</unittype>
+		</sharedselectionunittypes>
+		<populationcount>1</populationcount>
+		<cost resourcetype="Wood">100.0000</cost>
+		<cost resourcetype="Favor">10.0000</cost>
+		<armor type="Hack" value="0.3000"></armor>
+		<armor type="Pierce" value="0.6000"></armor>
+		<armor type="Crush" value="0.9900"></armor>
+		<culture>Norse</culture>
+		<unittype>LogicalTypeNeededForVictory</unittype>
+		<unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeLandMilitary</unittype>
+		<unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+		<unittype>LogicalTypeGarrisonInShips</unittype>
+		<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeVillagersAttack</unittype>
+		<unittype>LogicalTypeHandUnitsAttack</unittype>
+		<unittype>LogicalTypeRangedUnitsAttack</unittype>
+		<unittype>LogicalTypeMinimapFilterMilitary</unittype>
+		<unittype>LogicalTypeHeroicMythUnit</unittype>
+		<unittype>MilitaryUnit</unittype>
+		<unittype>UnitClass</unittype>
+		<unittype>Unit</unittype>
+		<unittype>MythUnit</unittype>
+		<unittype>MythUnitMelee</unittype>
+		<unittype>MythUnitSiege</unittype>
+		<unittype>AbstractWalkingWoods</unittype>
+		<unittype>CountsTowardMilitaryScore</unittype>
+		<unittype>LogicalTypeValidBoltTarget</unittype>
+		<unittype>LogicalTypeConvertsHerds</unittype>
+		<unittype>LogicalTypeEarthquakeAttack</unittype>
+		<unittype>LogicalTypeAffectedByRestoration</unittype>
+		<unittype>LogicalTypeValidMeteorTarget</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<unittype>LogicalTypeValidShiftingSandsTarget</unittype>
+		<unittype>LogicalTypeMythUnitNotTitan</unittype>
+		<unittype>LogicalTypeValidSpyTarget</unittype>
+		<unittype>LogicalTypeValidFrostTarget</unittype>
+		<unittype>LogicalTypeValidTraitorTarget</unittype>
+		<unittype>LogicalTypeValidShockwaveTarget</unittype>
+		<unittype>LogicalTypeFreezableMythUnit</unittype>
+		<unittype>LogicalTypeMythUnitNotFlying</unittype>
+		<flag>CollidesWithProjectiles</flag>
+		<flag>CorpseDecays</flag>
+		<flag>ShowGarrisonButton</flag>
+		<flag>DontRotateObstruction</flag>
+		<flag>ObscuredByUnits</flag>
+		<flag>CommonCommands</flag>
+		<flag>MilitaryCommands</flag>
+		<flag>NeverCountDeathAsLoss</flag>
+		<flag>CreateUnitGroupAutomatically</flag>
+		<flag>GroupSelection</flag>
+		<tactics>handattack.tactics</tactics>
+		<protoaction>
+			<name>HandAttack</name>
+			<rof>2.000000</rof>
+			<damage type="Hack">13.200000</damage>
+			<damage type="Crush">36.000000</damage>
+			<maxrange>0.500000</maxrange>
+		</protoaction>
+	</unit>
+	<unit name="WalkingWoodsPine" mergemode="replace">
+		<displaynameid>STR_UNIT_WALKING_WOODS_NAME</displaynameid>
+		<rollovertextid>STR_UNIT_WALKING_WOODS_LR</rollovertextid>
+		<shortrollovertextid>STR_UNIT_WALKING_WOODS_SR</shortrollovertextid>
+		<editornameid>STR_UNIT_WALKING_WOODS_PINE_EDT_NAME</editornameid>
+		<icon>resources\norse\player_color\units\walking_woods_icon.png</icon>
+		<animfile>norse\units\myth\walking_woods_pine\walking_woods_pine.xml</animfile>
+		<soundsetfile>norse\vo\walking_woods\walking_woods.xml</soundsetfile>
+		<obstructionradiusx>0.9900</obstructionradiusx>
+		<obstructionradiusz>0.9900</obstructionradiusz>
+		<selectionradiusx>1.5000</selectionradiusx>
+		<selectionradiusz>1.5000</selectionradiusz>
+		<impacttype>Wood</impacttype>
+		<unitaitype>HandCombative</unitaitype>
+		<autoattackrange>30.0000</autoattackrange>
+		<movementtype>land</movementtype>
+		<turnrate>18.0000</turnrate>
+		<initialhitpoints>280.0000</initialhitpoints>
+		<maxhitpoints>280.0000</maxhitpoints>
+		<weightclass>9</weightclass>
+		<maxvelocity>3.5000</maxvelocity>
+		<los>30.0000</los>
+		<sharedselectionunittypes>
+			<unittype>AbstractWalkingWoods</unittype>
+		</sharedselectionunittypes>
+		<populationcount>1</populationcount>
+		<cost resourcetype="Wood">100.0000</cost>
+		<cost resourcetype="Favor">10.0000</cost>
+		<armor type="Hack" value="0.3000"></armor>
+		<armor type="Pierce" value="0.6000"></armor>
+		<armor type="Crush" value="0.9900"></armor>
+		<culture>Norse</culture>
+		<unittype>LogicalTypeNeededForVictory</unittype>
+		<unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeLandMilitary</unittype>
+		<unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+		<unittype>LogicalTypeGarrisonInShips</unittype>
+		<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeVillagersAttack</unittype>
+		<unittype>LogicalTypeHandUnitsAttack</unittype>
+		<unittype>LogicalTypeRangedUnitsAttack</unittype>
+		<unittype>LogicalTypeMinimapFilterMilitary</unittype>
+		<unittype>LogicalTypeHeroicMythUnit</unittype>
+		<unittype>MilitaryUnit</unittype>
+		<unittype>UnitClass</unittype>
+		<unittype>Unit</unittype>
+		<unittype>MythUnit</unittype>
+		<unittype>MythUnitMelee</unittype>
+		<unittype>MythUnitSiege</unittype>
+		<unittype>AbstractWalkingWoods</unittype>
+		<unittype>CountsTowardMilitaryScore</unittype>
+		<unittype>LogicalTypeValidBoltTarget</unittype>
+		<unittype>LogicalTypeConvertsHerds</unittype>
+		<unittype>LogicalTypeEarthquakeAttack</unittype>
+		<unittype>LogicalTypeAffectedByRestoration</unittype>
+		<unittype>LogicalTypeValidMeteorTarget</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<unittype>LogicalTypeValidShiftingSandsTarget</unittype>
+		<unittype>LogicalTypeMythUnitNotTitan</unittype>
+		<unittype>LogicalTypeValidSpyTarget</unittype>
+		<unittype>LogicalTypeValidFrostTarget</unittype>
+		<unittype>LogicalTypeValidTraitorTarget</unittype>
+		<unittype>LogicalTypeValidShockwaveTarget</unittype>
+		<unittype>LogicalTypeFreezableMythUnit</unittype>
+		<unittype>LogicalTypeMythUnitNotFlying</unittype>
+		<flag>CollidesWithProjectiles</flag>
+		<flag>CorpseDecays</flag>
+		<flag>ShowGarrisonButton</flag>
+		<flag>DontRotateObstruction</flag>
+		<flag>ObscuredByUnits</flag>
+		<flag>CommonCommands</flag>
+		<flag>MilitaryCommands</flag>
+		<flag>NeverCountDeathAsLoss</flag>
+		<flag>CreateUnitGroupAutomatically</flag>
+		<flag>GroupSelection</flag>
+		<tactics>handattack.tactics</tactics>
+		<protoaction>
+			<name>HandAttack</name>
+			<rof>2.000000</rof>
+			<damage type="Hack">13.200000</damage>
+			<damage type="Crush">36.000000</damage>
+			<maxrange>0.500000</maxrange>
+		</protoaction>
+	</unit>
+	<unit name="WalkingWoodsPineSnow" mergemode="replace">
+		<displaynameid>STR_UNIT_WALKING_WOODS_NAME</displaynameid>
+		<rollovertextid>STR_UNIT_WALKING_WOODS_LR</rollovertextid>
+		<shortrollovertextid>STR_UNIT_WALKING_WOODS_SR</shortrollovertextid>
+		<editornameid>STR_UNIT_WALKING_WOODS_PINE_SNOW_EDT_NAME</editornameid>
+		<icon>resources\norse\player_color\units\walking_woods_icon.png</icon>
+		<animfile>norse\units\myth\walking_woods_pine_snow\walking_woods_pine_snow.xml</animfile>
+		<soundsetfile>norse\vo\walking_woods\walking_woods.xml</soundsetfile>
+		<obstructionradiusx>0.9900</obstructionradiusx>
+		<obstructionradiusz>0.9900</obstructionradiusz>
+		<selectionradiusx>1.5000</selectionradiusx>
+		<selectionradiusz>1.5000</selectionradiusz>
+		<impacttype>Wood</impacttype>
+		<unitaitype>HandCombative</unitaitype>
+		<autoattackrange>30.0000</autoattackrange>
+		<movementtype>land</movementtype>
+		<turnrate>18.0000</turnrate>
+		<initialhitpoints>280.0000</initialhitpoints>
+		<maxhitpoints>280.0000</maxhitpoints>
+		<weightclass>9</weightclass>
+		<maxvelocity>3.5000</maxvelocity>
+		<los>30.0000</los>
+		<sharedselectionunittypes>
+			<unittype>AbstractWalkingWoods</unittype>
+		</sharedselectionunittypes>
+		<populationcount>1</populationcount>
+		<cost resourcetype="Wood">100.0000</cost>
+		<cost resourcetype="Favor">10.0000</cost>
+		<armor type="Hack" value="0.3000"></armor>
+		<armor type="Pierce" value="0.6000"></armor>
+		<armor type="Crush" value="0.9900"></armor>
+		<culture>Norse</culture>
+		<unittype>LogicalTypeNeededForVictory</unittype>
+		<unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeLandMilitary</unittype>
+		<unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+		<unittype>LogicalTypeGarrisonInShips</unittype>
+		<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeVillagersAttack</unittype>
+		<unittype>LogicalTypeHandUnitsAttack</unittype>
+		<unittype>LogicalTypeRangedUnitsAttack</unittype>
+		<unittype>LogicalTypeMinimapFilterMilitary</unittype>
+		<unittype>LogicalTypeHeroicMythUnit</unittype>
+		<unittype>MilitaryUnit</unittype>
+		<unittype>UnitClass</unittype>
+		<unittype>Unit</unittype>
+		<unittype>MythUnit</unittype>
+		<unittype>MythUnitMelee</unittype>
+		<unittype>MythUnitSiege</unittype>
+		<unittype>AbstractWalkingWoods</unittype>
+		<unittype>CountsTowardMilitaryScore</unittype>
+		<unittype>LogicalTypeValidBoltTarget</unittype>
+		<unittype>LogicalTypeConvertsHerds</unittype>
+		<unittype>LogicalTypeEarthquakeAttack</unittype>
+		<unittype>LogicalTypeAffectedByRestoration</unittype>
+		<unittype>LogicalTypeValidMeteorTarget</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<unittype>LogicalTypeValidShiftingSandsTarget</unittype>
+		<unittype>LogicalTypeMythUnitNotTitan</unittype>
+		<unittype>LogicalTypeValidSpyTarget</unittype>
+		<unittype>LogicalTypeValidFrostTarget</unittype>
+		<unittype>LogicalTypeValidTraitorTarget</unittype>
+		<unittype>LogicalTypeValidShockwaveTarget</unittype>
+		<unittype>LogicalTypeFreezableMythUnit</unittype>
+		<unittype>LogicalTypeMythUnitNotFlying</unittype>
+		<flag>CollidesWithProjectiles</flag>
+		<flag>CorpseDecays</flag>
+		<flag>ShowGarrisonButton</flag>
+		<flag>DontRotateObstruction</flag>
+		<flag>ObscuredByUnits</flag>
+		<flag>CommonCommands</flag>
+		<flag>MilitaryCommands</flag>
+		<flag>NeverCountDeathAsLoss</flag>
+		<flag>CreateUnitGroupAutomatically</flag>
+		<flag>GroupSelection</flag>
+		<tactics>handattack.tactics</tactics>
+		<protoaction>
+			<name>HandAttack</name>
+			<rof>2.000000</rof>
+			<damage type="Hack">13.200000</damage>
+			<damage type="Crush">36.000000</damage>
+			<maxrange>0.500000</maxrange>
+		</protoaction>
+	</unit>
+	<unit name="WalkingWoodsPineDead" mergemode="replace">
+		<displaynameid>STR_UNIT_WALKING_WOODS_NAME</displaynameid>
+		<rollovertextid>STR_UNIT_WALKING_WOODS_LR</rollovertextid>
+		<shortrollovertextid>STR_UNIT_WALKING_WOODS_SR</shortrollovertextid>
+		<editornameid>STR_UNIT_WALKING_WOODS_PINE_DEAD_EDT_NAME</editornameid>
+		<icon>resources\norse\player_color\units\walking_woods_icon.png</icon>
+		<animfile>norse\units\myth\walking_woods_pine_dead\walking_woods_pine_dead.xml</animfile>
+		<soundsetfile>norse\vo\walking_woods\walking_woods.xml</soundsetfile>
+		<obstructionradiusx>0.9900</obstructionradiusx>
+		<obstructionradiusz>0.9900</obstructionradiusz>
+		<selectionradiusx>1.5000</selectionradiusx>
+		<selectionradiusz>1.5000</selectionradiusz>
+		<impacttype>Wood</impacttype>
+		<unitaitype>HandCombative</unitaitype>
+		<autoattackrange>30.0000</autoattackrange>
+		<movementtype>land</movementtype>
+		<turnrate>18.0000</turnrate>
+		<initialhitpoints>280.0000</initialhitpoints>
+		<maxhitpoints>280.0000</maxhitpoints>
+		<weightclass>9</weightclass>
+		<maxvelocity>3.5000</maxvelocity>
+		<los>30.0000</los>
+		<sharedselectionunittypes>
+			<unittype>AbstractWalkingWoods</unittype>
+		</sharedselectionunittypes>
+		<populationcount>1</populationcount>
+		<cost resourcetype="Wood">100.0000</cost>
+		<cost resourcetype="Favor">10.0000</cost>
+		<armor type="Hack" value="0.3000"></armor>
+		<armor type="Pierce" value="0.6000"></armor>
+		<armor type="Crush" value="0.9900"></armor>
+		<culture>Norse</culture>
+		<unittype>LogicalTypeNeededForVictory</unittype>
+		<unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeLandMilitary</unittype>
+		<unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+		<unittype>LogicalTypeGarrisonInShips</unittype>
+		<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeVillagersAttack</unittype>
+		<unittype>LogicalTypeHandUnitsAttack</unittype>
+		<unittype>LogicalTypeRangedUnitsAttack</unittype>
+		<unittype>LogicalTypeMinimapFilterMilitary</unittype>
+		<unittype>LogicalTypeHeroicMythUnit</unittype>
+		<unittype>MilitaryUnit</unittype>
+		<unittype>UnitClass</unittype>
+		<unittype>Unit</unittype>
+		<unittype>MythUnit</unittype>
+		<unittype>MythUnitMelee</unittype>
+		<unittype>MythUnitSiege</unittype>
+		<unittype>AbstractWalkingWoods</unittype>
+		<unittype>CountsTowardMilitaryScore</unittype>
+		<unittype>LogicalTypeValidBoltTarget</unittype>
+		<unittype>LogicalTypeConvertsHerds</unittype>
+		<unittype>LogicalTypeEarthquakeAttack</unittype>
+		<unittype>LogicalTypeAffectedByRestoration</unittype>
+		<unittype>LogicalTypeValidMeteorTarget</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<unittype>LogicalTypeValidShiftingSandsTarget</unittype>
+		<unittype>LogicalTypeMythUnitNotTitan</unittype>
+		<unittype>LogicalTypeValidSpyTarget</unittype>
+		<unittype>LogicalTypeValidFrostTarget</unittype>
+		<unittype>LogicalTypeValidTraitorTarget</unittype>
+		<unittype>LogicalTypeValidShockwaveTarget</unittype>
+		<unittype>LogicalTypeFreezableMythUnit</unittype>
+		<unittype>LogicalTypeMythUnitNotFlying</unittype>
+		<flag>CollidesWithProjectiles</flag>
+		<flag>CorpseDecays</flag>
+		<flag>ShowGarrisonButton</flag>
+		<flag>DontRotateObstruction</flag>
+		<flag>ObscuredByUnits</flag>
+		<flag>CommonCommands</flag>
+		<flag>MilitaryCommands</flag>
+		<flag>NeverCountDeathAsLoss</flag>
+		<flag>CreateUnitGroupAutomatically</flag>
+		<flag>GroupSelection</flag>
+		<tactics>handattack.tactics</tactics>
+		<protoaction>
+			<name>HandAttack</name>
+			<rof>2.000000</rof>
+			<damage type="Hack">13.200000</damage>
+			<damage type="Crush">36.000000</damage>
+			<maxrange>0.500000</maxrange>
+		</protoaction>
+	</unit>
+	<unit name="WalkingWoodsSavannah" mergemode="replace">
+		<displaynameid>STR_UNIT_WALKING_WOODS_NAME</displaynameid>
+		<rollovertextid>STR_UNIT_WALKING_WOODS_LR</rollovertextid>
+		<shortrollovertextid>STR_UNIT_WALKING_WOODS_SR</shortrollovertextid>
+		<editornameid>STR_UNIT_WALKING_WOODS_SAVANNAH_EDT_NAME</editornameid>
+		<icon>resources\norse\player_color\units\walking_woods_icon.png</icon>
+		<animfile>norse\units\myth\walking_woods_savannah\walking_woods_savannah.xml</animfile>
+		<soundsetfile>norse\vo\walking_woods\walking_woods.xml</soundsetfile>
+		<obstructionradiusx>0.9900</obstructionradiusx>
+		<obstructionradiusz>0.9900</obstructionradiusz>
+		<selectionradiusx>1.5000</selectionradiusx>
+		<selectionradiusz>1.5000</selectionradiusz>
+		<impacttype>Wood</impacttype>
+		<unitaitype>HandCombative</unitaitype>
+		<autoattackrange>30.0000</autoattackrange>
+		<movementtype>land</movementtype>
+		<turnrate>18.0000</turnrate>
+		<initialhitpoints>280.0000</initialhitpoints>
+		<maxhitpoints>280.0000</maxhitpoints>
+		<weightclass>9</weightclass>
+		<maxvelocity>3.5000</maxvelocity>
+		<los>30.0000</los>
+		<sharedselectionunittypes>
+			<unittype>AbstractWalkingWoods</unittype>
+		</sharedselectionunittypes>
+		<populationcount>1</populationcount>
+		<cost resourcetype="Wood">100.0000</cost>
+		<cost resourcetype="Favor">10.0000</cost>
+		<armor type="Hack" value="0.3000"></armor>
+		<armor type="Pierce" value="0.6000"></armor>
+		<armor type="Crush" value="0.9900"></armor>
+		<culture>Norse</culture>
+		<unittype>LogicalTypeNeededForVictory</unittype>
+		<unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeLandMilitary</unittype>
+		<unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+		<unittype>LogicalTypeGarrisonInShips</unittype>
+		<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeVillagersAttack</unittype>
+		<unittype>LogicalTypeHandUnitsAttack</unittype>
+		<unittype>LogicalTypeRangedUnitsAttack</unittype>
+		<unittype>LogicalTypeMinimapFilterMilitary</unittype>
+		<unittype>LogicalTypeHeroicMythUnit</unittype>
+		<unittype>MilitaryUnit</unittype>
+		<unittype>UnitClass</unittype>
+		<unittype>Unit</unittype>
+		<unittype>MythUnit</unittype>
+		<unittype>MythUnitMelee</unittype>
+		<unittype>MythUnitSiege</unittype>
+		<unittype>AbstractWalkingWoods</unittype>
+		<unittype>CountsTowardMilitaryScore</unittype>
+		<unittype>LogicalTypeValidBoltTarget</unittype>
+		<unittype>LogicalTypeConvertsHerds</unittype>
+		<unittype>LogicalTypeEarthquakeAttack</unittype>
+		<unittype>LogicalTypeAffectedByRestoration</unittype>
+		<unittype>LogicalTypeValidMeteorTarget</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<unittype>LogicalTypeValidShiftingSandsTarget</unittype>
+		<unittype>LogicalTypeMythUnitNotTitan</unittype>
+		<unittype>LogicalTypeValidSpyTarget</unittype>
+		<unittype>LogicalTypeValidFrostTarget</unittype>
+		<unittype>LogicalTypeValidTraitorTarget</unittype>
+		<unittype>LogicalTypeValidShockwaveTarget</unittype>
+		<unittype>LogicalTypeFreezableMythUnit</unittype>
+		<unittype>LogicalTypeMythUnitNotFlying</unittype>
+		<flag>CollidesWithProjectiles</flag>
+		<flag>CorpseDecays</flag>
+		<flag>ShowGarrisonButton</flag>
+		<flag>DontRotateObstruction</flag>
+		<flag>ObscuredByUnits</flag>
+		<flag>CommonCommands</flag>
+		<flag>MilitaryCommands</flag>
+		<flag>NeverCountDeathAsLoss</flag>
+		<flag>CreateUnitGroupAutomatically</flag>
+		<flag>GroupSelection</flag>
+		<tactics>handattack.tactics</tactics>
+		<protoaction>
+			<name>HandAttack</name>
+			<rof>2.000000</rof>
+			<damage type="Hack">13.200000</damage>
+			<damage type="Crush">36.000000</damage>
+			<maxrange>0.500000</maxrange>
+		</protoaction>
+	</unit>
+	<unit name="WalkingWoodsSavannahOld" mergemode="replace">
+		<displaynameid>STR_UNIT_WALKING_WOODS_NAME</displaynameid>
+		<rollovertextid>STR_UNIT_WALKING_WOODS_LR</rollovertextid>
+		<shortrollovertextid>STR_UNIT_WALKING_WOODS_SR</shortrollovertextid>
+		<editornameid>STR_UNIT_WALKING_WOODS_SAVANNAH_OLD_EDT_NAME</editornameid>
+		<icon>resources\norse\player_color\units\walking_woods_icon.png</icon>
+		<animfile>norse\units\myth\walking_woods_savannah_old\walking_woods_savannah_old.xml</animfile>
+		<soundsetfile>norse\vo\walking_woods\walking_woods.xml</soundsetfile>
+		<obstructionradiusx>0.9900</obstructionradiusx>
+		<obstructionradiusz>0.9900</obstructionradiusz>
+		<selectionradiusx>1.5000</selectionradiusx>
+		<selectionradiusz>1.5000</selectionradiusz>
+		<impacttype>Wood</impacttype>
+		<unitaitype>HandCombative</unitaitype>
+		<autoattackrange>30.0000</autoattackrange>
+		<movementtype>land</movementtype>
+		<turnrate>18.0000</turnrate>
+		<initialhitpoints>280.0000</initialhitpoints>
+		<maxhitpoints>280.0000</maxhitpoints>
+		<weightclass>9</weightclass>
+		<maxvelocity>3.5000</maxvelocity>
+		<los>30.0000</los>
+		<sharedselectionunittypes>
+			<unittype>AbstractWalkingWoods</unittype>
+		</sharedselectionunittypes>
+		<populationcount>1</populationcount>
+		<cost resourcetype="Wood">100.0000</cost>
+		<cost resourcetype="Favor">10.0000</cost>
+		<armor type="Hack" value="0.3000"></armor>
+		<armor type="Pierce" value="0.6000"></armor>
+		<armor type="Crush" value="0.9900"></armor>
+		<culture>Norse</culture>
+		<unittype>LogicalTypeNeededForVictory</unittype>
+		<unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeLandMilitary</unittype>
+		<unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+		<unittype>LogicalTypeGarrisonInShips</unittype>
+		<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeVillagersAttack</unittype>
+		<unittype>LogicalTypeHandUnitsAttack</unittype>
+		<unittype>LogicalTypeRangedUnitsAttack</unittype>
+		<unittype>LogicalTypeMinimapFilterMilitary</unittype>
+		<unittype>LogicalTypeHeroicMythUnit</unittype>
+		<unittype>MilitaryUnit</unittype>
+		<unittype>UnitClass</unittype>
+		<unittype>Unit</unittype>
+		<unittype>MythUnit</unittype>
+		<unittype>MythUnitMelee</unittype>
+		<unittype>MythUnitSiege</unittype>
+		<unittype>AbstractWalkingWoods</unittype>
+		<unittype>CountsTowardMilitaryScore</unittype>
+		<unittype>LogicalTypeValidBoltTarget</unittype>
+		<unittype>LogicalTypeConvertsHerds</unittype>
+		<unittype>LogicalTypeEarthquakeAttack</unittype>
+		<unittype>LogicalTypeAffectedByRestoration</unittype>
+		<unittype>LogicalTypeValidMeteorTarget</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<unittype>LogicalTypeValidShiftingSandsTarget</unittype>
+		<unittype>LogicalTypeMythUnitNotTitan</unittype>
+		<unittype>LogicalTypeValidSpyTarget</unittype>
+		<unittype>LogicalTypeValidFrostTarget</unittype>
+		<unittype>LogicalTypeValidTraitorTarget</unittype>
+		<unittype>LogicalTypeValidShockwaveTarget</unittype>
+		<unittype>LogicalTypeFreezableMythUnit</unittype>
+		<unittype>LogicalTypeMythUnitNotFlying</unittype>
+		<flag>CollidesWithProjectiles</flag>
+		<flag>CorpseDecays</flag>
+		<flag>ShowGarrisonButton</flag>
+		<flag>DontRotateObstruction</flag>
+		<flag>ObscuredByUnits</flag>
+		<flag>CommonCommands</flag>
+		<flag>MilitaryCommands</flag>
+		<flag>NeverCountDeathAsLoss</flag>
+		<flag>CreateUnitGroupAutomatically</flag>
+		<flag>GroupSelection</flag>
+		<tactics>handattack.tactics</tactics>
+		<protoaction>
+			<name>HandAttack</name>
+			<rof>2.000000</rof>
+			<damage type="Hack">13.200000</damage>
+			<damage type="Crush">36.000000</damage>
+			<maxrange>0.500000</maxrange>
+		</protoaction>
+	</unit>
+	<unit name="WalkingWoodsTundra" mergemode="replace">
+		<displaynameid>STR_UNIT_WALKING_WOODS_NAME</displaynameid>
+		<rollovertextid>STR_UNIT_WALKING_WOODS_LR</rollovertextid>
+		<shortrollovertextid>STR_UNIT_WALKING_WOODS_SR</shortrollovertextid>
+		<editornameid>STR_UNIT_WALKING_WOODS_TUNDRA_EDT_NAME</editornameid>
+		<icon>resources\norse\player_color\units\walking_woods_icon.png</icon>
+		<animfile>norse\units\myth\walking_woods_tundra\walking_woods_tundra.xml</animfile>
+		<soundsetfile>norse\vo\walking_woods\walking_woods.xml</soundsetfile>
+		<obstructionradiusx>0.9900</obstructionradiusx>
+		<obstructionradiusz>0.9900</obstructionradiusz>
+		<selectionradiusx>1.5000</selectionradiusx>
+		<selectionradiusz>1.5000</selectionradiusz>
+		<impacttype>Wood</impacttype>
+		<unitaitype>HandCombative</unitaitype>
+		<autoattackrange>30.0000</autoattackrange>
+		<movementtype>land</movementtype>
+		<turnrate>18.0000</turnrate>
+		<initialhitpoints>280.0000</initialhitpoints>
+		<maxhitpoints>280.0000</maxhitpoints>
+		<weightclass>9</weightclass>
+		<maxvelocity>3.5000</maxvelocity>
+		<los>30.0000</los>
+		<sharedselectionunittypes>
+			<unittype>AbstractWalkingWoods</unittype>
+		</sharedselectionunittypes>
+		<populationcount>1</populationcount>
+		<cost resourcetype="Wood">100.0000</cost>
+		<cost resourcetype="Favor">10.0000</cost>
+		<armor type="Hack" value="0.3000"></armor>
+		<armor type="Pierce" value="0.6000"></armor>
+		<armor type="Crush" value="0.9900"></armor>
+		<culture>Norse</culture>
+		<unittype>LogicalTypeNeededForVictory</unittype>
+		<unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeLandMilitary</unittype>
+		<unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+		<unittype>LogicalTypeGarrisonInShips</unittype>
+		<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeVillagersAttack</unittype>
+		<unittype>LogicalTypeHandUnitsAttack</unittype>
+		<unittype>LogicalTypeRangedUnitsAttack</unittype>
+		<unittype>LogicalTypeMinimapFilterMilitary</unittype>
+		<unittype>LogicalTypeHeroicMythUnit</unittype>
+		<unittype>MilitaryUnit</unittype>
+		<unittype>UnitClass</unittype>
+		<unittype>Unit</unittype>
+		<unittype>MythUnit</unittype>
+		<unittype>MythUnitMelee</unittype>
+		<unittype>MythUnitSiege</unittype>
+		<unittype>AbstractWalkingWoods</unittype>
+		<unittype>CountsTowardMilitaryScore</unittype>
+		<unittype>LogicalTypeValidBoltTarget</unittype>
+		<unittype>LogicalTypeConvertsHerds</unittype>
+		<unittype>LogicalTypeEarthquakeAttack</unittype>
+		<unittype>LogicalTypeAffectedByRestoration</unittype>
+		<unittype>LogicalTypeValidMeteorTarget</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<unittype>LogicalTypeValidShiftingSandsTarget</unittype>
+		<unittype>LogicalTypeMythUnitNotTitan</unittype>
+		<unittype>LogicalTypeValidSpyTarget</unittype>
+		<unittype>LogicalTypeValidFrostTarget</unittype>
+		<unittype>LogicalTypeValidTraitorTarget</unittype>
+		<unittype>LogicalTypeValidShockwaveTarget</unittype>
+		<unittype>LogicalTypeFreezableMythUnit</unittype>
+		<unittype>LogicalTypeMythUnitNotFlying</unittype>
+		<flag>CollidesWithProjectiles</flag>
+		<flag>CorpseDecays</flag>
+		<flag>ShowGarrisonButton</flag>
+		<flag>DontRotateObstruction</flag>
+		<flag>ObscuredByUnits</flag>
+		<flag>CommonCommands</flag>
+		<flag>MilitaryCommands</flag>
+		<flag>NeverCountDeathAsLoss</flag>
+		<flag>CreateUnitGroupAutomatically</flag>
+		<flag>GroupSelection</flag>
+		<tactics>handattack.tactics</tactics>
+		<protoaction>
+			<name>HandAttack</name>
+			<rof>2.000000</rof>
+			<damage type="Hack">13.200000</damage>
+			<damage type="Crush">36.000000</damage>
+			<maxrange>0.500000</maxrange>
+		</protoaction>
+	</unit>
+	<unit name="WalkingWoodsTundraSnow" mergemode="replace">
+		<displaynameid>STR_UNIT_WALKING_WOODS_NAME</displaynameid>
+		<rollovertextid>STR_UNIT_WALKING_WOODS_LR</rollovertextid>
+		<shortrollovertextid>STR_UNIT_WALKING_WOODS_SR</shortrollovertextid>
+		<editornameid>STR_UNIT_WALKING_WOODS_TUNDRA_SNOW_EDT_NAME</editornameid>
+		<icon>resources\norse\player_color\units\walking_woods_icon.png</icon>
+		<animfile>norse\units\myth\walking_woods_tundra_snow\walking_woods_tundra_snow.xml</animfile>
+		<soundsetfile>norse\vo\walking_woods\walking_woods.xml</soundsetfile>
+		<obstructionradiusx>0.9900</obstructionradiusx>
+		<obstructionradiusz>0.9900</obstructionradiusz>
+		<selectionradiusx>1.5000</selectionradiusx>
+		<selectionradiusz>1.5000</selectionradiusz>
+		<impacttype>Wood</impacttype>
+		<unitaitype>HandCombative</unitaitype>
+		<autoattackrange>30.0000</autoattackrange>
+		<movementtype>land</movementtype>
+		<turnrate>18.0000</turnrate>
+		<initialhitpoints>280.0000</initialhitpoints>
+		<maxhitpoints>280.0000</maxhitpoints>
+		<weightclass>9</weightclass>
+		<maxvelocity>3.5000</maxvelocity>
+		<los>30.0000</los>
+		<sharedselectionunittypes>
+			<unittype>AbstractWalkingWoods</unittype>
+		</sharedselectionunittypes>
+		<populationcount>1</populationcount>
+		<cost resourcetype="Wood">100.0000</cost>
+		<cost resourcetype="Favor">10.0000</cost>
+		<armor type="Hack" value="0.3000"></armor>
+		<armor type="Pierce" value="0.6000"></armor>
+		<armor type="Crush" value="0.9900"></armor>
+		<culture>Norse</culture>
+		<unittype>LogicalTypeNeededForVictory</unittype>
+		<unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeLandMilitary</unittype>
+		<unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+		<unittype>LogicalTypeGarrisonInShips</unittype>
+		<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeVillagersAttack</unittype>
+		<unittype>LogicalTypeHandUnitsAttack</unittype>
+		<unittype>LogicalTypeRangedUnitsAttack</unittype>
+		<unittype>LogicalTypeMinimapFilterMilitary</unittype>
+		<unittype>LogicalTypeHeroicMythUnit</unittype>
+		<unittype>MilitaryUnit</unittype>
+		<unittype>UnitClass</unittype>
+		<unittype>Unit</unittype>
+		<unittype>MythUnit</unittype>
+		<unittype>MythUnitMelee</unittype>
+		<unittype>MythUnitSiege</unittype>
+		<unittype>AbstractWalkingWoods</unittype>
+		<unittype>CountsTowardMilitaryScore</unittype>
+		<unittype>LogicalTypeValidBoltTarget</unittype>
+		<unittype>LogicalTypeConvertsHerds</unittype>
+		<unittype>LogicalTypeEarthquakeAttack</unittype>
+		<unittype>LogicalTypeAffectedByRestoration</unittype>
+		<unittype>LogicalTypeValidMeteorTarget</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<unittype>LogicalTypeValidShiftingSandsTarget</unittype>
+		<unittype>LogicalTypeMythUnitNotTitan</unittype>
+		<unittype>LogicalTypeValidSpyTarget</unittype>
+		<unittype>LogicalTypeValidFrostTarget</unittype>
+		<unittype>LogicalTypeValidTraitorTarget</unittype>
+		<unittype>LogicalTypeValidShockwaveTarget</unittype>
+		<unittype>LogicalTypeFreezableMythUnit</unittype>
+		<unittype>LogicalTypeMythUnitNotFlying</unittype>
+		<flag>CollidesWithProjectiles</flag>
+		<flag>CorpseDecays</flag>
+		<flag>ShowGarrisonButton</flag>
+		<flag>DontRotateObstruction</flag>
+		<flag>ObscuredByUnits</flag>
+		<flag>CommonCommands</flag>
+		<flag>MilitaryCommands</flag>
+		<flag>NeverCountDeathAsLoss</flag>
+		<flag>CreateUnitGroupAutomatically</flag>
+		<flag>GroupSelection</flag>
+		<tactics>handattack.tactics</tactics>
+		<protoaction>
+			<name>HandAttack</name>
+			<rof>2.000000</rof>
+			<damage type="Hack">13.200000</damage>
+			<damage type="Crush">36.000000</damage>
+			<maxrange>0.500000</maxrange>
+		</protoaction>
+	</unit>
+	<unit name="WalkingWoodsPeach" mergemode="replace">
+		<displaynameid>STR_UNIT_WALKING_WOODS_NAME</displaynameid>
+		<rollovertextid>STR_UNIT_WALKING_WOODS_LR</rollovertextid>
+		<shortrollovertextid>STR_UNIT_WALKING_WOODS_SR</shortrollovertextid>
+		<editornameid>STR_UNIT_WALKING_WOODS_PEACH_EDT_NAME</editornameid>
+		<icon>resources\norse\player_color\units\walking_woods_icon.png</icon>
+		<animfile>norse\units\myth\walking_woods_peach_tree\walking_woods_peach_tree.xml</animfile>
+		<soundsetfile>norse\vo\walking_woods\walking_woods.xml</soundsetfile>
+		<obstructionradiusx>0.9900</obstructionradiusx>
+		<obstructionradiusz>0.9900</obstructionradiusz>
+		<selectionradiusx>1.5000</selectionradiusx>
+		<selectionradiusz>1.5000</selectionradiusz>
+		<impacttype>Wood</impacttype>
+		<unitaitype>HandCombative</unitaitype>
+		<autoattackrange>30.0000</autoattackrange>
+		<movementtype>land</movementtype>
+		<turnrate>18.0000</turnrate>
+		<initialhitpoints>280.0000</initialhitpoints>
+		<maxhitpoints>280.0000</maxhitpoints>
+		<weightclass>9</weightclass>
+		<maxvelocity>3.5000</maxvelocity>
+		<los>30.0000</los>
+		<sharedselectionunittypes>
+			<unittype>AbstractWalkingWoods</unittype>
+		</sharedselectionunittypes>
+		<populationcount>1</populationcount>
+		<cost resourcetype="Wood">100.0000</cost>
+		<cost resourcetype="Favor">10.0000</cost>
+		<armor type="Hack" value="0.3000"></armor>
+		<armor type="Pierce" value="0.6000"></armor>
+		<armor type="Crush" value="0.9900"></armor>
+		<culture>Norse</culture>
+		<unittype>LogicalTypeNeededForVictory</unittype>
+		<unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeLandMilitary</unittype>
+		<unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+		<unittype>LogicalTypeGarrisonInShips</unittype>
+		<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeVillagersAttack</unittype>
+		<unittype>LogicalTypeHandUnitsAttack</unittype>
+		<unittype>LogicalTypeRangedUnitsAttack</unittype>
+		<unittype>LogicalTypeMinimapFilterMilitary</unittype>
+		<unittype>LogicalTypeHeroicMythUnit</unittype>
+		<unittype>MilitaryUnit</unittype>
+		<unittype>UnitClass</unittype>
+		<unittype>Unit</unittype>
+		<unittype>MythUnit</unittype>
+		<unittype>MythUnitMelee</unittype>
+		<unittype>MythUnitSiege</unittype>
+		<unittype>AbstractWalkingWoods</unittype>
+		<unittype>CountsTowardMilitaryScore</unittype>
+		<unittype>LogicalTypeValidBoltTarget</unittype>
+		<unittype>LogicalTypeConvertsHerds</unittype>
+		<unittype>LogicalTypeEarthquakeAttack</unittype>
+		<unittype>LogicalTypeAffectedByRestoration</unittype>
+		<unittype>LogicalTypeValidMeteorTarget</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<unittype>LogicalTypeValidShiftingSandsTarget</unittype>
+		<unittype>LogicalTypeMythUnitNotTitan</unittype>
+		<unittype>LogicalTypeValidSpyTarget</unittype>
+		<unittype>LogicalTypeValidFrostTarget</unittype>
+		<unittype>LogicalTypeValidTraitorTarget</unittype>
+		<unittype>LogicalTypeValidShockwaveTarget</unittype>
+		<unittype>LogicalTypeFreezableMythUnit</unittype>
+		<unittype>LogicalTypeMythUnitNotFlying</unittype>
+		<flag>CollidesWithProjectiles</flag>
+		<flag>CorpseDecays</flag>
+		<flag>ShowGarrisonButton</flag>
+		<flag>DontRotateObstruction</flag>
+		<flag>ObscuredByUnits</flag>
+		<flag>CommonCommands</flag>
+		<flag>MilitaryCommands</flag>
+		<flag>NeverCountDeathAsLoss</flag>
+		<flag>CreateUnitGroupAutomatically</flag>
+		<flag>GroupSelection</flag>
+		<tactics>handattack.tactics</tactics>
+		<protoaction>
+			<name>HandAttack</name>
+			<rof>2.000000</rof>
+			<damage type="Hack">13.200000</damage>
+			<damage type="Crush">36.000000</damage>
+			<maxrange>0.500000</maxrange>
+		</protoaction>
+	</unit>
+	<unit name="WalkingWoodsGinkgo" mergemode="replace">
+		<displaynameid>STR_UNIT_WALKING_WOODS_NAME</displaynameid>
+		<rollovertextid>STR_UNIT_WALKING_WOODS_LR</rollovertextid>
+		<shortrollovertextid>STR_UNIT_WALKING_WOODS_SR</shortrollovertextid>
+		<editornameid>STR_UNIT_WALKING_WOODS_GINKGO_EDT_NAME</editornameid>
+		<icon>resources\norse\player_color\units\walking_woods_icon.png</icon>
+		<animfile>norse\units\myth\walking_woods_ginkgo\walking_woods_ginkgo.xml</animfile>
+		<soundsetfile>norse\vo\walking_woods\walking_woods.xml</soundsetfile>
+		<obstructionradiusx>0.9900</obstructionradiusx>
+		<obstructionradiusz>0.9900</obstructionradiusz>
+		<selectionradiusx>1.5000</selectionradiusx>
+		<selectionradiusz>1.5000</selectionradiusz>
+		<impacttype>Wood</impacttype>
+		<unitaitype>HandCombative</unitaitype>
+		<autoattackrange>30.0000</autoattackrange>
+		<movementtype>land</movementtype>
+		<turnrate>18.0000</turnrate>
+		<initialhitpoints>280.0000</initialhitpoints>
+		<maxhitpoints>280.0000</maxhitpoints>
+		<weightclass>9</weightclass>
+		<maxvelocity>3.5000</maxvelocity>
+		<los>30.0000</los>
+		<sharedselectionunittypes>
+			<unittype>AbstractWalkingWoods</unittype>
+		</sharedselectionunittypes>
+		<populationcount>1</populationcount>
+		<cost resourcetype="Wood">100.0000</cost>
+		<cost resourcetype="Favor">10.0000</cost>
+		<armor type="Hack" value="0.3000"></armor>
+		<armor type="Pierce" value="0.6000"></armor>
+		<armor type="Crush" value="0.9900"></armor>
+		<culture>Norse</culture>
+		<unittype>LogicalTypeNeededForVictory</unittype>
+		<unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeLandMilitary</unittype>
+		<unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+		<unittype>LogicalTypeGarrisonInShips</unittype>
+		<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeVillagersAttack</unittype>
+		<unittype>LogicalTypeHandUnitsAttack</unittype>
+		<unittype>LogicalTypeRangedUnitsAttack</unittype>
+		<unittype>LogicalTypeMinimapFilterMilitary</unittype>
+		<unittype>LogicalTypeHeroicMythUnit</unittype>
+		<unittype>MilitaryUnit</unittype>
+		<unittype>UnitClass</unittype>
+		<unittype>Unit</unittype>
+		<unittype>MythUnit</unittype>
+		<unittype>MythUnitMelee</unittype>
+		<unittype>MythUnitSiege</unittype>
+		<unittype>AbstractWalkingWoods</unittype>
+		<unittype>CountsTowardMilitaryScore</unittype>
+		<unittype>LogicalTypeValidBoltTarget</unittype>
+		<unittype>LogicalTypeConvertsHerds</unittype>
+		<unittype>LogicalTypeEarthquakeAttack</unittype>
+		<unittype>LogicalTypeAffectedByRestoration</unittype>
+		<unittype>LogicalTypeValidMeteorTarget</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<unittype>LogicalTypeValidShiftingSandsTarget</unittype>
+		<unittype>LogicalTypeMythUnitNotTitan</unittype>
+		<unittype>LogicalTypeValidSpyTarget</unittype>
+		<unittype>LogicalTypeValidFrostTarget</unittype>
+		<unittype>LogicalTypeValidTraitorTarget</unittype>
+		<unittype>LogicalTypeValidShockwaveTarget</unittype>
+		<unittype>LogicalTypeFreezableMythUnit</unittype>
+		<unittype>LogicalTypeMythUnitNotFlying</unittype>
+		<flag>CollidesWithProjectiles</flag>
+		<flag>CorpseDecays</flag>
+		<flag>ShowGarrisonButton</flag>
+		<flag>DontRotateObstruction</flag>
+		<flag>ObscuredByUnits</flag>
+		<flag>CommonCommands</flag>
+		<flag>MilitaryCommands</flag>
+		<flag>NeverCountDeathAsLoss</flag>
+		<flag>CreateUnitGroupAutomatically</flag>
+		<flag>GroupSelection</flag>
+		<tactics>handattack.tactics</tactics>
+		<protoaction>
+			<name>HandAttack</name>
+			<rof>2.000000</rof>
+			<damage type="Hack">13.200000</damage>
+			<damage type="Crush">36.000000</damage>
+			<maxrange>0.500000</maxrange>
+		</protoaction>
+	</unit>
+	<unit name="WalkingWoodsGinkgoAutumn" mergemode="replace">
+		<displaynameid>STR_UNIT_WALKING_WOODS_NAME</displaynameid>
+		<rollovertextid>STR_UNIT_WALKING_WOODS_LR</rollovertextid>
+		<shortrollovertextid>STR_UNIT_WALKING_WOODS_SR</shortrollovertextid>
+		<editornameid>STR_UNIT_WALKING_WOODS_GINKGO_AUTUMN_EDT_NAME</editornameid>
+		<icon>resources\norse\player_color\units\walking_woods_icon.png</icon>
+		<animfile>norse\units\myth\walking_woods_ginkgo_autumn\walking_woods_ginkgo_autumn.xml</animfile>
+		<soundsetfile>norse\vo\walking_woods\walking_woods.xml</soundsetfile>
+		<obstructionradiusx>0.9900</obstructionradiusx>
+		<obstructionradiusz>0.9900</obstructionradiusz>
+		<selectionradiusx>1.5000</selectionradiusx>
+		<selectionradiusz>1.5000</selectionradiusz>
+		<impacttype>Wood</impacttype>
+		<unitaitype>HandCombative</unitaitype>
+		<autoattackrange>30.0000</autoattackrange>
+		<movementtype>land</movementtype>
+		<turnrate>18.0000</turnrate>
+		<initialhitpoints>280.0000</initialhitpoints>
+		<maxhitpoints>280.0000</maxhitpoints>
+		<weightclass>9</weightclass>
+		<maxvelocity>3.5000</maxvelocity>
+		<los>30.0000</los>
+		<sharedselectionunittypes>
+			<unittype>AbstractWalkingWoods</unittype>
+		</sharedselectionunittypes>
+		<populationcount>1</populationcount>
+		<cost resourcetype="Wood">100.0000</cost>
+		<cost resourcetype="Favor">10.0000</cost>
+		<armor type="Hack" value="0.3000"></armor>
+		<armor type="Pierce" value="0.6000"></armor>
+		<armor type="Crush" value="0.9900"></armor>
+		<culture>Norse</culture>
+		<unittype>LogicalTypeNeededForVictory</unittype>
+		<unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeLandMilitary</unittype>
+		<unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+		<unittype>LogicalTypeGarrisonInShips</unittype>
+		<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeVillagersAttack</unittype>
+		<unittype>LogicalTypeHandUnitsAttack</unittype>
+		<unittype>LogicalTypeRangedUnitsAttack</unittype>
+		<unittype>LogicalTypeMinimapFilterMilitary</unittype>
+		<unittype>LogicalTypeHeroicMythUnit</unittype>
+		<unittype>MilitaryUnit</unittype>
+		<unittype>UnitClass</unittype>
+		<unittype>Unit</unittype>
+		<unittype>MythUnit</unittype>
+		<unittype>MythUnitMelee</unittype>
+		<unittype>MythUnitSiege</unittype>
+		<unittype>AbstractWalkingWoods</unittype>
+		<unittype>CountsTowardMilitaryScore</unittype>
+		<unittype>LogicalTypeValidBoltTarget</unittype>
+		<unittype>LogicalTypeConvertsHerds</unittype>
+		<unittype>LogicalTypeEarthquakeAttack</unittype>
+		<unittype>LogicalTypeAffectedByRestoration</unittype>
+		<unittype>LogicalTypeValidMeteorTarget</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<unittype>LogicalTypeValidShiftingSandsTarget</unittype>
+		<unittype>LogicalTypeMythUnitNotTitan</unittype>
+		<unittype>LogicalTypeValidSpyTarget</unittype>
+		<unittype>LogicalTypeValidFrostTarget</unittype>
+		<unittype>LogicalTypeValidTraitorTarget</unittype>
+		<unittype>LogicalTypeValidShockwaveTarget</unittype>
+		<unittype>LogicalTypeFreezableMythUnit</unittype>
+		<unittype>LogicalTypeMythUnitNotFlying</unittype>
+		<flag>CollidesWithProjectiles</flag>
+		<flag>CorpseDecays</flag>
+		<flag>ShowGarrisonButton</flag>
+		<flag>DontRotateObstruction</flag>
+		<flag>ObscuredByUnits</flag>
+		<flag>CommonCommands</flag>
+		<flag>MilitaryCommands</flag>
+		<flag>NeverCountDeathAsLoss</flag>
+		<flag>CreateUnitGroupAutomatically</flag>
+		<flag>GroupSelection</flag>
+		<tactics>handattack.tactics</tactics>
+		<protoaction>
+			<name>HandAttack</name>
+			<rof>2.000000</rof>
+			<damage type="Hack">13.200000</damage>
+			<damage type="Crush">36.000000</damage>
+			<maxrange>0.500000</maxrange>
+		</protoaction>
+	</unit>
+	<unit name="WalkingWoodsBamboo" mergemode="replace">
+		<displaynameid>STR_UNIT_WALKING_WOODS_NAME</displaynameid>
+		<rollovertextid>STR_UNIT_WALKING_WOODS_LR</rollovertextid>
+		<shortrollovertextid>STR_UNIT_WALKING_WOODS_SR</shortrollovertextid>
+		<editornameid>STR_UNIT_WALKING_WOODS_BAMBOO_EDT_NAME</editornameid>
+		<icon>resources\norse\player_color\units\walking_woods_icon.png</icon>
+		<animfile>norse\units\myth\walking_woods_bamboo\walking_woods_bamboo.xml</animfile>
+		<soundsetfile>norse\vo\walking_woods\walking_woods.xml</soundsetfile>
+		<obstructionradiusx>0.9900</obstructionradiusx>
+		<obstructionradiusz>0.9900</obstructionradiusz>
+		<selectionradiusx>1.5000</selectionradiusx>
+		<selectionradiusz>1.5000</selectionradiusz>
+		<impacttype>Wood</impacttype>
+		<unitaitype>HandCombative</unitaitype>
+		<autoattackrange>30.0000</autoattackrange>
+		<movementtype>land</movementtype>
+		<turnrate>18.0000</turnrate>
+		<initialhitpoints>280.0000</initialhitpoints>
+		<maxhitpoints>280.0000</maxhitpoints>
+		<weightclass>9</weightclass>
+		<maxvelocity>3.5000</maxvelocity>
+		<los>30.0000</los>
+		<sharedselectionunittypes>
+			<unittype>AbstractWalkingWoods</unittype>
+		</sharedselectionunittypes>
+		<populationcount>1</populationcount>
+		<cost resourcetype="Wood">100.0000</cost>
+		<cost resourcetype="Favor">10.0000</cost>
+		<armor type="Hack" value="0.3000"></armor>
+		<armor type="Pierce" value="0.6000"></armor>
+		<armor type="Crush" value="0.9900"></armor>
+		<culture>Norse</culture>
+		<unittype>LogicalTypeNeededForVictory</unittype>
+		<unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeLandMilitary</unittype>
+		<unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+		<unittype>LogicalTypeGarrisonInShips</unittype>
+		<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeVillagersAttack</unittype>
+		<unittype>LogicalTypeHandUnitsAttack</unittype>
+		<unittype>LogicalTypeRangedUnitsAttack</unittype>
+		<unittype>LogicalTypeMinimapFilterMilitary</unittype>
+		<unittype>LogicalTypeHeroicMythUnit</unittype>
+		<unittype>MilitaryUnit</unittype>
+		<unittype>UnitClass</unittype>
+		<unittype>Unit</unittype>
+		<unittype>MythUnit</unittype>
+		<unittype>MythUnitMelee</unittype>
+		<unittype>MythUnitSiege</unittype>
+		<unittype>AbstractWalkingWoods</unittype>
+		<unittype>CountsTowardMilitaryScore</unittype>
+		<unittype>LogicalTypeValidBoltTarget</unittype>
+		<unittype>LogicalTypeConvertsHerds</unittype>
+		<unittype>LogicalTypeEarthquakeAttack</unittype>
+		<unittype>LogicalTypeAffectedByRestoration</unittype>
+		<unittype>LogicalTypeValidMeteorTarget</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<unittype>LogicalTypeValidShiftingSandsTarget</unittype>
+		<unittype>LogicalTypeMythUnitNotTitan</unittype>
+		<unittype>LogicalTypeValidSpyTarget</unittype>
+		<unittype>LogicalTypeValidFrostTarget</unittype>
+		<unittype>LogicalTypeValidTraitorTarget</unittype>
+		<unittype>LogicalTypeValidShockwaveTarget</unittype>
+		<unittype>LogicalTypeFreezableMythUnit</unittype>
+		<unittype>LogicalTypeMythUnitNotFlying</unittype>
+		<flag>CollidesWithProjectiles</flag>
+		<flag>CorpseDecays</flag>
+		<flag>ShowGarrisonButton</flag>
+		<flag>DontRotateObstruction</flag>
+		<flag>ObscuredByUnits</flag>
+		<flag>CommonCommands</flag>
+		<flag>MilitaryCommands</flag>
+		<flag>NeverCountDeathAsLoss</flag>
+		<flag>CreateUnitGroupAutomatically</flag>
+		<flag>GroupSelection</flag>
+		<tactics>handattack.tactics</tactics>
+		<protoaction>
+			<name>HandAttack</name>
+			<rof>2.000000</rof>
+			<damage type="Hack">13.200000</damage>
+			<damage type="Crush">36.000000</damage>
+			<maxrange>0.500000</maxrange>
+		</protoaction>
+	</unit>
+	<unit name="WalkingWoodsSingleBamboo" mergemode="replace">
+		<displaynameid>STR_UNIT_WALKING_WOODS_NAME</displaynameid>
+		<rollovertextid>STR_UNIT_WALKING_WOODS_LR</rollovertextid>
+		<shortrollovertextid>STR_UNIT_WALKING_WOODS_SR</shortrollovertextid>
+		<editornameid>STR_UNIT_WALKING_WOODS_SINGLE_BAMBOO_EDT_NAME</editornameid>
+		<icon>resources\norse\player_color\units\walking_woods_icon.png</icon>
+		<animfile>norse\units\myth\walking_woods_bamboo\walking_woods_bamboo.xml</animfile>
+		<soundsetfile>norse\vo\walking_woods\walking_woods.xml</soundsetfile>
+		<obstructionradiusx>0.9900</obstructionradiusx>
+		<obstructionradiusz>0.9900</obstructionradiusz>
+		<selectionradiusx>1.5000</selectionradiusx>
+		<selectionradiusz>1.5000</selectionradiusz>
+		<impacttype>Wood</impacttype>
+		<unitaitype>HandCombative</unitaitype>
+		<autoattackrange>30.0000</autoattackrange>
+		<movementtype>land</movementtype>
+		<turnrate>18.0000</turnrate>
+		<initialhitpoints>280.0000</initialhitpoints>
+		<maxhitpoints>280.0000</maxhitpoints>
+		<weightclass>9</weightclass>
+		<maxvelocity>3.5000</maxvelocity>
+		<los>30.0000</los>
+		<sharedselectionunittypes>
+			<unittype>AbstractWalkingWoods</unittype>
+		</sharedselectionunittypes>
+		<populationcount>1</populationcount>
+		<cost resourcetype="Wood">100.0000</cost>
+		<cost resourcetype="Favor">10.0000</cost>
+		<armor type="Hack" value="0.3000"></armor>
+		<armor type="Pierce" value="0.6000"></armor>
+		<armor type="Crush" value="0.9900"></armor>
+		<culture>Norse</culture>
+		<unittype>LogicalTypeNeededForVictory</unittype>
+		<unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeLandMilitary</unittype>
+		<unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+		<unittype>LogicalTypeGarrisonInShips</unittype>
+		<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeVillagersAttack</unittype>
+		<unittype>LogicalTypeHandUnitsAttack</unittype>
+		<unittype>LogicalTypeRangedUnitsAttack</unittype>
+		<unittype>LogicalTypeMinimapFilterMilitary</unittype>
+		<unittype>LogicalTypeHeroicMythUnit</unittype>
+		<unittype>MilitaryUnit</unittype>
+		<unittype>UnitClass</unittype>
+		<unittype>Unit</unittype>
+		<unittype>MythUnit</unittype>
+		<unittype>MythUnitMelee</unittype>
+		<unittype>MythUnitSiege</unittype>
+		<unittype>AbstractWalkingWoods</unittype>
+		<unittype>CountsTowardMilitaryScore</unittype>
+		<unittype>LogicalTypeValidBoltTarget</unittype>
+		<unittype>LogicalTypeConvertsHerds</unittype>
+		<unittype>LogicalTypeEarthquakeAttack</unittype>
+		<unittype>LogicalTypeAffectedByRestoration</unittype>
+		<unittype>LogicalTypeValidMeteorTarget</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<unittype>LogicalTypeValidShiftingSandsTarget</unittype>
+		<unittype>LogicalTypeMythUnitNotTitan</unittype>
+		<unittype>LogicalTypeValidSpyTarget</unittype>
+		<unittype>LogicalTypeValidFrostTarget</unittype>
+		<unittype>LogicalTypeValidTraitorTarget</unittype>
+		<unittype>LogicalTypeValidShockwaveTarget</unittype>
+		<unittype>LogicalTypeFreezableMythUnit</unittype>
+		<unittype>LogicalTypeMythUnitNotFlying</unittype>
+		<flag>CollidesWithProjectiles</flag>
+		<flag>CorpseDecays</flag>
+		<flag>ShowGarrisonButton</flag>
+		<flag>DontRotateObstruction</flag>
+		<flag>ObscuredByUnits</flag>
+		<flag>CommonCommands</flag>
+		<flag>MilitaryCommands</flag>
+		<flag>NeverCountDeathAsLoss</flag>
+		<flag>CreateUnitGroupAutomatically</flag>
+		<flag>GroupSelection</flag>
+		<tactics>handattack.tactics</tactics>
+		<protoaction>
+			<name>HandAttack</name>
+			<rof>2.000000</rof>
+			<damage type="Hack">13.200000</damage>
+			<damage type="Crush">36.000000</damage>
+			<maxrange>0.500000</maxrange>
+		</protoaction>
+	</unit>
+	<unit name="WalkingWoodsMetasequoia" mergemode="replace">
+		<displaynameid>STR_UNIT_WALKING_WOODS_NAME</displaynameid>
+		<rollovertextid>STR_UNIT_WALKING_WOODS_LR</rollovertextid>
+		<shortrollovertextid>STR_UNIT_WALKING_WOODS_SR</shortrollovertextid>
+		<editornameid>STR_UNIT_WALKING_WOODS_METASEQUOIA_EDT_NAME</editornameid>
+		<icon>resources\norse\player_color\units\walking_woods_icon.png</icon>
+		<animfile>norse\units\myth\walking_woods_metasequoia\walking_woods_metasequoia.xml</animfile>
+		<soundsetfile>norse\vo\walking_woods\walking_woods.xml</soundsetfile>
+		<obstructionradiusx>0.9900</obstructionradiusx>
+		<obstructionradiusz>0.9900</obstructionradiusz>
+		<selectionradiusx>1.5000</selectionradiusx>
+		<selectionradiusz>1.5000</selectionradiusz>
+		<impacttype>Wood</impacttype>
+		<unitaitype>HandCombative</unitaitype>
+		<autoattackrange>30.0000</autoattackrange>
+		<movementtype>land</movementtype>
+		<turnrate>18.0000</turnrate>
+		<initialhitpoints>280.0000</initialhitpoints>
+		<maxhitpoints>280.0000</maxhitpoints>
+		<weightclass>9</weightclass>
+		<maxvelocity>3.5000</maxvelocity>
+		<los>30.0000</los>
+		<sharedselectionunittypes>
+			<unittype>AbstractWalkingWoods</unittype>
+		</sharedselectionunittypes>
+		<populationcount>1</populationcount>
+		<cost resourcetype="Wood">100.0000</cost>
+		<cost resourcetype="Favor">10.0000</cost>
+		<armor type="Hack" value="0.3000"></armor>
+		<armor type="Pierce" value="0.6000"></armor>
+		<armor type="Crush" value="0.9900"></armor>
+		<culture>Norse</culture>
+		<unittype>LogicalTypeNeededForVictory</unittype>
+		<unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeLandMilitary</unittype>
+		<unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+		<unittype>LogicalTypeGarrisonInShips</unittype>
+		<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeVillagersAttack</unittype>
+		<unittype>LogicalTypeHandUnitsAttack</unittype>
+		<unittype>LogicalTypeRangedUnitsAttack</unittype>
+		<unittype>LogicalTypeMinimapFilterMilitary</unittype>
+		<unittype>LogicalTypeHeroicMythUnit</unittype>
+		<unittype>MilitaryUnit</unittype>
+		<unittype>UnitClass</unittype>
+		<unittype>Unit</unittype>
+		<unittype>MythUnit</unittype>
+		<unittype>MythUnitMelee</unittype>
+		<unittype>MythUnitSiege</unittype>
+		<unittype>AbstractWalkingWoods</unittype>
+		<unittype>CountsTowardMilitaryScore</unittype>
+		<unittype>LogicalTypeValidBoltTarget</unittype>
+		<unittype>LogicalTypeConvertsHerds</unittype>
+		<unittype>LogicalTypeEarthquakeAttack</unittype>
+		<unittype>LogicalTypeAffectedByRestoration</unittype>
+		<unittype>LogicalTypeValidMeteorTarget</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<unittype>LogicalTypeValidShiftingSandsTarget</unittype>
+		<unittype>LogicalTypeMythUnitNotTitan</unittype>
+		<unittype>LogicalTypeValidSpyTarget</unittype>
+		<unittype>LogicalTypeValidFrostTarget</unittype>
+		<unittype>LogicalTypeValidTraitorTarget</unittype>
+		<unittype>LogicalTypeValidShockwaveTarget</unittype>
+		<unittype>LogicalTypeFreezableMythUnit</unittype>
+		<unittype>LogicalTypeMythUnitNotFlying</unittype>
+		<flag>CollidesWithProjectiles</flag>
+		<flag>CorpseDecays</flag>
+		<flag>ShowGarrisonButton</flag>
+		<flag>DontRotateObstruction</flag>
+		<flag>ObscuredByUnits</flag>
+		<flag>CommonCommands</flag>
+		<flag>MilitaryCommands</flag>
+		<flag>NeverCountDeathAsLoss</flag>
+		<flag>CreateUnitGroupAutomatically</flag>
+		<flag>GroupSelection</flag>
+		<tactics>handattack.tactics</tactics>
+		<protoaction>
+			<name>HandAttack</name>
+			<rof>2.000000</rof>
+			<damage type="Hack">13.200000</damage>
+			<damage type="Crush">36.000000</damage>
+			<maxrange>0.500000</maxrange>
+		</protoaction>
+	</unit>
+	<unit name="WalkingWoodsMetasequoiaAutumn" mergemode="replace">
+		<displaynameid>STR_UNIT_WALKING_WOODS_NAME</displaynameid>
+		<rollovertextid>STR_UNIT_WALKING_WOODS_LR</rollovertextid>
+		<shortrollovertextid>STR_UNIT_WALKING_WOODS_SR</shortrollovertextid>
+		<editornameid>STR_UNIT_WALKING_WOODS_METASEQUOIA_AUTUMN_EDT_NAME</editornameid>
+		<icon>resources\norse\player_color\units\walking_woods_icon.png</icon>
+		<animfile>norse\units\myth\walking_woods_metasequoia_autumn\walking_woods_metasequoia_autumn.xml</animfile>
+		<soundsetfile>norse\vo\walking_woods\walking_woods.xml</soundsetfile>
+		<obstructionradiusx>0.9900</obstructionradiusx>
+		<obstructionradiusz>0.9900</obstructionradiusz>
+		<selectionradiusx>1.5000</selectionradiusx>
+		<selectionradiusz>1.5000</selectionradiusz>
+		<impacttype>Wood</impacttype>
+		<unitaitype>HandCombative</unitaitype>
+		<autoattackrange>30.0000</autoattackrange>
+		<movementtype>land</movementtype>
+		<turnrate>18.0000</turnrate>
+		<initialhitpoints>280.0000</initialhitpoints>
+		<maxhitpoints>280.0000</maxhitpoints>
+		<weightclass>9</weightclass>
+		<maxvelocity>3.5000</maxvelocity>
+		<los>30.0000</los>
+		<sharedselectionunittypes>
+			<unittype>AbstractWalkingWoods</unittype>
+		</sharedselectionunittypes>
+		<populationcount>1</populationcount>
+		<cost resourcetype="Wood">100.0000</cost>
+		<cost resourcetype="Favor">10.0000</cost>
+		<armor type="Hack" value="0.3000"></armor>
+		<armor type="Pierce" value="0.6000"></armor>
+		<armor type="Crush" value="0.9900"></armor>
+		<culture>Norse</culture>
+		<unittype>LogicalTypeNeededForVictory</unittype>
+		<unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeLandMilitary</unittype>
+		<unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+		<unittype>LogicalTypeGarrisonInShips</unittype>
+		<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeVillagersAttack</unittype>
+		<unittype>LogicalTypeHandUnitsAttack</unittype>
+		<unittype>LogicalTypeRangedUnitsAttack</unittype>
+		<unittype>LogicalTypeMinimapFilterMilitary</unittype>
+		<unittype>LogicalTypeHeroicMythUnit</unittype>
+		<unittype>MilitaryUnit</unittype>
+		<unittype>UnitClass</unittype>
+		<unittype>Unit</unittype>
+		<unittype>MythUnit</unittype>
+		<unittype>MythUnitMelee</unittype>
+		<unittype>MythUnitSiege</unittype>
+		<unittype>AbstractWalkingWoods</unittype>
+		<unittype>CountsTowardMilitaryScore</unittype>
+		<unittype>LogicalTypeValidBoltTarget</unittype>
+		<unittype>LogicalTypeConvertsHerds</unittype>
+		<unittype>LogicalTypeEarthquakeAttack</unittype>
+		<unittype>LogicalTypeAffectedByRestoration</unittype>
+		<unittype>LogicalTypeValidMeteorTarget</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<unittype>LogicalTypeValidShiftingSandsTarget</unittype>
+		<unittype>LogicalTypeMythUnitNotTitan</unittype>
+		<unittype>LogicalTypeValidSpyTarget</unittype>
+		<unittype>LogicalTypeValidFrostTarget</unittype>
+		<unittype>LogicalTypeValidTraitorTarget</unittype>
+		<unittype>LogicalTypeValidShockwaveTarget</unittype>
+		<unittype>LogicalTypeFreezableMythUnit</unittype>
+		<unittype>LogicalTypeMythUnitNotFlying</unittype>
+		<flag>CollidesWithProjectiles</flag>
+		<flag>CorpseDecays</flag>
+		<flag>ShowGarrisonButton</flag>
+		<flag>DontRotateObstruction</flag>
+		<flag>ObscuredByUnits</flag>
+		<flag>CommonCommands</flag>
+		<flag>MilitaryCommands</flag>
+		<flag>NeverCountDeathAsLoss</flag>
+		<flag>CreateUnitGroupAutomatically</flag>
+		<flag>GroupSelection</flag>
+		<tactics>handattack.tactics</tactics>
+		<protoaction>
+			<name>HandAttack</name>
+			<rof>2.000000</rof>
+			<damage type="Hack">13.200000</damage>
+			<damage type="Crush">36.000000</damage>
+			<maxrange>0.500000</maxrange>
+		</protoaction>
+	</unit>
+	<unit name="WalkingWoodsPear" mergemode="replace">
+		<displaynameid>STR_UNIT_WALKING_WOODS_NAME</displaynameid>
+		<rollovertextid>STR_UNIT_WALKING_WOODS_LR</rollovertextid>
+		<shortrollovertextid>STR_UNIT_WALKING_WOODS_SR</shortrollovertextid>
+		<editornameid>STR_UNIT_WALKING_WOODS_PEAR_EDT_NAME</editornameid>
+		<icon>resources\norse\player_color\units\walking_woods_icon.png</icon>
+		<animfile>norse\units\myth\walking_woods_pear_tree\walking_woods_pear_tree.xml</animfile>
+		<soundsetfile>norse\vo\walking_woods\walking_woods.xml</soundsetfile>
+		<obstructionradiusx>0.9900</obstructionradiusx>
+		<obstructionradiusz>0.9900</obstructionradiusz>
+		<selectionradiusx>1.5000</selectionradiusx>
+		<selectionradiusz>1.5000</selectionradiusz>
+		<impacttype>Wood</impacttype>
+		<unitaitype>HandCombative</unitaitype>
+		<autoattackrange>30.0000</autoattackrange>
+		<movementtype>land</movementtype>
+		<turnrate>18.0000</turnrate>
+		<initialhitpoints>280.0000</initialhitpoints>
+		<maxhitpoints>280.0000</maxhitpoints>
+		<weightclass>9</weightclass>
+		<maxvelocity>3.5000</maxvelocity>
+		<los>30.0000</los>
+		<sharedselectionunittypes>
+			<unittype>AbstractWalkingWoods</unittype>
+		</sharedselectionunittypes>
+		<populationcount>1</populationcount>
+		<cost resourcetype="Wood">100.0000</cost>
+		<cost resourcetype="Favor">10.0000</cost>
+		<armor type="Hack" value="0.3000"></armor>
+		<armor type="Pierce" value="0.6000"></armor>
+		<armor type="Crush" value="0.9900"></armor>
+		<culture>Norse</culture>
+		<unittype>LogicalTypeNeededForVictory</unittype>
+		<unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeLandMilitary</unittype>
+		<unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+		<unittype>LogicalTypeGarrisonInShips</unittype>
+		<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeVillagersAttack</unittype>
+		<unittype>LogicalTypeHandUnitsAttack</unittype>
+		<unittype>LogicalTypeRangedUnitsAttack</unittype>
+		<unittype>LogicalTypeMinimapFilterMilitary</unittype>
+		<unittype>LogicalTypeHeroicMythUnit</unittype>
+		<unittype>MilitaryUnit</unittype>
+		<unittype>UnitClass</unittype>
+		<unittype>Unit</unittype>
+		<unittype>MythUnit</unittype>
+		<unittype>MythUnitMelee</unittype>
+		<unittype>MythUnitSiege</unittype>
+		<unittype>AbstractWalkingWoods</unittype>
+		<unittype>CountsTowardMilitaryScore</unittype>
+		<unittype>LogicalTypeValidBoltTarget</unittype>
+		<unittype>LogicalTypeConvertsHerds</unittype>
+		<unittype>LogicalTypeEarthquakeAttack</unittype>
+		<unittype>LogicalTypeAffectedByRestoration</unittype>
+		<unittype>LogicalTypeValidMeteorTarget</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<unittype>LogicalTypeValidShiftingSandsTarget</unittype>
+		<unittype>LogicalTypeMythUnitNotTitan</unittype>
+		<unittype>LogicalTypeValidSpyTarget</unittype>
+		<unittype>LogicalTypeValidFrostTarget</unittype>
+		<unittype>LogicalTypeValidTraitorTarget</unittype>
+		<unittype>LogicalTypeValidShockwaveTarget</unittype>
+		<unittype>LogicalTypeFreezableMythUnit</unittype>
+		<unittype>LogicalTypeMythUnitNotFlying</unittype>
+		<flag>CollidesWithProjectiles</flag>
+		<flag>CorpseDecays</flag>
+		<flag>ShowGarrisonButton</flag>
+		<flag>DontRotateObstruction</flag>
+		<flag>ObscuredByUnits</flag>
+		<flag>CommonCommands</flag>
+		<flag>MilitaryCommands</flag>
+		<flag>NeverCountDeathAsLoss</flag>
+		<flag>CreateUnitGroupAutomatically</flag>
+		<flag>GroupSelection</flag>
+		<tactics>handattack.tactics</tactics>
+		<protoaction>
+			<name>HandAttack</name>
+			<rof>2.000000</rof>
+			<damage type="Hack">13.200000</damage>
+			<damage type="Crush">36.000000</damage>
+			<maxrange>0.500000</maxrange>
+		</protoaction>
+	</unit>
+	<unit name="WalkingWoodsWillow" mergemode="replace">
+		<displaynameid>STR_UNIT_WALKING_WOODS_NAME</displaynameid>
+		<rollovertextid>STR_UNIT_WALKING_WOODS_LR</rollovertextid>
+		<shortrollovertextid>STR_UNIT_WALKING_WOODS_SR</shortrollovertextid>
+		<editornameid>STR_UNIT_WALKING_WOODS_WILLOW_EDT_NAME</editornameid>
+		<icon>resources\norse\player_color\units\walking_woods_icon.png</icon>
+		<animfile>norse\units\myth\walking_woods_willow\walking_woods_willow.xml</animfile>
+		<soundsetfile>norse\vo\walking_woods\walking_woods.xml</soundsetfile>
+		<obstructionradiusx>0.9900</obstructionradiusx>
+		<obstructionradiusz>0.9900</obstructionradiusz>
+		<selectionradiusx>1.5000</selectionradiusx>
+		<selectionradiusz>1.5000</selectionradiusz>
+		<impacttype>Wood</impacttype>
+		<unitaitype>HandCombative</unitaitype>
+		<autoattackrange>30.0000</autoattackrange>
+		<movementtype>land</movementtype>
+		<turnrate>18.0000</turnrate>
+		<initialhitpoints>280.0000</initialhitpoints>
+		<maxhitpoints>280.0000</maxhitpoints>
+		<weightclass>9</weightclass>
+		<maxvelocity>3.5000</maxvelocity>
+		<los>30.0000</los>
+		<sharedselectionunittypes>
+			<unittype>AbstractWalkingWoods</unittype>
+		</sharedselectionunittypes>
+		<populationcount>1</populationcount>
+		<cost resourcetype="Wood">100.0000</cost>
+		<cost resourcetype="Favor">10.0000</cost>
+		<armor type="Hack" value="0.3000"></armor>
+		<armor type="Pierce" value="0.6000"></armor>
+		<armor type="Crush" value="0.9900"></armor>
+		<culture>Norse</culture>
+		<unittype>LogicalTypeNeededForVictory</unittype>
+		<unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeLandMilitary</unittype>
+		<unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+		<unittype>LogicalTypeGarrisonInShips</unittype>
+		<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeVillagersAttack</unittype>
+		<unittype>LogicalTypeHandUnitsAttack</unittype>
+		<unittype>LogicalTypeRangedUnitsAttack</unittype>
+		<unittype>LogicalTypeMinimapFilterMilitary</unittype>
+		<unittype>LogicalTypeHeroicMythUnit</unittype>
+		<unittype>MilitaryUnit</unittype>
+		<unittype>UnitClass</unittype>
+		<unittype>Unit</unittype>
+		<unittype>MythUnit</unittype>
+		<unittype>MythUnitMelee</unittype>
+		<unittype>MythUnitSiege</unittype>
+		<unittype>AbstractWalkingWoods</unittype>
+		<unittype>CountsTowardMilitaryScore</unittype>
+		<unittype>LogicalTypeValidBoltTarget</unittype>
+		<unittype>LogicalTypeConvertsHerds</unittype>
+		<unittype>LogicalTypeEarthquakeAttack</unittype>
+		<unittype>LogicalTypeAffectedByRestoration</unittype>
+		<unittype>LogicalTypeValidMeteorTarget</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<unittype>LogicalTypeValidShiftingSandsTarget</unittype>
+		<unittype>LogicalTypeMythUnitNotTitan</unittype>
+		<unittype>LogicalTypeValidSpyTarget</unittype>
+		<unittype>LogicalTypeValidFrostTarget</unittype>
+		<unittype>LogicalTypeValidTraitorTarget</unittype>
+		<unittype>LogicalTypeValidShockwaveTarget</unittype>
+		<unittype>LogicalTypeFreezableMythUnit</unittype>
+		<unittype>LogicalTypeMythUnitNotFlying</unittype>
+		<flag>CollidesWithProjectiles</flag>
+		<flag>CorpseDecays</flag>
+		<flag>ShowGarrisonButton</flag>
+		<flag>DontRotateObstruction</flag>
+		<flag>ObscuredByUnits</flag>
+		<flag>CommonCommands</flag>
+		<flag>MilitaryCommands</flag>
+		<flag>NeverCountDeathAsLoss</flag>
+		<flag>CreateUnitGroupAutomatically</flag>
+		<flag>GroupSelection</flag>
+		<tactics>handattack.tactics</tactics>
+		<protoaction>
+			<name>HandAttack</name>
+			<rof>2.000000</rof>
+			<damage type="Hack">13.200000</damage>
+			<damage type="Crush">36.000000</damage>
+			<maxrange>0.500000</maxrange>
+		</protoaction>
+	</unit>
+	<unit name="WalkingWoodsChinesePine" mergemode="replace">
+		<displaynameid>STR_UNIT_WALKING_WOODS_NAME</displaynameid>
+		<rollovertextid>STR_UNIT_WALKING_WOODS_LR</rollovertextid>
+		<shortrollovertextid>STR_UNIT_WALKING_WOODS_SR</shortrollovertextid>
+		<editornameid>STR_UNIT_WALKING_WOODS_CHINESE_PINE_EDT_NAME</editornameid>
+		<icon>resources\norse\player_color\units\walking_woods_icon.png</icon>
+		<animfile>norse\units\myth\walking_woods_greeting_pine\walking_woods_greeting_pine.xml</animfile>
+		<soundsetfile>norse\vo\walking_woods\walking_woods.xml</soundsetfile>
+		<obstructionradiusx>0.9900</obstructionradiusx>
+		<obstructionradiusz>0.9900</obstructionradiusz>
+		<selectionradiusx>1.5000</selectionradiusx>
+		<selectionradiusz>1.5000</selectionradiusz>
+		<impacttype>Wood</impacttype>
+		<unitaitype>HandCombative</unitaitype>
+		<autoattackrange>30.0000</autoattackrange>
+		<movementtype>land</movementtype>
+		<turnrate>18.0000</turnrate>
+		<initialhitpoints>280.0000</initialhitpoints>
+		<maxhitpoints>280.0000</maxhitpoints>
+		<weightclass>9</weightclass>
+		<maxvelocity>3.5000</maxvelocity>
+		<los>30.0000</los>
+		<sharedselectionunittypes>
+			<unittype>AbstractWalkingWoods</unittype>
+		</sharedselectionunittypes>
+		<populationcount>1</populationcount>
+		<cost resourcetype="Wood">100.0000</cost>
+		<cost resourcetype="Favor">10.0000</cost>
+		<armor type="Hack" value="0.3000"></armor>
+		<armor type="Pierce" value="0.6000"></armor>
+		<armor type="Crush" value="0.9900"></armor>
+		<culture>Norse</culture>
+		<unittype>LogicalTypeNeededForVictory</unittype>
+		<unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeLandMilitary</unittype>
+		<unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+		<unittype>LogicalTypeGarrisonInShips</unittype>
+		<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeVillagersAttack</unittype>
+		<unittype>LogicalTypeHandUnitsAttack</unittype>
+		<unittype>LogicalTypeRangedUnitsAttack</unittype>
+		<unittype>LogicalTypeMinimapFilterMilitary</unittype>
+		<unittype>LogicalTypeHeroicMythUnit</unittype>
+		<unittype>MilitaryUnit</unittype>
+		<unittype>UnitClass</unittype>
+		<unittype>Unit</unittype>
+		<unittype>MythUnit</unittype>
+		<unittype>MythUnitMelee</unittype>
+		<unittype>MythUnitSiege</unittype>
+		<unittype>AbstractWalkingWoods</unittype>
+		<unittype>CountsTowardMilitaryScore</unittype>
+		<unittype>LogicalTypeValidBoltTarget</unittype>
+		<unittype>LogicalTypeConvertsHerds</unittype>
+		<unittype>LogicalTypeEarthquakeAttack</unittype>
+		<unittype>LogicalTypeAffectedByRestoration</unittype>
+		<unittype>LogicalTypeValidMeteorTarget</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<unittype>LogicalTypeValidShiftingSandsTarget</unittype>
+		<unittype>LogicalTypeMythUnitNotTitan</unittype>
+		<unittype>LogicalTypeValidSpyTarget</unittype>
+		<unittype>LogicalTypeValidFrostTarget</unittype>
+		<unittype>LogicalTypeValidTraitorTarget</unittype>
+		<unittype>LogicalTypeValidShockwaveTarget</unittype>
+		<unittype>LogicalTypeFreezableMythUnit</unittype>
+		<unittype>LogicalTypeMythUnitNotFlying</unittype>
+		<flag>CollidesWithProjectiles</flag>
+		<flag>CorpseDecays</flag>
+		<flag>ShowGarrisonButton</flag>
+		<flag>DontRotateObstruction</flag>
+		<flag>ObscuredByUnits</flag>
+		<flag>CommonCommands</flag>
+		<flag>MilitaryCommands</flag>
+		<flag>NeverCountDeathAsLoss</flag>
+		<flag>CreateUnitGroupAutomatically</flag>
+		<flag>GroupSelection</flag>
+		<tactics>handattack.tactics</tactics>
+		<protoaction>
+			<name>HandAttack</name>
+			<rof>2.000000</rof>
+			<damage type="Hack">13.200000</damage>
+			<damage type="Crush">36.000000</damage>
+			<maxrange>0.500000</maxrange>
+		</protoaction>
+	</unit>
+	<unit name="WalkingWoodsChinesePineDead" mergemode="replace">
+		<displaynameid>STR_UNIT_WALKING_WOODS_NAME</displaynameid>
+		<rollovertextid>STR_UNIT_WALKING_WOODS_LR</rollovertextid>
+		<shortrollovertextid>STR_UNIT_WALKING_WOODS_SR</shortrollovertextid>
+		<editornameid>STR_UNIT_WALKING_WOODS_CHINESE_PINE_DEAD_EDT_NAME</editornameid>
+		<icon>resources\norse\player_color\units\walking_woods_icon.png</icon>
+		<animfile>norse\units\myth\walking_woods_greeting_pine_dead\walking_woods_greeting_pine_dead.xml</animfile>
+		<soundsetfile>norse\vo\walking_woods\walking_woods.xml</soundsetfile>
+		<obstructionradiusx>0.9900</obstructionradiusx>
+		<obstructionradiusz>0.9900</obstructionradiusz>
+		<selectionradiusx>1.5000</selectionradiusx>
+		<selectionradiusz>1.5000</selectionradiusz>
+		<impacttype>Wood</impacttype>
+		<unitaitype>HandCombative</unitaitype>
+		<autoattackrange>30.0000</autoattackrange>
+		<movementtype>land</movementtype>
+		<turnrate>18.0000</turnrate>
+		<initialhitpoints>280.0000</initialhitpoints>
+		<maxhitpoints>280.0000</maxhitpoints>
+		<weightclass>9</weightclass>
+		<maxvelocity>3.5000</maxvelocity>
+		<los>30.0000</los>
+		<sharedselectionunittypes>
+			<unittype>AbstractWalkingWoods</unittype>
+		</sharedselectionunittypes>
+		<populationcount>1</populationcount>
+		<cost resourcetype="Wood">100.0000</cost>
+		<cost resourcetype="Favor">10.0000</cost>
+		<armor type="Hack" value="0.3000"></armor>
+		<armor type="Pierce" value="0.6000"></armor>
+		<armor type="Crush" value="0.9900"></armor>
+		<culture>Norse</culture>
+		<unittype>LogicalTypeNeededForVictory</unittype>
+		<unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeLandMilitary</unittype>
+		<unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+		<unittype>LogicalTypeGarrisonInShips</unittype>
+		<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeVillagersAttack</unittype>
+		<unittype>LogicalTypeHandUnitsAttack</unittype>
+		<unittype>LogicalTypeRangedUnitsAttack</unittype>
+		<unittype>LogicalTypeMinimapFilterMilitary</unittype>
+		<unittype>LogicalTypeHeroicMythUnit</unittype>
+		<unittype>MilitaryUnit</unittype>
+		<unittype>UnitClass</unittype>
+		<unittype>Unit</unittype>
+		<unittype>MythUnit</unittype>
+		<unittype>MythUnitMelee</unittype>
+		<unittype>MythUnitSiege</unittype>
+		<unittype>AbstractWalkingWoods</unittype>
+		<unittype>CountsTowardMilitaryScore</unittype>
+		<unittype>LogicalTypeValidBoltTarget</unittype>
+		<unittype>LogicalTypeConvertsHerds</unittype>
+		<unittype>LogicalTypeEarthquakeAttack</unittype>
+		<unittype>LogicalTypeAffectedByRestoration</unittype>
+		<unittype>LogicalTypeValidMeteorTarget</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<unittype>LogicalTypeValidShiftingSandsTarget</unittype>
+		<unittype>LogicalTypeMythUnitNotTitan</unittype>
+		<unittype>LogicalTypeValidSpyTarget</unittype>
+		<unittype>LogicalTypeValidFrostTarget</unittype>
+		<unittype>LogicalTypeValidTraitorTarget</unittype>
+		<unittype>LogicalTypeValidShockwaveTarget</unittype>
+		<unittype>LogicalTypeFreezableMythUnit</unittype>
+		<unittype>LogicalTypeMythUnitNotFlying</unittype>
+		<flag>CollidesWithProjectiles</flag>
+		<flag>CorpseDecays</flag>
+		<flag>ShowGarrisonButton</flag>
+		<flag>DontRotateObstruction</flag>
+		<flag>ObscuredByUnits</flag>
+		<flag>CommonCommands</flag>
+		<flag>MilitaryCommands</flag>
+		<flag>NeverCountDeathAsLoss</flag>
+		<flag>CreateUnitGroupAutomatically</flag>
+		<flag>GroupSelection</flag>
+		<tactics>handattack.tactics</tactics>
+		<protoaction>
+			<name>HandAttack</name>
+			<rof>2.000000</rof>
+			<damage type="Hack">13.200000</damage>
+			<damage type="Crush">36.000000</damage>
+			<maxrange>0.500000</maxrange>
+		</protoaction>
+	</unit>
 	<unit name="FimbulwinterWolf" mergemode="replace">
 		<displaynameid>STR_UNIT_FIMBULWINTER_WOLF_NAME</displaynameid>
 		<rollovertextid>STR_UNIT_FIMBULWINTER_WOLF_LR</rollovertextid>
@@ -2928,6 +5280,133 @@
 			<damagebonus type="Hero">0.100000</damagebonus>
 			<maxrange>4.0</maxrange>
 			<projectile>ProjectileNidhoggInvisible</projectile>
+		</protoaction>
+	</unit>
+	<unit name="HeroOfRagnarok" mergemode="replace">
+		<displaynameid>STR_UNIT_HERO_OF_RAGNAROK_NAME</displaynameid>
+		<rollovertextid>STR_UNIT_HERO_OF_RAGNAROK_LR</rollovertextid>
+		<shortrollovertextid>STR_UNIT_HERO_OF_RAGNAROK_SR</shortrollovertextid>
+		<icon>resources\norse\player_color\units\hero_of_ragnarok_icon.png</icon>
+		<animfile>norse\units\hero\hero_of_ragnarok\hero_of_ragnarok.xml</animfile>
+		<soundsetfile>norse\vo\hero_of_ragnarok\hero_of_ragnarok.xml</soundsetfile>
+		<obstructionradiusx>0.4900</obstructionradiusx>
+		<obstructionradiusz>0.4900</obstructionradiusz>
+		<impacttype>Armoured</impacttype>
+		<unitaitype>HandCombative</unitaitype>
+		<autoattackrange>16.0000</autoattackrange>
+		<movementtype>land</movementtype>
+		<turnrate>18.0000</turnrate>
+		<initialhitpoints>120.0000</initialhitpoints>
+		<maxhitpoints>120.0000</maxhitpoints>
+		<weightclass>5</weightclass>
+		<maxcontained>1</maxcontained>
+		<populationcount>3</populationcount>
+		<maxvelocity>4.8000</maxvelocity>
+		<los>16.0000</los>
+		<cost resourcetype="Food">150.0000</cost>
+		<armor type="Hack" value="0.3000"></armor>
+		<armor type="Pierce" value="0.3000"></armor>
+		<armor type="Crush" value="0.9900"></armor>
+		<culture>Norse</culture>
+		<unittype>LogicalTypeNeededForVictory</unittype>
+		<unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeLandMilitary</unittype>
+		<unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+		<unittype>LogicalTypeGarrisonInShips</unittype>
+		<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeVillagersAttack</unittype>
+		<unittype>LogicalTypeHandUnitsAttack</unittype>
+		<unittype>LogicalTypeRangedUnitsAttack</unittype>
+		<unittype>LogicalTypeMinimapFilterMilitary</unittype>
+		<unittype>Unit</unittype>
+		<unittype>UnitClass</unittype>
+		<unittype>MilitaryUnit</unittype>
+		<unittype>Hero</unittype>
+		<unittype>LogicalTypeValidBoltTarget</unittype>
+		<unittype>LogicalTypeConvertsHerds</unittype>
+		<unittype>LogicalTypeEarthquakeAttack</unittype>
+		<unittype>LogicalTypeAffectedByRestoration</unittype>
+		<unittype>LogicalTypeValidMeteorTarget</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<unittype>LogicalTypeValidShiftingSandsTarget</unittype>
+		<unittype>LogicalTypeParticipatesInBattlecries</unittype>
+		<unittype>LogicalTypeValidSpyTarget</unittype>
+		<unittype>LogicalTypeValidFrostTarget</unittype>
+		<unittype>HeroShadowUpgraded</unittype>
+		<unittype>LogicalTypeHealed</unittype>
+		<unittype>LogicalTypeNorseSoldierThatBuilds</unittype>
+		<unittype>LogicalTypeValidShockwaveTarget</unittype>
+		<unittype>CountsTowardMilitaryScore</unittype>
+		<unittype>MinorHero</unittype>
+		<unittype>LogicalTypeFindMilitaryHero</unittype>
+		<hotkeycontext>BuildNorseAccel</hotkeycontext>
+		<train row="0" column="0">House</train>
+		<train row="0" column="4">Temple</train>
+		<train row="0" column="5">Dock</train>
+		<train row="1" column="1">Longhouse</train>
+		<train row="1" column="4">Market</train>
+		<train row="1" column="5">Armory</train>
+		<train row="1" column="5">DwarvenArmory</train>
+		<train row="2" column="0">TownCenter</train>
+		<train row="2" column="1">WallConnector</train>
+		<train row="255" column="255">WallShort</train>
+		<train row="255" column="255">WallMedium</train>
+		<train row="255" column="255">WallLong</train>
+		<train row="2" column="2">SentryTower</train>
+		<train row="2" column="3">HillFort</train>
+		<train row="2" column="5">Wonder</train>
+		<train>TitanGate</train>
+		<flag>CollidesWithProjectiles</flag>
+		<flag>CorpseDecays</flag>
+		<flag>ShowGarrisonButton</flag>
+		<flag>DontRotateObstruction</flag>
+		<flag>ObscuredByUnits</flag>
+		<flag>RotateInPlace</flag>
+		<flag>MilitaryCommands</flag>
+		<flag>CommonCommands</flag>
+		<flag>HideGarrisonFlag</flag>
+		<flag>CreateUnitGroupAutomatically</flag>
+		<contain external="1">LogicalTypePickable</contain>
+		<command row="3" column="3">Repair</command>
+		<tactics>handattack.tactics</tactics>
+		<protoaction>
+			<name>HandAttack</name>
+			<rof>1.300000</rof>
+			<damage type="Hack">14.300000</damage>
+			<damagebonus type="MythUnit">4.000000</damagebonus>
+			<damagebonus type="AnimalOfSet">3.000000</damagebonus>
+			<maxrange>0.750000</maxrange>
+		</protoaction>
+		<protoaction>
+			<name>Build</name>
+			<type>Build</type>
+			<maxrange>0.2</maxrange>
+			<anim>Build</anim>
+			<rate type="Settlement">1.0000</rate>
+			<rate type="Dock">0.880000</rate>
+			<rate type="Building">1.100000</rate>
+			<typedmaxrange type="Dock">2.0</typedmaxrange>
+		</protoaction>
+		<protoaction>
+			<name>Repair</name>
+			<type>Repair</type>
+			<maxrange>0.2</maxrange>
+			<anim>Build</anim>
+			<rate type="AbstractWall">0.1071</rate>
+			<rate type="Building">0.306</rate>
+			<typedmaxrange type="Dock">2.0</typedmaxrange>
+		</protoaction>
+		<protoaction>
+			<name>Pickup</name>
+			<type>Pickup</type>
+			<maxrange>1</maxrange>
+			<rate type="LogicalTypePickable">1.00000</rate>
+		</protoaction>
+		<protoaction>
+			<name>DropOff</name>
+			<type>DropOff</type>
+			<maxrange>1</maxrange>
+			<rate type="AbstractTemple">1.00000</rate>
 		</protoaction>
 	</unit>
 
@@ -3494,7 +5973,7 @@
 		<protoaction>
 			<name>HandAttack</name>
 			<rof>1.000000</rof>
-			<damage type="Divine">100.000000</damage>
+			<damage type="Hack">100.000000</damage>
 			<maxrange>0.300000</maxrange>
 		</protoaction>
 		<protoaction>

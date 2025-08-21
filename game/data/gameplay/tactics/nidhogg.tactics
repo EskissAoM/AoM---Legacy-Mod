@@ -8,7 +8,9 @@
 		<anim>RangedAttack</anim>
 		<accuracy>1.0</accuracy>
 		<trackrating>99.0</trackrating>
-		<onhiteffect type="Snare" duration="3" rate="0.65"></onhiteffect>
+		<onhiteffect type="StatModify" duration="3.000000">
+			<modifyramp type="Speed" init="0.650000" final="1.000000"></modifyramp>
+		</onhiteffect>
 		<impacteffect>effects\impacts\hack</impacteffect>
 	</action>
 	<tactic>Default<action priority="100">HandAttack</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype></tactic>

@@ -7,7 +7,9 @@
 		<handlogic>1</handlogic>
 		<forceareaattacktarget>1</forceareaattacktarget>
 		<anim>HandAttack</anim>
-		<onhiteffect type="Snare" duration="2" rate="0.85"></onhiteffect>
+		<onhiteffect type="StatModify" duration="3.000000">
+    		<modifyramp type="Speed" init="0.650000" final="1.000000"></modifyramp>
+		</onhiteffect>
 		<impacteffect>effects\impacts\crush</impacteffect>
 	</action>
 	<action>
@@ -17,7 +19,9 @@
 		<attackaction>1</attackaction>
 		<handlogic>1</handlogic>
 		<anim>TitanAttack</anim>
-		<onhiteffect type="Snare" duration="2" rate="0.85"></onhiteffect>
+		<onhiteffect type="StatModify" duration="3.000000">
+    		<modifyramp type="Speed" init="0.650000" final="1.000000"></modifyramp>
+		</onhiteffect>
 		<impacteffect>effects\impacts\crush</impacteffect>
 	</action>
 	<tactic>Default<action priority="100">TitanAttack</action><action priority="90">HandAttack</action><attacktype>LogicalTypeHandUnitsAttack</attacktype><autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype><attackmovetype>AbstractWall</attackmovetype></tactic>

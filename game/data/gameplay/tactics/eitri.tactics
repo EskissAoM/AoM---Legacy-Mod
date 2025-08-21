@@ -67,7 +67,9 @@
 		<anim>HandAttack</anim>
 		<maxrange>1</maxrange>
 		<rate type="All">1.0</rate>
-		<onhiteffect type="Snare" duration="2" rate="0.85"></onhiteffect>
+		<onhiteffect type="StatModify" duration="3.000000">
+   		 	<modifyramp type="Speed" init="0.650000" final="1.000000"></modifyramp>
+		</onhiteffect>
 		<impacteffect>effects\impacts\hack</impacteffect>
 	</action>
 	<action>
