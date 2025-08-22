@@ -1854,6 +1854,339 @@
 		</protoaction>
 		<!-- desactivate autogather favor -->
 	</unit>
+	<unit name="Behemoth" mergeMode="replace">
+		<displaynameid>STR_UNIT_BEHEMOTH_NAME</displaynameid>
+		<rollovertextid>STR_UNIT_BEHEMOTH_LR</rollovertextid>
+		<shortrollovertextid>STR_UNIT_BEHEMOTH_SR</shortrollovertextid>
+		<icon>resources\atlantean\player_color\units\behemoth_icon.png</icon>
+		<animfile>atlantean\units\myth\behemoth\behemoth.xml</animfile>
+		<soundsetfile>atlantean\vo\behemoth\behemoth.xml</soundsetfile>
+		<obstructionradiusx>1.9900</obstructionradiusx>
+		<obstructionradiusz>1.9900</obstructionradiusz>
+		<selectionradiusx>2.0000</selectionradiusx>
+		<selectionradiusz>3.0000</selectionradiusz>
+		<impacttype>Armoured</impacttype>
+		<unitaitype>HandCombative</unitaitype>
+		<movementtype>land</movementtype>
+		<turnrate>18.0000</turnrate>
+		<initialhitpoints>625.0000</initialhitpoints>
+		<maxhitpoints>625.0000</maxhitpoints>
+		<unitregen>2.0000</unitregen>
+		<trainpoints>20.0000</trainpoints>
+		<weightclass>13</weightclass>
+		<populationcount>5</populationcount>
+		<maxvelocity>3.0000</maxvelocity>
+		<los>16.0000</los>
+		<cost resourcetype="Food">300.0000</cost>
+		<cost resourcetype="Favor">20.0000</cost>
+		<armor type="Hack" value="0.3000"></armor>
+		<armor type="Pierce" value="0.7500"></armor>
+		<armor type="Crush" value="0.8000"></armor>
+		<unittype>LogicalTypeNeededForVictory</unittype>
+		<unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeLandMilitary</unittype>
+		<unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+		<unittype>LogicalTypeGarrisonInShips</unittype>
+		<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeVillagersAttack</unittype>
+		<unittype>LogicalTypeHandUnitsAttack</unittype>
+		<unittype>LogicalTypeRangedUnitsAttack</unittype>
+		<unittype>LogicalTypeMinimapFilterMilitary</unittype>
+		<unittype>LogicalTypeHeroicMythUnit</unittype>
+		<unittype>MilitaryUnit</unittype>
+		<unittype>UnitClass</unittype>
+		<unittype>Unit</unittype>
+		<unittype>MythUnit</unittype>
+		<unittype>MythUnitSiege</unittype>
+		<unittype>CountsTowardMilitaryScore</unittype>
+		<unittype>LogicalTypeValidBoltTarget</unittype>
+		<unittype>LogicalTypeConvertsHerds</unittype>
+		<unittype>LogicalTypeEarthquakeAttack</unittype>
+		<unittype>LogicalTypeAffectedByRestoration</unittype>
+		<unittype>LogicalTypeValidMeteorTarget</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<unittype>LogicalTypeValidShiftingSandsTarget</unittype>
+		<unittype>LogicalTypeMythUnitNotTitan</unittype>
+		<unittype>LogicalTypeValidSpyTarget</unittype>
+		<unittype>LogicalTypeValidFrostTarget</unittype>
+		<unittype>LogicalTypeValidTraitorTarget</unittype>
+		<unittype>LogicalTypeHealed</unittype>
+		<unittype>LogicalTypeValidShockwaveTarget</unittype>
+		<unittype>LogicalTypeFreezableMythUnit</unittype>
+		<unittype>LogicalTypeMythUnitNotFlying</unittype>
+		<flag>CollidesWithProjectiles</flag>
+		<flag>CorpseDecays</flag>
+		<flag>ShowGarrisonButton</flag>
+		<flag>DontRotateObstruction</flag>
+		<flag>ObscuredByUnits</flag>
+		<flag>CommonCommands</flag>
+		<flag>MilitaryCommands</flag>
+		<flag>CreateUnitGroupAutomatically</flag>
+		<tactics>handattack.tactics</tactics>
+		<protoaction>
+			<name>HandAttack</name>
+			<rof>1.500000</rof>
+			<damage type="Hack">9.000000</damage>
+			<damage type="Crush">18.000000</damage>
+			<damagebonus type="Building">5.000000</damagebonus>
+			<damagebonus type="MythUnit">2.000000</damagebonus>
+			<damagebonus type="Hero">0.500000</damagebonus>
+			<maxrange>2.500000</maxrange>
+			<impacteffect>effects\impacts\crush</impacteffect>
+		</protoaction>
+	</unit>
+	<unit name="Satyr" mergeMode="replace">
+		<displaynameid>STR_UNIT_SATYR_NAME</displaynameid>
+		<rollovertextid>STR_UNIT_SATYR_LR</rollovertextid>
+		<shortrollovertextid>STR_UNIT_SATYR_SR</shortrollovertextid>
+		<icon>resources\atlantean\player_color\units\satyr_icon.png</icon>
+		<animfile>atlantean\units\myth\satyr\satyr.xml</animfile>
+		<soundsetfile>atlantean\vo\satyr\satyr.xml</soundsetfile>
+		<obstructionradiusx>0.7400</obstructionradiusx>
+		<obstructionradiusz>0.7400</obstructionradiusz>
+		<impacttype>Unarmoured</impacttype>
+		<unitaitype>RangedCombative</unitaitype>
+		<movementtype>land</movementtype>
+		<turnrate>18.0000</turnrate>
+		<initialhitpoints>320.0000</initialhitpoints>
+		<maxhitpoints>320.0000</maxhitpoints>
+		<trainpoints>15.0000</trainpoints>
+		<weightclass>7</weightclass>
+		<populationcount>4</populationcount>
+		<maxvelocity>3.7500</maxvelocity>
+		<rechargetime>20.0000</rechargetime>
+		<los>17.0000</los>
+		<cost resourcetype="Wood">250.0000</cost>
+		<cost resourcetype="Favor">20.0000</cost>
+		<armor type="Hack" value="0.5000"></armor>
+		<armor type="Pierce" value="0.5000"></armor>
+		<armor type="Crush" value="0.8000"></armor>
+		<unittype>LogicalTypeNeededForVictory</unittype>
+		<unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeLandMilitary</unittype>
+		<unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+		<unittype>LogicalTypeGarrisonInShips</unittype>
+		<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeVillagersAttack</unittype>
+		<unittype>LogicalTypeHandUnitsAttack</unittype>
+		<unittype>LogicalTypeRangedUnitsAttack</unittype>
+		<unittype>LogicalTypeMinimapFilterMilitary</unittype>
+		<unittype>LogicalTypeHeroicMythUnit</unittype>
+		<unittype>Unit</unittype>
+		<unittype>MilitaryUnit</unittype>
+		<unittype>UnitClass</unittype>
+		<unittype>Ranged</unittype>
+		<unittype>MythUnit</unittype>
+		<unittype>MythUnitRanged</unittype>
+		<unittype>CountsTowardMilitaryScore</unittype>
+		<unittype>LogicalTypeValidBoltTarget</unittype>
+		<unittype>LogicalTypeConvertsHerds</unittype>
+		<unittype>LogicalTypeEarthquakeAttack</unittype>
+		<unittype>LogicalTypeAffectedByRestoration</unittype>
+		<unittype>LogicalTypeValidMeteorTarget</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<unittype>LogicalTypeValidShiftingSandsTarget</unittype>
+		<unittype>LogicalTypeMythUnitNotTitan</unittype>
+		<unittype>LogicalTypeRangedMythUnit</unittype>
+		<unittype>LogicalTypeValidSpyTarget</unittype>
+		<unittype>LogicalTypeValidFrostTarget</unittype>
+		<unittype>LogicalTypeValidTraitorTarget</unittype>
+		<unittype>LogicalTypeHealed</unittype>
+		<unittype>LogicalTypeValidShockwaveTarget</unittype>
+		<unittype>LogicalTypeFreezableMythUnit</unittype>
+		<unittype>LogicalTypeMythUnitNotFlying</unittype>
+		<flag>CollidesWithProjectiles</flag>
+		<flag>CorpseDecays</flag>
+		<flag>ShowGarrisonButton</flag>
+		<flag>DontRotateObstruction</flag>
+		<flag>ObscuredByUnits</flag>
+		<flag>CommonCommands</flag>
+		<flag>MilitaryCommands</flag>
+		<flag>CreateUnitGroupAutomatically</flag>
+		<flag>RangeIndicatorForAbilityCasting</flag>
+		<tactics>rangedattack_chargedrangedattack.tactics</tactics>
+		<protoaction>
+			<name>RangedAttack</name>
+			<rof>1.000000</rof>
+			<damage type="Pierce">20.000000</damage>
+			<damagebonus type="MythUnit">3.000000</damagebonus>
+			<damagebonus type="Hero">0.250000</damagebonus>
+			<maxrange>16.000000</maxrange>
+			<projectile>ProjectileSatyrSpear</projectile>
+		</protoaction>
+		<protoaction>
+			<name>ChargedRangedAttack</name>
+			<rof>1.000000</rof>
+			<damage type="Pierce">22.000000</damage>
+			<damagebonus type="MythUnit">3.000000</damagebonus>
+			<damagebonus type="Hero">0.250000</damagebonus>
+			<maxrange>16.000000</maxrange>
+			<projectile>ProjectileSatyrSpear</projectile>
+			<numberprojectiles>3</numberprojectiles>
+			<volleymode></volleymode>
+			<launchpoint>ChargeAttackLaunchPoint</launchpoint>
+		</protoaction>
+	</unit>
+	<unit name="StymphalianBird" mergeMode="replace">
+		<displaynameid>STR_UNIT_STYMPHALIAN_BIRD_NAME</displaynameid>
+		<rollovertextid>STR_UNIT_STYMPHALIAN_BIRD_LR</rollovertextid>
+		<shortrollovertextid>STR_UNIT_STYMPHALIAN_BIRD_SR</shortrollovertextid>
+		<icon>resources\atlantean\player_color\units\stymphalian_bird_icon.png</icon>
+		<animfile>atlantean\units\myth\stymphalian_bird\stymphalian_bird.xml</animfile>
+		<soundsetfile>atlantean\vo\stymphalian_bird\stymphalian_bird.xml</soundsetfile>
+		<obstructionradiusx>0.9900</obstructionradiusx>
+		<obstructionradiusz>0.9900</obstructionradiusz>
+		<impacttype>Unarmoured</impacttype>
+		<unitaitype>RangedCombative</unitaitype>
+		<movementtype>air</movementtype>
+		<turnrate>18.0000</turnrate>
+		<heighthitpointbaroffset>1.00</heighthitpointbaroffset>
+		<initialhitpoints>400.0000</initialhitpoints>
+		<maxhitpoints>400.0000</maxhitpoints>
+		<trainpoints>10.0000</trainpoints>
+		<populationcount>4</populationcount>
+		<maxvelocity>3.6000</maxvelocity>
+		<los>20.0000</los>
+		<cost resourcetype="Wood">200.0000</cost>
+		<cost resourcetype="Gold">50.0000</cost>
+		<cost resourcetype="Favor">25.0000</cost>
+		<armor type="Hack" value="0.1500"></armor>
+		<armor type="Pierce" value="0.3000"></armor>
+		<armor type="Crush" value="0.8000"></armor>
+		<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeRangedUnitsAttack</unittype>
+		<unittype>LogicalTypeHeroicMythUnit</unittype>
+		<unittype>Unit</unittype>
+		<unittype>UnitClass</unittype>
+		<unittype>MythUnit</unittype>
+		<unittype>MythUnitRanged</unittype>
+		<unittype>MilitaryUnit</unittype>
+		<unittype>CountsTowardMilitaryScore</unittype>
+		<unittype>LogicalTypeValidBoltTarget</unittype>
+		<unittype>LogicalTypeAffectedByRestoration</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<unittype>LogicalTypeMythUnitNotTitan</unittype>
+		<unittype>LogicalTypeRangedMythUnit</unittype>
+		<unittype>LogicalTypeValidSpyTarget</unittype>
+		<unittype>AbstractFlyingUnit</unittype>
+		<unittype>LogicalTypeValidTraitorTarget</unittype>
+		<unittype>LogicalTypeHealed</unittype>
+		<unittype>LogicalTypeNeededForVictory</unittype>
+		<unittype>LogicalTypeMinimapFilterMilitary</unittype>
+		<unittype>LogicalTypeValidShiftingSandsTarget</unittype>
+		<unittype>LogicalTypeLandMilitary</unittype>
+		<flag>FlyingUnit</flag>
+		<flag>NoTieToGround</flag>
+		<flag>CollidesWithProjectiles</flag>
+		<flag>CreateUnitGroupAutomatically</flag>
+		<flag>CorpseDecays</flag>
+		<command row="3" column="0">Stop</command>
+		<command row="3" column="3">Patrol</command>
+		<command row="3" column="4">AttackMove</command>
+		<command row="3" column="5">Delete</command>
+		<tactics>rangedattack.tactics</tactics>
+		<protoaction>
+			<name>RangedAttack</name>
+			<rof>1.800000</rof>
+			<damage type="Pierce">19.800000</damage>
+			<damagebonus type="MythUnit">3.000000</damagebonus>
+			<damagebonus type="Hero">0.250000</damagebonus>
+			<minrange>4.000000</minrange>
+			<maxrange>15.000000</maxrange>
+			<numberprojectiles>3</numberprojectiles>
+			<volleymode></volleymode>
+			<projectile>ProjectileStymphalianBirdFeathers</projectile>
+		</protoaction>
+	</unit>
+	<unit name="Nereid" mergeMode="replace">
+		<displaynameid>STR_UNIT_NEREID_NAME</displaynameid>
+		<rollovertextid>STR_UNIT_NEREID_LR</rollovertextid>
+		<shortrollovertextid>STR_UNIT_NEREID_SR</shortrollovertextid>
+		<icon>resources\atlantean\player_color\units\nereid_icon.png</icon>
+		<animfile>atlantean\units\myth\nereid\nereid.xml</animfile>
+		<soundsetfile>atlantean\vo\nereid\nereid.xml</soundsetfile>
+		<obstructionradiusx>0.9900</obstructionradiusx>
+		<obstructionradiusz>0.9900</obstructionradiusz>
+		<selectionradiusx>1.0000</selectionradiusx>
+		<selectionradiusz>1.7500</selectionradiusz>
+		<impacttype>Unarmoured</impacttype>
+		<unitaitype>RangedCombative</unitaitype>
+		<formationorder>1</formationorder>
+		<movementtype>water</movementtype>
+		<turnrate>9.0000</turnrate>
+		<initialhitpoints>400.0000</initialhitpoints>
+		<maxhitpoints>400.0000</maxhitpoints>
+		<trainpoints>12.0000</trainpoints>
+		<weightclass>10</weightclass>
+		<populationcount>3</populationcount>
+		<maxvelocity>5.0000</maxvelocity>
+		<rechargetime>15.0000</rechargetime>
+		<los>20.0000</los>
+		<cost resourcetype="Gold">200.0000</cost>
+		<cost resourcetype="Favor">15.0000</cost>
+		<armor type="Hack" value="0.3000"></armor>
+		<armor type="Pierce" value="0.5000"></armor>
+		<armor type="Crush" value="0.8000"></armor>
+		<unittype>LogicalTypeNavalMilitary</unittype>
+		<unittype>LogicalTypeNeededForVictory</unittype>
+		<unittype>LogicalTypeHandUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeValidSPCUnitsDeadCondition</unittype>
+		<unittype>LogicalTypeRangedUnitsAutoAttack</unittype>
+		<unittype>LogicalTypeVillagersAttack</unittype>
+		<unittype>LogicalTypeHandUnitsAttack</unittype>
+		<unittype>LogicalTypeRangedUnitsAttack</unittype>
+		<unittype>LogicalTypeMinimapFilterMilitary</unittype>
+		<unittype>LogicalTypeHeroicMythUnit</unittype>
+		<unittype>MythUnit</unittype>
+		<unittype>Unit</unittype>
+		<unittype>UnitClass</unittype>
+		<unittype>MilitaryUnit</unittype>
+		<unittype>CountsTowardMilitaryScore</unittype>
+		<unittype>LogicalTypeValidBoltTarget</unittype>
+		<unittype>LogicalTypeConvertsHerds</unittype>
+		<unittype>LogicalTypeAffectedByRestoration</unittype>
+		<unittype>LogicalTypeValidMeteorTarget</unittype>
+		<unittype>LogicalTypeValidTornadoAttack</unittype>
+		<unittype>LogicalTypeMythUnitNotTitan</unittype>
+		<unittype>LogicalTypeValidSpyTarget</unittype>
+		<unittype>LogicalTypeValidFrostTarget</unittype>
+		<unittype>LogicalTypeValidTraitorTarget</unittype>
+		<unittype>LogicalTypeEarthquakeAttack</unittype>
+		<unittype>LogicalTypeHealed</unittype>
+		<unittype>NavalUnit</unittype>
+		<unittype>LogicalTypeValidShockwaveTarget</unittype>
+		<unittype>LogicalTypeFreezableMythUnit</unittype>
+		<unittype>LogicalTypeMythUnitNotFlying</unittype>
+		<flag>TieToWaterSurface</flag>
+		<flag>CollidesWithProjectiles</flag>
+		<flag>DontRotateObstruction</flag>
+		<flag>DecalStickToWaterSurface</flag>
+		<flag>FadeOutDecalOnDeath</flag>
+		<flag>ObscuredByUnits</flag>
+		<flag>HasContinuousParticles</flag>
+		<flag>CreateUnitGroupAutomatically</flag>
+		<command row="3" column="0">Stop</command>
+		<command row="3" column="3">Patrol</command>
+		<command row="3" column="4">AttackMove</command>
+		<command row="3" column="5">Delete</command>
+		<tactics>nereid.tactics</tactics>
+		<protoaction>
+			<name>HandAttack</name>
+			<rof>1.000000</rof>
+			<damage type="Hack">25.000000</damage>
+			<damagebonus type="MythUnit">7.000000</damagebonus>
+			<damagebonus type="Hero">0.500000</damagebonus>
+			<maxrange>1.000000</maxrange>
+		</protoaction>
+		<protoaction>
+			<name>ChargedHandAttack</name>
+			<rof>3.000000</rof>
+			<damage type="Hack">150.00000</damage>
+			<damagebonus type="MythUnit">7.000000</damagebonus>
+			<damagebonus type="Hero">0.500000</damagebonus>
+			<maxrange>1.000000</maxrange>
+		</protoaction>
+	</unit>
 
 <!-- NATURE -->
 

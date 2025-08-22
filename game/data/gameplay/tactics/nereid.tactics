@@ -14,12 +14,7 @@
 	<action>
 		<name stringid="STR_ACTION_CHARGE_HAND">ChargedHandAttack</name>
 		<type>Attack</type>
-		<rate type="Building">1.0</rate>
-		<rate type="LogicalTypeShipNotHero">1.0</rate>
-		<rate type="HumanSoldier">1.0</rate>
-		<rate type="LogicalTypeVillagerNotHero">1.0</rate>
-		<rate type="TradeUnit">1.0</rate>
-		<rate type="MythUnit">1.0</rate>
+		<rate type="All">1.0</rate>
 		<attackaction>1</attackaction>
 		<chargeaction>1</chargeaction>
 		<handlogic>1</handlogic>

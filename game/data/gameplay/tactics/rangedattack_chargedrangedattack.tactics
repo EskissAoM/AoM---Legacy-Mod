@@ -21,11 +21,13 @@
 		<accuracy>1.0</accuracy>
 		<maxspread>5.0</maxspread>
 		<spreadfactor>0.25</spreadfactor>
-		<trackrating>99.0</trackrating>
+		<trackrating>10.0</trackrating>
+		<unintentionaldamagemultiplier>1.0</unintentionaldamagemultiplier>
 		<chargeaction>1</chargeaction>
 		<impacteffect>effects\impacts\pierce</impacteffect>
-		<rate type="Building">0.0</rate>
-		<rate type="LogicalTypeRangedUnitsAttack">1.0</rate>
+		<rate type="AbstractVillager">1.0</rate>
+		<rate type="HumanSoldier">1.0</rate>
+		<rate type="MythUnit">1.0</rate>
 	</action>
 	<tactic>Default<action priority="100">ChargedRangedAttack</action><action priority="90">RangedAttack</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><attackmovetype>AbstractWall</attackmovetype></tactic>
 </tactics>
