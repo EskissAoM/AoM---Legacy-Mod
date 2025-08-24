@@ -16,9 +16,8 @@
 		<name stringid="STR_ACTION_HAND">BuckAttack</name>
 		<type>BuckAttack</type>
 		<rate type="HumanSoldier">1.0</rate>
-		<rate type="LogicalTypeMythUnitNotTitan">1.0</rate>
+		<rate type="MythUnitInfantry">1.0</rate>
 		<rate type="LogicalTypeVillagerNotHero">1.0</rate>
-		<rate type="TradeUnit">1.0</rate>
 		<attackaction>1</attackaction>
 		<chargeaction>1</chargeaction>
 		<handlogic>1</handlogic>

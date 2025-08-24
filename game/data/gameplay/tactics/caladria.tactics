@@ -1,31 +1,10 @@
 <tactics>
 	<action>
-		<name stringid="STR_ACTION_HEAL">BurstHeal</name>
-		<type>BurstHeal</type>
-		<anim>BurstHeal</anim>
-		<chargeaction>1</chargeaction>
-		<modelattachment>vfx\glow\caladria_burst_heal.xml</modelattachment>
-		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
-		<modelattachmenttimer>2222</modelattachmenttimer>
-	</action>
-	<action>
-		<name stringid="STR_ACTION_PACIFY">Pacify</name>
-		<type>Attack</type>
-		<anim>Pacify</anim>
-		<attackaction>1</attackaction>
-		<handlogic>1</handlogic>
-		<auxchargeaction>1</auxchargeaction>
-		<workonfrozenunits>0</workonfrozenunits>
-		<rate type="HumanSoldier">1.0</rate>
-		<rate type="LogicalTypeMythUnitNotTitan">1.0</rate>
-		<rate type="AnimalOfSet">1.0</rate>
-	</action>
-	<action>
 		<name stringid="STR_ACTION_HEAL">Heal</name>
 		<type>Heal</type>
 		<anim>Heal</anim>
 		<modelattachment>greek\godpowers\restoration\healing_vfx.xml</modelattachment>
 		<modelattachmentbone>bonethatdoesntexist</modelattachmentbone>
 	</action>
-	<tactic>Default<action priority="100">Pacify</action><action priority="90">BurstHeal</action><action>Heal</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype></tactic>
+	<tactic>Default<action>Heal</action></tactic>
 </tactics>

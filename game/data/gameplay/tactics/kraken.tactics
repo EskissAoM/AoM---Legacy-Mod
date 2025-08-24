@@ -2,8 +2,6 @@
 	<action>
 		<name stringid="STR_ACTION_THROW">Throw</name>
 		<type>Throw</type>
-		<rate type="LogicalTypeVillagerNotHero">1.0</rate>
-		<rate type="TradeUnit">1.0</rate>
 		<rate type="HumanSoldier">1.0</rate>
 		<minrate type="Building">1.0</minrate>
 		<attackaction>1</attackaction>
@@ -25,7 +23,7 @@
 		<sizeclassanim class="2">CapsizeMediumShip</sizeclassanim>
 		<sizeclassanim class="3">CapsizeLargeShip</sizeclassanim>
 		<sizeclassanim class="4">CapsizeXLargeShip</sizeclassanim>
-		<auxchargeaction>1</auxchargeaction>
+		<chargeaction>1</chargeaction>
 		<impacteffect>effects\impacts\crush</impacteffect>
 	</action>
 	<action>

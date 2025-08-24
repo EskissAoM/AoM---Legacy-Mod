@@ -1,0 +1,17 @@
+<tactics>
+	<action>
+		<name stringid="STR_ACTION_THROW">Throw</name>
+		<type>Throw</type>
+		<rate type="AbstractCavalry">0.0</rate>
+		<rate type="MythUnit">0.0</rate>
+		<rate type="LogicalTypeVillagerNotHero">1.0</rate>
+		<rate type="HumanSoldier">1.0</rate>
+		<rate type="TradeUnit">1.0</rate>
+		<attackaction>1</attackaction>
+		<handlogic>1</handlogic>
+		<forceareaattacktarget>1</forceareaattacktarget>
+		<impacteffect>effects\impacts\crush</impacteffect>
+		<chargeaction>1</chargeaction>
+	</action>
+	<tactic>Default<action priority="100">Throw</action><attacktype>LogicalTypeHandUnitsAttack</attacktype><autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype><attackmovetype>AbstractWall</attackmovetype></tactic>
+</tactics>

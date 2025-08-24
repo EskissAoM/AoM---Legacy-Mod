@@ -9323,4 +9323,46 @@
 		<techtype>HeroInfantry</techtype>
 	</tech>
 
+<!-- DEATHMATCH technologies -->	
+
+	<tech name="DeathMatchAtlantean" mergeMode="replace">
+		<status>UNOBTAINABLE</status>
+		<flag>HideAllNotifications</flag>
+		<effects>
+			<effect type="Data" action="Build" amount="0.75" subtype="WorkRate" unittype="Settlement" relativity="Assign">
+				<target type="ProtoUnit">AbstractVillager</target>
+			</effect>
+			<effect type="Data" action="AutoGatherFavor" amount="1.50" subtype="WorkRate" unittype="Favor" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractOracle</target>
+			</effect>
+			<effect type="Data" action="AutoGatherFavor" amount="1.50" subtype="ModifyRate" relativity="BasePercent">
+				<target type="ProtoUnit">AbstractOracle</target>
+			</effect>
+		</effects>
+	</tech>
+
+<!-- MISC -->
+
+	<tech name="CheatFooty" mergeMode="replace">
+		<researchpoints>0.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<flag>HideAllNotifications</flag>
+		<effects>
+		</effects>
+	</tech>
+	<tech name="Jotuns" mergeMode="replace">
+		<displaynameid>STR_TECH_JOTUNS_NAME</displaynameid>
+		<rollovertextid>STR_TECH_JOTUNS_LR</rollovertextid>
+		<cost resourcetype="Food">175.0000</cost>
+		<cost resourcetype="Favor">30.0000</cost>
+		<researchpoints>40.0000</researchpoints>
+		<status>UNOBTAINABLE</status>
+		<icon>resources\norse\static_color\technologies\jotuns_icon.png</icon>
+		<flag>CountsTowardMilitaryScore</flag>
+		<flag>MythTech</flag>
+		<techtype>MythUnitUpgrade</techtype>
+		<effects>
+		</effects>
+	</tech>
+
 </techtreemods>

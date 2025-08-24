@@ -250,7 +250,6 @@ ID = "STR_UNIT_GIANT_KILLER_EINHERI_NAME"   ;   Str = "Giant-killer Einherjar"
 
 // ATLANTEAN - added technologies
 
-
 ID = "STR_TECH_HEAVY_CHEIROBALLISTA_NAME"   ;   Str = "Heavy Cheiroballista"
 ID = "STR_TECH_HEAVY_CHEIROBALLISTA_LR"   ;   Str = "Cheiroballistae improved to Heavy Cheiroballistae, with more hitpoints and attack."
 
@@ -321,9 +320,23 @@ ID = "STR_UNIT_ORACLE_HERO_SR"   ;   Str = "Hero scout. Line of sight grows rapi
 ID = "STR_BLD_ORICHALCUM_WALL_NAME"   ;   Str = "Orichalkos Wall"
 ID = "STR_BLD_ORICHALCUM_GATE_NAME"   ;   Str = "Orichalkos Gate"
 
+ID = "STR_UNIT_CENTIMANUS_NAME"   ;   Str = "Heka Gigantes"
+
+// ATLANTEAN - modified abilities
+
+ID = "STR_ABILITY_SATYR_LR" ; Str = "Throws a barrage of javelins at the ennemy."
+
+ID = "STR_ABILITY_ARGUS_LR" ; Str = "Projects a deadly pool of acid that instantly melt an enemy."
+
+ID = "STR_ABILITY_LAMPADES_CHAOTIC_REALIGNMENT_LR" ; Str = "Makes an enemy unit permanently hostile to all players."
+
+
 // GODPOWER - modified
 
 ID = "STR_POWER_VALOR_LEGACY_LR"   ;   Str = "Target a group of your human units to convert some of them into heroes."
+
+
+
 
 // MISC - modified
 

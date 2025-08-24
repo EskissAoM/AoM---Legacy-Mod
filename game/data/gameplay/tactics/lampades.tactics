@@ -27,19 +27,6 @@
 		<rate type="TradeUnit">1.0</rate>
 	</action>
 	<action>
-		<name stringid="STR_ACTION_TRANSFIGURATION">TransfigurationAttack</name>
-		<type>Attack</type>
-		<attackaction>1</attackaction>
-		<handlogic>1</handlogic>
-		<anim>ChaosAttack</anim>
-		<auxchargeaction>1</auxchargeaction>
-		<workonchaosunits>0</workonchaosunits>
-		<impacteffect>effects\impacts\pierce</impacteffect>
-		<rate type="HumanSoldier">1.0</rate>
-		<rate type="LogicalTypeVillagerNotHero">1.0</rate>
-		<rate type="TradeUnit">1.0</rate>
-	</action>
-	<action>
 		<name>SelfDestructAttack</name>
 		<type>Attack</type>
 		<anim>HandAttack</anim>
@@ -49,5 +36,5 @@
 		<areasortmode>Radial</areasortmode>
 		<impacteffect>effects\impacts\pierce</impacteffect>
 	</action>
-	<tactic>Default<action priority="100">TransfigurationAttack</action><action priority="90">ChaosAttack</action><action priority="80">RangedAttack</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><attackmovetype>AbstractWall</attackmovetype></tactic>
+	<tactic>Default<action priority="100">ChaosAttack</action><action priority="90">RangedAttack</action><attacktype>LogicalTypeRangedUnitsAttack</attacktype><autoattacktype>LogicalTypeRangedUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeRangedUnitsAttack</attackresponsetype><attackmovetype>AbstractWall</attackmovetype></tactic>
 </tactics>

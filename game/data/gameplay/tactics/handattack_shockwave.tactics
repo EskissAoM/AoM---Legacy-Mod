@@ -17,8 +17,8 @@
 		<type>BuckAttack</type>
 		<rate type="LogicalTypeVillagerNotHero">1.0</rate>
 		<rate type="HumanSoldier">1.0</rate>
-		<rate type="LogicalTypeMythUnitNotTitan">1.0</rate>
-		<rate type="TradeUnit">1.0</rate>
+		<rate type="Hero">1.0</rate>
+		<rate type="MythUnitInfantry">1.0</rate>
 		<attackaction>1</attackaction>
 		<chargeaction>1</chargeaction>
 		<linearshockwave>1</linearshockwave>

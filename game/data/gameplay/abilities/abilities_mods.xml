@@ -1,3 +1,28 @@
 <abilitiesmods>
 
+    <behemoth mergeMode="remove">
+		<ability>AbilityBehemoth<alwaysdisabledingrid>1</alwaysdisabledingrid></ability>
+	</behemoth>
+	<stymphalianbird mergeMode="remove">
+		<ability>AbilityStymphalianBird<alwaysdisabledingrid>1</alwaysdisabledingrid></ability>
+	</stymphalianbird>
+    <lampades mergeMode="replace">
+		<ability>AbilityLampadesChaoticRealignment<chargetimeasrof>1</chargetimeasrof></ability>
+		<ability>AbilityLampadesCausticity<tech>AsperBlood</tech><alwaysdisabledingrid>1</alwaysdisabledingrid></ability>
+	</lampades>
+    <caladria mergeMode="replace">
+		<ability>Heal<actioncommand>true</actioncommand></ability>
+	</caladria>
+	<troll mergeMode="remove">
+		<ability>AbilityTroll<chargetimeasrof>1</chargetimeasrof></ability>
+		<ability>PassiveNaturesEyes<tech>EyesInTheForest</tech><alwaysdisabledingrid>1</alwaysdisabledingrid></ability>
+	</troll>
+	<mountaingiant mergeMode="replace">
+		<ability>AbilityMountainGiantBludgeon<chargetimeasrof>1</chargetimeasrof></ability>
+	</mountaingiant>
+	<kraken mergeMode="replace">
+		<ability>AbilityKrakenThrow<chargetimeasrof>1</chargetimeasrof></ability>
+		<ability>AbilityKrakenCapsize<chargetimeasrof>1</chargetimeasrof></ability>
+	</kraken>
+
 </abilitiesmods>

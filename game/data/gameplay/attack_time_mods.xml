@@ -5,5 +5,31 @@
 			<time>0.3</time>
 		</protoaction>
 	</unit>
+	<unit name="Caladria" mergeMode="remove">
+		<protoaction name="Pacify">
+			<time>1.05</time>
+		</protoaction>
+	</unit>
+	<unit name="Argus" mergeMode="replace">
+		<protoaction name="HandAttack">
+			<time>0.6000000000000001</time>
+		</protoaction>
+		<protoaction name="FreezeAttack">
+			<time>0.6</time>
+		</protoaction>
+	</unit>
+	<unit name="Lampades" mergeMode="replace">
+		<protoaction name="RangedAttack">
+			<time>1.5</time>
+		</protoaction>
+		<protoaction name="ChaosAttack">
+			<time>1.0</time>
+		</protoaction>
+	</unit>
+	<unit name="Troll" mergeMode="replace">
+		<protoaction name="RangedAttack">
+			<time>0.9</time>
+		</protoaction>
+	</unit>
 	
 </attacktimemods>
