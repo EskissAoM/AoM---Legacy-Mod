@@ -109,8 +109,10 @@ ID = "STR_TECH_FLAMES_OF_TYPHON_LR"   ;   Str = "Artemis upgrades Chimera to Chi
 
 ID = "STR_TECH_BEAST_SLAYER_LR"   ;   Str = "The Greek gods improve Hetairoi, Myrmidon and Gastraphetes attack versus myth units."
 
+// GREEK - modified abilities
 
-
+ID = "STR_ABILITY_CENTAUR"   ;   Str = "Snipe"
+ID = "STR_ABILITY_CENTAUR_LR"   ;   Str = "Charge to launch a single powerful shot that never misses."
 
 // EGYPTIAN - added technologies
 
@@ -247,6 +249,8 @@ ID = "STR_UNIT_CAVE_TROLL_NAME"   ;   Str = "Hamarrtroll"
 
 ID = "STR_UNIT_EINHERI_NAME"   ;   Str = "Einherjar"
 ID = "STR_UNIT_GIANT_KILLER_EINHERI_NAME"   ;   Str = "Giant-killer Einherjar"
+
+ID = "STR_UNIT_JORMUN_ELVER_NAME"   ;   Str = "Jormund Elver"
 
 // ATLANTEAN - added technologies
 

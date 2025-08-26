@@ -1198,6 +1198,17 @@
 
 <!-- ABILITIES -->
 
+<!-- GREEK -->
+
+	<power name="AbilityCentaur" type="UnitAction" mergeMode="replace">
+		<displaynameid>STR_ABILITY_CENTAUR</displaynameid>
+		<rolloverid>STR_ABILITY_CENTAUR_LR</rolloverid>
+		<icon>greek\static_color\abilities\centaur_ability_icon.png</icon>
+		<placement enemy="">Unit</placement>
+		<abstractplacementtargettype>Unit</abstractplacementtargettype>
+		<unitaction>ChargedRangedAttack</unitaction>
+	</power>
+
 <!-- ATLANTEAN -->
 
 	<power name="AbilityArgus" type="UnitAction" mergeMode="replace">

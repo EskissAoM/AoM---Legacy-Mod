@@ -5,7 +5,6 @@
 		<rate type="MythUnit">0.0</rate>
 		<rate type="LogicalTypeVillagerNotHero">1.0</rate>
 		<rate type="HumanSoldier">1.0</rate>
-		<rate type="TradeUnit">1.0</rate>
 		<minrate type="Building">1.0</minrate>
 		<attackaction>1</attackaction>
 		<handlogic>1</handlogic>

@@ -1,0 +1,28 @@
+<tactics>
+	<action>
+		<name stringid="STR_ACTION_HAND">HandAttack</name>
+		<type>Attack</type>
+		<rate type="All">1.0</rate>
+		<attackaction>1</attackaction>
+		<handlogic>1</handlogic>
+		<forceareaattacktarget>1</forceareaattacktarget>
+		<anim>HandAttack</anim>
+		<onhiteffect type="StatModify" duration="3.000000">
+    		<modifyramp type="Speed" init="0.650000" final="1.000000"></modifyramp>
+		</onhiteffect>
+		<impacteffect>effects\impacts\hack</impacteffect>
+	</action>
+	<action>
+		<name stringid="STR_ACTION_GORE">Gore</name>
+		<type>Gore</type>
+		<rate type="HumanSoldier">1.0</rate>
+		<rate type="MythUnitInfantry">1.0</rate>
+		<rate type="LogicalTypeVillagerNotHero">1.0</rate>
+		<attackaction>1</attackaction>
+		<handlogic>1</handlogic>
+		<anim>Gore</anim>
+		<chargeaction>1</chargeaction>
+		<impacteffect>effects\impacts\hack</impacteffect>
+	</action>
+	<tactic>Default<action priority="100">Gore</action><action priority="90">HandAttack</action><attacktype>LogicalTypeHandUnitsAttack</attacktype><autoattacktype>LogicalTypeHandUnitsAutoAttack</autoattacktype><attackresponsetype>LogicalTypeHandUnitsAttack</attackresponsetype><attackmovetype>AbstractWall</attackmovetype></tactic>
+</tactics>

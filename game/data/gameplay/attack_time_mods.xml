@@ -31,5 +31,10 @@
 			<time>0.9</time>
 		</protoaction>
 	</unit>
+	<unit name="JormunElver" mergeMode="replace">
+		<protoaction name="RangedAttack">
+			<time>0.675</time>
+		</protoaction>
+	</unit>
 	
 </attacktimemods>
