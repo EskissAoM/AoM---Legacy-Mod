@@ -114,6 +114,8 @@ ID = "STR_TECH_BEAST_SLAYER_LR"   ;   Str = "The Greek gods improve Hetairoi, My
 ID = "STR_ABILITY_CENTAUR"   ;   Str = "Snipe"
 ID = "STR_ABILITY_CENTAUR_LR"   ;   Str = "Charge to launch a single powerful shot that never misses."
 
+ID = "STR_ABILITY_NEMEAN_LION_LR" ; Str = "Roars, damaging nearby enemy units."
+
 // EGYPTIAN - added technologies
 
 ID = "STR_TECH_FERAL_NAME"   ;   Str = "Feral"

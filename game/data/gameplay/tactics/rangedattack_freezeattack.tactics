@@ -24,9 +24,9 @@
 		<chargeaction>1</chargeaction>
 		<impacteffect>effects\impacts\pierce</impacteffect>
 		<rate type="HumanSoldier">1.0</rate>
+		<rate type="AnimalOfSet">1.0</rate>
 		<rate type="LogicalTypeFreezableMythUnit">1.0</rate>
 		<rate type="LogicalTypeVillagerNotHero">1.0</rate>
-		<rate type="TradeUnit">1.0</rate>
 		<perfectaccuracy>1</perfectaccuracy>
 		<instantballistics>1</instantballistics>
 	</action>

@@ -18,7 +18,6 @@
 		<rate type="HumanSoldier">1.0</rate>
 		<rate type="LogicalTypeMythUnitNotTitan">1.0</rate>
 		<rate type="LogicalTypeVillagerNotHero">1.0</rate>
-		<rate type="TradeUnit">1.0</rate>
 		<attackaction>1</attackaction>
 		<handlogic>1</handlogic>
 		<anim>ChannelAttack</anim>
